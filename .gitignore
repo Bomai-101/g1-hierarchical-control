@@ -1,0 +1,19 @@
+# Build
+build/
+cmake-build-*/
+
+# Python
+__pycache__/
+*.pyc
+plot_env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Executables
+*.o
+*.so
+*.a

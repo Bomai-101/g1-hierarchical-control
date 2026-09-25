@@ -27,5 +27,13 @@ Unitree G1, MuJoCo and Unitree SDK2.
 - Kp comparison
 - CSV logging and quantitative plots
 
-### Day 4 — Whole-Body Observation / Action
-In progress.
+### Day 4 — Whole-Body Observation / Action ✅
+  - 64D whole-body observation
+  - Joint state + IMU
+  - 29D relative action vector
+  - Multi-joint scripted policy
+  - Policy → target → PD hierarchy
+
+### Day 5 — Coordinated Hip–Knee–Ankle Control 
+  - in progress
+  

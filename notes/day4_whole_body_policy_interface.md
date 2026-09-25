@@ -1,4 +1,35 @@
-Day 4 Content Oral Defense — Whole-Body Observation and Policy Interface
+# Day 4 Main Workflow + Content Oral Defense — Whole-Body Observation and Policy Interface
+
+## 1. Main Workflow
+
+Observation[64]
+= 29 q
++ 29 dq
++ 3 RPY
++ 3 gyro
+
+        ↓
+
+ScriptedPolicy:
+body motion large → knee offset 0.03
+joint moving fast → knee offset 0.05
+otherwise         → knee offset 0.10
+        ↓
+
+Action[29]
+= relative joint-position offsets
+
+        ↓
+
+q_target[i]
+= reference_q[i] + action[i]
+
+        ↓
+
+LowCmd / PD
+
+
+## 2. Content Oral Defense
 
 1. What is the difference between State and Observation?
 

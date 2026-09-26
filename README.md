@@ -43,9 +43,19 @@ Unitree G1, MuJoCo and Unitree SDK2.
   - Redundancy and null space
   - Task-priority hierarchical control
 
-### Day 6 — Reinforcement Learning Foundations - In Progress
-  - State / observation / action
-  - Reward and return
-  - Policy and environment
-  - Transition and episode
-  - Mapping RL concepts to G1 + MuJoCo
+### Day 6 — Reinforcement Learning Foundations ✅ (notes/day6_reinforcement_learning_foundations.md)
+  - Reward, return, value, Q-value, and advantage
+  - Bellman recursion and bootstrapping
+  - TD error and Actor-Critic
+  - Generalized Advantage Estimation
+  - Policy Gradient and PPO clipping
+  - Rollout / batch / mini-batch / epoch
+  - Mapping PPO to G1 + MuJoCo
+
+### Day 7 — PPO Policy Implementation - In progress
+  - Actor and Critic networks
+  - Continuous 29D action distribution
+  - Rollout buffer
+  - GAE implementation
+  - PPO loss implementation
+  - First MuJoCo training pipeline

@@ -17,3 +17,5 @@ venv/
 *.o
 *.so
 *.a
+
+code/day8/g1_ppo/checkpoints/*.pt

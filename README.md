@@ -52,10 +52,23 @@ Unitree G1, MuJoCo and Unitree SDK2.
   - Rollout / batch / mini-batch / epoch
   - Mapping PPO to G1 + MuJoCo
 
-### Day 7 — PPO Policy Implementation - In progress
-  - Actor and Critic networks
-  - Continuous 29D action distribution
-  - Rollout buffer
-  - GAE implementation
-  - PPO loss implementation
-  - First MuJoCo training pipeline
+### Day 7 — PPO Policy Implementation ✅ (notes/day7_PPO_core_implementation.md)
+- Actor network
+- Critic network
+- Gaussian policy
+- learnable log_std
+- RolloutBuffer
+- detach / rollout storage
+- TD error
+- GAE recursion
+- value targets
+- PPO ratio
+- PPO clipping
+- actor loss
+- critic loss
+- entropy bonus
+- mini-batch / epochs
+- fake PPO update sanity test
+- end-to-end fake PPO training skeleton
+
+### Day 7 — G1 / MuJoCo Integration - In progress

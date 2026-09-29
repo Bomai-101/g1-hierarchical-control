@@ -1,13 +1,13 @@
 # G1 Hierarchical Control Preparation
 
-A hands-on preparation project for humanoid robot control using Unitree G1, MuJoCo, Unitree SDK2, PD control, and reinforcement learning.
+A hands-on preparation project for robust hierarchical humanoid control using Unitree G1, MuJoCo, Unitree SDK2, PD control, and reinforcement learning. It supports preparation for the USYD VRI ECE11 project, *Hierarchical Control of Humanoid Robots with Embodied AI*.
 
 The project progressively builds the control stack from low-level robot state interfaces to whole-body hierarchical control and PPO-based learning.
 
 ## Current Progress
 
 ### Day 1 — Environment Setup ✅  
-`notes/day1_environment_setup.md`
+`notes/day01_environment.md`
 
 - Unitree SDK2
 - MuJoCo
@@ -242,41 +242,85 @@ This suggests that the next bottleneck is no longer PPO implementation, but cont
 
 ---
 
-## Next — Day 9
+### Day 9 — Residual PPO Balance and Robustness ✅
+`notes/day9_residual_ppo_robustness.md`
 
-Focus:
+- calibrated a standing pose and joint-specific PD baseline
+- reduced the learned action from 29D whole-body exploration to a 6D
+  lower-body residual
+- zero-initialized the Actor output head so training begins at the PD baseline
+- fixed `log_std = -3` and separated Actor/Critic learning rates
+- added deterministic checkpoint selection and experiment provenance
+- evaluated nominal, coarse, and near-zero pitch/pitch-rate disturbances
+- trained with 30% nominal and 70% randomized initial states
+- swept all 30 checkpoints over 12 nonzero near-zero perturbations
 
-- action authority experiments
-- action scale comparison
-- reward shaping
-- angular-velocity-aware balance reward
-- fall penalty
-- lower-dimensional action-space experiments
-- lower-body + waist control
-- PPO retraining
-- PD-only vs PPO+PD comparison
+Headline deterministic results:
 
-Main question:
+| Policy / checkpoint | Nominal length | Delta vs zero | Robustness interpretation |
+| --- | ---: | ---: | --- |
+| Optimized PD zero policy | 215 | — | fixed baseline |
+| Original residual PPO, update 1 | 241 | +26 | nominal winner |
+| Randomized PPO, update 4 | 232 | +17 | no nonzero mean gain |
+| Randomized PPO, update 19 | 200 | -15 | least-negative worst case (-1) |
+| Randomized PPO, update 24 | 150 | -65 | directional specialization, not uniform robustness |
 
-> What observation, action, reward, and hierarchical-control formulation enables PPO to learn effective humanoid standing balance?
+Day 9 conclusion:
+
+> Residual PPO improved nominal standing and later learned direction-specific
+> corrective behavior, but no checkpoint demonstrated consistent symmetric
+> robustness across all nonzero perturbation cases.
+
+The compact data and figures are in `results/day9/`. Full checkpoints and
+per-step traces remain local experiment artifacts rather than being committed
+in bulk.
 
 ---
 
 ## Current Control Architecture
 
 ```text
-High-Level PPO Policy
+64D whole-body state
         ↓
-Joint Target Corrections
+6D residual PPO policy
         ↓
-Low-Level PD Controller
+standing pose + bounded joint-target corrections
         ↓
-Joint Torque
+29D target_q
         ↓
-MuJoCo G1
+joint-space PD controller
         ↓
-Whole-Body Feedback
-        └────────────→ PPO
+torque-clipped MuJoCo G1
+        ↓
+whole-body feedback
 ```
 
-The long-term goal is to extend this system toward robust humanoid control, disturbance recovery, and Embodied AI research.
+## Next — Hierarchical Safety and Fallback Control
+
+Day 9 closes the open-ended low-level PPO optimization branch at a documented
+research boundary. The next stage restores the missing middle layer of the
+original project plan:
+
+```text
+high-level command / skill
+        ↓
+controller interface
+        ↓
+PD, residual PPO, or future compatible skill executor
+        ↓
+watchdog / failure detection
+        ↓
+recovery / fallback
+        ↓
+G1
+```
+
+The next quantitative experiments focus on latency, observation dropout,
+disturbance handling, safety intervention, and recovery success. A compatible
+pretrained G1 policy may later be added behind the same controller interface;
+no pretrained asset is selected yet.
+
+The long-term direction is Physical / Embodied AI with Safety and Reliability
+throughout: control → hierarchy → language/vision/memory → planning/world
+models → sim-to-real. High-level AI produces skills, goals, poses, velocities,
+or recovery requests; it does not directly produce actuator torque.

@@ -1,0 +1,45 @@
+{
+  "milestone": "Day 9 low-level residual PPO research baseline \u2014 frozen",
+  "zero_policy_nominal_steps": 215,
+  "original_ppo_nominal_steps": 241,
+  "original_ppo_nominal_delta_steps": 26,
+  "randomized_run_best_nominal": {
+    "update": 4,
+    "steps": 232,
+    "delta_steps": 17
+  },
+  "randomized_run_best_worst_case": {
+    "update": 19,
+    "nominal_steps": 200,
+    "cases": 12,
+    "wins": 5,
+    "ties": 4,
+    "losses": 3,
+    "mean_zero_length": 124.25,
+    "mean_ppo_length": 124.41666666666667,
+    "mean_delta_steps": 0.16666666666666666,
+    "worst_delta_steps": -1,
+    "best_delta_steps": 1,
+    "mean_action_rms": 0.008448193181907643
+  },
+  "directional_specialization_example": {
+    "update": 24,
+    "nominal_steps": 150,
+    "cases": 12,
+    "wins": 6,
+    "ties": 0,
+    "losses": 6,
+    "mean_zero_length": 124.25,
+    "mean_ppo_length": 128.75,
+    "mean_delta_steps": 4.5,
+    "worst_delta_steps": -15,
+    "best_delta_steps": 59,
+    "mean_action_rms": 0.006781201611021676
+  },
+  "evaluation_cases": "deterministic actor mean; relative base-local pitch rotation and additive qvel[4] after reset; fixed 1 nominal + 12 near-zero cases",
+  "conclusion": "Residual PPO improved nominal standing and later learned direction-specific corrections, but no checkpoint demonstrated consistent symmetric robustness across all nonzero cases.",
+  "source_sha256": {
+    "checkpoint_sweep_summary.json": "da7b5f040a28388086b0f2e7a8e9be32dd73cab3a813496a4e62cd2c9aa45315",
+    "original_robustness_evaluation.json": "c17992313fc6e4a3ea3401f024c9c6b074cd7b85db66b1ee7c014398cd20d020"
+  }
+}

@@ -19,3 +19,10 @@ venv/
 *.a
 
 code/day8/g1_ppo/checkpoints/*.pt
+
+# Local experiment artifacts
+code/day9/g1_balance/checkpoints/
+
+# Editor and manual backup files
+*.orig
+*_backup.py

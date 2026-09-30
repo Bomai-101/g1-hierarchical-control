@@ -26,3 +26,14 @@ code/day9/g1_balance/checkpoints/
 # Editor and manual backup files
 *.orig
 *_backup.py
+
+# Local tooling and working notes
+.codex/
+.agents/
+.cursor/
+AGENTS.md
+AGENTS.local.md
+CURRENT_STATE.local.md
+REPO_AUDIT.local.md
+EXPERIMENT_LOG.local.md
+*.canvas.tsx

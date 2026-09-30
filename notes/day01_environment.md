@@ -58,8 +58,7 @@ Provides information related to the robot body's orientation and motion, such as
      ```
 
 3. Initial Git repository was accidentally created inside the MuJoCo build directory.
-   - Solution: removed it and created the project repository correctly at:
-     `/home/omai/robotics/projects/g1-hierarchical-control`
+   - Solution: removed it and created the project repository at the project root.
 
 ## Day 01 Result
 

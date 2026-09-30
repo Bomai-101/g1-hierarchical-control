@@ -1,0 +1,6 @@
+state,pitch_offset_rad,angular_y_offset_rad_s,baseline_steps_after_branch,second_candidate_steps_after_branch,second_pulse_executed,baseline_passed_4s,second_passed_4s,baseline_held_10s,second_held_10s
+Exact center,0.0,0.0,347,373,True,True,True,False,False
+Pitch -0.0005 rad,-0.0005,0.0,153,153,False,False,False,False,False
+Pitch +0.0005 rad,0.0005,0.0,153,153,False,False,False,False,False
+Angular-y -0.002 rad/s,0.0,-0.002,192,192,False,False,False,False,False
+Angular-y +0.002 rad/s,0.0,0.002,192,192,False,False,False,False,False

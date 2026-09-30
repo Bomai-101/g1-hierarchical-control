@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="730" viewBox="0 0 1120 730" role="img" aria-label="Five-state early intervention comparison">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="40" y="48" font-size="24" fill="#1e293b" font-weight="bold" text-anchor="start">Early intervention: one exact-state gain, no neighboring-state recovery</text>
+<text x="40" y="79" font-size="15" fill="#475569" font-weight="normal" text-anchor="start">Deterministic G1 MuJoCo branches at PPO step 145; survival is measured after the branch.</text>
+<rect x="42" y="108" width="18" height="12" fill="#64748b"/>
+<text x="67" y="119" font-size="14" fill="#1e293b" font-weight="normal" text-anchor="start">First pulse, then PD</text>
+<rect x="240" y="108" width="18" height="12" fill="#2563eb"/>
+<text x="265" y="119" font-size="14" fill="#1e293b" font-weight="normal" text-anchor="start">Scheduled second knee pulse</text>
+<text x="40" y="164" font-size="14" fill="#475569" font-weight="bold" text-anchor="start">Branch state</text>
+<text x="285" y="164" font-size="14" fill="#475569" font-weight="bold" text-anchor="start">Episode survival after branch (policy steps)</text>
+<text x="949" y="164" font-size="14" fill="#475569" font-weight="bold" text-anchor="start">4 s / 10 s (both)</text>
+<line x1="285.0" y1="181" x2="285.0" y2="623" stroke="#e2e8f0" stroke-dasharray="none"/>
+<text x="285.0" y="649" font-size="13" fill="#475569" font-weight="normal" text-anchor="middle">0</text>
+<line x1="445.0" y1="181" x2="445.0" y2="623" stroke="#e2e8f0" stroke-dasharray="none"/>
+<text x="445.0" y="649" font-size="13" fill="#475569" font-weight="normal" text-anchor="middle">100</text>
+<line x1="605.0" y1="181" x2="605.0" y2="623" stroke="#94a3b8" stroke-dasharray="5 5"/>
+<text x="605.0" y="649" font-size="13" fill="#475569" font-weight="normal" text-anchor="middle">200</text>
+<line x1="765.0" y1="181" x2="765.0" y2="623" stroke="#e2e8f0" stroke-dasharray="none"/>
+<text x="765.0" y="649" font-size="13" fill="#475569" font-weight="normal" text-anchor="middle">300</text>
+<line x1="925.0" y1="181" x2="925.0" y2="623" stroke="#e2e8f0" stroke-dasharray="none"/>
+<text x="925.0" y="649" font-size="13" fill="#475569" font-weight="normal" text-anchor="middle">400</text>
+<text x="40" y="225" font-size="15" fill="#1e293b" font-weight="bold" text-anchor="start">Exact center</text>
+<rect x="285" y="200" width="555.2" height="17" fill="#64748b"/>
+<rect x="285" y="225" width="596.8" height="17" fill="#2563eb"/>
+<text x="847.2" y="214" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">347</text>
+<text x="888.8000000000001" y="239" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">373</text>
+<text x="949" y="226" font-size="14" fill="#1e293b" font-weight="normal" text-anchor="start">pass / fail</text>
+<text x="40" y="313" font-size="15" fill="#1e293b" font-weight="normal" text-anchor="start">Pitch -0.0005 rad</text>
+<rect x="285" y="288" width="244.8" height="17" fill="#64748b"/>
+<rect x="285" y="313" width="244.8" height="17" fill="#2563eb"/>
+<text x="536.8" y="302" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">153</text>
+<text x="536.8" y="327" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">153</text>
+<text x="949" y="314" font-size="14" fill="#1e293b" font-weight="normal" text-anchor="start">fail / fail</text>
+<text x="949" y="335" font-size="11" fill="#64748b" font-weight="normal" text-anchor="start">second pulse not reached</text>
+<text x="40" y="401" font-size="15" fill="#1e293b" font-weight="normal" text-anchor="start">Pitch +0.0005 rad</text>
+<rect x="285" y="376" width="244.8" height="17" fill="#64748b"/>
+<rect x="285" y="401" width="244.8" height="17" fill="#2563eb"/>
+<text x="536.8" y="390" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">153</text>
+<text x="536.8" y="415" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">153</text>
+<text x="949" y="402" font-size="14" fill="#1e293b" font-weight="normal" text-anchor="start">fail / fail</text>
+<text x="949" y="423" font-size="11" fill="#64748b" font-weight="normal" text-anchor="start">second pulse not reached</text>
+<text x="40" y="489" font-size="15" fill="#1e293b" font-weight="normal" text-anchor="start">Angular-y -0.002 rad/s</text>
+<rect x="285" y="464" width="307.2" height="17" fill="#64748b"/>
+<rect x="285" y="489" width="307.2" height="17" fill="#2563eb"/>
+<text x="599.2" y="478" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">192</text>
+<text x="599.2" y="503" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">192</text>
+<text x="949" y="490" font-size="14" fill="#1e293b" font-weight="normal" text-anchor="start">fail / fail</text>
+<text x="949" y="511" font-size="11" fill="#64748b" font-weight="normal" text-anchor="start">second pulse not reached</text>
+<text x="40" y="577" font-size="15" fill="#1e293b" font-weight="normal" text-anchor="start">Angular-y +0.002 rad/s</text>
+<rect x="285" y="552" width="307.2" height="17" fill="#64748b"/>
+<rect x="285" y="577" width="307.2" height="17" fill="#2563eb"/>
+<text x="599.2" y="566" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">192</text>
+<text x="599.2" y="591" font-size="13" fill="#1e293b" font-weight="normal" text-anchor="start">192</text>
+<text x="949" y="578" font-size="14" fill="#1e293b" font-weight="normal" text-anchor="start">fail / fail</text>
+<text x="949" y="599" font-size="11" fill="#64748b" font-weight="normal" text-anchor="start">second pulse not reached</text>
+<text x="40" y="681" font-size="14" fill="#475569" font-weight="normal" text-anchor="start">Dashed line: 200 steps (4 s) is a minimum duration, not the full entry-and-hold success test.</text>
+<text x="40" y="704" font-size="14" fill="#475569" font-weight="normal" text-anchor="start">No case held continuously for 10 s; all four neighbors fell before the scheduled second pulse at step 220.</text>
+</svg>

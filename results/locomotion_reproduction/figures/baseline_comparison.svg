@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="670" viewBox="0 0 1060 670">
+<rect width="1060" height="670" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#182234">
+<text x="45" y="38" font-size="24" font-weight="bold">Fixed-command Isaac locomotion evaluation</text>
+<text x="45" y="64" font-size="14">16 environments; 20 s; flat ground; friction 0.8; seed 42; command [1, 0, 0]</text>
+<rect x="45" y="83" width="14" height="14" fill="#168578"/>
+<text x="67" y="95" font-size="14">Locally trained</text>
+<rect x="235" y="83" width="14" height="14" fill="#4263b8"/>
+<text x="257" y="95" font-size="14">Supplied reference</text>
+<text x="75" y="145" font-size="17" font-weight="bold">Forward speed (m/s)</text>
+<path d="M75,305.0h365" stroke="#e2e7ef"/>
+<text x="67" y="309.0" text-anchor="end" font-size="11">0.00</text>
+<path d="M75,273.75h365" stroke="#e2e7ef"/>
+<text x="67" y="277.75" text-anchor="end" font-size="11">0.28</text>
+<path d="M75,242.5h365" stroke="#e2e7ef"/>
+<text x="67" y="246.5" text-anchor="end" font-size="11">0.55</text>
+<path d="M75,211.25h365" stroke="#e2e7ef"/>
+<text x="67" y="215.25" text-anchor="end" font-size="11">0.83</text>
+<path d="M75,180.0h365" stroke="#e2e7ef"/>
+<text x="67" y="184.0" text-anchor="end" font-size="11">1.10</text>
+<rect x="140" y="208.8533284493447" width="80" height="96.1466715506553" fill="#168578"/>
+<text x="180" y="201.8533284493447" text-anchor="middle" font-size="13">0.846</text>
+<text x="180" y="325" text-anchor="middle" font-size="12">Local</text>
+<rect x="290" y="210.65575850238517" width="80" height="94.34424149761483" fill="#4263b8"/>
+<text x="330" y="203.65575850238517" text-anchor="middle" font-size="13">0.830</text>
+<text x="330" y="325" text-anchor="middle" font-size="12">Reference</text>
+<path d="M75,191.36363636363637h365" stroke="#67758a" stroke-dasharray="5 4"/>
+<text x="440" y="186.36363636363637" text-anchor="end" font-size="11">Target: 1 m/s</text>
+<text x="580" y="145" font-size="17" font-weight="bold">Speed tracking RMSE (m/s)</text>
+<path d="M580,305.0h365" stroke="#e2e7ef"/>
+<text x="572" y="309.0" text-anchor="end" font-size="11">0.00</text>
+<path d="M580,273.75h365" stroke="#e2e7ef"/>
+<text x="572" y="277.75" text-anchor="end" font-size="11">0.06</text>
+<path d="M580,242.5h365" stroke="#e2e7ef"/>
+<text x="572" y="246.5" text-anchor="end" font-size="11">0.12</text>
+<path d="M580,211.25h365" stroke="#e2e7ef"/>
+<text x="572" y="215.25" text-anchor="end" font-size="11">0.19</text>
+<path d="M580,180.0h365" stroke="#e2e7ef"/>
+<text x="572" y="184.0" text-anchor="end" font-size="11">0.25</text>
+<rect x="645" y="212.7744655370298" width="80" height="92.2255344629702" fill="#168578"/>
+<text x="685" y="205.7744655370298" text-anchor="middle" font-size="13">0.184</text>
+<text x="685" y="325" text-anchor="middle" font-size="12">Local</text>
+<rect x="795" y="209.28853225335274" width="80" height="95.71146774664724" fill="#4263b8"/>
+<text x="835" y="202.28853225335274" text-anchor="middle" font-size="13">0.191</text>
+<text x="835" y="325" text-anchor="middle" font-size="12">Reference</text>
+<text x="75" y="380" font-size="17" font-weight="bold">Yaw-rate tracking RMSE (rad/s)</text>
+<path d="M75,540.0h365" stroke="#e2e7ef"/>
+<text x="67" y="544.0" text-anchor="end" font-size="11">0.00</text>
+<path d="M75,508.75h365" stroke="#e2e7ef"/>
+<text x="67" y="512.75" text-anchor="end" font-size="11">0.04</text>
+<path d="M75,477.5h365" stroke="#e2e7ef"/>
+<text x="67" y="481.5" text-anchor="end" font-size="11">0.07</text>
+<path d="M75,446.25h365" stroke="#e2e7ef"/>
+<text x="67" y="450.25" text-anchor="end" font-size="11">0.11</text>
+<path d="M75,415.0h365" stroke="#e2e7ef"/>
+<text x="67" y="419.0" text-anchor="end" font-size="11">0.14</text>
+<rect x="140" y="445.58448429425596" width="80" height="94.41551570574406" fill="#168578"/>
+<text x="180" y="438.58448429425596" text-anchor="middle" font-size="13">0.106</text>
+<text x="180" y="560" text-anchor="middle" font-size="12">Local</text>
+<rect x="290" y="460.29037731442065" width="80" height="79.70962268557935" fill="#4263b8"/>
+<text x="330" y="453.29037731442065" text-anchor="middle" font-size="13">0.089</text>
+<text x="330" y="560" text-anchor="middle" font-size="12">Reference</text>
+<text x="580" y="380" font-size="17" font-weight="bold">Mean tilt (deg)</text>
+<path d="M580,540.0h365" stroke="#e2e7ef"/>
+<text x="572" y="544.0" text-anchor="end" font-size="11">0.00</text>
+<path d="M580,508.75h365" stroke="#e2e7ef"/>
+<text x="572" y="512.75" text-anchor="end" font-size="11">1.25</text>
+<path d="M580,477.5h365" stroke="#e2e7ef"/>
+<text x="572" y="481.5" text-anchor="end" font-size="11">2.50</text>
+<path d="M580,446.25h365" stroke="#e2e7ef"/>
+<text x="572" y="450.25" text-anchor="end" font-size="11">3.75</text>
+<path d="M580,415.0h365" stroke="#e2e7ef"/>
+<text x="572" y="419.0" text-anchor="end" font-size="11">5.00</text>
+<rect x="645" y="435.55543801654835" width="80" height="104.44456198345165" fill="#168578"/>
+<text x="685" y="428.55543801654835" text-anchor="middle" font-size="13">4.178</text>
+<text x="685" y="560" text-anchor="middle" font-size="12">Local</text>
+<rect x="795" y="490.96844780510185" width="80" height="49.03155219489815" fill="#4263b8"/>
+<text x="835" y="483.96844780510185" text-anchor="middle" font-size="13">1.961</text>
+<text x="835" y="560" text-anchor="middle" font-size="12">Reference</text>
+<text x="45" y="610" font-size="14">Both runs reported zero fall/reset events. This is one condition, not a robustness benchmark.</text>
+<text x="45" y="636" font-size="13">Lower tracking RMSE is better; tilt alone does not establish overall controller quality.</text>
+</g></svg>

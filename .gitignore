@@ -1,3 +1,13 @@
+# Locomotion training artifacts; public summaries remain tracked
+isaac_sim/logs/
+isaac_sim/checkpoints/
+mujoco/policies/reproduction_*/
+
+# Local assistant state and handoff documents
+.claude/
+.aider*
+G1_PROGRESS.md
+
 # Build
 build/
 cmake-build-*/

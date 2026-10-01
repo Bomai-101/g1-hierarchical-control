@@ -1,5 +1,17 @@
 # Third-party notices
 
+## Locomotion reference implementation
+
+The locomotion reproduction uses the external model, metadata, training
+configuration and evaluator from
+[yezzzzye/g1_walk_isaaclab_mujoco](https://github.com/yezzzzye/g1_walk_isaaclab_mujoco).
+Those dependencies and checkpoints remain in a separate local checkout.
+The published Sim2Sim video renders that external G1 model under a locally
+trained policy; it is a simulation result, not an original robot asset or
+an endorsement by Unitree. See the reproduction result summary for revision
+and policy provenance. No third-party source or checkpoint is bundled in
+the new result package.
+
 The MuJoCo recordings and standing experiments in this repository use the
 Unitree G1 model and scene from
 [unitreerobotics/unitree_mujoco](https://github.com/unitreerobotics/unitree_mujoco).

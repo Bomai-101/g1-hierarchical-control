@@ -1,10 +1,32 @@
 # G1 Hierarchical Control & Robot Learning
 
+## Latest milestone: locomotion baseline reproduction
+
+A new locomotion policy was trained from random initialization using the
+model, task and PPO configuration of
+[g1_walk_isaaclab_mujoco](https://github.com/yezzzzye/g1_walk_isaaclab_mujoco).
+Training used 4,096 parallel environments and 1,500 updates, collecting
+147,456,000 transitions on an RTX 4060 Laptop GPU.
+
+In one fixed-command Isaac evaluation across 16 environments for 20 seconds,
+both the newly trained policy and the supplied reference baseline recorded
+zero fall/reset events. Mean forward speeds were **0.846 m/s** and
+**0.830 m/s**, respectively, against a 1 m/s command.
+
+![Fixed-command locomotion comparison](results/locomotion_reproduction/figures/baseline_comparison.svg)
+
+See the [experiment protocol, results and limitations](results/locomotion_reproduction/README.md).
+Continuous 20-second MuJoCo tests also avoided the evaluator's fall threshold,
+but both policies developed heading drift. Straight-line transfer and
+hierarchical integration remain unresolved.
+This reproduction complements, rather than replaces, the standing and
+early-instability investigations below.
+
 A hands-on research preparation project exploring robust humanoid control and robot learning using **Unitree G1**, **MuJoCo**, **Unitree SDK2**, **PD control**, and **reinforcement learning**.
 
 The project develops progressively from low-level robot state/action interfaces to whole-body control, PPO-based learning, robustness evaluation, and hierarchical safety mechanisms.
 
-## Current milestone: early-instability diagnosis
+## Earlier milestone: early-instability diagnosis
 
 The G1 starts near an upright standing pose; this is a standing-and-recovery
 study, not a floor get-up task. Under the frozen Day 9 MuJoCo configuration,

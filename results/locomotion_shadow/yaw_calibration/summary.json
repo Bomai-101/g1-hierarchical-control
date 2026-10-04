@@ -1,0 +1,213 @@
+{
+  "created_at_utc": "2026-10-02T03:43:59.497844+00:00",
+  "mode": "synthetic_signal_calibration_only",
+  "simulator_steps_executed": 0,
+  "physical_normal_cases_collected": 0,
+  "duration_s": 40.0,
+  "dt_s": 0.02,
+  "development_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009,
+    1010,
+    1011
+  ],
+  "heldout_seeds": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004,
+    10005,
+    10006,
+    10007,
+    10008,
+    10009,
+    10010,
+    10011
+  ],
+  "case_count": 192,
+  "configurations": [
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 1.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 2.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.25,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.3,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 0.2,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 0.5,
+      "warmup_s": 2.0
+    },
+    {
+      "window_s": 4.0,
+      "threshold_rps": 0.4,
+      "dwell_s": 1.0,
+      "warmup_s": 2.0
+    }
+  ],
+  "selection_limits": {
+    "max_negative_case_alarm_fraction": 0.05,
+    "max_negative_alarm_time_fraction": 0.01,
+    "min_positive_detection_fraction": 0.9,
+    "max_positive_delay_p95_s": 3.0
+  },
+  "selection_rule": "Development limits first; minimize detection delay p95, then false active time. Held-out results do not alter selection or thresholds.",
+  "selected_development": null,
+  "selected_heldout": null,
+  "selected_passes_heldout": false,
+  "real_world_switch_authorized": false,
+  "scope": "No injected DC labels apply to generated signal families, not robot safety. Finite slow oscillations can have legitimate local directional means. This is not multi-seed G1/terrain validation; no actual supervisor or fallback was executed."
+}

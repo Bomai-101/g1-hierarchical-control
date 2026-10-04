@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-04",
+  "scope": "Editorial revision only. Original source_hashes.json retains run-time provenance; revised README hashes below describe current published documentation. No raw trace,policy,model or executable source changed.",
+  "files": [
+    {
+      "path": "results/hierarchical_demo/20261003/posture_hold/README.md",
+      "original_sha256": "85f9216bae95f5195b639ab3964113e016a53feac9489914cbb6e4335b210793",
+      "published_sha256": "f27a78415bedd487702303d7df8a093e27d4da844bba3af5fb5dffab7d04b9f7",
+      "change": "Remove application-target wording; experimental results and executable sources unchanged"
+    },
+    {
+      "path": "results/hierarchical_demo/20261003/posture_hold/source/src/g1_control/hierarchy/README.md",
+      "original_sha256": "c6260cedc4763d931d5a4a057a0abf2c784d8dbb79a19993629530a1841844f5",
+      "published_sha256": "170288f51c00dc41de27415002cc6603c440d300621f7c0e58e2f861ccb88258",
+      "change": "Remove application-target wording; experimental results and executable sources unchanged"
+    }
+  ],
+  "original_publication_manifest_sha256": "b4d7ed33625d28da13082ffc7d397e8cd4e3e42f3cbb2954f87f5529e742b3c7"
+}

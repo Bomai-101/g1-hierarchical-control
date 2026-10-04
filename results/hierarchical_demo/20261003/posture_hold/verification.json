@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "sampled_states_rebuilt": 4083,
+  "actor_outputs_recomputed": 3849,
+  "posture_outputs_reconstructed": 225,
+  "paired_prefixes_exact": 6,
+  "prefix_physics_digests_exact": 6,
+  "prior_zero_baseline_regression": [
+    "left_zero all old NPZ arrays exact",
+    "right_zero all old NPZ arrays exact",
+    "straight_zero all old NPZ arrays exact"
+  ],
+  "metrics_recomputed": true,
+  "smooth_handoff_and_current_interface_checked": true,
+  "scope": "Full sampled state/command/actor reconstruction and recorded peak-force caps; no physical safety or multi-seed robustness claim, no full dynamic trajectory re-simulation."
+}

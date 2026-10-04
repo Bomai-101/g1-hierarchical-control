@@ -1,0 +1,65 @@
+{
+  "complete": true,
+  "checks": [
+    {
+      "case_id": 0,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 1,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 2,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 3,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 4,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 5,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 6,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 7,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 8,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 9,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 10,
+      "metrics_exact": true,
+      "arrays_exact": true
+    },
+    {
+      "case_id": 11,
+      "metrics_exact": true,
+      "arrays_exact": true
+    }
+  ]
+}

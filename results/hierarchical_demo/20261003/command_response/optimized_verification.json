@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sampled_states_rebuilt": 6858,
+  "actor_outputs_recomputed": 6849,
+  "paired_prefixes_exact": 6,
+  "prefix_physics_digests_exact": 6,
+  "prior_handoff_regression": "All previous persistent-left states/actions exact until7.22s; new hold extends beyond old experiment termination.",
+  "metrics_recomputed": true,
+  "scope": "Full sampled state/command/actor reconstruction and recorded peak-force caps; no physical safety or multi-seed robustness claim, no full dynamic trajectory re-simulation."
+}

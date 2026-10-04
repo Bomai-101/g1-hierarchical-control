@@ -1,0 +1,9 @@
+test_handoff_first_and_final_actions (test_skill_adapter.AdapterTests.test_handoff_first_and_final_actions) ... ok
+test_hold_keeps_schema (test_skill_adapter.AdapterTests.test_hold_keeps_schema) ... ok
+test_invalid_inputs_rejected (test_skill_adapter.AdapterTests.test_invalid_inputs_rejected) ... ok
+test_phase_is_explicit_and_periodic (test_skill_adapter.AdapterTests.test_phase_is_explicit_and_periodic) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.130s
+
+OK

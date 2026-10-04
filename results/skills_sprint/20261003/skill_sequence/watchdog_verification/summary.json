@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "protocol": "temporary",
+      "total": 48,
+      "resumed": 48,
+      "completed": 48,
+      "passed": 48,
+      "persistent_hold_passed": 0,
+      "physical_failures": 0,
+      "hold_latency_median_s": 3.9400000000000004,
+      "resume_vx_rmse_median_mps": 0.07525170221924782
+    },
+    {
+      "protocol": "persistent",
+      "total": 48,
+      "resumed": 0,
+      "completed": 0,
+      "passed": 0,
+      "persistent_hold_passed": 48,
+      "physical_failures": 0,
+      "hold_latency_median_s": null,
+      "resume_vx_rmse_median_mps": null
+    }
+  ],
+  "verification": {
+    "cases": 96,
+    "action_rows": 89197,
+    "max_actor_error": 3.337860107421875e-06,
+    "paired_prefixes": 48
+  },
+  "limits": "Low-speed flat Isaac seed42. Prospective sequence acceptance differs from original standalone hold acceptance. Task heartbeat fault injection, not actual perception dropout; no hardware or broad fallback validation."
+}

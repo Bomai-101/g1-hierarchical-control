@@ -1,0 +1,19 @@
+{
+  "runtime": {
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  },
+  "case_manifest_sha256": "eb111ab0ced8a33c17d82a28f8e001d5fca8fc3bd13a532fa0dc84b4a2e2ab13",
+  "detailed_scores_sha256": "1901d68834bf57fcce4d56d4b332fadfb3bac718adfc717fd19965e21d387dfc",
+  "source_sha256": {
+    "scripts/calibrate_locomotion_yaw.py": "c1e05d30caa57b9cf9ebe251e78e078b5126e4ff252b9996df769a75a8cff29b",
+    "src/g1_control/monitoring/yaw_calibration.py": "078e9fa4c4e9e04144de44479e63186b7241257d5bb66c6ea96d2246fb52a279",
+    "src/g1_control/monitoring/yaw_window.py": "c6807e930de615508e0603726dc78f41b59b343ed255eda792bdd52233efa927"
+  },
+  "additional_sources_sha256": {
+    "scripts/plot_yaw_calibration.py": "5bcbd843b71cf3a455ee974322382f65fe08e9b591ad532d8d763a0a107f91c7",
+    "tests/test_yaw_calibration.py": "4e929b5b408ff535049f4bd7a8bf731de8f498471cef8f31a086e99457ee0767",
+    "notes/locomotion_supervisor_interface.md": "903514678414bd69275001f323b80ecb48dd6a11dde506af1aff4248e5e0ef67"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "skill": "hold",
+  "engine": "mujoco",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "mujoco": "3.14.0",
+  "results": [
+    {
+      "case": 0,
+      "vx": 0.5,
+      "yaw": -0.2,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "termination": "observation_complete",
+      "passed": false,
+      "smoke": true,
+      "foot_contact_losses": [
+        2,
+        3
+      ],
+      "foot_landings": [
+        3,
+        3
+      ],
+      "max_lift_above_ankle_floor_m": [
+        0.07223908545917668,
+        0.08002591449162849
+      ],
+      "states": 312,
+      "actor_calls": 311,
+      "physics_steps": 6220,
+      "physics_state_control_sha256": "f67eb5d42102a86ed306dbcf5e3dc624328ae8de535b13a01a6a9b86516aab2b",
+      "post_duration_s": 1.0,
+      "path_after_switch_m": 0.65257582710001,
+      "net_displacement_m": 0.6379143236440162,
+      "signed_heading_change_rad": -0.43265862605751026,
+      "max_heading_excursion_rad": 0.43265862605751026,
+      "final_2s_horizontal_speed_rms_mps": 0.6647613358160888,
+      "final_2s_euler_yaw_rate_rms_rps": 0.7805635192882341,
+      "minimum_height_m": 0.615517437299789,
+      "max_abs_roll_deg": 8.68741502919923,
+      "max_abs_pitch_deg": 16.952128353999395,
+      "settling_start_s": null,
+      "settling_confirmed_s": null,
+      "first_escape_after_confirmation_s": null,
+      "eligible_through_end_after_confirmation": false
+    }
+  ],
+  "passed_cases": 0,
+  "total_cases": 1,
+  "candidate_only": true,
+  "smoke": true
+}

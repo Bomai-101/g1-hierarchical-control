@@ -1,0 +1,552 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-10-02T03:02:52.248070+00:00",
+  "pair_count": 6,
+  "pairs": [
+    {
+      "status": "PASS",
+      "duration_s": 20.0,
+      "physics_steps": 20000,
+      "sampled_state_count": 1001,
+      "policy_action_count": 1000,
+      "metrics_equal_except_monitor_flag": true,
+      "sampled_states_exactly_equal": true,
+      "policy_actions_exactly_equal": true,
+      "per_physics_step_state_control_digest_equal": true,
+      "trajectory_csv_exactly_equal": true,
+      "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "mean_signed_body_yaw_rate_rps": 0.45559538064492344,
+      "candidate_enter_count": 57,
+      "first_candidate_entries": [
+        {
+          "event": "candidate_enter",
+          "reason": "forward_error",
+          "onset_time_s": 0.0,
+          "time_s": 0.20000000000000015,
+          "value": 0.8013627725668981,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 0.4200000000000003,
+          "time_s": 0.6200000000000004,
+          "value": 0.43325557173352736,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 1.0799999999999919,
+          "time_s": 1.2799999999999698,
+          "value": 0.6627162696151806,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.159999999999873,
+          "time_s": 2.359999999999851,
+          "value": 0.5638552558056045,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.479999999999838,
+          "time_s": 2.679999999999816,
+          "value": 0.47751664135929955,
+          "threshold": 0.3
+        }
+      ],
+      "command": [
+        1.0,
+        0.0,
+        -0.2
+      ],
+      "terrain": "plane",
+      "friction": 0.8,
+      "rollout_config": {
+        "seed": 42,
+        "physics_timestep_s": 0.001,
+        "policy_timestep_s": 0.02,
+        "render": false,
+        "initial_base_height_m": 0.74,
+        "minimum_base_height_m": 0.35,
+        "control_mode": "pd",
+        "numpy_version": "2.5.3",
+        "mujoco_version": "3.14.0"
+      },
+      "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+      "original_numeric_metrics_exactly_reproduced": false,
+      "original_numeric_metric_deltas": {
+        "distance_x_m": 0.04952688439997166,
+        "lateral_drift_m": 0.0659613485996795,
+        "speed_x_mps": 0.0024763442199985802,
+        "mean_body_speed_x_mps": -0.0012906378085868475,
+        "speed_tracking_rmse_mps": -9.412957322835203e-05,
+        "mean_abs_lateral_speed_mps": 0.00031782905444861786,
+        "yaw_rate_tracking_rmse_rps": 0.0003158725745869839,
+        "mean_base_height_m": -2.757555848997839e-05,
+        "base_height_std_m": -1.059620030793157e-05,
+        "mean_tilt_deg": -0.010985552830371503,
+        "max_tilt_deg": -0.050268834640435855,
+        "mean_abs_action": -0.00012797791457952457,
+        "mean_action_rms": -0.00015501043154175775,
+        "mean_action_rate_rms": -5.5554620370934504e-06,
+        "mean_joint_vel_rms_rps": 0.00017010094640834694,
+        "mean_abs_torque_nm": 0.014170890508357736,
+        "rms_torque_nm": 0.0022584594715286954
+      },
+      "policy": "baseline",
+      "metadata_sha256": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+      "source_csv": "raw/baseline_-0.2.csv",
+      "source_csv_sha256": "f21cc2166639d744703efe69cf1be48bd55ef8c2f2830b98514f52b8d02949a8"
+    },
+    {
+      "status": "PASS",
+      "duration_s": 20.0,
+      "physics_steps": 20000,
+      "sampled_state_count": 1001,
+      "policy_action_count": 1000,
+      "metrics_equal_except_monitor_flag": true,
+      "sampled_states_exactly_equal": true,
+      "policy_actions_exactly_equal": true,
+      "per_physics_step_state_control_digest_equal": true,
+      "trajectory_csv_exactly_equal": true,
+      "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "mean_signed_body_yaw_rate_rps": 0.6431912385229513,
+      "candidate_enter_count": 7,
+      "first_candidate_entries": [
+        {
+          "event": "candidate_enter",
+          "reason": "forward_error",
+          "onset_time_s": 0.0,
+          "time_s": 0.20000000000000015,
+          "value": 0.8015429346695024,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.0199999999998886,
+          "time_s": 2.2199999999998665,
+          "value": 0.7902926234046018,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.479999999999838,
+          "time_s": 2.679999999999816,
+          "value": 0.36033307182909335,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.7999999999998026,
+          "time_s": 2.9999999999997806,
+          "value": 0.38926062455718713,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 3.1199999999997674,
+          "time_s": 3.3199999999997454,
+          "value": 0.39880923757089204,
+          "threshold": 0.3
+        }
+      ],
+      "command": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "terrain": "plane",
+      "friction": 0.8,
+      "rollout_config": {
+        "seed": 42,
+        "physics_timestep_s": 0.001,
+        "policy_timestep_s": 0.02,
+        "render": false,
+        "initial_base_height_m": 0.74,
+        "minimum_base_height_m": 0.35,
+        "control_mode": "pd",
+        "numpy_version": "2.5.3",
+        "mujoco_version": "3.14.0"
+      },
+      "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+      "original_numeric_metrics_exactly_reproduced": false,
+      "original_numeric_metric_deltas": {
+        "distance_x_m": -0.213266243620021,
+        "lateral_drift_m": -0.07439948219498949,
+        "speed_x_mps": -0.010663312181001049,
+        "mean_body_speed_x_mps": -0.007042998299195746,
+        "speed_tracking_rmse_mps": -0.00394561923615086,
+        "mean_abs_lateral_speed_mps": -0.0002681303723323508,
+        "yaw_rate_tracking_rmse_rps": -0.0029686777092645666,
+        "mean_base_height_m": 0.0002326424782421732,
+        "base_height_std_m": -8.669445678553996e-05,
+        "mean_tilt_deg": -0.11943267288154402,
+        "max_tilt_deg": -0.21532114972846905,
+        "mean_abs_action": -0.0005666473409581263,
+        "mean_action_rms": -0.0007903116912626462,
+        "mean_action_rate_rms": -0.0004210383079503721,
+        "mean_joint_vel_rms_rps": -0.004117912053899442,
+        "mean_abs_torque_nm": -0.007160654652399678,
+        "rms_torque_nm": -0.015251473585161435
+      },
+      "policy": "baseline",
+      "metadata_sha256": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+      "source_csv": "raw/baseline_0.0.csv",
+      "source_csv_sha256": "66ad09269d9802e40adba84cf65a56988b52af56d13dcc06ed8402afb6d9043c"
+    },
+    {
+      "status": "PASS",
+      "duration_s": 20.0,
+      "physics_steps": 20000,
+      "sampled_state_count": 1001,
+      "policy_action_count": 1000,
+      "metrics_equal_except_monitor_flag": true,
+      "sampled_states_exactly_equal": true,
+      "policy_actions_exactly_equal": true,
+      "per_physics_step_state_control_digest_equal": true,
+      "trajectory_csv_exactly_equal": true,
+      "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "mean_signed_body_yaw_rate_rps": 0.744404853000557,
+      "candidate_enter_count": 38,
+      "first_candidate_entries": [
+        {
+          "event": "candidate_enter",
+          "reason": "forward_error",
+          "onset_time_s": 0.0,
+          "time_s": 0.20000000000000015,
+          "value": 0.8043595102908221,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 1.7199999999999214,
+          "time_s": 1.9199999999998993,
+          "value": 0.7541178698682338,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.4999999999998357,
+          "time_s": 2.6999999999998137,
+          "value": 0.4213983082173624,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.7999999999998026,
+          "time_s": 2.9999999999997806,
+          "value": 0.44109662796656796,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 3.1199999999997674,
+          "time_s": 3.3199999999997454,
+          "value": 0.3819751136171052,
+          "threshold": 0.3
+        }
+      ],
+      "command": [
+        1.0,
+        0.0,
+        0.2
+      ],
+      "terrain": "plane",
+      "friction": 0.8,
+      "rollout_config": {
+        "seed": 42,
+        "physics_timestep_s": 0.001,
+        "policy_timestep_s": 0.02,
+        "render": false,
+        "initial_base_height_m": 0.74,
+        "minimum_base_height_m": 0.35,
+        "control_mode": "pd",
+        "numpy_version": "2.5.3",
+        "mujoco_version": "3.14.0"
+      },
+      "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+      "original_numeric_metrics_exactly_reproduced": false,
+      "original_numeric_metric_deltas": {
+        "distance_x_m": -0.4314572684734391,
+        "lateral_drift_m": -0.2978268421013328,
+        "speed_x_mps": -0.021572863423671956,
+        "mean_body_speed_x_mps": 0.0005755556371627168,
+        "speed_tracking_rmse_mps": 0.00014978953256999938,
+        "mean_abs_lateral_speed_mps": 0.000622512129857658,
+        "yaw_rate_tracking_rmse_rps": -0.0012586135892249661,
+        "mean_base_height_m": 5.2637025616752986e-05,
+        "base_height_std_m": -5.2090994109046246e-05,
+        "mean_tilt_deg": 0.012571829569431259,
+        "max_tilt_deg": -0.12428198601664242,
+        "mean_abs_action": 0.00025374726139371084,
+        "mean_action_rms": 0.0002927927680855813,
+        "mean_action_rate_rms": 0.00019556970779149863,
+        "mean_joint_vel_rms_rps": -0.0007639879032688146,
+        "mean_abs_torque_nm": 0.015977144002051524,
+        "rms_torque_nm": 0.013783846466520089
+      },
+      "policy": "baseline",
+      "metadata_sha256": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+      "source_csv": "raw/baseline_0.2.csv",
+      "source_csv_sha256": "280b1141146aad026a924b8561227ea6cc706782c24ac4709ee46326625d7550"
+    },
+    {
+      "status": "PASS",
+      "duration_s": 20.0,
+      "physics_steps": 20000,
+      "sampled_state_count": 1001,
+      "policy_action_count": 1000,
+      "metrics_equal_except_monitor_flag": true,
+      "sampled_states_exactly_equal": true,
+      "policy_actions_exactly_equal": true,
+      "per_physics_step_state_control_digest_equal": true,
+      "trajectory_csv_exactly_equal": true,
+      "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "mean_signed_body_yaw_rate_rps": -0.6207289854894668,
+      "candidate_enter_count": 61,
+      "first_candidate_entries": [
+        {
+          "event": "candidate_enter",
+          "reason": "forward_error",
+          "onset_time_s": 0.0,
+          "time_s": 0.20000000000000015,
+          "value": 0.8732783710131675,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "forward_error",
+          "onset_time_s": 0.9400000000000007,
+          "time_s": 1.1399999999999852,
+          "value": 0.32500035106699054,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.27999999999986,
+          "time_s": 2.479999999999838,
+          "value": 0.8410995886307575,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.579999999999827,
+          "time_s": 2.779999999999805,
+          "value": 0.9386942059049204,
+          "threshold": 0.3
+        },
+        {
+          "event": "candidate_enter",
+          "reason": "yaw_error",
+          "onset_time_s": 2.879999999999794,
+          "time_s": 3.079999999999772,
+          "value": 0.9456829375147728,
+          "threshold": 0.3
+        }
+      ],
+      "command": [
+        1.0,
+        0.0,
+        -0.2
+      ],
+      "terrain": "plane",
+      "friction": 0.8,
+      "rollout_config": {
+        "seed": 42,
+        "physics_timestep_s": 0.001,
+        "policy_timestep_s": 0.02,
+        "render": false,
+        "initial_base_height_m": 0.74,
+        "minimum_base_height_m": 0.35,
+        "control_mode": "pd",
+        "numpy_version": "2.5.3",
+        "mujoco_version": "3.14.0"
+      },
+      "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+      "original_numeric_metrics_exactly_reproduced": false,
+      "original_numeric_metric_deltas": {
+        "distance_x_m": -0.2323917311944037,
+        "lateral_drift_m": -0.1726463120481015,
+        "speed_x_mps": -0.011619586559720188,
+        "mean_body_speed_x_mps": 0.004979441997205569,
+        "speed_tracking_rmse_mps": 0.004407433094289009,
+        "mean_abs_lateral_speed_mps": -5.901441020937648e-06,
+        "yaw_rate_tracking_rmse_rps": -0.0017724853347301783,
+        "mean_base_height_m": 9.624143522235507e-05,
+        "base_height_std_m": 7.277174660694045e-05,
+        "mean_tilt_deg": -0.021738489574131492,
+        "max_tilt_deg": -0.0220018914115645,
+        "mean_abs_action": 0.0011620191855147288,
+        "mean_action_rms": 0.001269386516884019,
+        "mean_action_rate_rms": 0.00038069272653018515,
+        "mean_joint_vel_rms_rps": 0.006118752410128048,
+        "mean_abs_torque_nm": 0.04388031197506237,
+        "rms_torque_nm": 0.06528173517503433
+      },
+      "policy": "reproduction_20261001",
+      "metadata_sha256": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+      "source_csv": "raw/reproduction_20261001_-0.2.csv",
+      "source_csv_sha256": "36e28d3bd93e3408624874a86eb8c57573caf331173c69b016afeae4958962d0"
+    },
+    {
+      "status": "PASS",
+      "duration_s": 20.0,
+      "physics_steps": 20000,
+      "sampled_state_count": 1001,
+      "policy_action_count": 1000,
+      "metrics_equal_except_monitor_flag": true,
+      "sampled_states_exactly_equal": true,
+      "policy_actions_exactly_equal": true,
+      "per_physics_step_state_control_digest_equal": true,
+      "trajectory_csv_exactly_equal": true,
+      "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "mean_signed_body_yaw_rate_rps": -0.40427859440973046,
+      "candidate_enter_count": 1,
+      "first_candidate_entries": [
+        {
+          "event": "candidate_enter",
+          "reason": "forward_error",
+          "onset_time_s": 0.0,
+          "time_s": 0.20000000000000015,
+          "value": 0.8617685913644408,
+          "threshold": 0.3
+        }
+      ],
+      "command": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "terrain": "plane",
+      "friction": 0.8,
+      "rollout_config": {
+        "seed": 42,
+        "physics_timestep_s": 0.001,
+        "policy_timestep_s": 0.02,
+        "render": false,
+        "initial_base_height_m": 0.74,
+        "minimum_base_height_m": 0.35,
+        "control_mode": "pd",
+        "numpy_version": "2.5.3",
+        "mujoco_version": "3.14.0"
+      },
+      "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+      "original_numeric_metrics_exactly_reproduced": false,
+      "original_numeric_metric_deltas": {
+        "distance_x_m": 0.07557733170538672,
+        "lateral_drift_m": -0.10093461035460427,
+        "speed_x_mps": 0.0037788665852693526,
+        "mean_body_speed_x_mps": -0.005147150530617983,
+        "speed_tracking_rmse_mps": -0.0013395134180877455,
+        "mean_abs_lateral_speed_mps": 0.0027089603906735177,
+        "yaw_rate_tracking_rmse_rps": 0.0028618195589378836,
+        "mean_base_height_m": 6.713425969540054e-05,
+        "base_height_std_m": 4.892427708114676e-05,
+        "mean_tilt_deg": 0.042224124146864384,
+        "max_tilt_deg": 0.0961589408724528,
+        "mean_abs_action": -0.0005932646669997155,
+        "mean_action_rms": -0.0009049742371645131,
+        "mean_action_rate_rms": -3.721232853662326e-05,
+        "mean_joint_vel_rms_rps": 0.0006211856101270286,
+        "mean_abs_torque_nm": -0.010093634044237021,
+        "rms_torque_nm": 0.006898086663278846
+      },
+      "policy": "reproduction_20261001",
+      "metadata_sha256": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+      "source_csv": "raw/reproduction_20261001_0.0.csv",
+      "source_csv_sha256": "8bec0ee584b15452d681cf127c7f3f7ab5029b4730d511e6616336f411f09f84"
+    },
+    {
+      "status": "PASS",
+      "duration_s": 20.0,
+      "physics_steps": 20000,
+      "sampled_state_count": 1001,
+      "policy_action_count": 1000,
+      "metrics_equal_except_monitor_flag": true,
+      "sampled_states_exactly_equal": true,
+      "policy_actions_exactly_equal": true,
+      "per_physics_step_state_control_digest_equal": true,
+      "trajectory_csv_exactly_equal": true,
+      "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "mean_signed_body_yaw_rate_rps": -0.20191339266731168,
+      "candidate_enter_count": 1,
+      "first_candidate_entries": [
+        {
+          "event": "candidate_enter",
+          "reason": "forward_error",
+          "onset_time_s": 0.0,
+          "time_s": 0.20000000000000015,
+          "value": 0.8572393458104745,
+          "threshold": 0.3
+        }
+      ],
+      "command": [
+        1.0,
+        0.0,
+        0.2
+      ],
+      "terrain": "plane",
+      "friction": 0.8,
+      "rollout_config": {
+        "seed": 42,
+        "physics_timestep_s": 0.001,
+        "policy_timestep_s": 0.02,
+        "render": false,
+        "initial_base_height_m": 0.74,
+        "minimum_base_height_m": 0.35,
+        "control_mode": "pd",
+        "numpy_version": "2.5.3",
+        "mujoco_version": "3.14.0"
+      },
+      "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+      "original_numeric_metrics_exactly_reproduced": false,
+      "original_numeric_metric_deltas": {
+        "distance_x_m": 0.2653686222084719,
+        "lateral_drift_m": 0.2741028731790296,
+        "speed_x_mps": 0.013268431110423591,
+        "mean_body_speed_x_mps": 0.00037648811367729795,
+        "speed_tracking_rmse_mps": 0.000721778502295739,
+        "mean_abs_lateral_speed_mps": 0.002488463010876532,
+        "yaw_rate_tracking_rmse_rps": 0.0009085086991204583,
+        "mean_base_height_m": 0.00018345464960300983,
+        "base_height_std_m": 0.00010669160835104219,
+        "mean_tilt_deg": 0.03611988144303524,
+        "max_tilt_deg": 0.11066215565868909,
+        "mean_abs_action": 0.0004252238861154334,
+        "mean_action_rms": 0.00032769422249223634,
+        "mean_action_rate_rms": 0.0003796345274885149,
+        "mean_joint_vel_rms_rps": 0.0036517581116288778,
+        "mean_abs_torque_nm": 0.004274554096809879,
+        "rms_torque_nm": 0.011689913911784089
+      },
+      "policy": "reproduction_20261001",
+      "metadata_sha256": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+      "source_csv": "raw/reproduction_20261001_0.2.csv",
+      "source_csv_sha256": "c9b28a3505849cec9d59d50cb8160d6602815134b6a48755d5f74d5415cf5c4e"
+    }
+  ],
+  "original_numeric_metrics_exactly_reproduced": false,
+  "historical_replay_note": "Historical numeric reproduction is a separate diagnostic; it does not change the monitor off/on verdict. Original runs lack a full runtime/model snapshot, so any historical differences remain unattributed.",
+  "scope": "Two exported policies, three yaw commands [-0.2,0,0.2], one seed (42), plane/friction 0.8, 20 s per rollout, 1 ms physics, no rendering. Non-interference only; no validated safety or recovery claim."
+}

@@ -1,0 +1,9 @@
+{
+  "cases": 324,
+  "traces": 54,
+  "input_files": 14,
+  "input_hashes_unchanged": true,
+  "jobs_verified": 4,
+  "unit_tests_normal": 4,
+  "unit_tests_optimized": 4
+}

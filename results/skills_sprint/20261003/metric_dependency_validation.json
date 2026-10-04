@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "previous_command_response_cases_exact": 9,
+  "isaac_python_pure_metrics_import": true,
+  "reason": "Isaac conda environment does not contain MuJoCo; native evaluation metrics must not import a simulator."
+}

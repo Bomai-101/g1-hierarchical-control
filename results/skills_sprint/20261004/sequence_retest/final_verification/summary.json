@@ -1,0 +1,45 @@
+{
+  "partial": false,
+  "groups": [
+    {
+      "protocol": "normal",
+      "total": 108,
+      "resumed": 108,
+      "completed": 108,
+      "passed": 108,
+      "persistent_hold_passed": 0,
+      "physical_failures": 0,
+      "hold_latency_median_s": 3.8400000000000003,
+      "resume_vx_rmse_median_mps": 0.07521218806505203
+    },
+    {
+      "protocol": "temporary",
+      "total": 108,
+      "resumed": 108,
+      "completed": 108,
+      "passed": 108,
+      "persistent_hold_passed": 0,
+      "physical_failures": 0,
+      "hold_latency_median_s": 3.84,
+      "resume_vx_rmse_median_mps": 0.07517868280410767
+    },
+    {
+      "protocol": "persistent",
+      "total": 108,
+      "resumed": 0,
+      "completed": 0,
+      "passed": 0,
+      "persistent_hold_passed": 108,
+      "physical_failures": 0,
+      "hold_latency_median_s": null,
+      "resume_vx_rmse_median_mps": null
+    }
+  ],
+  "verification": {
+    "cases": 324,
+    "action_rows": 318455,
+    "max_actor_error": 3.337860107421875e-06,
+    "paired_prefixes": 216
+  },
+  "limits": "Low-speed flat Isaac seeds101/202/303, handoffs3.22/6.22/9.22s with4 staggered copies each. Prospective sequence acceptance differs from original standalone hold acceptance. Task heartbeat fault injection, not actual perception dropout; no hardware or broad fallback validation."
+}

@@ -1,0 +1,108 @@
+{
+  "seed": 42,
+  "num_envs": 16,
+  "duration": 30.0,
+  "warmup_s": 2.0,
+  "cases": [
+    {
+      "mode": "rate",
+      "speed": 0.5,
+      "target": 0.0,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 0.5,
+      "target": -0.2,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 0.5,
+      "target": 0.2,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "heading",
+      "speed": 0.5,
+      "target": 0.0,
+      "start_yaw": 0.5
+    },
+    {
+      "mode": "heading",
+      "speed": 0.5,
+      "target": -1.5707963267948966,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "heading",
+      "speed": 0.5,
+      "target": 1.5707963267948966,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 1.0,
+      "target": 0.0,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 1.0,
+      "target": -0.2,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 1.0,
+      "target": 0.2,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "heading",
+      "speed": 1.0,
+      "target": 0.0,
+      "start_yaw": 0.5
+    },
+    {
+      "mode": "heading",
+      "speed": 1.0,
+      "target": -1.5707963267948966,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "heading",
+      "speed": 1.0,
+      "target": 1.5707963267948966,
+      "start_yaw": 0.0
+    }
+  ],
+  "terrain": "plane",
+  "static_friction": 0.8,
+  "dynamic_friction": 0.6,
+  "heading_gain": 0.5,
+  "yaw_limit": 1.0,
+  "standing_probability": 0,
+  "observation_noise": false,
+  "scoring": "first episode only; pre-action samples; post-reset data excluded",
+  "replication": "same fixed initial state; parallel environments are not independent seeds",
+  "outcome": "diagnostic comparison; no baseline acceptance claimed",
+  "checkpoint_hashes": {
+    "supplied": {
+      "path": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/checkpoints/baseline/model_1499.pt",
+      "sha256": "a6ee9a84753d22b65e1b9cd526a5cdd7c8e0c0a09fd3bf68fb63e7616ba4dd83"
+    },
+    "local": {
+      "path": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/logs/rsl_rl/g1_flat_sim51/2026-10-01_12-07-43_baseline_reproduction_1500/model_1499.pt",
+      "sha256": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c"
+    }
+  },
+  "source_hashes": {
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/evaluate_flat_commands_isaac.py": "34cc0651dec9e7e5be9416d36b48f8a0c059ce442965fdf7a4e95306be2d9e5c",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/g1_env_cfg.py": "89ee8aeccedd3ff7bcd5111fa353d9a4b5f1d8e113a41aa500c15d36173a70ab",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/mdp.py": "b32642468d1c87bea99bfd4081344943e4ae75464f59d04ada2b9c603a474a29",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/ppo_cfg.py": "7d964f4c99ebbf19dd98cb9ba948e254d6d6b2bfab6985d93cefef20fc345522",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/g1_asset_cfg.py": "6c25e0795030e8a6eede21c900927303c6fc26f0c14ad46aa9044c183e2161ce",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/assets/g1_minimal.usd": "4f5e0600f24bed04d4c45b3921b6f3d7b6205463b0b1ac051cf2883dd3aaee67"
+  }
+}

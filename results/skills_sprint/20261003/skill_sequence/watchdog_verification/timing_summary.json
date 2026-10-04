@@ -1,0 +1,8 @@
+{
+  "drop_to_detection_min_median_max_s": [
+    0.21999999999999975,
+    0.2600000000000007,
+    0.3000000000000007
+  ],
+  "scope": "Task freshness timing is distinct from physical settling/retention time."
+}

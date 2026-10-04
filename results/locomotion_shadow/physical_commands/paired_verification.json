@@ -1,0 +1,5946 @@
+{
+  "baseline_plane_42_vx0.5_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.6365839040285811,
+    "candidate_enter_count": 10,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.42763869214073985,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.0199999999999985,
+        "time_s": 1.2199999999999764,
+        "value": 0.8839071709374478,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 9.600000000000119,
+        "time_s": 9.800000000000008,
+        "value": 1.2985986412655988,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 9.899999999999952,
+        "time_s": 10.099999999999842,
+        "value": 1.2185375629393544,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 11.379999999999132,
+        "time_s": 11.579999999999021,
+        "value": 1.1964958433088986,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx0.5_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.6315223499361988,
+    "candidate_enter_count": 34,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.42623829913174266,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.0199999999999985,
+        "time_s": 1.2199999999999764,
+        "value": 0.6936501924267879,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.3199999999999654,
+        "time_s": 1.5199999999999434,
+        "value": 0.5768188858614706,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.6199999999999324,
+        "time_s": 1.8199999999999104,
+        "value": 0.3567653307590363,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.479999999999838,
+        "time_s": 2.679999999999816,
+        "value": 0.5949774403630425,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0012566287931117855
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx0.5_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.6366349564755482,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.42763869214073985,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.0199999999999985,
+        "time_s": 1.2199999999999764,
+        "value": 0.8839071709374478,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx0.5_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.5370654187044008,
+    "candidate_enter_count": 5,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.4211454867573524,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.0199999999999985,
+        "time_s": 1.2199999999999764,
+        "value": 1.0069927241673116,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.3199999999999654,
+        "time_s": 1.5199999999999434,
+        "value": 0.9566097596484645,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.6799999999999258,
+        "time_s": 1.8799999999999037,
+        "value": 0.3425959528335816,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 25.600000000008304,
+        "time_s": 25.80000000000855,
+        "value": 1.0694697458815587,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx0.5_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.616865396109951,
+    "candidate_enter_count": 58,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.43312922836790335,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.0199999999999985,
+        "time_s": 1.2199999999999764,
+        "value": 0.6871558068708082,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.3199999999999654,
+        "time_s": 1.5199999999999434,
+        "value": 0.6062137945483849,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.6199999999999324,
+        "time_s": 1.8199999999999104,
+        "value": 0.31861346512781663,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.1999999999998687,
+        "time_s": 2.3999999999998467,
+        "value": 0.5091935444907704,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx1.0_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.6253914282611293,
+    "candidate_enter_count": 60,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8015429346695024,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.0199999999998886,
+        "time_s": 2.2199999999998665,
+        "value": 0.7902926234046018,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.479999999999838,
+        "time_s": 2.679999999999816,
+        "value": 0.36033307182909335,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.7999999999998026,
+        "time_s": 2.9999999999997806,
+        "value": 0.38926062455718713,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.1199999999997674,
+        "time_s": 3.3199999999997454,
+        "value": 0.39880923757089204,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx1.0_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.652722324949054,
+    "candidate_enter_count": 60,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8014084760519472,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.4999999999998357,
+        "time_s": 2.6999999999998137,
+        "value": 0.41312670344583746,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.1199999999997674,
+        "time_s": 3.3199999999997454,
+        "value": 0.41140965838321164,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 5.360000000000125,
+        "time_s": 5.5600000000001915,
+        "value": 0.41694644405146175,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 5.6800000000002315,
+        "time_s": 5.880000000000298,
+        "value": 0.4301891051444661,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0012566287931117855
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx1.0_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.6571666356480095,
+    "candidate_enter_count": 7,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8015429346695024,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.0199999999998886,
+        "time_s": 2.2199999999998665,
+        "value": 0.7902926234046018,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.479999999999838,
+        "time_s": 2.679999999999816,
+        "value": 0.36033307182909335,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.7999999999998026,
+        "time_s": 2.9999999999997806,
+        "value": 0.38926062455718713,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.1199999999997674,
+        "time_s": 3.3199999999997454,
+        "value": 0.39880923757089204,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx1.0_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.5548484288573861,
+    "candidate_enter_count": 68,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.801295306708857,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 0.4200000000000003,
+        "time_s": 0.6200000000000004,
+        "value": 0.3509917598942607,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.159999999999873,
+        "time_s": 2.359999999999851,
+        "value": 0.5001839399644218,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.479999999999838,
+        "time_s": 2.679999999999816,
+        "value": 0.4457684953402602,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.7999999999998026,
+        "time_s": 2.9999999999997806,
+        "value": 0.44239458992143943,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_plane_42_vx1.0_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.7020778094726758,
+    "candidate_enter_count": 69,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8024726233706188,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.079999999999882,
+        "time_s": 2.27999999999986,
+        "value": 1.0876479298225656,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.479999999999838,
+        "time_s": 2.679999999999816,
+        "value": 0.35927247846849564,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.7999999999998026,
+        "time_s": 2.9999999999997806,
+        "value": 0.31736881760928815,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.1199999999997674,
+        "time_s": 3.3199999999997454,
+        "value": 0.33409942735529596,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx0.5_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.33905889269424916,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.3724552723447086,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 0.462119098802285,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx0.5_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.29273642967238034,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.37337165701193553,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.45999999999995,
+        "time_s": 1.659999999999928,
+        "value": 0.3453786412700427,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0012566287931117855
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx0.5_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.3408137091562207,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.3724552723447086,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 0.462119098802285,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx0.5_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.4368091744058546,
+    "candidate_enter_count": 1,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.3389708142156178,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx0.5_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.2216427359414667,
+    "candidate_enter_count": 1,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.3990581233004349,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx1.0_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.43146872832701894,
+    "candidate_enter_count": 39,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8617685913644408,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 18.499999999999627,
+        "time_s": 18.69999999999987,
+        "value": 1.039316779446403,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 18.799999999999994,
+        "time_s": 19.000000000000238,
+        "value": 1.1003200938936413,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 19.10000000000036,
+        "time_s": 19.300000000000605,
+        "value": 1.0543234471176768,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 19.400000000000727,
+        "time_s": 19.60000000000097,
+        "value": 0.9285901328509096,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx1.0_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.3944375926826019,
+    "candidate_enter_count": 41,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8622786903828278,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 14.599999999997348,
+        "time_s": 14.799999999997237,
+        "value": 1.1332643978983352,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 14.899999999997181,
+        "time_s": 15.09999999999707,
+        "value": 0.9785049878722216,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 15.199999999997015,
+        "time_s": 15.399999999996904,
+        "value": 1.0575039375842967,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 15.519999999996838,
+        "time_s": 15.719999999996727,
+        "value": 0.6051449276875183,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0012566287931117855
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx1.0_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.4172275756731408,
+    "candidate_enter_count": 1,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8617685913644408,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx1.0_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.5511754747152974,
+    "candidate_enter_count": 91,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8786866224669911,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 2.27999999999986,
+        "time_s": 2.479999999999838,
+        "value": 0.8381024449819525,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.1999999999997586,
+        "time_s": 3.3999999999997366,
+        "value": 0.9802391120992996,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.4999999999997256,
+        "time_s": 3.6999999999997035,
+        "value": 0.9469631540434921,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.7999999999996925,
+        "time_s": 3.9999999999996705,
+        "value": 0.8738877265877595,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_plane_42_vx1.0_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.31827912600122965,
+    "candidate_enter_count": 1,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8602262090959718,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "plane",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx0.5_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 1.94,
+    "physics_steps": 1940,
+    "sampled_state_count": 98,
+    "policy_action_count": 97,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.13325050206277314,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5195911979715407,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4399999999999522,
+        "time_s": 1.6399999999999302,
+        "value": 2.07424386442265,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 33.0238811315629,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.6399999999999302,
+        "time_s": 1.8399999999999082,
+        "value": 3.670645523361947,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx0.5_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 1.86,
+    "physics_steps": 1860,
+    "sampled_state_count": 94,
+    "policy_action_count": 93,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.48610436638334276,
+    "candidate_enter_count": 5,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.518119112473554,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.359999999999961,
+        "time_s": 1.559999999999939,
+        "value": 26.198351968271172,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.359999999999961,
+        "time_s": 1.559999999999939,
+        "value": 3.7267416452165762,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.3999999999999566,
+        "time_s": 1.5999999999999346,
+        "value": 0.604696693786055,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.6399999999999302,
+        "time_s": 1.8399999999999082,
+        "value": 4.096670238589371,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.10927886934685382
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx0.5_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 1.94,
+    "physics_steps": 1940,
+    "sampled_state_count": 98,
+    "policy_action_count": 97,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.13325050206277314,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5195911979715407,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4399999999999522,
+        "time_s": 1.6399999999999302,
+        "value": 2.07424386442265,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 33.0238811315629,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.6399999999999302,
+        "time_s": 1.8399999999999082,
+        "value": 3.670645523361947,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx0.5_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 1.8800000000000001,
+    "physics_steps": 1880,
+    "sampled_state_count": 95,
+    "policy_action_count": 94,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.4924731420477773,
+    "candidate_enter_count": 5,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.520100008133054,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.3999999999999566,
+        "time_s": 1.5999999999999346,
+        "value": 33.71239707497912,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.4199999999999544,
+        "time_s": 1.6199999999999324,
+        "value": 0.8779529899109235,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 7.033004985360605,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.659999999999928,
+        "time_s": 1.859999999999906,
+        "value": 3.622580794495723,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx0.5_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 2.04,
+    "physics_steps": 2040,
+    "sampled_state_count": 103,
+    "policy_action_count": 102,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.245759478127369,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5195130176376583,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 37.81404989280831,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4999999999999456,
+        "time_s": 1.6999999999999236,
+        "value": 4.892573146024699,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.559999999999939,
+        "time_s": 1.759999999999917,
+        "value": 1.5296215717594763,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx1.0_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 2.06,
+    "physics_steps": 2060,
+    "sampled_state_count": 104,
+    "policy_action_count": 103,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.000615636547356225,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9485162735857692,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4199999999999544,
+        "time_s": 1.6199999999999324,
+        "value": 2.774725153909518,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.45999999999995,
+        "time_s": 1.659999999999928,
+        "value": 50.19848563596579,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.5399999999999412,
+        "time_s": 1.7399999999999192,
+        "value": 0.7970744417930375,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx1.0_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 1.8800000000000001,
+    "physics_steps": 1880,
+    "sampled_state_count": 95,
+    "policy_action_count": 94,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.036416691559651874,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9475038566935834,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4399999999999522,
+        "time_s": 1.6399999999999302,
+        "value": 4.1753014430618665,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 55.712211799312755,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.659999999999928,
+        "time_s": 1.859999999999906,
+        "value": 3.340176945554265,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.11032917412568606
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx1.0_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 2.06,
+    "physics_steps": 2060,
+    "sampled_state_count": 104,
+    "policy_action_count": 103,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.000615636547356225,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9485162735857692,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4199999999999544,
+        "time_s": 1.6199999999999324,
+        "value": 2.774725153909518,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.45999999999995,
+        "time_s": 1.659999999999928,
+        "value": 50.19848563596579,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.5399999999999412,
+        "time_s": 1.7399999999999192,
+        "value": 0.7970744417930375,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx1.0_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 1.82,
+    "physics_steps": 1820,
+    "sampled_state_count": 92,
+    "policy_action_count": 91,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.028861247323970232,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9411046477008125,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.359999999999961,
+        "time_s": 1.559999999999939,
+        "value": 4.8199229523746085,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.45999999999995,
+        "time_s": 1.659999999999928,
+        "value": 56.70776560107404,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_42_vx1.0_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 1.86,
+    "physics_steps": 1860,
+    "sampled_state_count": 94,
+    "policy_action_count": 93,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.1600350500504523,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.951893792345208,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4399999999999522,
+        "time_s": 1.6399999999999302,
+        "value": 3.5168605280886274,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 55.402553317131286,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.5199999999999434,
+        "time_s": 1.7199999999999214,
+        "value": 2.5378502952335356,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx0.5_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.009597085246837861,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.534890753844604,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.6199999999999324,
+        "time_s": 1.8199999999999104,
+        "value": 0.3631701558660532,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 16.03999999999662,
+        "time_s": 16.239999999996865,
+        "value": 15.345864480254845,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 24.36000000000679,
+        "time_s": 24.560000000007033,
+        "value": 15.03810194908947,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx0.5_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.009857401135470708,
+    "candidate_enter_count": 7,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5412862287851414,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.5999999999999346,
+        "time_s": 1.7999999999999126,
+        "value": 0.3683889239529158,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 13.359999999998035,
+        "time_s": 13.559999999997924,
+        "value": 15.15410577391099,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 13.599999999997902,
+        "time_s": 13.799999999997791,
+        "value": 15.310191370642626,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 18.940000000000165,
+        "time_s": 19.14000000000041,
+        "value": 15.105598157011304,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0012566287931117855
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx0.5_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.009340784275527295,
+    "candidate_enter_count": 9,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.534890753844604,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.6199999999999324,
+        "time_s": 1.8199999999999104,
+        "value": 0.3631701558660532,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 21.40000000000317,
+        "time_s": 21.600000000003416,
+        "value": 15.085747461076254,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 21.640000000003464,
+        "time_s": 21.84000000000371,
+        "value": 15.14180146071904,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 22.140000000004076,
+        "time_s": 22.34000000000432,
+        "value": 15.014648051808726,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx0.5_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.013354152441706478,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5257623546499541,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 18.679999999999847,
+        "time_s": 18.88000000000009,
+        "value": 15.146836127059643,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 18.92000000000014,
+        "time_s": 19.120000000000385,
+        "value": 15.094925895323057,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 19.880000000001314,
+        "time_s": 20.080000000001558,
+        "value": 15.174922786810917,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx0.5_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.009139859678486734,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5519458565959023,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.5999999999999346,
+        "time_s": 1.7999999999999126,
+        "value": 0.35864014817954054,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx1.0_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 4.2,
+    "physics_steps": 4200,
+    "sampled_state_count": 211,
+    "policy_action_count": 210,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.04787823634861464,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.0561332470942049,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.5800000000000004,
+        "time_s": 0.7800000000000006,
+        "value": 18.663501230421492,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.959999999999675,
+        "time_s": 4.159999999999724,
+        "value": 1.7721317380498272,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx1.0_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 4.1,
+    "physics_steps": 4100,
+    "sampled_state_count": 206,
+    "policy_action_count": 205,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.05317675382090816,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.0592494345035721,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.5800000000000004,
+        "time_s": 0.7800000000000006,
+        "value": 18.339479298782333,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.859999999999686,
+        "time_s": 4.0599999999996905,
+        "value": 1.7712768689654492,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.859999999999686,
+        "time_s": 4.0599999999996905,
+        "value": 0.7784183967021506,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.19170435780347517
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx1.0_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 4.2,
+    "physics_steps": 4200,
+    "sampled_state_count": 211,
+    "policy_action_count": 210,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.04787823634861464,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.0561332470942049,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.5800000000000004,
+        "time_s": 0.7800000000000006,
+        "value": 18.663501230421492,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.959999999999675,
+        "time_s": 4.159999999999724,
+        "value": 1.7721317380498272,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx1.0_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 4.26,
+    "physics_steps": 4260,
+    "sampled_state_count": 214,
+    "policy_action_count": 213,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.043894018425427415,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.0534987784712675,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.5200000000000004,
+        "time_s": 0.7200000000000005,
+        "value": 19.08547111289369,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 4.019999999999677,
+        "time_s": 4.219999999999744,
+        "value": 1.779981146387081,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_42_vx1.0_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 30.0,
+    "physics_steps": 30000,
+    "sampled_state_count": 1501,
+    "policy_action_count": 1500,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.009178828404669985,
+    "candidate_enter_count": 1,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.041745651424372,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 42,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx0.5_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 1.46,
+    "physics_steps": 1460,
+    "sampled_state_count": 74,
+    "policy_action_count": 73,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.0334092040868814,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8009763548633659,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.8400000000000006,
+        "time_s": 1.0399999999999963,
+        "value": 21.02117958033297,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.0999999999999897,
+        "time_s": 1.2999999999999676,
+        "value": 1.1874185210822241,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx0.5_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 1.46,
+    "physics_steps": 1460,
+    "sampled_state_count": 74,
+    "policy_action_count": 73,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.0361593846131376,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8014681160282157,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.8400000000000006,
+        "time_s": 1.0399999999999963,
+        "value": 21.216634515074304,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.0199999999999985,
+        "time_s": 1.2199999999999764,
+        "value": 1.076846740684979,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.08742315333018658
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx0.5_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 1.46,
+    "physics_steps": 1460,
+    "sampled_state_count": 74,
+    "policy_action_count": 73,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.0334092040868814,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8009763548633659,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.8400000000000006,
+        "time_s": 1.0399999999999963,
+        "value": 21.02117958033297,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.0999999999999897,
+        "time_s": 1.2999999999999676,
+        "value": 1.1874185210822241,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx0.5_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 1.48,
+    "physics_steps": 1480,
+    "sampled_state_count": 75,
+    "policy_action_count": 74,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.028428762590796925,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8025217291869611,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.8600000000000007,
+        "time_s": 1.059999999999994,
+        "value": 21.545323036640507,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.159999999999983,
+        "time_s": 1.359999999999961,
+        "value": 1.2987620263279913,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx0.5_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 1.44,
+    "physics_steps": 1440,
+    "sampled_state_count": 73,
+    "policy_action_count": 72,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.045679363646163824,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8006954969392933,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.8200000000000006,
+        "time_s": 1.0199999999999985,
+        "value": 20.523279193725706,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.0000000000000007,
+        "time_s": 1.1999999999999786,
+        "value": 1.0713608443084925,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx1.0_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 1.74,
+    "physics_steps": 1740,
+    "sampled_state_count": 88,
+    "policy_action_count": 87,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.009342757238813514,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.2813322015856672,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.059999999999994,
+        "time_s": 1.259999999999972,
+        "value": 24.16261967249912,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx1.0_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 1.72,
+    "physics_steps": 1720,
+    "sampled_state_count": 87,
+    "policy_action_count": 86,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.015370492449427293,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.2837972281477865,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.059999999999994,
+        "time_s": 1.259999999999972,
+        "value": 24.328833216260843,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.10180828315007427
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx1.0_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 1.74,
+    "physics_steps": 1740,
+    "sampled_state_count": 88,
+    "policy_action_count": 87,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.009342757238813514,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.2813322015856672,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.059999999999994,
+        "time_s": 1.259999999999972,
+        "value": 24.16261967249912,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx1.0_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 1.74,
+    "physics_steps": 1740,
+    "sampled_state_count": 88,
+    "policy_action_count": 87,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.011420670498322088,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.2794927173204818,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.059999999999994,
+        "time_s": 1.259999999999972,
+        "value": 23.61720537974847,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_43_vx1.0_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 1.7,
+    "physics_steps": 1700,
+    "sampled_state_count": 86,
+    "policy_action_count": 85,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.007020719826590672,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.2803242798594123,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.0399999999999963,
+        "time_s": 1.2399999999999742,
+        "value": 23.947045275219324,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx0.5_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 2.46,
+    "physics_steps": 2460,
+    "sampled_state_count": 124,
+    "policy_action_count": 123,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.008569530712515176,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9414433701056679,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.3800000000000003,
+        "time_s": 0.5800000000000004,
+        "value": 24.547499019194227,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx0.5_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 2.48,
+    "physics_steps": 2480,
+    "sampled_state_count": 125,
+    "policy_action_count": 124,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.013972785395708733,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9420575740718009,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.3800000000000003,
+        "time_s": 0.5800000000000004,
+        "value": 24.439735180866492,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.13963308379869452
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx0.5_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 2.46,
+    "physics_steps": 2460,
+    "sampled_state_count": 124,
+    "policy_action_count": 123,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.008569530712515176,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9414433701056679,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.3800000000000003,
+        "time_s": 0.5800000000000004,
+        "value": 24.547499019194227,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx0.5_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 2.46,
+    "physics_steps": 2460,
+    "sampled_state_count": 124,
+    "policy_action_count": 123,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.009584506580167095,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9445849635295211,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.3800000000000003,
+        "time_s": 0.5800000000000004,
+        "value": 25.260273258566542,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx0.5_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 2.46,
+    "physics_steps": 2460,
+    "sampled_state_count": 124,
+    "policy_action_count": 123,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.00793135874698955,
+    "candidate_enter_count": 2,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.9377078141792128,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.4000000000000003,
+        "time_s": 0.6000000000000004,
+        "value": 24.501598144980072,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx1.0_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 2.36,
+    "physics_steps": 2360,
+    "sampled_state_count": 119,
+    "policy_action_count": 118,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.007954078200213599,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.4521950499451544,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 0.1400000000000001,
+        "time_s": 0.34000000000000025,
+        "value": 1.3208900584352639,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.34000000000000025,
+        "time_s": 0.5400000000000004,
+        "value": 26.998367565690028,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx1.0_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 2.36,
+    "physics_steps": 2360,
+    "sampled_state_count": 119,
+    "policy_action_count": 118,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.005683529954273632,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.4540615982693383,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 0.1400000000000001,
+        "time_s": 0.34000000000000025,
+        "value": 1.3136731943543676,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.34000000000000025,
+        "time_s": 0.5400000000000004,
+        "value": 26.899066685258706,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.13413711530734398
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx1.0_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 2.36,
+    "physics_steps": 2360,
+    "sampled_state_count": 119,
+    "policy_action_count": 118,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.007954078200213599,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.4521950499451544,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 0.1400000000000001,
+        "time_s": 0.34000000000000025,
+        "value": 1.3208900584352639,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.34000000000000025,
+        "time_s": 0.5400000000000004,
+        "value": 26.998367565690028,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx1.0_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 2.36,
+    "physics_steps": 2360,
+    "sampled_state_count": 119,
+    "policy_action_count": 118,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.01055550496702469,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.4614158856155068,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 0.1400000000000001,
+        "time_s": 0.34000000000000025,
+        "value": 1.350675445829445,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.34000000000000025,
+        "time_s": 0.5400000000000004,
+        "value": 27.60988589543632,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_43_vx1.0_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 2.4,
+    "physics_steps": 2400,
+    "sampled_state_count": 121,
+    "policy_action_count": 120,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.010380981714304877,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.446488583414932,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 0.1400000000000001,
+        "time_s": 0.34000000000000025,
+        "value": 1.2643665612823516,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.36000000000000026,
+        "time_s": 0.5600000000000004,
+        "value": 27.447493217507766,
+        "threshold": 15.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 43,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx0.5_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 1.86,
+    "physics_steps": 1860,
+    "sampled_state_count": 94,
+    "policy_action_count": 93,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.12884400240630023,
+    "candidate_enter_count": 5,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.47349963300628156,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.259999999999972,
+        "time_s": 1.45999999999995,
+        "value": 23.6301921039484,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.3799999999999588,
+        "time_s": 1.5799999999999368,
+        "value": 4.442899517600293,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.3999999999999566,
+        "time_s": 1.5999999999999346,
+        "value": 5.127280012132394,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.659999999999928,
+        "time_s": 1.859999999999906,
+        "value": 0.5858465296026534,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx0.5_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 1.86,
+    "physics_steps": 1860,
+    "sampled_state_count": 94,
+    "policy_action_count": 93,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.11973689484559773,
+    "candidate_enter_count": 3,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.47340822148459183,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.2799999999999698,
+        "time_s": 1.4799999999999478,
+        "value": 24.212757175529315,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4199999999999544,
+        "time_s": 1.6199999999999324,
+        "value": 6.038005061610215,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.10927886934685382
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx0.5_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 1.86,
+    "physics_steps": 1860,
+    "sampled_state_count": 94,
+    "policy_action_count": 93,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.12884400240630023,
+    "candidate_enter_count": 5,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.47349963300628156,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.259999999999972,
+        "time_s": 1.45999999999995,
+        "value": 23.6301921039484,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.3799999999999588,
+        "time_s": 1.5799999999999368,
+        "value": 4.442899517600293,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.3999999999999566,
+        "time_s": 1.5999999999999346,
+        "value": 5.127280012132394,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.659999999999928,
+        "time_s": 1.859999999999906,
+        "value": 0.5858465296026534,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx0.5_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 1.94,
+    "physics_steps": 1940,
+    "sampled_state_count": 98,
+    "policy_action_count": 97,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.04682633367874069,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.47931723568551726,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.2799999999999698,
+        "time_s": 1.4799999999999478,
+        "value": 22.039068160477246,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 4.850780932102532,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.559999999999939,
+        "time_s": 1.759999999999917,
+        "value": 2.6497007943211957,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx0.5_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 1.9000000000000001,
+    "physics_steps": 1900,
+    "sampled_state_count": 96,
+    "policy_action_count": 95,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.1639669758649608,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.47845088121949525,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.2799999999999698,
+        "time_s": 1.4799999999999478,
+        "value": 24.92683984266453,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.3199999999999654,
+        "time_s": 1.5199999999999434,
+        "value": 2.757613484529238,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 1.0789359360384005,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx1.0_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 1.6600000000000001,
+    "physics_steps": 1660,
+    "sampled_state_count": 84,
+    "policy_action_count": 83,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.08275687428425234,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8714972838662188,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.0999999999999897,
+        "time_s": 1.2999999999999676,
+        "value": 21.377020412946372,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.259999999999972,
+        "time_s": 1.45999999999995,
+        "value": 6.106870315038801,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.3399999999999632,
+        "time_s": 1.5399999999999412,
+        "value": 1.8242056957888835,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx1.0_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 1.6600000000000001,
+    "physics_steps": 1660,
+    "sampled_state_count": 84,
+    "policy_action_count": 83,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.12003749394978705,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8719755677928711,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.0999999999999897,
+        "time_s": 1.2999999999999676,
+        "value": 21.885861408060986,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.259999999999972,
+        "time_s": 1.45999999999995,
+        "value": 5.436093281096582,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.3399999999999632,
+        "time_s": 1.5399999999999412,
+        "value": 1.1327889882250093,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.09854546830965832
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx1.0_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 1.6600000000000001,
+    "physics_steps": 1660,
+    "sampled_state_count": 84,
+    "policy_action_count": 83,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.08275687428425234,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8714972838662188,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.0999999999999897,
+        "time_s": 1.2999999999999676,
+        "value": 21.377020412946372,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.259999999999972,
+        "time_s": 1.45999999999995,
+        "value": 6.106870315038801,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.3399999999999632,
+        "time_s": 1.5399999999999412,
+        "value": 1.8242056957888835,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx1.0_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 1.68,
+    "physics_steps": 1680,
+    "sampled_state_count": 85,
+    "policy_action_count": 84,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.07161904444373925,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8833683742367332,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.1199999999999875,
+        "time_s": 1.3199999999999654,
+        "value": 22.511324877427388,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.2799999999999698,
+        "time_s": 1.4799999999999478,
+        "value": 6.038687611351661,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.359999999999961,
+        "time_s": 1.559999999999939,
+        "value": 0.42788945737477024,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "baseline_rough_44_vx1.0_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 1.68,
+    "physics_steps": 1680,
+    "sampled_state_count": 85,
+    "policy_action_count": 84,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": 0.1328021232520094,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.8768211031904599,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 1.1199999999999875,
+        "time_s": 1.3199999999999654,
+        "value": 22.150837166472726,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 1.159999999999983,
+        "time_s": 1.359999999999961,
+        "value": 2.5840288868339374,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.359999999999961,
+        "time_s": 1.559999999999939,
+        "value": 0.6721637986205607,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx0.5_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 4.42,
+    "physics_steps": 4420,
+    "sampled_state_count": 222,
+    "policy_action_count": 221,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.05906264418540436,
+    "candidate_enter_count": 5,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5627962594683338,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 3.839999999999688,
+        "time_s": 4.039999999999684,
+        "value": 22.581312533533975,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 3.9799999999996727,
+        "time_s": 4.179999999999731,
+        "value": 0.6708528118640082,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 4.039999999999684,
+        "time_s": 4.239999999999751,
+        "value": 2.904047489044778,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 4.0599999999996905,
+        "time_s": 4.259999999999757,
+        "value": 0.7270149097817686,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx0.5_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 4.4,
+    "physics_steps": 4400,
+    "sampled_state_count": 221,
+    "policy_action_count": 220,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.11173931425731656,
+    "candidate_enter_count": 6,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.555078513623678,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 1.4799999999999478,
+        "time_s": 1.6799999999999258,
+        "value": 0.34202704187158706,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 3.8199999999996903,
+        "time_s": 4.019999999999677,
+        "value": 21.471715009993094,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.9799999999996727,
+        "time_s": 4.179999999999731,
+        "value": 4.071755683314439,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 3.9999999999996705,
+        "time_s": 4.199999999999737,
+        "value": 0.7530731693439661,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.19621810348866683
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx0.5_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 4.42,
+    "physics_steps": 4420,
+    "sampled_state_count": 222,
+    "policy_action_count": 221,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.05906264418540436,
+    "candidate_enter_count": 5,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5627962594683338,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 3.839999999999688,
+        "time_s": 4.039999999999684,
+        "value": 22.581312533533975,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 3.9799999999996727,
+        "time_s": 4.179999999999731,
+        "value": 0.6708528118640082,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 4.039999999999684,
+        "time_s": 4.239999999999751,
+        "value": 2.904047489044778,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 4.0599999999996905,
+        "time_s": 4.259999999999757,
+        "value": 0.7270149097817686,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx0.5_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 4.1,
+    "physics_steps": 4100,
+    "sampled_state_count": 206,
+    "policy_action_count": 205,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.07452890107157259,
+    "candidate_enter_count": 6,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5589296091065631,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 1.5399999999999412,
+        "time_s": 1.7399999999999192,
+        "value": 0.388027570089425,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 3.539999999999721,
+        "time_s": 3.739999999999699,
+        "value": 23.742506828788546,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.5999999999997145,
+        "time_s": 3.7999999999996925,
+        "value": 3.3950462684495886,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 3.659999999999708,
+        "time_s": 3.859999999999686,
+        "value": 0.5429537759954848,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx0.5_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 4.12,
+    "physics_steps": 4120,
+    "sampled_state_count": 207,
+    "policy_action_count": 206,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.07172601364130554,
+    "candidate_enter_count": 5,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 0.5586153775155102,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 3.539999999999721,
+        "time_s": 3.739999999999699,
+        "value": 22.77179210756633,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 3.6999999999997035,
+        "time_s": 3.8999999999996815,
+        "value": 0.7792004824391059,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.7799999999996947,
+        "time_s": 3.9799999999996727,
+        "value": 3.536791168939714,
+        "threshold": 1.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.7999999999996925,
+        "time_s": 3.9999999999996705,
+        "value": 0.6091503521713074,
+        "threshold": 0.3
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      0.5,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 0.5,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx1.0_steps_0.0": {
+    "status": "PASS",
+    "duration_s": 4.08,
+    "physics_steps": 4080,
+    "sampled_state_count": 205,
+    "policy_action_count": 204,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.08466277141679093,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.0998652724497433,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.5000000000000003,
+        "time_s": 0.7000000000000005,
+        "value": 19.557335268055198,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.6199999999997123,
+        "time_s": 3.8199999999996903,
+        "value": 0.5117747795774661,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.839999999999688,
+        "time_s": 4.039999999999684,
+        "value": 1.70307346620847,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steps",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx1.0_slow_sine_0.0": {
+    "status": "PASS",
+    "duration_s": 4.0200000000000005,
+    "physics_steps": 4020,
+    "sampled_state_count": 202,
+    "policy_action_count": 201,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.0907457862891774,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.1063272565349,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.5000000000000003,
+        "time_s": 0.7000000000000005,
+        "value": 19.42781452037059,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.559999999999719,
+        "time_s": 3.759999999999697,
+        "value": 0.7520487732467778,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.7799999999996947,
+        "time_s": 3.9799999999996727,
+        "value": 1.684190642816189,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1902113032590307
+    ],
+    "command_plan": {
+      "mode": "slow_sine",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx1.0_steady_0.0": {
+    "status": "PASS",
+    "duration_s": 4.08,
+    "physics_steps": 4080,
+    "sampled_state_count": 205,
+    "policy_action_count": 204,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.08466277141679093,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.0998652724497433,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.5000000000000003,
+        "time_s": 0.7000000000000005,
+        "value": 19.557335268055198,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.6199999999997123,
+        "time_s": 3.8199999999996903,
+        "value": 0.5117747795774661,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.839999999999688,
+        "time_s": 4.039999999999684,
+        "value": 1.70307346620847,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.0,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx1.0_steady_-0.1": {
+    "status": "PASS",
+    "duration_s": 3.88,
+    "physics_steps": 3880,
+    "sampled_state_count": 195,
+    "policy_action_count": 194,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.09613557489121546,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.084018006386558,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.48000000000000037,
+        "time_s": 0.6800000000000005,
+        "value": 20.146747933544678,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.559999999999719,
+        "time_s": 3.759999999999697,
+        "value": 0.31652231546446463,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.6199999999997123,
+        "time_s": 3.8199999999996903,
+        "value": 1.5846922121639988,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      -0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": -0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  },
+  "reproduction_20261001_rough_44_vx1.0_steady_0.1": {
+    "status": "PASS",
+    "duration_s": 4.04,
+    "physics_steps": 4040,
+    "sampled_state_count": 203,
+    "policy_action_count": 202,
+    "metrics_equal_except_monitor_flag": true,
+    "sampled_states_exactly_equal": true,
+    "policy_actions_exactly_equal": true,
+    "per_physics_step_state_control_digest_equal": true,
+    "trajectory_csv_exactly_equal": true,
+    "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "mean_signed_body_yaw_rate_rps": -0.08889118459590069,
+    "candidate_enter_count": 4,
+    "first_candidate_entries": [
+      {
+        "event": "candidate_enter",
+        "reason": "forward_error",
+        "onset_time_s": 0.0,
+        "time_s": 0.20000000000000015,
+        "value": 1.1083306047230372,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "tilt",
+        "onset_time_s": 0.5400000000000004,
+        "time_s": 0.7400000000000005,
+        "value": 19.240621642381395,
+        "threshold": 15.0
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "yaw_error",
+        "onset_time_s": 3.5799999999997167,
+        "time_s": 3.7799999999996947,
+        "value": 0.6536451459415009,
+        "threshold": 0.3
+      },
+      {
+        "event": "candidate_enter",
+        "reason": "angular_speed",
+        "onset_time_s": 3.7999999999996925,
+        "time_s": 3.9999999999996705,
+        "value": 1.688940624213993,
+        "threshold": 1.0
+      }
+    ],
+    "terrain": "rough",
+    "friction": 0.8,
+    "rollout_config": {
+      "seed": 44,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35
+    },
+    "scope": "This paired rollout only; no safety/recovery or heading-tracking claim.",
+    "pre_run_provenance_equal": true,
+    "observations_exactly_equal": true,
+    "policy_commands_exactly_equal": true,
+    "logged_commands_match_policy_inputs": true,
+    "initial_integration_state_equal": true,
+    "last_applied_command": [
+      1.0,
+      0.0,
+      0.1
+    ],
+    "command_plan": {
+      "mode": "steady",
+      "forward_mps": 1.0,
+      "steady_yaw_rps": 0.1,
+      "amplitude_rps": 0.2,
+      "frequency_hz": 0.05
+    }
+  }
+}

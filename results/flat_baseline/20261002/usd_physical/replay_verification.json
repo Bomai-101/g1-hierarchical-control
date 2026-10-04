@@ -1,0 +1,116 @@
+{
+  "cases": [
+    {
+      "case": "original_vx0.5_yaw+0.0",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "b174e25c754c8b78e342907192e4b29ab5c3f0fbb0818ff25dbd34aeb68aee3d"
+    },
+    {
+      "case": "original_vx0.5_yaw-0.2",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "1e1e50daa63df4e2e1ca162971c41fd81893c340c50091c3949affb530699fbe"
+    },
+    {
+      "case": "original_vx0.5_yaw+0.2",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "aaa8ff5377d3aac88acd6f81883357a6e5cc2e7f201dfb7d066ad47e98c091b6"
+    },
+    {
+      "case": "original_vx1_yaw+0.0",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "0a07a3718883c5ac038501bc508a36b30c7dcd640070f35cf516f333cec49a9a"
+    },
+    {
+      "case": "original_vx1_yaw-0.2",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "0e127215cb851478c6e6218fe08dbf5363498a7931535731082a4eed0f1d6716"
+    },
+    {
+      "case": "original_vx1_yaw+0.2",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "cbbdd7f5d996334a71bfe87a6b917af25b07ed0fa71e361f3c466de1f34079c8"
+    },
+    {
+      "case": "usd_position_vx0.5_yaw+0.0",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "443b2adf6d316c3519521f579e2aff3a2b8326435134a05aee01361a6217c8a6"
+    },
+    {
+      "case": "usd_position_vx0.5_yaw-0.2",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "a37ee78cf33d2207804c2b01bcceacfacc280c02a99723dc95023e1c575c877e"
+    },
+    {
+      "case": "usd_position_vx0.5_yaw+0.2",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "b83eb4fd590ea2f05d997768ead2a8e8c50418771b376d1a35bef94da22177a6"
+    },
+    {
+      "case": "usd_position_vx1_yaw+0.0",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "c70f2f849147d203868b943d5be46e9724ccda771679603cd55613f9417b2a90"
+    },
+    {
+      "case": "usd_position_vx1_yaw-0.2",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "151e1693c83035176d8899f5d4f2b0615a7eb7030cf23831d1536223d5c6a302"
+    },
+    {
+      "case": "usd_position_vx1_yaw+0.2",
+      "signal_max_abs_error": 0.0,
+      "actor_max_abs_error": 0.0,
+      "states": 1501,
+      "actor_inputs_checked": 32,
+      "force_limit_pass": true,
+      "trace_sha256": "c6d8ba7a38ba169d6ac71308bf4c175228a1ecb9bd671b862e303b4b3cefab15"
+    }
+  ],
+  "all12valid30s": true,
+  "no_policy_changes": true,
+  "policy_interface": "Same fixed velocity commands; warm-up2s; current-state observations on both profiles",
+  "limitation": "Original versus derived comparison changes multiple model/integrator/actuator/contact properties; not isolated causal attribution or validated robustness."
+}

@@ -1,0 +1,8 @@
+{
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/export_usd_contact_meshes.py": "b27573a9a1e131f7a642566fe38d509f55beb29b281331c7917f12bf04d1b75d",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/build_usd_physical_mujoco.py": "5aa2d34cd485b341293523c333d030124d3d761eb17869af4424aef51e5b7c6d",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/verify_usd_physical_mujoco.py": "d0ad2481e6635cde53904c0b0224f4e306b64215d887ab7b15bf8ee070c05778",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/evaluate_usd_physical_mujoco.py": "7d315c8e4db8c8b68fc46ad697a42eb09099dac456424f1ec07e3793b0e56719",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/analyze_usd_physical_replays.py": "4a2606219b96a14cf9a4c22c26e3f0b8f45768a406266fa9a8a894c89f7f59be",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/render_usd_physical_comparison.py": "10824ffdab3c863cfcb185eb2b3b896b952f1dd1cccfb78438de5d1bb9c25eb2"
+}

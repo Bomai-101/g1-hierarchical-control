@@ -1,0 +1,29 @@
+{
+  "switch_s": 5.22,
+  "ramp_s": 0.5,
+  "post_duration_s": 10.0,
+  "physics_dt": 0.001,
+  "policy_dt": 0.02,
+  "prelude_straight_s": 2.4,
+  "directions": {
+    "right": -0.2,
+    "straight": 0.0,
+    "left": 0.2
+  },
+  "responses": [
+    "zero",
+    "capture_pose",
+    "nominal_pose"
+  ],
+  "forward_mps": 0.5,
+  "settling": {
+    "window_s": 0.5,
+    "dwell_s": 1.0,
+    "speed_limit_mps": 0.05,
+    "euler_yaw_rms_limit_rps": 0.05
+  },
+  "blend": "Smoothstep0.50s from previous applied37D action; capture_pose uses entry123D q delta, nominal_pose uses defaults. Final target clipped to model joint ranges. Original position actuator gains/limits.",
+  "scope": "Independent posture probes, no watchdog registration or runtime authority; scalar timing and123D/37D interface, no legacy64D/6D controller. No balance feedback. No physics reset at handoff.",
+  "termination": "height<.35m ends simulation; numeric/physics warning fails run. Ending simulation is not stopping.",
+  "metric_definitions": "Planar path from root xy sampled20ms; speed from body COM horizontal velocity; Euler heading unwrapped, backward yaw-rate difference20ms; roll/pitch standard wxyz convention. Final2s is last2s before end, potentially shorter than10s on failure."
+}

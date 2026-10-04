@@ -1,0 +1,16 @@
+{
+  "state": "completed",
+  "frozen_version": "g1_hierarchical_isaac_low_speed_demo_v1_20261004",
+  "date": "2026-10-04",
+  "timezone": "Australia/Sydney",
+  "cases": 324,
+  "verified_action_rows": 318455,
+  "paired_prefixes": 216,
+  "new_metric_tests": 5,
+  "explicit_completed_horizon_checks": 216,
+  "explicit_persistent_horizon_checks": 108,
+  "training_started": false,
+  "default_controller_promoted": false,
+  "commit": false,
+  "push": false
+}

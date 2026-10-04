@@ -1,0 +1,96 @@
+{
+  "actuator_variant_model_array_differences": [
+    "actuator_biasprm",
+    "actuator_biastype",
+    "actuator_gainprm"
+  ],
+  "checks": {
+    "explicit": {
+      "contacts_when_lowered": 8,
+      "all_contacts_ground_only": true,
+      "contact_geometry": [
+        {
+          "body": "left_ankle_roll_link",
+          "local_bounds_max_error_m": 3.196455627962891e-09
+        },
+        {
+          "body": "right_ankle_roll_link",
+          "local_bounds_max_error_m": 3.196455627962891e-09
+        },
+        {
+          "body": "torso_link",
+          "local_bounds_max_error_m": 3.0602721745598416e-09
+        }
+      ],
+      "pd_torque_max_abs_error_nm": 0.0,
+      "force_limit_max_abs_error_nm": 0.0,
+      "responses": [
+        {
+          "joint": "left_hip_pitch_joint",
+          "target_delta_rad": 0.01,
+          "final_target_error_rad": -0.0018022100670345154,
+          "peak_joint_speed_rad_s": 270.0948677876673,
+          "peak_actuator_force_nm": 300.0
+        },
+        {
+          "joint": "left_ankle_pitch_joint",
+          "target_delta_rad": 0.01,
+          "final_target_error_rad": 0.0012036013692213743,
+          "peak_joint_speed_rad_s": 271.3230200496349,
+          "peak_actuator_force_nm": 300.0
+        },
+        {
+          "joint": "left_five_joint",
+          "target_delta_rad": 0.01,
+          "final_target_error_rad": -0.42605836482891146,
+          "peak_joint_speed_rad_s": 275.5198015697865,
+          "peak_actuator_force_nm": 300.0
+        }
+      ]
+    },
+    "position": {
+      "contacts_when_lowered": 8,
+      "all_contacts_ground_only": true,
+      "contact_geometry": [
+        {
+          "body": "left_ankle_roll_link",
+          "local_bounds_max_error_m": 3.196455627962891e-09
+        },
+        {
+          "body": "right_ankle_roll_link",
+          "local_bounds_max_error_m": 3.196455627962891e-09
+        },
+        {
+          "body": "torso_link",
+          "local_bounds_max_error_m": 3.0602721745598416e-09
+        }
+      ],
+      "pd_torque_max_abs_error_nm": 7.549516567451064e-15,
+      "force_limit_max_abs_error_nm": 0.0,
+      "responses": [
+        {
+          "joint": "left_hip_pitch_joint",
+          "target_delta_rad": 0.01,
+          "final_target_error_rad": -0.0017643617604337913,
+          "peak_joint_speed_rad_s": 0.14886914640167057,
+          "peak_actuator_force_nm": 2.0
+        },
+        {
+          "joint": "left_ankle_pitch_joint",
+          "target_delta_rad": 0.01,
+          "final_target_error_rad": 0.0012549263196806326,
+          "peak_joint_speed_rad_s": 0.08731161254263711,
+          "peak_actuator_force_nm": 0.20000000000000018
+        },
+        {
+          "joint": "left_five_joint",
+          "target_delta_rad": 0.01,
+          "final_target_error_rad": 0.0044865035792879685,
+          "peak_joint_speed_rad_s": 0.03967101333138433,
+          "peak_actuator_force_nm": 0.4
+        }
+      ]
+    }
+  },
+  "caveat": "Finite response is not proof of accurate dynamics or stability; explicit PD may have large high-frequency motion. No PhysX equivalence claim."
+}

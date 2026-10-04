@@ -1,0 +1,16 @@
+{
+  "skill": "hold",
+  "obs_dim": 123,
+  "base_obs_dim": 123,
+  "action_dim": 37,
+  "phase_dim": 0,
+  "phase_period_s": 0.9,
+  "phase_semantics": "sin/cos append on marching activation; explicit adapter, not a velocity command",
+  "action_mapping": "original default + metadata.action_scale * action",
+  "checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/model_499.pt",
+  "checkpoint_sha256": "a1309caf141a3583450354b1dd64b8557cc2c1e250f32b2be344737288b3ab63",
+  "npz_sha256": "6fe44d3ce35990a47e8a28844fd22c1ca4f0cc7deab6c354ede7f174262e124d",
+  "torch_numpy_max_error": 1.1444091796875e-05,
+  "export_verified": true,
+  "candidate_only": true
+}

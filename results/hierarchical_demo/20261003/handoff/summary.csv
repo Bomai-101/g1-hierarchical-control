@@ -1,0 +1,7 @@
+scenario,event_logging,task_state,termination,duration_s,stage_final,stale_at_s,recovered_at_s,task_logic_p99_ms,actor_p99_ms,frame_p99_ms,frames_over_20ms
+normal,True,completed,all_goals_reached,7.5200000000000005,walk_2,,,0.024073,0.113585,2.7553375,0
+normal,False,completed,all_goals_reached,7.5200000000000005,walk_2,,,0.01800125,0.13012375,2.6962479999999998,0
+temporary_dropout,True,completed,all_goals_reached,8.2,walk_2,5.22,6.1000000000000005,0.02021610999999997,0.13898892,2.6375116699999994,0
+temporary_dropout,False,completed,all_goals_reached,8.2,walk_2,,,0.020924419999999888,0.10284664999999994,2.589996809999999,0
+persistent_dropout,True,aborted,communication_timeout,7.22,turn,5.22,,0.015512999999999994,0.09015619999999996,2.421968799999999,0
+persistent_dropout,False,aborted,communication_timeout,7.22,turn,,,0.01824859999999998,0.09951459999999997,2.4272072,0

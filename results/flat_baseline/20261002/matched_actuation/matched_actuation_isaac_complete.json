@@ -1,0 +1,7 @@
+{
+  "cases": 42,
+  "samples": 41,
+  "duration": 0.2,
+  "max_contact_force": 0.0,
+  "source_policy": "locallytrained1499 previoustrace; no newlyloadedpolicy"
+}

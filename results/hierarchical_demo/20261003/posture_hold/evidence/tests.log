@@ -1,0 +1,10 @@
+test_capture_entry_and_continuous_handoff (test_experimental_hold.HoldTests.test_capture_entry_and_continuous_handoff) ... ok
+test_capture_is_frozen_and_clipped (test_experimental_hold.HoldTests.test_capture_is_frozen_and_clipped) ... ok
+test_lifecycle_and_time_validation (test_experimental_hold.HoldTests.test_lifecycle_and_time_validation) ... ok
+test_nominal_action_and_nonzero_defaults (test_experimental_hold.HoldTests.test_nominal_action_and_nonzero_defaults) ... ok
+test_wrong_interface_or_nonfinite_rejected (test_experimental_hold.HoldTests.test_wrong_interface_or_nonfinite_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.030s
+
+OK

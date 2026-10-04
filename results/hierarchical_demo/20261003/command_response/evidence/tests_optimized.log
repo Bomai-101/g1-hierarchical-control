@@ -1,0 +1,10 @@
+test_brief_slow_interval_does_not_confirm (test_command_stop.ResponseTests.test_brief_slow_interval_does_not_confirm) ... ok
+test_confirmation_cannot_precede_full_window_and_dwell (test_command_stop.ResponseTests.test_confirmation_cannot_precede_full_window_and_dwell) ... ok
+test_continuous_ramp_and_all_channels (test_command_stop.ResponseTests.test_continuous_ramp_and_all_channels) ... ok
+test_escape_reported_after_initial_settling (test_command_stop.ResponseTests.test_escape_reported_after_initial_settling) ... ok
+test_yaw_motion_prevents_false_stop (test_command_stop.ResponseTests.test_yaw_motion_prevents_false_stop) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.076s
+
+OK

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "previous_normal_all_npz_arrays_exact": true,
+  "normal_optimized_evidence_byte_identical": [
+    "summary.csv",
+    "verification.json",
+    "raw_hashes.json",
+    "handoff_validation.json"
+  ]
+}

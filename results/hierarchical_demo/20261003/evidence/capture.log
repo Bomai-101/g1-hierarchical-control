@@ -1,0 +1,6 @@
+HIERARCHY_DEMO normal_events all_goals_reached 7.5200000000000005
+HIERARCHY_DEMO normal_no_events all_goals_reached 7.5200000000000005
+HIERARCHY_DEMO temporary_dropout_events all_goals_reached 7.5200000000000005
+HIERARCHY_DEMO temporary_dropout_no_events all_goals_reached 7.5200000000000005
+HIERARCHY_DEMO persistent_dropout_events communication_timeout 5.22
+HIERARCHY_DEMO persistent_dropout_no_events communication_timeout 5.22

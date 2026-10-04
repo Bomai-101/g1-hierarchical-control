@@ -1,0 +1,8 @@
+{
+  "scripts/evaluate_command_stop.py": "842e00633a15fdd4b05fd9164d4bc7ebfe68de84acce4418e8385170bc43bce3",
+  "scripts/verify_command_stop.py": "a194e277ac6d301dce7d36c760ad0fbbeb6099120c9129a7ae4281ececac9b44",
+  "scripts/render_command_stop.py": "39e92172ae46b353c62bdef905dff04ccbfd602f8365621723857c94fa66d8e6",
+  "scripts/plot_command_stop.py": "687f2d61f9e2f240451be6312780ff31ce83b687d56a52c001fc13b1fb876cba",
+  "tests/test_command_stop.py": "5e0b93bd555d89436c1bd28e89f5182346fccb385550e29ace70738f3d096e38",
+  "src/g1_control/hierarchy/skill_interface.py": "e70696d26d3189ccd507409fcbce4e96e6fe390b46f23b94b78044793d6716e7"
+}

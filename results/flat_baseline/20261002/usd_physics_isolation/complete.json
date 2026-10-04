@@ -1,0 +1,456 @@
+{
+  "results": [
+    {
+      "variant": "baseline",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {},
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.0925757087498998,
+      "mean_body_wz": -0.09064838083859778,
+      "heading_endpoint_rate": -0.09094358744358211,
+      "heading_slope": -0.09086785907995473,
+      "forward_rmse": 0.02975707388510103,
+      "max_tilt_deg": 6.448408657494372
+    },
+    {
+      "variant": "baseline",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {},
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09925981703056495,
+      "mean_body_wz": -0.09729811195889639,
+      "heading_endpoint_rate": -0.10087774269706486,
+      "heading_slope": -0.1008653263597922,
+      "forward_rmse": 0.05059783024523997,
+      "max_tilt_deg": 7.193116274490883
+    },
+    {
+      "variant": "refresh_constants",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {},
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.0925757087498998,
+      "mean_body_wz": -0.09064838083859778,
+      "heading_endpoint_rate": -0.09094358744358211,
+      "heading_slope": -0.09086785907995473,
+      "forward_rmse": 0.02975707388510103,
+      "max_tilt_deg": 6.448408657494372
+    },
+    {
+      "variant": "refresh_constants",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {},
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09925981703056495,
+      "mean_body_wz": -0.09729811195889639,
+      "heading_endpoint_rate": -0.10087774269706486,
+      "heading_slope": -0.1008653263597922,
+      "forward_rmse": 0.05059783024523997,
+      "max_tilt_deg": 7.193116274490883
+    },
+    {
+      "variant": "central_com_sym",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [
+        "actuator_acc0",
+        "body_invweight0",
+        "body_ipos",
+        "dof_M0",
+        "dof_invweight0",
+        "dof_length",
+        "light_poscom0"
+      ],
+      "changed_settings": {
+        "parameter": "central body COM sagittal offsets removed; mass unchanged"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09292409158109337,
+      "mean_body_wz": -0.09090043371191833,
+      "heading_endpoint_rate": -0.09157181012271359,
+      "heading_slope": -0.09142691868059043,
+      "forward_rmse": 0.030415677861689673,
+      "max_tilt_deg": 6.5200480218671615
+    },
+    {
+      "variant": "central_com_sym",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [
+        "actuator_acc0",
+        "body_invweight0",
+        "body_ipos",
+        "dof_M0",
+        "dof_invweight0",
+        "dof_length",
+        "light_poscom0"
+      ],
+      "changed_settings": {
+        "parameter": "central body COM sagittal offsets removed; mass unchanged"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.10028230192517612,
+      "mean_body_wz": -0.09823752585444086,
+      "heading_endpoint_rate": -0.10200130301294796,
+      "heading_slope": -0.10218545802309478,
+      "forward_rmse": 0.051663786449077057,
+      "max_tilt_deg": 7.271009210328188
+    },
+    {
+      "variant": "central_inertia_sym",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [
+        "actuator_acc0",
+        "body_inertia",
+        "body_invweight0",
+        "body_iquat",
+        "dof_invweight0"
+      ],
+      "changed_settings": {
+        "parameter": "central inertia antisymmetric components removed; COM unchanged"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09296996504735146,
+      "mean_body_wz": -0.09102123336096611,
+      "heading_endpoint_rate": -0.09151986623276706,
+      "heading_slope": -0.09128067853129096,
+      "forward_rmse": 0.02953500950515951,
+      "max_tilt_deg": 6.453370637857757
+    },
+    {
+      "variant": "central_inertia_sym",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [
+        "actuator_acc0",
+        "body_inertia",
+        "body_invweight0",
+        "body_iquat",
+        "dof_invweight0"
+      ],
+      "changed_settings": {
+        "parameter": "central inertia antisymmetric components removed; COM unchanged"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09894356580988162,
+      "mean_body_wz": -0.09702014898731678,
+      "heading_endpoint_rate": -0.10057670192380247,
+      "heading_slope": -0.10093204072280787,
+      "forward_rmse": 0.05030925494542794,
+      "max_tilt_deg": 7.1577210387094246
+    },
+    {
+      "variant": "contact_solref01",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [
+        "geom_solref"
+      ],
+      "changed_settings": {
+        "parameter": "contact solref time constant .02 -> .01"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.0868134937883958,
+      "mean_body_wz": -0.08536192614942041,
+      "heading_endpoint_rate": -0.08741672513941455,
+      "heading_slope": -0.08707526580742381,
+      "forward_rmse": 0.030688516394959522,
+      "max_tilt_deg": 6.249101428361353
+    },
+    {
+      "variant": "contact_solref01",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [
+        "geom_solref"
+      ],
+      "changed_settings": {
+        "parameter": "contact solref time constant .02 -> .01"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.10560341806774863,
+      "mean_body_wz": -0.10441668191598685,
+      "heading_endpoint_rate": -0.10626394181879689,
+      "heading_slope": -0.10509158589147548,
+      "forward_rmse": 0.03498669211807442,
+      "max_tilt_deg": 7.286268553850145
+    },
+    {
+      "variant": "cone_elliptic",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {
+        "parameter": "pyramidal -> elliptic friction cone"
+      },
+      "model_options": {
+        "cone": 1,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.08809528465111673,
+      "mean_body_wz": -0.08600715596769788,
+      "heading_endpoint_rate": -0.08764839915082846,
+      "heading_slope": -0.08764032964769221,
+      "forward_rmse": 0.032568418312705766,
+      "max_tilt_deg": 6.373614434744153
+    },
+    {
+      "variant": "cone_elliptic",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {
+        "parameter": "pyramidal -> elliptic friction cone"
+      },
+      "model_options": {
+        "cone": 1,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09400112156490727,
+      "mean_body_wz": -0.09225586457185701,
+      "heading_endpoint_rate": -0.09614958972226494,
+      "heading_slope": -0.09623231273463999,
+      "forward_rmse": 0.05580145224688335,
+      "max_tilt_deg": 7.052835665201383
+    },
+    {
+      "variant": "integrator_implicit",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {
+        "parameter": "implicitfast -> implicit"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 2
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09267690820298012,
+      "mean_body_wz": -0.09075115565759004,
+      "heading_endpoint_rate": -0.0910868807540679,
+      "heading_slope": -0.09085164054218478,
+      "forward_rmse": 0.029617140552443633,
+      "max_tilt_deg": 6.46211367105975
+    },
+    {
+      "variant": "integrator_implicit",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {
+        "parameter": "implicitfast -> implicit"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 2
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09886217269366422,
+      "mean_body_wz": -0.09690258771236979,
+      "heading_endpoint_rate": -0.10062616729812701,
+      "heading_slope": -0.10096412062967364,
+      "forward_rmse": 0.049787001547537915,
+      "max_tilt_deg": 7.2062395639189925
+    },
+    {
+      "variant": "mirror_actor",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {
+        "parameter": "sagittal reflection wrapper around same actor weights; no model change"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": 0.09302642566531949,
+      "mean_body_wz": 0.09087847061968621,
+      "heading_endpoint_rate": 0.09184634789723334,
+      "heading_slope": 0.09162066965070353,
+      "forward_rmse": 0.031139833543753215,
+      "max_tilt_deg": 6.593799282144761
+    },
+    {
+      "variant": "mirror_actor",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "changed_settings": {
+        "parameter": "sagittal reflection wrapper around same actor weights; no model change"
+      },
+      "model_options": {
+        "cone": 0,
+        "integrator": 3
+      },
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": 0.10089014398955092,
+      "mean_body_wz": 0.09866735393633505,
+      "heading_endpoint_rate": 0.10277158782613185,
+      "heading_slope": 0.10228934254903015,
+      "forward_rmse": 0.05347349540071123,
+      "max_tilt_deg": 7.322077698034814
+    }
+  ],
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "mujoco": "3.14.0",
+  "protocol": {
+    "duration": 20,
+    "scoring": "final10s",
+    "policy_dt": 0.02,
+    "actor": "locally trained1499; unchanged",
+    "task": "held angular-rate commands; no heading feedback",
+    "configuration": "independent in-memory variants; original model and defaults unchanged; symmetry interventions are artificial diagnostics, mirror actor changes controller behavior without changing weights",
+    "replication": "deterministic fixed initial conditions, no stochastic seed coverage"
+  }
+}

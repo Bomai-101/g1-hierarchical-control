@@ -1,0 +1,223 @@
+{
+  "skill": "hold",
+  "cases": [
+    {
+      "protocol": "static",
+      "vx": 0.0,
+      "yaw": 0.0,
+      "decision_s": 0.0,
+      "switch_s": 0.0,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    }
+  ],
+  "diagnostic": true,
+  "num_envs": 16,
+  "switch_s": [
+    5.21999979019165,
+    5.239999771118164,
+    5.259999752044678,
+    5.279999732971191,
+    5.299999713897705,
+    5.319999694824219,
+    5.339999675750732,
+    5.359999656677246,
+    5.37999963760376,
+    5.399999618530273,
+    5.419999599456787,
+    5.439999580383301,
+    5.4599995613098145,
+    5.479999542236328,
+    5.5,
+    5.519999980926514
+  ],
+  "phase_offsets": [
+    0.0,
+    0.39269909262657166,
+    0.7853981852531433,
+    1.1780972480773926,
+    1.5707963705062866,
+    1.9634954929351807,
+    2.356194496154785,
+    2.7488937377929688,
+    3.1415927410125732,
+    3.5342917442321777,
+    3.9269909858703613,
+    4.319690227508545,
+    4.71238899230957,
+    5.105088233947754,
+    5.4977874755859375,
+    5.890486240386963
+  ],
+  "post_duration_s": 10.0,
+  "blend_s": 0.5,
+  "phase_period_s": 0.9,
+  "physics_dt": 0.005,
+  "policy_dt": 0.02,
+  "seed": 42,
+  "first_episode_only": true,
+  "noise": false,
+  "scope": "Fixed1499 before switch, candidate after with continuous37D handoff. Parallel copies differ by switch/phase, not independent seeds. March has explicit125D internal input. Contact sensor forces>1N; not equivalent to MuJoCo geometric contact."
+}

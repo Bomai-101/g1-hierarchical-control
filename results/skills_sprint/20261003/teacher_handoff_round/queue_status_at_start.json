@@ -1,0 +1,17 @@
+{
+  "state": "running",
+  "pid": 50181,
+  "completed": [
+    {
+      "name": "smoke_hold",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/smoke_hold/complete.json",
+      "sha256": "864842ead456cb85936eb98aae46c5d8a4c8e820ed8dad8062d42e2b49936eb4"
+    },
+    {
+      "name": "smoke_march",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/smoke_march/complete.json",
+      "sha256": "e51e683eced42b60c2207c8139e9d33efc3942b90d79e8c2a6339d746d51e8a5"
+    }
+  ],
+  "active": "train_hold"
+}

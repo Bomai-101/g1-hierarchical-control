@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-03T04:49:06.839953+00:00",
+  "purpose": "Local reversible pretraining backup; no git commit/push. Training sprint authorized separately.",
+  "workspace_file_count": 872,
+  "source_assets": {
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/logs/rsl_rl/g1_flat_sim51/2026-10-01_12-07-43_baseline_reproduction_1500/model_1499.pt": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_physical_models/g1_usd_physical_position.mjb": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd"
+  },
+  "sha256": {
+    "git_head.txt": "f348ea5334797f6546af150a62c3c2de0079ed89c4172aa6b6f17480b8467a58",
+    "workspace.tar.gz": "34a288cb8e319f645783ba9ef30f175a94760ec3716cdec180965f1a04c7e613",
+    "git_status.txt": "2cf973853e29376d7a353259210e00553afa811f3fe7ebae7d1865a3b0cda4c5",
+    "tracked_changes.patch": "55601fd0137be26d6a67c7bb31167b0a6c1c590e5d6c446c6252cce13364ae67",
+    "assets/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "assets/g1_usd_physical_position.mjb": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd",
+    "assets/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+    "assets/model_1499.pt": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "saved_training_config": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/logs/rsl_rl/g1_flat_sim51/2026-10-01_12-07-43_baseline_reproduction_1500/params/env.yaml",
+  "saved_training_config_sha256": "999bd6bb8086d26d9c0c1854197500d345fe71dbeba7063294cbcf0f05949c7c",
+  "configured_rel_standing_envs": 0.02,
+  "actual_standing_sample_fraction_measured": false,
+  "legacy_contract": {
+    "observation_dim": 64,
+    "action_dim": 6
+  },
+  "current_contract": {
+    "observation_dim": 123,
+    "action_dim": 37
+  },
+  "audit_sources": {
+    "src/g1_control/config/balance.py": "747eaf8e3da7dd16c59e4b4728026ae6c896daa0c4fbc49ddded0147c13a94c4",
+    "src/g1_control/controllers/residual.py": "da0c8eb29fe17fb35d97ad82c2f3d80773f49a7ca55dbd070a155238627e240a"
+  }
+}

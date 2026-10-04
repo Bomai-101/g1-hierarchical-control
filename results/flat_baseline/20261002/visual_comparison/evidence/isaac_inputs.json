@@ -1,0 +1,6 @@
+{
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/logs/rsl_rl/g1_flat_sim51/2026-10-01_12-07-43_baseline_reproduction_1500/model_1499.pt": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/flat_continuation_500/model_1999.pt": "df56e4715e86fa32349a41a9135bbd814eaaf340a2fc203bcfcc206954c59c54",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/assets/g1_minimal.usd": "4f5e0600f24bed04d4c45b3921b6f3d7b6205463b0b1ac051cf2883dd3aaee67",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/capture_isaac_visual_poses.py": "0b6c0c56248ed90612e657c259def474db2bf5af03692f2160a2432e36f13a85"
+}

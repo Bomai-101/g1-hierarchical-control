@@ -1,0 +1,8 @@
+{
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/verify_skill_sequence_retest.py": "364d282c092d7abbdc4636acffd49de4c22b3afd424dfd9666232c7424bbc7b7",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/summarize_skill_sequence_retest.py": "94007b0b2805d7c26ce59bd1228459c483303954c0b773f0be4f202f0f8a80e1",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/plot_skill_sequence_retest.py": "0c46b0e32bc52b25e77fc7d57fd2b6f6969144979f5a878d38f9d156fde78640",
+  "/home/omai/robotics/projects/g1-hierarchical-control/tests/test_skill_sequence_retest_metrics.py": "51abdbeb3ba0adf5d472b91f2ddcbc96d3a8737f39179e5339ed84d744add11f",
+  "/home/omai/robotics/projects/g1-hierarchical-control/notes/skills_sprint/20261004_sequence_retest.md": "726e52f13d2d85b2589734a9f28601bdff5d71d7efe16663e17071b03dbbfc91",
+  "/home/omai/robotics/projects/g1-hierarchical-control/notes/skills_sprint/20261004_sequence_freeze_scope.md": "b056ca7fd381dbeade014a4c7f613e48646dffde1ad53e153f175e4770c75f91"
+}

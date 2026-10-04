@@ -1,0 +1,5 @@
+terrain,policy,case_count,fell_cases,completed_30s_cases,elapsed_min_s,elapsed_max_s,w1_eligible_cases,w1_candidate_cases,heading_proxy_confirmed_cases
+plane,baseline,10,0,10,30.0,30.0,10,10,10
+plane,reproduction_20261001,10,0,10,30.0,30.0,10,10,10
+rough,baseline,30,30,0,1.44,2.06,0,0,0
+rough,reproduction_20261001,30,24,6,2.36,30.0,20,1,5

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "max_contact_force_rebuild_error_N": 0.0006507895416802967,
+  "rebuilt_mujoco_states": 3444,
+  "input_hashes": {
+    "code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_contact_isaac": true,
+    "code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_contact_mujoco": true,
+    "code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_free_isaac": true,
+    "code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_free_mujoco": true,
+    "code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_lifted_isaac": true,
+    "code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_lifted_mujoco": true
+  },
+  "summary_rows": 252,
+  "note": "No passive monitor equivalence claim. PhysX force sensor vs Mu endpoint force quadrature not same instantaneous definition. Reset branch contact warm starts unavailable."
+}

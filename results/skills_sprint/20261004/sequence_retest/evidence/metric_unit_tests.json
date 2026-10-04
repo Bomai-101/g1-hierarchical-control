@@ -1,0 +1,6 @@
+{
+  "tests": 5,
+  "status": "PASS",
+  "method": "Normal Python direct test invocation",
+  "scope": "Distances,reset exclusion,unconfirmed stop,causal first confirmation,one-second resume dwell"
+}

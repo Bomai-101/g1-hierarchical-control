@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "paired_case_count": 80,
+  "rollout_count": 160,
+  "completed_30s_cases": 26,
+  "fell_cases": 54,
+  "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+  "runner_sha256": "376bd1b2d41a51f4c1dc442e9e897b3041e73aed8a71134fbe506bbd6eac37be",
+  "scope": "Physical MuJoCo rollouts, unchanged actors/PD; no reset, no recovery; PASS denotes monitoring non-interference, not good tracking or safety."
+}

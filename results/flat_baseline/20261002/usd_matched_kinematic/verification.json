@@ -1,0 +1,33 @@
+{
+  "baseline1499": {
+    "samples": 401,
+    "body_pose_pairs": 17644,
+    "max_position_error_m": 3.12836554341902e-06,
+    "max_rotation_matrix_abs_error": 1.6600634675512094e-06,
+    "initial_foot_position_error_m": {
+      "left": 3.1070749799615705e-07,
+      "right": 3.0945993487654076e-07
+    }
+  },
+  "candidate1999": {
+    "samples": 401,
+    "body_pose_pairs": 17644,
+    "max_position_error_m": 3.1814933522089867e-06,
+    "max_rotation_matrix_abs_error": 2.034187805033394e-06,
+    "initial_foot_position_error_m": {
+      "left": 3.1070749799615705e-07,
+      "right": 3.0945993487654076e-07
+    }
+  },
+  "properties": {
+    "mass_max_abs_kg": 0.0,
+    "com_max_abs_m": 0.0,
+    "inertia_tensor_max_abs_kg_m2": 5.551115123125783e-17
+  },
+  "random_configs": 64,
+  "random_fk_max_abs_error": 1.4432899320127035e-15,
+  "injected_1mm_transform_fault_detected": true,
+  "fault_error_m": 0.001000159148203197,
+  "physics_steps": 0,
+  "scope": "Only compiled kinematics and imported body properties validated; no locomotion claim."
+}

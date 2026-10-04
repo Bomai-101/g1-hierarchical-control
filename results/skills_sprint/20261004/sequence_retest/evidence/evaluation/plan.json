@@ -1,0 +1,69 @@
+{
+  "watchdog": {
+    "heartbeat_hz": 10,
+    "ttl_s": 0.3,
+    "recovery_messages": 2,
+    "perception_fault": false,
+    "scope": "Task request freshness, not perception pipeline"
+  },
+  "protocols": [
+    "normal",
+    "temporary",
+    "persistent"
+  ],
+  "yaw_commands": [
+    -0.2,
+    0.0,
+    0.2
+  ],
+  "vx": 0.5,
+  "num_envs": 12,
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "decision_s": [
+    3.22,
+    3.24,
+    3.2600000000000002,
+    3.2800000000000002,
+    6.22,
+    6.239999999999999,
+    6.26,
+    6.279999999999999,
+    9.22,
+    9.24,
+    9.26,
+    9.280000000000001
+  ],
+  "reset_variation": "Inherited flat-task random world root x/y and yaw; fixed initial joint poses/zero velocities, no observation noise/force or rough terrain",
+  "policy_dt": 0.02,
+  "physics_dt": 0.005,
+  "gate": {
+    "speed_mean_max": 0.05,
+    "euler_yaw_rms_max": 0.05,
+    "window_s": 0.5,
+    "tilt_max_deg": 20,
+    "both_feet": true,
+    "confirmation_s": 1,
+    "retention_s": 2,
+    "min_hold_s": 2,
+    "max_hold_s": 12
+  },
+  "resume_s": 10,
+  "resume_command": [
+    0.5,
+    0,
+    0
+  ],
+  "exploratory_sequence_acceptance": {
+    "resume_tail_vx_rmse_max": 0.2,
+    "resume_tail_euler_yaw_rms_max": 0.15,
+    "resume_tilt_max_deg": 20
+  },
+  "first_episode_only": true,
+  "noise": false,
+  "smoke": false,
+  "scope": "Watchdog experiment using previously tested direct low-speed sequence. Persistent loss does not authorize return-to-walk. Sequencing diagnostic, not original standalone skill acceptance or safety certification. Abort terminates scoring, not a physical recovery. Within a seed, parallel copies share reset seed; evaluate variation without assuming independent Bernoulli trials."
+}

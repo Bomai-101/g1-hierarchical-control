@@ -1,0 +1,61 @@
+{
+  "updated_utc": "2026-10-03T06:25:49.238848+00:00",
+  "status": "completed",
+  "completed": [
+    {
+      "name": "export_hold",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/export_hold.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/export/skill_metadata.json",
+      "artifact_sha256": "02173df22eaa2d0f3decb3ef0f7f8b3b1e7a4a4d20b05c4c0aa8ae2d7a322bf2"
+    },
+    {
+      "name": "smoke_isaac_hold",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/smoke_isaac_hold.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval_smoke/complete.json",
+      "artifact_sha256": "93dc5eb167f87f04b419305bfbcbee7e6d83e4edf5b7dd14fb9c1d02cdf62dbb"
+    },
+    {
+      "name": "evaluate_isaac_hold",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/evaluate_isaac_hold.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval/complete.json",
+      "artifact_sha256": "a847fd7928c721818b4bdb049c86cce2c7e3e7e23af69378bfae645c4289605a"
+    },
+    {
+      "name": "evaluate_mujoco_hold",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/evaluate_mujoco_hold.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/complete.json",
+      "artifact_sha256": "e8fa42230c4154a891806cf94135f049d60a58f5075766cefc1dbdc622d35437"
+    },
+    {
+      "name": "train_march",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/train_march.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/complete.json",
+      "artifact_sha256": "a28f93533d1e4515682f1c3e808829db28fb87ec6fe51dc22b08496220c7ce90"
+    },
+    {
+      "name": "export_march",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/export_march.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/export/skill_metadata.json",
+      "artifact_sha256": "8445b74fd689a425e4758305b7cc93f0cfbdfdcd3c6746371f6e6ef225641459"
+    },
+    {
+      "name": "smoke_isaac_march",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/smoke_isaac_march.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval_smoke/complete.json",
+      "artifact_sha256": "fc61a80612477cf141115a8b19fbb8a7691c3a1de634d128ebae1ffc5f228fdd"
+    },
+    {
+      "name": "evaluate_isaac_march",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/evaluate_isaac_march.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval/complete.json",
+      "artifact_sha256": "36d1bcbad94ae395f6d8953f0967abfa6157419cae1823f17fe0d22795b4390f"
+    },
+    {
+      "name": "evaluate_mujoco_march",
+      "log": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/queue_logs/evaluate_mujoco_march.log",
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/complete.json",
+      "artifact_sha256": "bdf55feace52c20852dade0279a685b3390a20a0bce91cba338f1dbc3cfdb741"
+    }
+  ],
+  "note": "Training/export/evaluation pipeline completed; inspect evaluation pass counts before any skill promotion. No watchdog registration or git commit/push."
+}

@@ -1,0 +1,8 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "mujoco": "3.14.0",
+  "physics_steps_during_verification": 0,
+  "reference_configuration_modified": false,
+  "normal_and_optimized_verification_pass": true
+}

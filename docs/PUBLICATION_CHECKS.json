@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "date": "2026-10-04",
+  "scope": "Working-tree publication candidates; no Git mutation or robot performance experiment",
+  "candidate_files": 1535,
+  "candidate_bytes": 150788302,
+  "python_sources_parsed": 376,
+  "markdown_targets_checked": 213,
+  "published_checksum_entries_checked": 1129,
+  "archives": [
+    {
+      "manifest": "results/flat_baseline/20261002/matched_actuation/SHA256SUMS",
+      "files": 19
+    },
+    {
+      "manifest": "results/flat_baseline/20261002/usd_heading/SHA256SUMS",
+      "files": 12
+    },
+    {
+      "manifest": "results/flat_baseline/20261002/usd_physics_isolation/SHA256SUMS",
+      "files": 13
+    },
+    {
+      "manifest": "results/flat_baseline/20261002/usd_yaw_diagnosis/SHA256SUMS",
+      "files": 15
+    },
+    {
+      "manifest": "results/flat_baseline/20261003/contact_parameters/SHA256SUMS",
+      "files": 23
+    },
+    {
+      "manifest": "results/flat_baseline/20261003/finger_contact_factorial/SHA256SUMS",
+      "files": 17
+    },
+    {
+      "manifest": "results/flat_baseline/20261003/finger_feedback_paths/SHA256SUMS",
+      "files": 11
+    },
+    {
+      "manifest": "results/flat_baseline/20261003/leg_contact/SHA256SUMS",
+      "files": 35
+    },
+    {
+      "manifest": "results/hierarchical_control/20261004/SHA256SUMS",
+      "files": 14
+    },
+    {
+      "manifest": "results/hierarchical_demo/20261003/SHA256SUMS",
+      "files": 231
+    },
+    {
+      "manifest": "results/hierarchical_demo/20261003/command_response/SHA256SUMS",
+      "files": 44
+    },
+    {
+      "manifest": "results/hierarchical_demo/20261003/handoff/SHA256SUMS",
+      "files": 69
+    },
+    {
+      "manifest": "results/hierarchical_demo/20261003/posture_hold/SHA256SUMS",
+      "files": 49
+    },
+    {
+      "manifest": "results/skills_sprint/20261003/SHA256SUMS",
+      "files": 26
+    },
+    {
+      "manifest": "results/skills_sprint/20261003/first_round/SHA256SUMS",
+      "files": 19
+    },
+    {
+      "manifest": "results/skills_sprint/20261003/handoff_diagnostic/SHA256SUMS",
+      "files": 211
+    },
+    {
+      "manifest": "results/skills_sprint/20261003/heading_feedback/SHA256SUMS",
+      "files": 99
+    },
+    {
+      "manifest": "results/skills_sprint/20261003/skill_sequence/SHA256SUMS",
+      "files": 58
+    },
+    {
+      "manifest": "results/skills_sprint/20261003/teacher_handoff_round/SHA256SUMS",
+      "files": 97
+    },
+    {
+      "manifest": "results/skills_sprint/20261004/sequence_retest/SHA256SUMS",
+      "files": 67
+    }
+  ],
+  "ignore_checks": [
+    {
+      "path": "results/vri_preparation/20261004/application_video_script.md",
+      "ignored": true
+    },
+    {
+      "path": "scripts/build_application_subtitles.py",
+      "ignored": true
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_01/trace.npz",
+      "ignored": true
+    }
+  ],
+  "problems": [],
+  "limits": [
+    "Limited credential pattern scan, not an exhaustive secret/history audit",
+    "Historical evidence snapshots intentionally retain runtime paths",
+    "No network/public-access check or self-contained simulator claim",
+    "No new license or hardware/robustness validation"
+  ]
+}

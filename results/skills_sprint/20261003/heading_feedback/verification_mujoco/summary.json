@@ -1,0 +1,96 @@
+{
+  "groups": [
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "gain": 0.0,
+      "total": 6,
+      "full": 6,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 1.8114274894201792,
+      "remaining_signed_heading_median_rad": 0.3020735814915032,
+      "tail_signed_heading_median_rad": 0.09809624469599676,
+      "heading_excursion_median_rad": 0.35708627600603426,
+      "tail_speed_rms_median_mps": 0.2561550913148648
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "gain": 0.5,
+      "total": 6,
+      "full": 6,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 1.8216963854462476,
+      "remaining_signed_heading_median_rad": 0.2690528057672905,
+      "tail_signed_heading_median_rad": 0.039994165379324986,
+      "heading_excursion_median_rad": 0.35606216228428766,
+      "tail_speed_rms_median_mps": 0.25626946497635344
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "gain": 1.0,
+      "total": 6,
+      "full": 6,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 1.7765199222697756,
+      "remaining_signed_heading_median_rad": 0.3316767207197717,
+      "tail_signed_heading_median_rad": 0.011261401065971066,
+      "heading_excursion_median_rad": 0.3605567593701011,
+      "tail_speed_rms_median_mps": 0.27734544859627025
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "gain": 0.0,
+      "total": 6,
+      "full": 6,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 0.5374934208952544,
+      "remaining_signed_heading_median_rad": -2.176050149037112,
+      "tail_signed_heading_median_rad": -0.3677570767691225,
+      "heading_excursion_median_rad": 2.4117408673670235,
+      "tail_speed_rms_median_mps": 0.10941212138788116
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "gain": 0.5,
+      "total": 6,
+      "full": 6,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 0.6055747791827633,
+      "remaining_signed_heading_median_rad": -1.7238168623591281,
+      "tail_signed_heading_median_rad": -0.3247463524672922,
+      "heading_excursion_median_rad": 2.058705223617033,
+      "tail_speed_rms_median_mps": 0.12271052325178243
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "gain": 1.0,
+      "total": 6,
+      "full": 6,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 0.586447209311531,
+      "remaining_signed_heading_median_rad": -1.5507953264100567,
+      "tail_signed_heading_median_rad": -0.27176083654528194,
+      "heading_excursion_median_rad": 1.8499961092589359,
+      "tail_speed_rms_median_mps": 0.12122233603978662
+    }
+  ],
+  "verification": {
+    "prefix_pairs": 24,
+    "old_direct_trace_pairs": 12,
+    "reconstructed_action_rows": 27594,
+    "metrics_rows": 36,
+    "max_actor_error": 3.814697265625e-06
+  },
+  "limits": "Fixedlatestweights,lowvx.5,seed42. Gain0wholearrays matchteacher-roundbaseline;othergains identical untilhandoff+2s. Feedbackyaw is new inputdistribution for these skillactors. No deployment."
+}

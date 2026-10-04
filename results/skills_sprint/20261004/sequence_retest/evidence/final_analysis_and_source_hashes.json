@@ -1,0 +1,16 @@
+{
+  "evidence/sources/skill_metrics.py": "ed007605e745518a5cc37aca13a1dec165bd35b5dbbd0f496e158b756def589e",
+  "evidence/sources/skill_handoff_protocol.py": "c0b716cd038ec3af59ef9aa4820cd465c1255cad2a974081042466314e5ddaf0",
+  "evidence/sources/20261004_sequence_retest.md": "726e52f13d2d85b2589734a9f28601bdff5d71d7efe16663e17071b03dbbfc91",
+  "evidence/sources/skill_heading_feedback.py": "dc689e740639edb93d785c70cff30afa3d12e5d41cd9bc341f9c566183afa64d",
+  "evidence/sources/skill_sequence_protocol.py": "b7bb0bb7e9fb0ef139855f1c47204a8f08aab5c99a3f9e6a6d9b7a90e406474f",
+  "evidence/sources/summarize_skill_sequence_retest.py": "85e65ac7f00d15df4510986923773df5185c7b64959f402bb07c48acf0b04a2f",
+  "evidence/sources/verify_skill_heading.py": "5584d2904358638b43e11dfe9bc76ca8d65ce6ca1d68c7f9d4d8c037905e85a0",
+  "evidence/sources/verify_skill_sequence_retest.py": "0681ee99d5c56960abb374b7f484400f6aaafdf3df7daa6f767daf826b187b1b",
+  "evidence/sources/skill_watchdog_protocol.py": "27e6b2acf7177e50130ab1652fbd7bf7d5893fd79a1af24faf635f83e61ee72c",
+  "evidence/sources/20261004_sequence_freeze_scope.md": "b056ca7fd381dbeade014a4c7f613e48646dffde1ad53e153f175e4770c75f91",
+  "evidence/sources/evaluate_skill_sequence_retest_isaac.py": "0e9068a97afcd06614ba50b9b2ae956097480aa153137ba1839b9eab2a75f99a",
+  "evidence/sources/test_skill_sequence_retest_metrics.py": "cc476885287b250111278e56b70a21bba28c5d6b6e34c62466bf273388173605",
+  "evidence/sources/skills_sprint_task.py": "451158e71b3046e2ddd974fd46901ffe7294595b64266b92251e3ac30fc385d7",
+  "evidence/sources/plot_skill_sequence_retest.py": "a454b3df14ad063d776808a5642e328186d7a4f11bd4d6914f58b87e4a1602fb"
+}

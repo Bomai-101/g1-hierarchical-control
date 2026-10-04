@@ -1,0 +1,357 @@
+{
+  "skill": "hold",
+  "cases": [
+    {
+      "protocol": "static",
+      "vx": 0.0,
+      "yaw": 0.0,
+      "decision_s": 0.0,
+      "switch_s": 0.0,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "static",
+      "vx": 0.0,
+      "yaw": 0.0,
+      "decision_s": 0.0,
+      "switch_s": 0.0,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.44,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.44,
+      "switch_s": 5.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": -0.2,
+      "decision_s": 5.44,
+      "switch_s": 6.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.44,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.44,
+      "switch_s": 5.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": 0.0,
+      "decision_s": 5.44,
+      "switch_s": 6.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.44,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.44,
+      "switch_s": 5.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "yaw": 0.2,
+      "decision_s": 5.44,
+      "switch_s": 6.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.44,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.44,
+      "switch_s": 5.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": -0.2,
+      "decision_s": 5.44,
+      "switch_s": 6.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.44,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.44,
+      "switch_s": 5.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": 0.0,
+      "decision_s": 5.44,
+      "switch_s": 6.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.22,
+      "phase_offset": 0.0,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 5.72,
+      "phase_offset": 0.0,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.22,
+      "switch_s": 6.72,
+      "phase_offset": 0.0,
+      "ramp_s": 1.5
+    },
+    {
+      "protocol": "direct",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.44,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.0
+    },
+    {
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.44,
+      "switch_s": 5.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 0.5
+    },
+    {
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "yaw": 0.2,
+      "decision_s": 5.44,
+      "switch_s": 6.94,
+      "phase_offset": 1.5707963267948966,
+      "ramp_s": 1.5
+    }
+  ],
+  "diagnostic": true,
+  "post_duration_s": 10.0,
+  "blend_s": 0.5,
+  "policy_dt": 0.02,
+  "physics_dt": 0.001,
+  "scope": "Independent fixed-schedule handoff to candidate; not online watchdog registration. MuJoCo contact means ground contact with ordered ankle-roll body.",
+  "pass_criteria": {
+    "hold": "Full10s, settling remains through end, net displacement<=.5m, heading excursion<=.2rad, roll/pitch<=20deg",
+    "march": "Full10s, >=5ground-contact losses and >=5 landings/foot, liftheight above ankle-floor .055m >=.025m, net displacement<=.2m, heading excursion<=.2rad, tilt<=20deg; provisional metrics, not safety"
+  }
+}

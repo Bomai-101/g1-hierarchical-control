@@ -1,0 +1,187 @@
+{
+  "selection": "Fixed seed101 / yaw0 / env0 for all protocols, chosen before rendering; no best-case selection",
+  "fps": 25,
+  "frames": 436,
+  "shared_clock_s": 17.38,
+  "physics_steps": 0,
+  "source_scope": "Isaac first-episode recorded states; MuJoCo geometry rendering only",
+  "after_terminal": "Freeze final recorded frame and explicitly label observation ended; no post-terminal states or indefinite hold claim",
+  "sources": [
+    {
+      "protocol": "normal",
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_01/trace.npz",
+      "trace_sha256": "25459660987b5919e3156e250c27b486677bc9e56634206a393d7aef53c1e1b2",
+      "complete_sha256": "2f58cd2c473c82a20beaf0ff16bf75f85d6b96ec468630859ca59804590ea847",
+      "end_s": 17.080000000000002,
+      "events": [
+        {
+          "time_s": 3.22,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 7.08,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 17.080000000000002,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "watchdog_events": []
+    },
+    {
+      "protocol": "temporary",
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_04/trace.npz",
+      "trace_sha256": "1dba53967f6a69d52d893edd88672c6dc95057c73a2e73f611c3b06e6f30b266",
+      "complete_sha256": "c2c87410b3a847d5355ea288666245e310e3a98ec71c2870cf13a0163035538c",
+      "end_s": 17.38,
+      "events": [
+        {
+          "time_s": 3.52,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 7.38,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 17.38,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "watchdog_events": [
+        {
+          "time_s": 3.52,
+          "event": "stale"
+        },
+        {
+          "time_s": 4.4,
+          "event": "fresh_two_messages"
+        }
+      ]
+    },
+    {
+      "protocol": "persistent",
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_07/trace.npz",
+      "trace_sha256": "6e29f5b187df00698d60524eda6bb8875c86a6a71183576a0cbab359054eb9a8",
+      "complete_sha256": "5dc44c1fa5c96d4b4dd08ce1953239f3537d27e5891cc4d4982af2555933ba73",
+      "end_s": 15.52,
+      "events": [
+        {
+          "time_s": 3.52,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 15.52,
+          "previous": "hold",
+          "stage": "abort",
+          "reason": "bounded_hold_observation_ended"
+        }
+      ],
+      "watchdog_events": [
+        {
+          "time_s": 3.52,
+          "event": "stale"
+        },
+        {
+          "time_s": 7.38,
+          "event": "resume_blocked_stale"
+        }
+      ]
+    }
+  ],
+  "model_sha256": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd",
+  "metadata_sha256": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+  "renderer_sha256": "5bd8615353737b868f2cd3ab6a63ae456fe901eeff01c47b3057bd020f1bdfd4",
+  "video_sha256": "18811e608c545e544e8ede496ee551902433f17dad818b7d2918630b222a2393",
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1920,
+        "height": 480,
+        "coded_width": 1920,
+        "coded_height": 480,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 2,
+        "pix_fmt": "yuv420p",
+        "level": 31,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 223232,
+        "duration": "17.440000",
+        "bit_rate": "4356237",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "436",
+        "extradata_size": 45,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "Lavc60.31.102 libx264"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/home/omai/robotics/projects/g1-hierarchical-control/results/vri_preparation/20261004/assets/three_scenarios/three_scenarios.mp4",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "17.440000",
+      "size": "9502595",
+      "bit_rate": "4358988",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf60.16.100"
+      }
+    }
+  }
+}

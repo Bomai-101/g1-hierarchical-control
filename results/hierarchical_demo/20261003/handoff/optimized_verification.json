@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "states_rebuilt": 2300,
+  "actor_outputs_recomputed": 2294,
+  "task_watchdog_replay": true,
+  "event_logging_pairs_exact": 3,
+  "physics_digest_pairs_exact": 3,
+  "scope": "Measured-goal and message-freshness logic replay, all sampled states/observations/actions/targets, events and recorded timing metrics. Digest equality proves logging noninterference, not measured recovery/safe stopping."
+}

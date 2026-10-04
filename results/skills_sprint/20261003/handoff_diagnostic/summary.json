@@ -1,0 +1,520 @@
+{
+  "groups": [
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "static",
+      "vx": 0.0,
+      "n": 2,
+      "full": 2,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.0,
+      "tail_heading_range_rad": [
+        2.1851433352396405,
+        2.1851433352396405
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "tail_speed_pass": 2,
+      "settled": 2,
+      "cycles_and_lift": 1,
+      "entry_speed_median": 0.4938879089248821,
+      "tail_heading_range_rad": [
+        -0.0023495827174122574,
+        2.4588576368176867
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 6,
+      "full": 0,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.9759279464787498,
+      "tail_heading_range_rad": null,
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.29027827814560836,
+      "tail_heading_range_rad": [
+        1.9273049320675044,
+        2.5604126237915583
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "n": 6,
+      "full": 5,
+      "passed": 1,
+      "tail_speed_pass": 1,
+      "settled": 1,
+      "cycles_and_lift": 3,
+      "entry_speed_median": 0.5930312774621969,
+      "tail_heading_range_rad": [
+        0.006095622844767057,
+        2.567807624415222
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.15129921596369128,
+      "tail_heading_range_rad": [
+        1.9627416622589378,
+        2.5008532653085
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.2775465470770162,
+      "tail_heading_range_rad": [
+        2.209906267776967,
+        2.3604232963790928
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "static",
+      "vx": 0.0,
+      "n": 2,
+      "full": 2,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 2,
+      "entry_speed_median": 0.0,
+      "tail_heading_range_rad": [
+        -3.2960021953347214,
+        -1.1824172508142996
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 6,
+      "full": 5,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 5,
+      "entry_speed_median": 0.4938879089248821,
+      "tail_heading_range_rad": [
+        -4.277287100562269,
+        -0.8988980316419566
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 6,
+      "full": 0,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.9759279464787498,
+      "tail_heading_range_rad": null,
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "n": 6,
+      "full": 6,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 6,
+      "entry_speed_median": 0.29027827814560836,
+      "tail_heading_range_rad": [
+        -2.395401582865836,
+        -1.1574815346123142
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "n": 6,
+      "full": 5,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 5,
+      "entry_speed_median": 0.5930312774621969,
+      "tail_heading_range_rad": [
+        -1.3099301751673535,
+        -0.8454319813573647
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "n": 6,
+      "full": 6,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 6,
+      "entry_speed_median": 0.15129921596369128,
+      "tail_heading_range_rad": [
+        -2.4183631822607197,
+        -0.4890276851319255
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "n": 6,
+      "full": 4,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 4,
+      "entry_speed_median": 0.2775465470770162,
+      "tail_heading_range_rad": [
+        -1.8298053007885513,
+        -1.0084419918199297
+      ],
+      "whole_decision_pass": 0
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "static",
+      "vx": 0.0,
+      "n": 16,
+      "full": 16,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 16,
+      "settled": 16,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.0,
+      "tail_heading_range_rad": [
+        -1.2993812561035156e-05,
+        1.6450881958007812e-05
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 48,
+      "full": 45,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 45,
+      "settled": 43,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.41987843811511993,
+      "tail_heading_range_rad": [
+        -0.00027489662170410156,
+        0.003201723098754883
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 48,
+      "full": 22,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 22,
+      "settled": 22,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.8643858432769775,
+      "tail_heading_range_rad": [
+        -2.1219253540039062e-05,
+        3.24249267578125e-05
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "n": 48,
+      "full": 40,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 40,
+      "settled": 40,
+      "cycles_and_lift": 1,
+      "entry_speed_median": 0.22541771084070206,
+      "tail_heading_range_rad": [
+        -0.00018274784088134766,
+        1.341104507446289e-05
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "n": 48,
+      "full": 42,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 42,
+      "settled": 42,
+      "cycles_and_lift": 1,
+      "entry_speed_median": 0.5030051469802856,
+      "tail_heading_range_rad": [
+        -3.4809112548828125e-05,
+        0.00021557509899139404
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "n": 48,
+      "full": 30,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 30,
+      "settled": 30,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.08518011122941971,
+      "tail_heading_range_rad": [
+        -8.821487426757812e-06,
+        0.01388329267501831
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "n": 48,
+      "full": 35,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 35,
+      "settled": 35,
+      "cycles_and_lift": 1,
+      "entry_speed_median": 0.1775464117527008,
+      "tail_heading_range_rad": [
+        -1.7523765563964844e-05,
+        2.384185791015625e-05
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "static",
+      "vx": 0.0,
+      "n": 16,
+      "full": 16,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 16,
+      "settled": 0,
+      "cycles_and_lift": 16,
+      "entry_speed_median": 0.0,
+      "tail_heading_range_rad": [
+        -0.004273176193237305,
+        0.11791753768920898
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 48,
+      "full": 39,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 38,
+      "settled": 0,
+      "cycles_and_lift": 39,
+      "entry_speed_median": 0.41987843811511993,
+      "tail_heading_range_rad": [
+        -0.016790390014648438,
+        0.13063812255859375
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 48,
+      "full": 3,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 3,
+      "settled": 0,
+      "cycles_and_lift": 3,
+      "entry_speed_median": 0.8643858432769775,
+      "tail_heading_range_rad": [
+        1.8596649169921875e-05,
+        0.04291892051696777
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "n": 48,
+      "full": 48,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 46,
+      "settled": 0,
+      "cycles_and_lift": 48,
+      "entry_speed_median": 0.22541771084070206,
+      "tail_heading_range_rad": [
+        -0.026804089546203613,
+        0.12888145446777344
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "n": 48,
+      "full": 38,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 36,
+      "settled": 0,
+      "cycles_and_lift": 38,
+      "entry_speed_median": 0.5030051469802856,
+      "tail_heading_range_rad": [
+        -0.006654858589172363,
+        0.12773358821868896
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "n": 48,
+      "full": 33,
+      "passed": 2,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 33,
+      "settled": 0,
+      "cycles_and_lift": 33,
+      "entry_speed_median": 0.08518011122941971,
+      "tail_heading_range_rad": [
+        -0.018469735980033875,
+        0.13359689712524414
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "n": 48,
+      "full": 46,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 45,
+      "settled": 0,
+      "cycles_and_lift": 46,
+      "entry_speed_median": 0.1775464117527008,
+      "tail_heading_range_rad": [
+        -0.007552847266197205,
+        0.12427520751953125
+      ]
+    }
+  ],
+  "verification": {
+    "mujoco": {
+      "prefix_pairs": 48,
+      "old_direct_trace_pairs": 24,
+      "reconstructed_action_rows": 46788,
+      "metrics_rows": 76,
+      "max_actor_error": 8.58306884765625e-06
+    },
+    "isaac": {
+      "prefix_pairs": 384,
+      "old_direct_trace_pairs": 12,
+      "reconstructed_action_rows": 415005,
+      "metrics_rows": 608,
+      "max_actor_error": 8.58306884765625e-06
+    }
+  },
+  "total_cases": 684,
+  "limits": "Same seed42; parallel environments and phases are not independent seeds. Cold-start is not steady standing. Ramp changes speed, stance and history together. No training or skill promotion."
+}

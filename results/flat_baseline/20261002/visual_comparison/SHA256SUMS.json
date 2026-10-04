@@ -1,0 +1,23 @@
+{
+  "README.md": "96daf223f4d8d96c8a3ff1e88433fbaa76087f1bd64172ecb49e92906b66836f",
+  "baseline1499_comparison.mp4": "9cd4faa54c45631e592dc0278ba49e378f55734ff579bbb239adea6d92b000e8",
+  "baseline1499_isaac.mp4": "547f3f95624581978b947ac70ad40520a7dcff8dea1ce7fe2b3b8b4e2712cab7",
+  "baseline1499_mujoco.mp4": "083ecd1f81024cf6c359fc93acbd555ae55600b2a84dbd9eb5e4004a1fff0706",
+  "candidate1999_comparison.mp4": "5d2d32a517ad9ac97929b22957d63dfe7c68da6dc68bd00e6871ad948de90b7d",
+  "candidate1999_isaac.mp4": "edd50e5fbed6465773b26c5ea06542f1928a3d35f41951349158cd88b8580880",
+  "candidate1999_mujoco.mp4": "a7c17c3717faab26be279b284db29095b241e60de8cfa7f7e3eacb14acafdc6a",
+  "candidate1999_preview.gif": "c2c7462d59ee17c602ef449aaa20443a524cf527b3848c744552c1b064e1b236",
+  "evidence/baseline1499_mujoco_metrics.json": "4c2d6a3b38fbfc559f330df5800e5ae502109e5b2c4750ac297f2870f3baa330",
+  "evidence/candidate1999_mujoco_metrics.json": "d510e38080e014d6ac0415481bbcf20b6c1dfcf8acc8d680030ef5bd232ac74c",
+  "evidence/isaac_complete.json": "97b1d504af95d6fb126c1e9294c96bb0b6c33f406c4abe28647a6aa6b94ae0d4",
+  "evidence/isaac_inputs.json": "e7a94f505777cc46edd9a1bbf0df356d842a8bdbcd352f6f1a13af44c5851073",
+  "evidence/isaac_runtime_from_matched_evaluation.json": "852e45dd2c53e89f24ba59ba7cd83740ade199888c08cc36cdd413ddf02180c7",
+  "evidence/mujoco_complete.json": "31b7983a364737e7fd473cfb9d528ee64f0b9c96f7c3e4dcb7ca05cab44f7dae",
+  "evidence/mujoco_inputs.json": "d9f7aa839b962ff67037ef27e154fcb2f514bbdb34615a7bf719ac0e71218f29",
+  "evidence/raw_files.json": "90c0a2eee0cae3099d478cf57d2ff6082dd080f4d6ee1623cc1c72e3f447ae9d",
+  "evidence/render_runtime.json": "42093a60938520bcf6edb390dc7072de21836993d5c05056b73d8f4493037494",
+  "evidence/source_hashes.json": "f10dec47f1795f837778e1309b6fc40fa8cc901a0065345107706caa0e8104b6",
+  "index.html": "133d1ac5509495349909e81063bc69a8dde440ad3e6b47930dc2c5dd802e45d1",
+  "render_manifest.json": "56ca2823f3ab6576da7170161a4a818f7b219257f8f8083a67201fd243ea1d76",
+  "verification.json": "9f4e49b924b149c60153a13efe8ec16f43293dc2d1379bec4f9d80efcb496c52"
+}

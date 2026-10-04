@@ -1,0 +1,19 @@
+{
+  "files_sha256": {
+    "README.md": "fae5cbc960d39c5aec7273a35c67c889c3dfb1b128582760f9b1ccc234031985",
+    "analysis.json": "c92b2454d40b68cad6de84a2e541434680097856cee0b6c8b5b41b467b289410",
+    "analysis_provenance.json": "04c995b4cb392cc811d18b30748c700ce10923ab54c2b1391bbaebd16b293fb8",
+    "comparison.csv": "1fa2afa39a4d46f3fce0dfb534dac66244f1fbde305c3733446f3b767474e183",
+    "diagnostics.csv": "5d9b970381d04a0b1d86f1fde475bbae6aa66710de5889b3b5dd1fb55ceea361",
+    "figures/rollout_duration.png": "a628ac5fb2c7b12d5a005da872801ce2c744627e6869e52195e07e0b16ebedf6",
+    "figures/rollout_duration.svg": "d93d3ce06803c9259f8b68bce2e490fa89297cb5d5c2f7672f7f33713ec22570",
+    "group_summary.csv": "3b4f5658da7c0a763a677bc49b089d0585fe9733c97465024900b621dcc2530e",
+    "implementation_hashes.json": "38698b538ed7ee9b811ea9f1e95a97794bc00450896356b47a631a2b3116b2d4",
+    "paired_verification.json": "d83b0259ff769fd4274f8189f6f743843b8557a0bb61b5478d5af1c2b911c988",
+    "plot_runtime.json": "ec7738cf4dabd7f07ca096014b9a73b5ef8fad630811a4073db11b9012f3060f",
+    "protocol.json": "c1633437797e44ad6a03227412a4e76f9d88edbb9a614de38239488a7c6db1e4",
+    "reference_control_check.json": "7143617f52097c6c2dd3e89cbdb1de798d3ec93ead24764ac5fd75670fed27d2",
+    "run_provenance.json": "518aae2dea2c4be89b03d7852ccc3788f965a48715aa5942e288a2c2b4362841",
+    "verification_summary.json": "886e14f748aa672bf7f2b4100048bcccc8f42a253f2a4f81a07885b663c305f1"
+  }
+}

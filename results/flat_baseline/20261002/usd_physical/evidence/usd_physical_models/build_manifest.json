@@ -1,0 +1,24 @@
+{
+  "inputs": {
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_matched_kinematic/g1_usd_matched_kinematic.xml": "d96fd7769f8084de55a0e0827914f8214134accba0f74e42e6180de2055efb24",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_contact_meshes/contacts.json": "e9b5a1381b7caf4c4d60b6ec59dfa24f90064aacdc544303615ae06c98d436ba",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_matched_properties/properties.json": "536d24a381e3b588b4356432c0189e282f0f6d92ba1429acdede3c62c7f511d9",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/build_usd_physical_mujoco.py": "5aa2d34cd485b341293523c333d030124d3d761eb17869af4424aef51e5b7c6d",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_contact_meshes/contact_left_ankle_roll_link.obj": "893a2cc44ce66a44e805e18b43e698cdc8ee0a1a2bf50bfe74f12842ee15de8f",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_contact_meshes/contact_right_ankle_roll_link.obj": "893a2cc44ce66a44e805e18b43e698cdc8ee0a1a2bf50bfe74f12842ee15de8f",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_contact_meshes/contact_torso_link.obj": "d1ce8b1e5394e077e1dbb275b3b44bd6c8ef12e6ac97b90eda321db1a6c53671"
+  },
+  "mujoco": "3.14.0",
+  "integrator": "implicitfast",
+  "physics_dt": 0.001,
+  "policy_dt": 0.02,
+  "contact_filter": "robot(1,2), ground(2,1): no robot-robot contacts",
+  "friction": 0.8,
+  "limits": "Actual Isaac configured simulation limits, not verified hardware ratings",
+  "scope": "Derived physical candidates; not deployed. Comparison with original model changes multiple physical properties; explicit vs position is isolated actuator-representation comparison.",
+  "caveats": [
+    "MuJoCo position servo/integrator not identical to PhysX implicit drive",
+    "MuJoCo friction0.8 does not exactly represent Isaac static0.8/dynamic0.6",
+    "Contact compliance and solver differ"
+  ]
+}

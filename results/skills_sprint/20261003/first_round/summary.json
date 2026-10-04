@@ -1,0 +1,30 @@
+[
+  {
+    "skill": "hold",
+    "engine": "isaac",
+    "passed": 0,
+    "total": 96,
+    "full_10s": 67
+  },
+  {
+    "skill": "hold",
+    "engine": "mujoco",
+    "passed": 0,
+    "total": 12,
+    "full_10s": 3
+  },
+  {
+    "skill": "march",
+    "engine": "isaac",
+    "passed": 0,
+    "total": 96,
+    "full_10s": 42
+  },
+  {
+    "skill": "march",
+    "engine": "mujoco",
+    "passed": 0,
+    "total": 12,
+    "full_10s": 5
+  }
+]

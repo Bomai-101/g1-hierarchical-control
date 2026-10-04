@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-04",
+  "scope": "Editorial revision only. Original source_hashes.json retains run-time provenance; revised README hashes below describe current published documentation. No raw trace,policy,model or executable source changed.",
+  "files": [
+    {
+      "path": "results/hierarchical_demo/20261003/handoff/source/src/g1_control/hierarchy/README.md",
+      "original_sha256": "7cde68d5edcf854b474f0153a0429c974209f6e7dc61b172b02148222b355616",
+      "published_sha256": "922212585a469490627c6f040d0657750c01cf838a39902508c1d620fca7dcb5",
+      "change": "Remove application-target wording; experimental results and executable sources unchanged"
+    }
+  ],
+  "original_publication_manifest_sha256": "3e1208dd42d936d5fd32dfb07f029cd8421374d3a418c3714459173e3d8c8147"
+}

@@ -1,0 +1,9 @@
+{
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/replay_leg_contact_mujoco.py": "85312225753259073c3321e8364e2599aaadda3d28c1f288eda74897542d5109",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_physical_models/g1_usd_physical_position.mjb": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_free_isaac/responses.npz": "160bbf6f47907c23b7543eb856bf3e857bffaf35683f8faf2526ebc3ccf457d8",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_free_isaac/runtime.json": "c5787128f64eac551f044856e8d504bb09b596ad5ec1b07be388589fb10db44a",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261003/leg_free_isaac/inputs.json": "649c9f60138a58a284b11bdb07d53be104671c8d9443b0fbb8f2d4cd25cd8bb0",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/mujoco_eval/policy.py": "09c553777ca0226b74633da40b26750661064a8494c65e0dbe76f11ada3941ac",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/mujoco_eval/run_grid.py": "cb4db26e02868b22819b4044603e855bf5ee4fdb6d32f12f7f0b56d12237f998"
+}

@@ -47,3 +47,17 @@ CURRENT_STATE.local.md
 REPO_AUDIT.local.md
 EXPERIMENT_LOG.local.md
 *.canvas.tsx
+
+# Local application preparation; technical showcase is results/hierarchical_control/
+/results/vri_preparation/
+/scripts/audit_vri_materials.py
+/scripts/build_vri_research_brief.py
+/scripts/build_application_subtitles.py
+/scripts/build_application_video_assets.py
+/scripts/render_skill_scenarios.py
+
+# Private applicant documents and ad-hoc local databases
+/private_cv/
+*.db
+*.sqlite
+*.sqlite3

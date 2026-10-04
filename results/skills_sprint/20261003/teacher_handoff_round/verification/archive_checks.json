@@ -1,0 +1,9 @@
+{
+  "trace_files": 36,
+  "cases": 216,
+  "action_rows": 162113,
+  "actor_error_max": 8.58306884765625e-06,
+  "matched_prefix_traces": 36,
+  "mode": "python -O",
+  "original_pass_predicates_unchanged": true
+}

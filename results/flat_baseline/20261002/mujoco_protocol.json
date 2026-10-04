@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "mode": "rate",
+      "speed": 0.5,
+      "target": 0.0,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 0.5,
+      "target": -0.2,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 0.5,
+      "target": 0.2,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "heading",
+      "speed": 0.5,
+      "target": 0.0,
+      "start_yaw": 0.5
+    },
+    {
+      "mode": "heading",
+      "speed": 0.5,
+      "target": -1.5707963267948966,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "heading",
+      "speed": 0.5,
+      "target": 1.5707963267948966,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 1.0,
+      "target": 0.0,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 1.0,
+      "target": -0.2,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "rate",
+      "speed": 1.0,
+      "target": 0.2,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "heading",
+      "speed": 1.0,
+      "target": 0.0,
+      "start_yaw": 0.5
+    },
+    {
+      "mode": "heading",
+      "speed": 1.0,
+      "target": -1.5707963267948966,
+      "start_yaw": 0.0
+    },
+    {
+      "mode": "heading",
+      "speed": 1.0,
+      "target": 1.5707963267948966,
+      "start_yaw": 0.0
+    }
+  ],
+  "duration": 30,
+  "heading_gain": 0.5,
+  "yaw_limit": 1,
+  "timestep": 0.001,
+  "friction": 0.8,
+  "seed": 42,
+  "terrain": "plane",
+  "pd_changes": false,
+  "body": "pelvis",
+  "policy_input": "original 123D assembly; command indices 9:12 checked",
+  "limitations": "Isaac and MuJoCo assets/contact/solver remain different; plane cases are deterministic",
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "mujoco": "3.14.0"
+}

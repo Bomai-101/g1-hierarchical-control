@@ -1,0 +1,13 @@
+{
+  "files_sha256": {
+    "README.md": "4cdfce298340e2783d00ed04ad5e71dc328d60b3f5971a8ed2d397326d69651f",
+    "summary.json": "cb25358694aa7669acc3a071b1f24f1e98c4f8be766394bc24d9e32470f1eb04",
+    "development.csv": "aa301cf83e6e248042e4e3f5edc71f0dff5e12ffccc0fcb205047e296475a442",
+    "baseline_by_family.csv": "df06c37a41e4b0c32019c98f4d6e4ea7caa5c68dcff5e4ce67f9eb01b484b6dd",
+    "provenance.json": "9e2b4ce9748c6a943581c417b02487a0a85bcd15ab48bafdefceaaa889fa7042",
+    "heldout.csv": "95fef3f060506232c0f0dc148a2081e8190cf0d63d58ea6b22b61c9552af2422",
+    "plot_runtime.json": "ec7738cf4dabd7f07ca096014b9a73b5ef8fad630811a4073db11b9012f3060f",
+    "figures/calibration_tradeoff.png": "334de3046260c1eb885734835efe3fc434916d18b95110c00fe4c20124805dd1",
+    "figures/calibration_tradeoff.svg": "45145e82facf458cc7c61da5736f2515ecf8e622441ee4e46be27919603e7cfe"
+  }
+}

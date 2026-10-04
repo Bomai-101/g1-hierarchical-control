@@ -1,0 +1,39 @@
+{
+  "label": "temporary_dropout_no_events",
+  "scenario": "temporary_dropout",
+  "event_logging": false,
+  "termination": "all_goals_reached",
+  "task_state": "completed",
+  "elapsed_simulation_s": 8.2,
+  "physical_steps": 8200,
+  "policy_calls": 410,
+  "states": 411,
+  "final_stage": "walk_2",
+  "final_progress": 1.0083706480997885,
+  "watchdog_final_state": "fresh",
+  "physics_state_control_sha256": "827fa39bafc6a56f2a971108397c699435f850a606b70f02bd51507266dd7699",
+  "timing_ms_percentiles": {
+    "task_logic_ms": {
+      "50": 0.007264,
+      "95": 0.011520349999999997,
+      "99": 0.020924419999999888
+    },
+    "observation_actor_ms": {
+      "50": 0.049071000000000004,
+      "95": 0.07028279999999995,
+      "99": 0.10284664999999994
+    },
+    "physics_and_digest_ms": {
+      "50": 1.5372415,
+      "95": 1.9955286499999993,
+      "99": 2.4639957999999993
+    },
+    "frame_ms": {
+      "50": 1.682302,
+      "95": 2.17614285,
+      "99": 2.589996809999999
+    }
+  },
+  "frames_over_20ms": 0,
+  "note": "Timing includes this headless recorder and digest workload, no hard-real-time or ROS/network measurement. Ending the experiment is not a physical stop."
+}

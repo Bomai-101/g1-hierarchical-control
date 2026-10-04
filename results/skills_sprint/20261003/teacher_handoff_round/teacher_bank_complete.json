@@ -1,0 +1,62 @@
+{
+  "samples": 15872,
+  "seed": 43,
+  "teacher_sha256": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c",
+  "bank_sha256": "962a7da1e62616eea640ff92e4010e7b9fe9f5d47106dd98281f6bd5b0ee221f",
+  "vx_range": [
+    0.3,
+    1.0
+  ],
+  "yaw_range": [
+    -0.2,
+    0.2
+  ],
+  "sample_times_s": [
+    3.0,
+    6.0
+  ],
+  "stride_s": 0.1,
+  "joint_names": [
+    "left_hip_pitch_joint",
+    "right_hip_pitch_joint",
+    "torso_joint",
+    "left_hip_roll_joint",
+    "right_hip_roll_joint",
+    "left_shoulder_pitch_joint",
+    "right_shoulder_pitch_joint",
+    "left_hip_yaw_joint",
+    "right_hip_yaw_joint",
+    "left_shoulder_roll_joint",
+    "right_shoulder_roll_joint",
+    "left_knee_joint",
+    "right_knee_joint",
+    "left_shoulder_yaw_joint",
+    "right_shoulder_yaw_joint",
+    "left_ankle_pitch_joint",
+    "right_ankle_pitch_joint",
+    "left_elbow_pitch_joint",
+    "right_elbow_pitch_joint",
+    "left_ankle_roll_joint",
+    "right_ankle_roll_joint",
+    "left_elbow_roll_joint",
+    "right_elbow_roll_joint",
+    "left_five_joint",
+    "left_three_joint",
+    "left_zero_joint",
+    "right_five_joint",
+    "right_three_joint",
+    "right_zero_joint",
+    "left_six_joint",
+    "left_four_joint",
+    "left_one_joint",
+    "right_six_joint",
+    "right_four_joint",
+    "right_one_joint",
+    "left_two_joint",
+    "right_two_joint"
+  ],
+  "first_episode_only": true,
+  "physics_dt": 0.005,
+  "policy_dt": 0.02,
+  "scope": "Root/joint states and two previous actions only; reset transplantation does not preserve PhysX contact solver/sensor history; evaluation seed42 not used."
+}

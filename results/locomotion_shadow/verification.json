@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "duration_s": 20.0,
+  "physics_steps": 20000,
+  "sampled_state_count": 1001,
+  "policy_action_count": 1000,
+  "metrics_equal_except_monitor_flag": true,
+  "sampled_states_exactly_equal": true,
+  "policy_actions_exactly_equal": true,
+  "per_physics_step_state_control_digest_equal": true,
+  "trajectory_csv_exactly_equal": true,
+  "policy_sha256": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+  "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+  "mean_signed_body_yaw_rate_rps": -0.40417039325009035,
+  "candidate_enter_count": 1,
+  "first_candidate_entries": [
+    {
+      "event": "candidate_enter",
+      "reason": "forward_error",
+      "onset_time_s": 0.0,
+      "time_s": 0.20000000000000015,
+      "value": 0.855497105610022,
+      "threshold": 0.3
+    }
+  ],
+  "scope": "One local-policy, plane, friction 0.8, seed 42, command [1,0,0] rollout; no safety/recovery claim."
+}

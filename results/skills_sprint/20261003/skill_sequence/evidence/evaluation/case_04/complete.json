@@ -1,0 +1,1031 @@
+{
+  "case": 4,
+  "protocol": "blend",
+  "yaw": 0.0,
+  "results": [
+    {
+      "env": 0,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.22,
+      "hold_start_s": 5.22,
+      "resume_start_s": 10.38,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.22,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 10.38,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 20.38,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 5.160000000000001,
+        "path_after_switch_m": 0.4480868875980377,
+        "net_displacement_m": 0.16561682522296906,
+        "signed_heading_change_rad": 0.011423468589782715,
+        "max_heading_excursion_rad": 0.08905255794525146,
+        "final_2s_horizontal_speed_rms_mps": 0.01314871571958065,
+        "final_2s_euler_yaw_rate_rms_rps": 0.006891490425914526,
+        "minimum_height_m": 0.6351000070571899,
+        "max_abs_roll_deg": 6.395791053771973,
+        "max_abs_pitch_deg": 9.767190933227539,
+        "settling_start_s": 2.16,
+        "settling_confirmed_s": 3.160000000000001,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.4480868875980377,
+      "decision_to_hold_exit_net_m": 0.16561682522296906,
+      "resume_metrics": {
+        "post_duration_s": 9.999999999999998,
+        "path_after_switch_m": 3.916351795196533,
+        "net_displacement_m": 3.8812379837036133,
+        "signed_heading_change_rad": 0.1131826639175415,
+        "max_heading_excursion_rad": 0.1540929079055786,
+        "final_2s_horizontal_speed_rms_mps": 0.4318864643573761,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05751236528158188,
+        "minimum_height_m": 0.6330162286758423,
+        "max_abs_roll_deg": 7.417161464691162,
+        "max_abs_pitch_deg": 13.482762336730957,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07477854937314987
+    },
+    {
+      "env": 1,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.239999999999999,
+      "hold_start_s": 5.239999999999999,
+      "resume_start_s": 9.700000000000001,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.24,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.700000000000001,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.7,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.460000000000002,
+        "path_after_switch_m": 0.3893851637840271,
+        "net_displacement_m": 0.3304465711116791,
+        "signed_heading_change_rad": 0.08287107944488525,
+        "max_heading_excursion_rad": 0.08439004421234131,
+        "final_2s_horizontal_speed_rms_mps": 0.005444684997200966,
+        "final_2s_euler_yaw_rate_rms_rps": 6.565089279320091e-05,
+        "minimum_height_m": 0.6451941132545471,
+        "max_abs_roll_deg": 3.686666965484619,
+        "max_abs_pitch_deg": 15.393107414245605,
+        "settling_start_s": 1.4600000000000009,
+        "settling_confirmed_s": 2.460000000000001,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.3893851637840271,
+      "decision_to_hold_exit_net_m": 0.3304465711116791,
+      "resume_metrics": {
+        "post_duration_s": 9.999999999999998,
+        "path_after_switch_m": 4.137660026550293,
+        "net_displacement_m": 4.113180637359619,
+        "signed_heading_change_rad": 0.056012868881225586,
+        "max_heading_excursion_rad": 0.09572982788085938,
+        "final_2s_horizontal_speed_rms_mps": 0.43240290880203247,
+        "final_2s_euler_yaw_rate_rms_rps": 0.056914396584033966,
+        "minimum_height_m": 0.6310884952545166,
+        "max_abs_roll_deg": 3.656587600708008,
+        "max_abs_pitch_deg": 7.880780220031738,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07470778375864029
+    },
+    {
+      "env": 2,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.26,
+      "hold_start_s": 5.26,
+      "resume_start_s": 9.66,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.26,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.66,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.66,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.4,
+        "path_after_switch_m": 0.45578110218048096,
+        "net_displacement_m": 0.3117412030696869,
+        "signed_heading_change_rad": 0.0985574722290039,
+        "max_heading_excursion_rad": 0.10612940788269043,
+        "final_2s_horizontal_speed_rms_mps": 0.006770297419279814,
+        "final_2s_euler_yaw_rate_rms_rps": 0.003053906839340925,
+        "minimum_height_m": 0.6452537775039673,
+        "max_abs_roll_deg": 4.112685680389404,
+        "max_abs_pitch_deg": 13.967260360717773,
+        "settling_start_s": 1.4000000000000004,
+        "settling_confirmed_s": 2.4000000000000004,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.45578110218048096,
+      "decision_to_hold_exit_net_m": 0.3117412030696869,
+      "resume_metrics": {
+        "post_duration_s": 10.0,
+        "path_after_switch_m": 4.0887041091918945,
+        "net_displacement_m": 4.057075500488281,
+        "signed_heading_change_rad": 0.05904996395111084,
+        "max_heading_excursion_rad": 0.10660445690155029,
+        "final_2s_horizontal_speed_rms_mps": 0.431738942861557,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05722173675894737,
+        "minimum_height_m": 0.6341683268547058,
+        "max_abs_roll_deg": 4.115774631500244,
+        "max_abs_pitch_deg": 11.34298038482666,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07498202472925186
+    },
+    {
+      "env": 3,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.279999999999999,
+      "hold_start_s": 5.279999999999999,
+      "resume_start_s": 9.64,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.28,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.64,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.64,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.360000000000001,
+        "path_after_switch_m": 0.47951555252075195,
+        "net_displacement_m": 0.3104605972766876,
+        "signed_heading_change_rad": 0.04992818832397461,
+        "max_heading_excursion_rad": 0.05991959571838379,
+        "final_2s_horizontal_speed_rms_mps": 0.008834056556224823,
+        "final_2s_euler_yaw_rate_rms_rps": 0.002776296576485038,
+        "minimum_height_m": 0.6447968482971191,
+        "max_abs_roll_deg": 4.552072048187256,
+        "max_abs_pitch_deg": 15.735894203186035,
+        "settling_start_s": 1.3600000000000012,
+        "settling_confirmed_s": 2.360000000000001,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.47951555252075195,
+      "decision_to_hold_exit_net_m": 0.3104605972766876,
+      "resume_metrics": {
+        "post_duration_s": 10.0,
+        "path_after_switch_m": 4.106477737426758,
+        "net_displacement_m": 4.075190544128418,
+        "signed_heading_change_rad": 0.027487993240356445,
+        "max_heading_excursion_rad": 0.09204745292663574,
+        "final_2s_horizontal_speed_rms_mps": 0.43180954456329346,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05716148763895035,
+        "minimum_height_m": 0.6316382884979248,
+        "max_abs_roll_deg": 3.8645222187042236,
+        "max_abs_pitch_deg": 10.831531524658203,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07498835027217865
+    },
+    {
+      "env": 4,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.3,
+      "hold_start_s": 5.3,
+      "resume_start_s": 10.24,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.3,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 10.24,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 20.240000000000002,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.94,
+        "path_after_switch_m": 0.49870064854621887,
+        "net_displacement_m": 0.3161638379096985,
+        "signed_heading_change_rad": 0.15718293190002441,
+        "max_heading_excursion_rad": 0.15718293190002441,
+        "final_2s_horizontal_speed_rms_mps": 0.0037862779572606087,
+        "final_2s_euler_yaw_rate_rms_rps": 0.0008167668711394072,
+        "minimum_height_m": 0.6454124450683594,
+        "max_abs_roll_deg": 6.766539096832275,
+        "max_abs_pitch_deg": 15.099939346313477,
+        "settling_start_s": 1.9400000000000004,
+        "settling_confirmed_s": 2.9400000000000004,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.49870064854621887,
+      "decision_to_hold_exit_net_m": 0.3161638379096985,
+      "resume_metrics": {
+        "post_duration_s": 10.000000000000002,
+        "path_after_switch_m": 4.135706901550293,
+        "net_displacement_m": 4.110925674438477,
+        "signed_heading_change_rad": 0.0044841766357421875,
+        "max_heading_excursion_rad": 0.0758829116821289,
+        "final_2s_horizontal_speed_rms_mps": 0.43286195397377014,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05662643164396286,
+        "minimum_height_m": 0.6313360333442688,
+        "max_abs_roll_deg": 3.5509235858917236,
+        "max_abs_pitch_deg": 7.362278461456299,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07446567714214325
+    },
+    {
+      "env": 5,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.319999999999999,
+      "hold_start_s": 5.319999999999999,
+      "resume_start_s": 9.64,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.32,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.64,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.64,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.320000000000001,
+        "path_after_switch_m": 0.44540420174598694,
+        "net_displacement_m": 0.30979493260383606,
+        "signed_heading_change_rad": 0.19167327880859375,
+        "max_heading_excursion_rad": 0.19167327880859375,
+        "final_2s_horizontal_speed_rms_mps": 0.00714249350130558,
+        "final_2s_euler_yaw_rate_rms_rps": 0.0007762278546579182,
+        "minimum_height_m": 0.6404270529747009,
+        "max_abs_roll_deg": 8.580594062805176,
+        "max_abs_pitch_deg": 13.819772720336914,
+        "settling_start_s": 1.3200000000000012,
+        "settling_confirmed_s": 2.320000000000001,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.44540420174598694,
+      "decision_to_hold_exit_net_m": 0.30979493260383606,
+      "resume_metrics": {
+        "post_duration_s": 10.0,
+        "path_after_switch_m": 4.134721755981445,
+        "net_displacement_m": 4.110997200012207,
+        "signed_heading_change_rad": 0.04206550121307373,
+        "max_heading_excursion_rad": 0.079109787940979,
+        "final_2s_horizontal_speed_rms_mps": 0.43264278769493103,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05617909878492355,
+        "minimum_height_m": 0.6312440037727356,
+        "max_abs_roll_deg": 3.8711934089660645,
+        "max_abs_pitch_deg": 6.6212158203125,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07439820468425751
+    },
+    {
+      "env": 6,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.34,
+      "hold_start_s": 5.34,
+      "resume_start_s": 9.66,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.34,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.66,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.66,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.32,
+        "path_after_switch_m": 0.40084952116012573,
+        "net_displacement_m": 0.23652751743793488,
+        "signed_heading_change_rad": 0.17484188079833984,
+        "max_heading_excursion_rad": 0.18680524826049805,
+        "final_2s_horizontal_speed_rms_mps": 0.008796518668532372,
+        "final_2s_euler_yaw_rate_rms_rps": 0.0009342164266854525,
+        "minimum_height_m": 0.6337810754776001,
+        "max_abs_roll_deg": 9.328228950500488,
+        "max_abs_pitch_deg": 12.203790664672852,
+        "settling_start_s": 1.3200000000000003,
+        "settling_confirmed_s": 2.3200000000000003,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.40084952116012573,
+      "decision_to_hold_exit_net_m": 0.23652751743793488,
+      "resume_metrics": {
+        "post_duration_s": 10.0,
+        "path_after_switch_m": 4.118175983428955,
+        "net_displacement_m": 4.094188690185547,
+        "signed_heading_change_rad": 0.038158416748046875,
+        "max_heading_excursion_rad": 0.07304692268371582,
+        "final_2s_horizontal_speed_rms_mps": 0.43275338411331177,
+        "final_2s_euler_yaw_rate_rms_rps": 0.055950313806533813,
+        "minimum_height_m": 0.6316350698471069,
+        "max_abs_roll_deg": 3.621713638305664,
+        "max_abs_pitch_deg": 7.056391716003418,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07423151284456253
+    },
+    {
+      "env": 7,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.359999999999999,
+      "hold_start_s": 5.359999999999999,
+      "resume_start_s": 9.620000000000001,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.36,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.620000000000001,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.62,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.260000000000002,
+        "path_after_switch_m": 0.3641470968723297,
+        "net_displacement_m": 0.20066489279270172,
+        "signed_heading_change_rad": 0.17382264137268066,
+        "max_heading_excursion_rad": 0.18860626220703125,
+        "final_2s_horizontal_speed_rms_mps": 0.009147482924163342,
+        "final_2s_euler_yaw_rate_rms_rps": 0.0012739168014377356,
+        "minimum_height_m": 0.6270309090614319,
+        "max_abs_roll_deg": 8.761202812194824,
+        "max_abs_pitch_deg": 10.753639221191406,
+        "settling_start_s": 1.2600000000000007,
+        "settling_confirmed_s": 2.2600000000000007,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.3641470968723297,
+      "decision_to_hold_exit_net_m": 0.20066489279270172,
+      "resume_metrics": {
+        "post_duration_s": 10.0,
+        "path_after_switch_m": 4.125848770141602,
+        "net_displacement_m": 4.101917743682861,
+        "signed_heading_change_rad": 0.023146390914916992,
+        "max_heading_excursion_rad": 0.0717477798461914,
+        "final_2s_horizontal_speed_rms_mps": 0.43290597200393677,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05675887688994408,
+        "minimum_height_m": 0.6315258145332336,
+        "max_abs_roll_deg": 3.541172981262207,
+        "max_abs_pitch_deg": 7.302896022796631,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07436132431030273
+    },
+    {
+      "env": 8,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.38,
+      "hold_start_s": 5.38,
+      "resume_start_s": 9.48,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.38,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.48,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.48,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.1000000000000005,
+        "path_after_switch_m": 0.276283323764801,
+        "net_displacement_m": 0.14388835430145264,
+        "signed_heading_change_rad": 0.049076080322265625,
+        "max_heading_excursion_rad": 0.054128408432006836,
+        "final_2s_horizontal_speed_rms_mps": 0.006303441245108843,
+        "final_2s_euler_yaw_rate_rms_rps": 0.00038000629865564406,
+        "minimum_height_m": 0.6284124851226807,
+        "max_abs_roll_deg": 5.877044677734375,
+        "max_abs_pitch_deg": 11.23531436920166,
+        "settling_start_s": 1.1000000000000005,
+        "settling_confirmed_s": 2.1000000000000005,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.276283323764801,
+      "decision_to_hold_exit_net_m": 0.14388835430145264,
+      "resume_metrics": {
+        "post_duration_s": 10.0,
+        "path_after_switch_m": 4.134803771972656,
+        "net_displacement_m": 4.109469890594482,
+        "signed_heading_change_rad": 0.05841636657714844,
+        "max_heading_excursion_rad": 0.09759163856506348,
+        "final_2s_horizontal_speed_rms_mps": 0.43258675932884216,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05608147382736206,
+        "minimum_height_m": 0.6292398571968079,
+        "max_abs_roll_deg": 3.601750612258911,
+        "max_abs_pitch_deg": 7.784151077270508,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07465323060750961
+    },
+    {
+      "env": 9,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.3999999999999995,
+      "hold_start_s": 5.3999999999999995,
+      "resume_start_s": 9.94,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.4,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.94,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.94,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.54,
+        "path_after_switch_m": 0.648131787776947,
+        "net_displacement_m": 0.5603267550468445,
+        "signed_heading_change_rad": -0.005548596382141113,
+        "max_heading_excursion_rad": 0.18245673179626465,
+        "final_2s_horizontal_speed_rms_mps": 0.005128771066665649,
+        "final_2s_euler_yaw_rate_rms_rps": 0.001366352429613471,
+        "minimum_height_m": 0.6413458585739136,
+        "max_abs_roll_deg": 3.610334873199463,
+        "max_abs_pitch_deg": 20.242284774780273,
+        "settling_start_s": 1.540000000000001,
+        "settling_confirmed_s": 2.540000000000001,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.648131787776947,
+      "decision_to_hold_exit_net_m": 0.5603267550468445,
+      "resume_metrics": {
+        "post_duration_s": 10.000000000000002,
+        "path_after_switch_m": 4.172671318054199,
+        "net_displacement_m": 4.149672508239746,
+        "signed_heading_change_rad": 0.06422853469848633,
+        "max_heading_excursion_rad": 0.10928857326507568,
+        "final_2s_horizontal_speed_rms_mps": 0.432554692029953,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05677540600299835,
+        "minimum_height_m": 0.6283957958221436,
+        "max_abs_roll_deg": 3.047724962234497,
+        "max_abs_pitch_deg": 10.458614349365234,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07469572126865387
+    },
+    {
+      "env": 10,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.42,
+      "hold_start_s": 5.42,
+      "resume_start_s": 9.92,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.42,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.92,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.92,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.5,
+        "path_after_switch_m": 0.6831700801849365,
+        "net_displacement_m": 0.5614529252052307,
+        "signed_heading_change_rad": -0.08895939588546753,
+        "max_heading_excursion_rad": 0.1248471736907959,
+        "final_2s_horizontal_speed_rms_mps": 0.006263661663979292,
+        "final_2s_euler_yaw_rate_rms_rps": 0.0021309477742761374,
+        "minimum_height_m": 0.6335169076919556,
+        "max_abs_roll_deg": 8.987832069396973,
+        "max_abs_pitch_deg": 16.601642608642578,
+        "settling_start_s": 1.5,
+        "settling_confirmed_s": 2.5,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.6831700801849365,
+      "decision_to_hold_exit_net_m": 0.5614529252052307,
+      "resume_metrics": {
+        "post_duration_s": 10.000000000000002,
+        "path_after_switch_m": 4.093648910522461,
+        "net_displacement_m": 4.063849925994873,
+        "signed_heading_change_rad": 0.04074525833129883,
+        "max_heading_excursion_rad": 0.08361929655075073,
+        "final_2s_horizontal_speed_rms_mps": 0.43100279569625854,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05855157598853111,
+        "minimum_height_m": 0.6293924450874329,
+        "max_abs_roll_deg": 3.7085418701171875,
+        "max_abs_pitch_deg": 10.189157485961914,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07574554532766342
+    },
+    {
+      "env": 11,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.4399999999999995,
+      "hold_start_s": 5.4399999999999995,
+      "resume_start_s": 10.66,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.44,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 10.66,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 20.66,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 5.220000000000001,
+        "path_after_switch_m": 0.6374844312667847,
+        "net_displacement_m": 0.3665451407432556,
+        "signed_heading_change_rad": 0.013579964637756348,
+        "max_heading_excursion_rad": 0.14459240436553955,
+        "final_2s_horizontal_speed_rms_mps": 0.012052541598677635,
+        "final_2s_euler_yaw_rate_rms_rps": 0.006734232418239117,
+        "minimum_height_m": 0.633637547492981,
+        "max_abs_roll_deg": 7.954367160797119,
+        "max_abs_pitch_deg": 14.945402145385742,
+        "settling_start_s": 2.2200000000000006,
+        "settling_confirmed_s": 3.2200000000000006,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.6374844312667847,
+      "decision_to_hold_exit_net_m": 0.3665451407432556,
+      "resume_metrics": {
+        "post_duration_s": 10.0,
+        "path_after_switch_m": 3.9230973720550537,
+        "net_displacement_m": 3.8906657695770264,
+        "signed_heading_change_rad": 0.11701416969299316,
+        "max_heading_excursion_rad": 0.13596367835998535,
+        "final_2s_horizontal_speed_rms_mps": 0.43182873725891113,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05766256898641586,
+        "minimum_height_m": 0.631371259689331,
+        "max_abs_roll_deg": 6.28989839553833,
+        "max_abs_pitch_deg": 13.603205680847168,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.075208880007267
+    },
+    {
+      "env": 12,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.46,
+      "hold_start_s": 5.46,
+      "resume_start_s": 9.9,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.46,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.9,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 19.900000000000002,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 4.44,
+        "path_after_switch_m": 0.6014562845230103,
+        "net_displacement_m": 0.4952448606491089,
+        "signed_heading_change_rad": -0.02738821506500244,
+        "max_heading_excursion_rad": 0.13821208477020264,
+        "final_2s_horizontal_speed_rms_mps": 0.005120179615914822,
+        "final_2s_euler_yaw_rate_rms_rps": 0.0005679352907463908,
+        "minimum_height_m": 0.6320508718490601,
+        "max_abs_roll_deg": 9.5810546875,
+        "max_abs_pitch_deg": 15.615693092346191,
+        "settling_start_s": 1.4400000000000004,
+        "settling_confirmed_s": 2.4400000000000004,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.6014562845230103,
+      "decision_to_hold_exit_net_m": 0.4952448606491089,
+      "resume_metrics": {
+        "post_duration_s": 10.000000000000002,
+        "path_after_switch_m": 4.119593620300293,
+        "net_displacement_m": 4.09351921081543,
+        "signed_heading_change_rad": 0.06420743465423584,
+        "max_heading_excursion_rad": 0.09487831592559814,
+        "final_2s_horizontal_speed_rms_mps": 0.43173837661743164,
+        "final_2s_euler_yaw_rate_rms_rps": 0.057480331510305405,
+        "minimum_height_m": 0.6262027025222778,
+        "max_abs_roll_deg": 3.5372679233551025,
+        "max_abs_pitch_deg": 8.404303550720215,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07504122704267502
+    },
+    {
+      "env": 13,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.4799999999999995,
+      "hold_start_s": 5.4799999999999995,
+      "resume_start_s": 9.98,
+      "final_stage": 5,
+      "events": [
+        {
+          "time_s": 5.48,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 9.98,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 11.38,
+          "previous": "resume_walk",
+          "stage": "abort"
+        }
+      ],
+      "failure_s": 11.38,
+      "sequence_completed": false,
+      "sequence_passed": false,
+      "hold_metrics": {
+        "post_duration_s": 4.500000000000001,
+        "path_after_switch_m": 0.660615086555481,
+        "net_displacement_m": 0.40038934350013733,
+        "signed_heading_change_rad": -0.05995368957519531,
+        "max_heading_excursion_rad": 0.11346173286437988,
+        "final_2s_horizontal_speed_rms_mps": 0.022285832092165947,
+        "final_2s_euler_yaw_rate_rms_rps": 0.012416882440447807,
+        "minimum_height_m": 0.6295381188392639,
+        "max_abs_roll_deg": 10.629719734191895,
+        "max_abs_pitch_deg": 14.283390045166016,
+        "settling_start_s": 1.5000000000000009,
+        "settling_confirmed_s": 2.500000000000001,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.660615086555481,
+      "decision_to_hold_exit_net_m": 0.40038934350013733,
+      "resume_metrics": {
+        "post_duration_s": 1.4000000000000004,
+        "path_after_switch_m": 0.6861754059791565,
+        "net_displacement_m": 0.6749227046966553,
+        "signed_heading_change_rad": 0.8387374877929688,
+        "max_heading_excursion_rad": 0.8387374877929688,
+        "final_2s_horizontal_speed_rms_mps": 0.7559193968772888,
+        "final_2s_euler_yaw_rate_rms_rps": 1.5851548910140991,
+        "minimum_height_m": 0.32056668400764465,
+        "max_abs_roll_deg": 73.70177459716797,
+        "max_abs_pitch_deg": 36.17115020751953,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.9663307666778564
+    },
+    {
+      "env": 14,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.5,
+      "hold_start_s": 5.5,
+      "resume_start_s": 10.92,
+      "final_stage": 5,
+      "events": [
+        {
+          "time_s": 5.5,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 10.92,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 11.82,
+          "previous": "resume_walk",
+          "stage": "abort"
+        }
+      ],
+      "failure_s": 11.82,
+      "sequence_completed": false,
+      "sequence_passed": false,
+      "hold_metrics": {
+        "post_duration_s": 5.42,
+        "path_after_switch_m": 0.668859601020813,
+        "net_displacement_m": 0.28001439571380615,
+        "signed_heading_change_rad": -0.12156492471694946,
+        "max_heading_excursion_rad": 0.13463836908340454,
+        "final_2s_horizontal_speed_rms_mps": 0.03518926724791527,
+        "final_2s_euler_yaw_rate_rms_rps": 0.015739992260932922,
+        "minimum_height_m": 0.6274110674858093,
+        "max_abs_roll_deg": 9.609223365783691,
+        "max_abs_pitch_deg": 12.136306762695312,
+        "settling_start_s": 2.42,
+        "settling_confirmed_s": 3.42,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.668859601020813,
+      "decision_to_hold_exit_net_m": 0.28001439571380615,
+      "resume_metrics": {
+        "post_duration_s": 0.9000000000000004,
+        "path_after_switch_m": 0.6413421630859375,
+        "net_displacement_m": 0.6360718607902527,
+        "signed_heading_change_rad": 0.6889857053756714,
+        "max_heading_excursion_rad": 0.6889857053756714,
+        "final_2s_horizontal_speed_rms_mps": 0.9396517276763916,
+        "final_2s_euler_yaw_rate_rms_rps": 1.8353581428527832,
+        "minimum_height_m": 0.3344443440437317,
+        "max_abs_roll_deg": 67.07891845703125,
+        "max_abs_pitch_deg": 29.83293914794922,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.973631739616394
+    },
+    {
+      "env": 15,
+      "protocol": "blend",
+      "yaw": 0.0,
+      "decision_s": 5.52,
+      "hold_start_s": 5.52,
+      "resume_start_s": 10.74,
+      "final_stage": 4,
+      "events": [
+        {
+          "time_s": 5.5200000000000005,
+          "previous": "walk",
+          "stage": "hold"
+        },
+        {
+          "time_s": 10.74,
+          "previous": "hold",
+          "stage": "resume_walk"
+        },
+        {
+          "time_s": 20.740000000000002,
+          "previous": "resume_walk",
+          "stage": "done"
+        }
+      ],
+      "failure_s": null,
+      "sequence_completed": true,
+      "sequence_passed": true,
+      "hold_metrics": {
+        "post_duration_s": 5.220000000000001,
+        "path_after_switch_m": 0.45530837774276733,
+        "net_displacement_m": 0.162571519613266,
+        "signed_heading_change_rad": 0.009906768798828125,
+        "max_heading_excursion_rad": 0.08942961692810059,
+        "final_2s_horizontal_speed_rms_mps": 0.013511930592358112,
+        "final_2s_euler_yaw_rate_rms_rps": 0.007593674585223198,
+        "minimum_height_m": 0.6350268125534058,
+        "max_abs_roll_deg": 6.423838138580322,
+        "max_abs_pitch_deg": 9.756868362426758,
+        "settling_start_s": 2.2200000000000006,
+        "settling_confirmed_s": 3.2200000000000006,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": true
+      },
+      "decision_to_hold_exit_path_m": 0.45530837774276733,
+      "decision_to_hold_exit_net_m": 0.162571519613266,
+      "resume_metrics": {
+        "post_duration_s": 10.000000000000002,
+        "path_after_switch_m": 3.8532166481018066,
+        "net_displacement_m": 3.8125739097595215,
+        "signed_heading_change_rad": 0.11946392059326172,
+        "max_heading_excursion_rad": 0.14806079864501953,
+        "final_2s_horizontal_speed_rms_mps": 0.43098941445350647,
+        "final_2s_euler_yaw_rate_rms_rps": 0.05814504250884056,
+        "minimum_height_m": 0.6327663064002991,
+        "max_abs_roll_deg": 9.12704849243164,
+        "max_abs_pitch_deg": 13.982397079467773,
+        "settling_start_s": null,
+        "settling_confirmed_s": null,
+        "first_escape_after_confirmation_s": null,
+        "eligible_through_end_after_confirmation": false
+      },
+      "resume_tail_vx_rmse_mps": 0.07573826611042023
+    }
+  ]
+}

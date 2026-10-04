@@ -1,0 +1,13 @@
+"""Read-only evidence inventory; no training or simulation."""
+from pathlib import Path
+import json,hashlib
+repo=Path(__file__).resolve().parents[1]
+nodes=[('baseline_from_scratch','results/locomotion_reproduction'),('flat_commands','results/flat_baseline/20261002'),('continuation_1999','results/flat_baseline/20261002/posttraining'),('shadow_noninterference','results/locomotion_shadow/turning'),('shadow_window','results/locomotion_shadow/yaw_window'),('detection_calibration','results/locomotion_shadow/yaw_calibration'),('physical_command_grid','results/locomotion_shadow/physical_commands'),('physics_and_actuation','results/flat_baseline/20261002/matched_actuation'),('leg_contact','results/flat_baseline/20261003/leg_contact'),('contact_parameters','results/flat_baseline/20261003/contact_parameters'),('task_watchdog','results/hierarchical_demo/20261003'),('handoff_watchdog','results/hierarchical_demo/20261003/handoff'),('command_stop','results/hierarchical_demo/20261003/command_response'),('posture_hold','results/hierarchical_demo/20261003/posture_hold'),('skill_first_round','results/skills_sprint/20261003/first_round'),('skill_handoff_diagnostic','results/skills_sprint/20261003/handoff_diagnostic'),('teacher_handoff_training','results/skills_sprint/20261003/teacher_handoff_round')]
+rows=[]
+for name,relative in nodes:
+ root=repo/relative;files=[p for p in root.rglob('*') if p.is_file()] if root.exists() else [];rows.append(dict(node=name,path=relative,exists=root.exists(),readme=(root/'README.md').exists(),files=len(files),json=sum(p.suffix=='.json' for p in files),csv=sum(p.suffix=='.csv' for p in files),media=sum(p.suffix in ('.png','.svg','.mp4') for p in files),bytes=sum(p.stat().st_size for p in files),scope='Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance.'))
+raw=repo/'code/day9/g1_balance/checkpoints/skills_sprint/20261003';assets=[]
+for p in sorted(raw.rglob('*')):
+ if p.is_file() and (p.name in ('model_999.pt','model_499.pt','trace.npz','bank.npz') or p.name.startswith('events.out.tfevents')):
+  assets.append(dict(path=str(p.relative_to(repo)),bytes=p.stat().st_size,sha256=hashlib.sha256(p.read_bytes()).hexdigest()))
+out=repo/'notes/skills_sprint/20261003_evidence_inventory.json';out.write_text(json.dumps(dict(nodes=rows,skill_raw_assets=assets,limits='Inventory hash at audit time; new hash of historical files cannot fill missing original environment/model snapshots. Local ignored raw data is not uploaded to GitHub.'),indent=2));print('INDEX_PASS',len(rows),'nodes;',len(assets),'raw skill assets hashed')

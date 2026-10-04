@@ -1,0 +1,12 @@
+claim,supported_statement,repository_evidence,limit
+Locally trained walking actor,"From random weights using the reference workflow;4096env,1500updates,147456000transitions",results/locomotion_reproduction/README.md,Reference assets/task/rewards/PPO settings attributed;no new algorithm claim
+Two-policy hierarchical control,Rule-based supervisor selects walking and separately fine-tuned hold actors,results/skills_sprint/20261004/sequence_retest/frozen_demo.json,Not a learned HRL manager;no language/perception stack
+Handoff ablation,"Direct48/48,blend43/48,brake+blend37/48",results/skills_sprint/20261003/skill_sequence/verification/summary.json,Seed42low-speed protocol only;not universal superiority
+Held-out sequence evaluation,"Normal108/108,temporary108/108,persistent108/108",results/skills_sprint/20261004/sequence_retest/summary.json,Root-pose reset variation only;copies are not independent trials
+Stopping distance,Median request-to-stop net8.83cm(normal)/20.64cm(loss),results/skills_sprint/20261004/sequence_retest/summary.json,Net versus path distinct;loss includes communication delay;not safety bounds
+Timing,Detection0.24-0.30s;stopconfirmation1.84s;resume trackingconfirmation1.72s,results/skills_sprint/20261004/sequence_retest/summary.json,"Simulated timing,not wall-clock deadline compliance"
+Bounded persistent holding,108/108holdactor12sobservation;median10.16sconfirmedholding,results/skills_sprint/20261004/sequence_retest/summary.json,Not12sfromalready-stationary state;no indefinite or fallen recovery
+Independent evidence checks,"324cases,318455actions,216matchedprefixes,maxactorerror3.34e-6",results/skills_sprint/20261004/sequence_retest/final_verification/summary.json,Implementation/evidence validation distinct from robustness
+Transfer limitation,1999terminated9/12MuJoCoconditions;1499headingtransfer remainsopen,results/flat_baseline/20261002/posttraining/README.md,IsaacimprovementnotuniversalSim2Simimprovement
+Marching limitation,Rhythmicmotionobserved;originalfullinplacecriteria not passed,results/skills_sprint/20261003/teacher_handoff_round/README.md,Not included as an accepted final demo skill
+Video provenance,IsaacrecordedstatesonMuJoCogeometry;zerophysicssteps,results/skills_sprint/20261003/skill_sequence/video/render_manifest.json,NotMuJoCodynamicsvalidation

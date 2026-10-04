@@ -1,0 +1,9 @@
+{
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_physical_models/g1_usd_physical_position.mjb": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/isolate_usd_physics.py": "95c52aaff46633b6e5693588e6a66a69876a9d2dce8262e4b7d73a2922047972",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/mujoco_eval/policy.py": "09c553777ca0226b74633da40b26750661064a8494c65e0dbe76f11ada3941ac",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/mujoco_eval/run_grid.py": "cb4db26e02868b22819b4044603e855bf5ee4fdb6d32f12f7f0b56d12237f998",
+  "/home/omai/robotics/projects/g1-hierarchical-control/results/flat_baseline/20261002/usd_physics_isolation/bilateral_audit.json": "0fbb5c3466d58127cee75e90dc94485aed75bf6783b44ba33c248336adf63a32"
+}

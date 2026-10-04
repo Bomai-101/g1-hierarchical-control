@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-04",
+  "scope": "Editorial removal of application-target abbreviation; all experimental conditions/results and executable sources unchanged",
+  "original_publication_manifest_sha256": "e512ed77280f38556d2b2e2b109739e59c8af8fb92701d86314390992982b3a7",
+  "files": [
+    {
+      "path": "README.md",
+      "original_sha256": "834f2f9bba4d3e1f187caa244188c95509d6929d39edaf642957998e7bce7b86",
+      "published_sha256": "0de711d5b2330fe4cc862b0772112dc890a7c8e777655082561cad1ef383a906"
+    }
+  ]
+}

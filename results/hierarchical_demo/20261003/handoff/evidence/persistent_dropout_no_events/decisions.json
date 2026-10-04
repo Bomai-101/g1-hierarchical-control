@@ -1,0 +1,6518 @@
+[
+  {
+    "time_s": 0.0,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.0,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.02,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.02,
+    "progress": 6.947400982207336e-05,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.04,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.04,
+    "progress": 4.518265041755115e-05,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.06,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06,
+    "progress": -0.0008475191916836549,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.08,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08,
+    "progress": -0.0012120955893164351,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.1,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": -0.00024585339865709527,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.12,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.01999999999999999,
+    "progress": 0.0014741649474753786,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.14,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.04000000000000001,
+    "progress": 0.0034663853972595198,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.16,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06,
+    "progress": 0.005273723263710168,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.18,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999999,
+    "progress": 0.008039363979506303,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.2,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.012034490254348652,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.22,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.01999999999999999,
+    "progress": 0.016453612018701935,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.24,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.03999999999999998,
+    "progress": 0.021218704065498566,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.26,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06,
+    "progress": 0.026280702797841185,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.28,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000002,
+    "progress": 0.03138431809121506,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.3,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.03738295112930454,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.32,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.04421109272348455,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.34,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.05113340463486281,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.36,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06,
+    "progress": 0.05819119587499966,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.38,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000002,
+    "progress": 0.06538857478424763,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.4,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.07225581897996494,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.42,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999962,
+    "progress": 0.07914117920597402,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.44,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.03999999999999998,
+    "progress": 0.08670986823265747,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.46,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06,
+    "progress": 0.09460401920144308,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.48,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999996,
+    "progress": 0.10265221762249899,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.5,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.11073401289369382,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.52,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.11886367548410198,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.54,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.12707055926132022,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.56,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.13522498006902092,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.58,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999996,
+    "progress": 0.14332721513591967,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.6,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.15206340197608711,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.62,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.1611440488187022,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.64,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.1700619883492341,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.66,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.1786939585348283,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.68,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.18711493044539818,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.7000000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.19560127861655827,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.72,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999907,
+    "progress": 0.20475768255747628,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.74,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.039999999999999925,
+    "progress": 0.21400657652907135,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.76,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999994,
+    "progress": 0.22314446181030692,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.78,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999996,
+    "progress": 0.2321769343958687,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.8,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.24120020869452677,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.8200000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.25023207193283226,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.84,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.039999999999999925,
+    "progress": 0.25911423348037643,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.86,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999994,
+    "progress": 0.2679030292810941,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.88,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999996,
+    "progress": 0.27726724244957923,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.9,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.28695527731923187,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.92,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.29649819244924924,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.9400000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.3057949920080785,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.96,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999994,
+    "progress": 0.3148702264332768,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 0.98,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999996,
+    "progress": 0.3240602073381403,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.0,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.3338752652006053,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.02,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.3437099741429785,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.04,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.35341064042605413,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.06,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.3629875467166102,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.08,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.37253851683858075,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.1,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.38209425325825586,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.12,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.3915312664561376,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.1400000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.40077602018993336,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.16,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999983,
+    "progress": 0.4102956216972078,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.18,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999985,
+    "progress": 0.42025469373388413,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.2,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.43012859370278106,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.22,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.43966147997629895,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.24,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.44897969015865613,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.26,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.4581646156413725,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.28,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.46799388475479486,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.3,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.4780171736490101,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.32,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.4878961674768495,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.34,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.4975985044894955,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.36,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.5072595507908565,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.3800000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.5169269232905199,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.4000000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.526496520021154,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.42,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999796,
+    "progress": 0.5358128827557316,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.44,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.039999999999999813,
+    "progress": 0.545241590497306,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.46,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999983,
+    "progress": 0.5551836096543855,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.48,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999985,
+    "progress": 0.5650850751369663,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.5,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.5746359520352904,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.52,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.5839556013359096,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.54,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.5930888670451143,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.56,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.6028463626226278,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.58,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.6128732122495912,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.6,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.6227696334503313,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.62,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.6324540464708621,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.6400000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.642067283937798,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.6600000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.6516838610678539,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.68,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999985,
+    "progress": 0.6612165112609891,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.7,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.6704773570470767,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.72,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.6798032620251897,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.74,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.6896640122123121,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.76,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.6994935821898156,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.78,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.708956754746919,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.8,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.7181573550663779,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.82,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.7271547659870742,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.84,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.7368016493680601,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.86,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.7467204251623638,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.8800000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.7565086627684733,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.9000000000000001,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.7660884005590379,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.92,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999796,
+    "progress": 0.7756036242300375,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.94,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.039999999999999813,
+    "progress": 0.7851290974602597,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.96,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999983,
+    "progress": 0.7945701261947754,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 1.98,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999985,
+    "progress": 0.8037382446379817,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.0,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.813008850165896,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.02,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.8227905684458178,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.04,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.8325113182433159,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.06,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.841864012262808,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.08,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.8509626828261083,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.1,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.8598653277501491,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.12,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.8694120765059588,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.14,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.8792455536255284,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.16,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.888972714367221,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.18,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.8985138707210207,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.2,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.9080092902085853,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.22,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.9175312859048785,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.24,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.9269817976685363,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.2600000000000002,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.9361505383160129,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.2800000000000002,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.9453728116757338,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.3000000000000003,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.9551150688277822,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.32,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999574,
+    "progress": 0.964804418836926,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.34,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.03999999999999959,
+    "progress": 0.9741082709056751,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.36,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.9831424875472433,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.38,
+    "task_state": "running",
+    "stage_index": 0,
+    "stage_name": "walk_1",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999963,
+    "progress": 0.9919816213044367,
+    "goal": 1.0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.4,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.0,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.42,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.0012279087737159244,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.44,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.0030865813620764015,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.46,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.004490739358076645,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.48,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.005978353901082478,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.5,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.007585847027188564,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.52,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.008883840714438929,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.54,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.012421705506135972,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.56,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.016443253674986558,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.58,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.015464564999764896,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.6,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.016698422030819504,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.62,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.0200281361580692,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.64,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.02239937300702044,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.66,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.025904686891952355,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.68,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.031093353877174046,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.7,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.03386182015226069,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.72,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.03563636493431854,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.74,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.03699622839935257,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.7600000000000002,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.038413244286095605,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.7800000000000002,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.039884951523905254,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.8000000000000003,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.04187217795819054,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.82,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999574,
+    "progress": 0.047174114608572015,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.84,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.03999999999999959,
+    "progress": 0.05112414463119164,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.86,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.05136659192403892,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.88,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999963,
+    "progress": 0.05453006985794184,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.9,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.058636091398802215,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.92,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.06111001318058662,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.94,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.06396812057710566,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.96,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.06864444446533202,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 2.98,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.07158141370264737,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.0,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.07353950489655281,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.02,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.07497871524874444,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.04,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.07638993088073454,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.06,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.07780991168711138,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.08,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.07966613039282278,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.1,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.08491673742826666,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.12,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.08880998781997418,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.14,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.08946691734487144,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.16,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.09295130820548181,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.18,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.0972245045455824,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.2,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.09989922874071988,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.22,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.10274659099202399,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.24,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.1072661547122915,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.2600000000000002,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.11009476345231484,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.2800000000000002,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.11192014914672344,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.3000000000000003,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.1131986229734645,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.3200000000000003,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.11448805206603829,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.34,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.03999999999999959,
+    "progress": 0.11587706869805148,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.36,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.11765005410176332,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.38,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999963,
+    "progress": 0.12270026778387688,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.4,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.12664146618926786,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.42,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.12765050225930397,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.44,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.13128873750124148,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.46,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.13568854425411736,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.48,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.1385131532019832,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.5,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.14139832743554948,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.52,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.1458937068517847,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.54,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.1485155502538893,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.56,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.1501230619797278,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.58,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.15123956198278776,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.6,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.1524232494830362,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.62,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.15372385611443828,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.64,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.15540752906238042,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.66,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.16035477119022934,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.68,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.16433440325114868,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.7,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.16544215002583496,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.72,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.16909582393413203,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.74,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.17349107114663598,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.7600000000000002,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.1763504114972383,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.7800000000000002,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.17925359619284187,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.8000000000000003,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.1836771545489726,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.8200000000000003,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.1864017619881806,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.84,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.03999999999999959,
+    "progress": 0.18814395749500168,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.86,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.18932582584806612,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.88,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999963,
+    "progress": 0.19053380259669295,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.9,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.19185439371128332,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.92,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000018,
+    "progress": 0.19348851818776325,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.94,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.198319845485738,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.96,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.06000000000000005,
+    "progress": 0.2025228694087713,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 3.98,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.20349752443443592,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.0,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.206908184991617,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.0200000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000462,
+    "progress": 0.21118265694509475,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.04,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.21395115045266744,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.0600000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0600000000000005,
+    "progress": 0.21687208322014584,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.08,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.22145349862533736,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.1,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.22411106862810515,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.12,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000462,
+    "progress": 0.2257013703286299,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.14,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.22679058847822464,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.16,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0600000000000005,
+    "progress": 0.22795729677704424,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.18,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.22925937116086992,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.2,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.2309605670710444,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.22,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999574,
+    "progress": 0.23597181239282783,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.24,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.2398654575521575,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.26,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.24105097678204146,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.28,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.244601252174395,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.3,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.248783758517225,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.32,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000462,
+    "progress": 0.25144834226389623,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.34,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.2543517656911054,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.36,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0600000000000005,
+    "progress": 0.2590257087266905,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.38,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.26193790449270304,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.4,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.2637964055005315,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.42,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999574,
+    "progress": 0.26507548237368406,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.44,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.2663527275797839,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.46,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.2677282097896341,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.48,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.26955995835684776,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.5,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.27478131018203555,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.5200000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000462,
+    "progress": 0.2784700621837617,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.54,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.27964506801551137,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.5600000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0600000000000005,
+    "progress": 0.2833653540756713,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.58,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.28769096286202256,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.6000000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.29041900609718496,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.62,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999574,
+    "progress": 0.2932633783682643,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.64,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.03999999999999915,
+    "progress": 0.29781712129502314,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.66,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.3007060842312477,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.68,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.07999999999999918,
+    "progress": 0.30251551789050835,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.7,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.3037387223136858,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.72,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999574,
+    "progress": 0.304971673528192,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.74,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.3063147737054619,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.76,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.3080931795686994,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.78,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.313250175856707,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.8,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.31690178164375027,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.82,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.020000000000000462,
+    "progress": 0.31831341571268723,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.84,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.3219937214684889,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.86,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0600000000000005,
+    "progress": 0.32618898005943286,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.88,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.3288443545283206,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.9,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.0,
+    "progress": 0.33168623770536865,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.92,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.019999999999999574,
+    "progress": 0.33631098977157015,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.94,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.040000000000000036,
+    "progress": 0.3393193315529319,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.96,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.05999999999999961,
+    "progress": 0.3412382413996333,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 4.98,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.08000000000000007,
+    "progress": 0.34252547224463825,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.0,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.09999999999999964,
+    "progress": 0.34378458915961385,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.0200000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.1200000000000001,
+    "progress": 0.34514511908066625,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.04,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.13999999999999968,
+    "progress": 0.3470261241576571,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.0600000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.16000000000000014,
+    "progress": 0.3524444229909225,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.08,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.17999999999999972,
+    "progress": 0.3560567324589847,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.1000000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.20000000000000018,
+    "progress": 0.35729153015146764,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.12,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.21999999999999975,
+    "progress": 0.360872470119471,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.14,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.23999999999999932,
+    "progress": 0.3650021156158174,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.16,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.2599999999999998,
+    "progress": 0.3675867409713267,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.18,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.27999999999999936,
+    "progress": 0.37019974692917135,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.2,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "fresh",
+    "message_age_s": 0.2999999999999998,
+    "progress": 0.3745715914643051,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "goal_tracking",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.22,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.3199999999999994,
+    "progress": 0.3773302028681398,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.24,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.33999999999999986,
+    "progress": 0.3790853224407731,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.26,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.35999999999999943,
+    "progress": 0.38029339358816383,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.28,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.3799999999999999,
+    "progress": 0.38151171365816605,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.3,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.39999999999999947,
+    "progress": 0.38280918650340956,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.32,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.41999999999999993,
+    "progress": 0.3846621424507233,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.34,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.4399999999999995,
+    "progress": 0.3901349624594843,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.36,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.45999999999999996,
+    "progress": 0.3935832346093302,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.38,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.47999999999999954,
+    "progress": 0.3951892291054042,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.4,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.5,
+    "progress": 0.39892070730166207,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.42,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.5199999999999996,
+    "progress": 0.4030190147122492,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.44,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.54,
+    "progress": 0.4056127837666601,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.46,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.5599999999999996,
+    "progress": 0.40821892858705144,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.48,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.5800000000000001,
+    "progress": 0.4124411604664475,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.5,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.5999999999999996,
+    "progress": 0.41530901094095274,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.5200000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.6200000000000001,
+    "progress": 0.4172017956742158,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.54,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.6399999999999997,
+    "progress": 0.4184642064926516,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.5600000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.6600000000000001,
+    "progress": 0.41968786011766657,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.58,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.6799999999999997,
+    "progress": 0.42101394909402545,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.6000000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.7000000000000002,
+    "progress": 0.4228919348741025,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.62,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.7199999999999998,
+    "progress": 0.4284010115089609,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.64,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.7399999999999993,
+    "progress": 0.4321338599808371,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.66,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.7599999999999998,
+    "progress": 0.433455504891751,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.68,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.7799999999999994,
+    "progress": 0.43705068530009594,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.7,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.7999999999999998,
+    "progress": 0.4412169003426425,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.72,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.8199999999999994,
+    "progress": 0.44389918246904836,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.74,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.8399999999999999,
+    "progress": 0.44659341794490137,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.76,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.8599999999999994,
+    "progress": 0.4508299298454621,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.78,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.8799999999999999,
+    "progress": 0.4535715976804209,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.8,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.8999999999999995,
+    "progress": 0.4553392439710269,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.82,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.9199999999999999,
+    "progress": 0.4565399162503221,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.84,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.9399999999999995,
+    "progress": 0.4577389120568318,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.86,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.96,
+    "progress": 0.4590480999996349,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.88,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 0.9799999999999995,
+    "progress": 0.46085868807242836,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.9,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.0,
+    "progress": 0.466260283422816,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.92,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.0199999999999996,
+    "progress": 0.4699233073629765,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.94,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.04,
+    "progress": 0.4712163418352291,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.96,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.0599999999999996,
+    "progress": 0.47477672567030016,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 5.98,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.08,
+    "progress": 0.47891196656572843,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.0,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.0999999999999996,
+    "progress": 0.48158622477291635,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.0200000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.12,
+    "progress": 0.4843165385276018,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.04,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.1399999999999997,
+    "progress": 0.4885869057238814,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.0600000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.1600000000000001,
+    "progress": 0.4913279751610995,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.08,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.1799999999999997,
+    "progress": 0.49309687730046914,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.1000000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.2000000000000002,
+    "progress": 0.4943026338494092,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.12,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.2199999999999998,
+    "progress": 0.49550419346528596,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.140000000000001,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.2400000000000002,
+    "progress": 0.49681896767996525,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.16,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.2599999999999998,
+    "progress": 0.49863562659544547,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.18,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.2799999999999994,
+    "progress": 0.5039978901329225,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.2,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.2999999999999998,
+    "progress": 0.5077023495435613,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.22,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.3199999999999994,
+    "progress": 0.5089842526772124,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.24,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.3399999999999999,
+    "progress": 0.5125379847797875,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.26,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.3599999999999994,
+    "progress": 0.5166999103733114,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.28,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.38,
+    "progress": 0.5194090236106872,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.3,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.3999999999999995,
+    "progress": 0.5221078286739775,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.32,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.42,
+    "progress": 0.5265116107251577,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.34,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.4399999999999995,
+    "progress": 0.5295605395188714,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.36,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.46,
+    "progress": 0.5314952441361727,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.38,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.4799999999999995,
+    "progress": 0.5327520832928543,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.4,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.5,
+    "progress": 0.5339688165073468,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.42,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.5199999999999996,
+    "progress": 0.5353181925215074,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.44,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.54,
+    "progress": 0.5371853352386764,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.46,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.5599999999999996,
+    "progress": 0.54260083362766,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.48,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.58,
+    "progress": 0.546269386245879,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.5,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.5999999999999996,
+    "progress": 0.5476582036521633,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.5200000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.62,
+    "progress": 0.5511427447855985,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.54,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.6399999999999997,
+    "progress": 0.5551807027494218,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.5600000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.6600000000000001,
+    "progress": 0.557785477665421,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.58,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.6799999999999997,
+    "progress": 0.5603239357412946,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.6000000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.7000000000000002,
+    "progress": 0.5647805546877089,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.62,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.7199999999999998,
+    "progress": 0.5678786603298147,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.640000000000001,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.7400000000000002,
+    "progress": 0.5697775566558358,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.66,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.7599999999999998,
+    "progress": 0.5710150501263898,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.68,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.7799999999999994,
+    "progress": 0.5722275940180102,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.7,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.7999999999999998,
+    "progress": 0.5735713366951662,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.72,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.8199999999999994,
+    "progress": 0.5755455082331036,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.74,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.8399999999999999,
+    "progress": 0.5812269969289012,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.76,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.8599999999999994,
+    "progress": 0.5847799187150233,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.78,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.88,
+    "progress": 0.5863092628555555,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.8,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.8999999999999995,
+    "progress": 0.5900080081968961,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.82,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.92,
+    "progress": 0.594182477121989,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.84,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.9399999999999995,
+    "progress": 0.5969325773571255,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.86,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.96,
+    "progress": 0.599484470449597,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.88,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 1.9799999999999995,
+    "progress": 0.6037104671205178,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.9,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.0,
+    "progress": 0.6066459517174856,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.92,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.0199999999999996,
+    "progress": 0.6084424451238926,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.94,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.04,
+    "progress": 0.6096058151270367,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.96,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.0599999999999996,
+    "progress": 0.610775128661087,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 6.98,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.08,
+    "progress": 0.6121138600249676,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.0,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.0999999999999996,
+    "progress": 0.6139494238678189,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.0200000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.12,
+    "progress": 0.6193165373948664,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.04,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.1399999999999997,
+    "progress": 0.623439180075144,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.0600000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.16,
+    "progress": 0.6248211337403631,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.08,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.1799999999999997,
+    "progress": 0.6282544397442065,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.1000000000000005,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.2,
+    "progress": 0.6324068949615822,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.12,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.2199999999999998,
+    "progress": 0.6352535873373664,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.140000000000001,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.24,
+    "progress": 0.6381528426986831,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.16,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.26,
+    "progress": 0.6426597111850132,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.18,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.2799999999999994,
+    "progress": 0.6456093361194513,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.2,
+    "task_state": "running",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.3,
+    "progress": 0.6473968315007301,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "hold_last_skill_no_new_stage",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  },
+  {
+    "time_s": 7.22,
+    "task_state": "aborted",
+    "stage_index": 1,
+    "stage_name": "turn",
+    "watchdog_state": "stale",
+    "message_age_s": 2.3199999999999994,
+    "progress": 0.6485578909720195,
+    "goal": 0.4,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ],
+    "reason": "communication_timeout",
+    "switch_authorized": false,
+    "fallback_authorized": false
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "profile": "original",
+    "source_duration_s": 30.00000000001368,
+    "preview_s": 8,
+    "frames": 200,
+    "physics_steps_rendered": 0
+  },
+  {
+    "profile": "usd_position",
+    "source_duration_s": 30.00000000001368,
+    "preview_s": 8,
+    "frames": 200,
+    "physics_steps_rendered": 0
+  }
+]

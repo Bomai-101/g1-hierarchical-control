@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>G1 · 同指令双仿真回放</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,sans-serif;background:#10151f;color:#e6edf8}body{max-width:1280px;margin:32px auto;padding:0 20px}h1{font-size:28px;margin-bottom:8px}p{line-height:1.65;color:#bdcadc}code{color:#8de2cd}.panel{background:#192334;border:1px solid #344257;border-radius:14px;padding:20px;margin:20px 0}.commands{display:flex;flex-wrap:wrap;gap:16px}.commands div{background:#101926;padding:12px 22px;border-radius:8px}.commands strong{display:block;color:#8de2cd;font-size:23px}.controls{display:flex;align-items:center;flex-wrap:wrap;gap:12px}button,select{background:#293b56;color:white;border:1px solid #56708d;border-radius:8px;padding:10px;font-size:16px}button{cursor:pointer}video{width:100%;display:block;border-radius:8px;background:#000}input[type=range]{flex:1;min-width:160px}a{color:#8ac4ff}.note{border-left:3px solid #e6b457;padding-left:14px;color:#e6d3a3}.labels{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:12px}.labels strong{font-size:20px}.status{min-height:48px}small{color:#bac8da}
+</style>
+<h1>G1：同一条指令，在两个仿真器里会怎样？</h1>
+<p>左右采用同一模型、同一固定速度指令；合成在同一个视频中，时间严格同步。先看续训后的 1999 模型，再切换到续训前的 1499 模型。</p>
+<div class="panel"><div class="commands">
+<div>前进速度 vx<strong>1.0 m/s</strong></div><div>横向速度 vy<strong>0.0 m/s</strong></div><div>转向角速度 wz<strong>0.0 rad/s</strong></div>
+</div><p>指令进入策略的 123 维观测中第 9–11 索引（Python <code>obs[9:12] = [1, 0, 0]</code>）。初始航向为 0；本例关闭航向反馈。零转向角速度要求不转身，但没有额外的目标航向纠偏。</p>
+<small>平地 · seed 42 · 策略周期 0.02 秒 · 8 秒展示 · Isaac 展示 16 个环境中的第 0 个。两边接触与执行器模型仍有差异。</small></div>
+<div class="panel">
+<div class="controls"><label>模型 <select id="actor"><option value="candidate1999">续训后 · 1999（未通过迁移验收）</option><option value="baseline1499">续训前 · 1499（实验对照）</option></select></label><button id="play">播放</button><button id="restart">从头播放</button><label>速度 <select id="speed"><option value="1">1×</option><option value="0.5">0.5×</option><option value="0.25">0.25×</option></select></label></div>
+<p class="status" id="status"></p>
+<div class="labels"><div><strong>左：Isaac</strong><br><small>Isaac GPU 物理的真实身体姿态回放</small></div><div><strong>右：MuJoCo</strong><br><small>MuJoCo 真实仿真状态回放</small></div></div>
+<video id="video" playsinline preload="metadata" src="candidate1999_comparison.mp4" controls></video>
+<div class="controls" style="margin-top:14px"><output id="time">0.00 / 8.00 秒</output><input id="seek" aria-label="回放时间" type="range" min="0" max="8" step="0.02" value="0"></div>
+<p class="note">Isaac 原生渲染受当前 WSL Vulkan 通道限制。左侧使用 Isaac 自己的 USD 机器人几何，以及实际记录的 44 个身体部件姿态，离线渲染；它不是 Isaac 原生界面录像。右侧同样从记录状态渲染；渲染阶段不再运行物理。摄像机在世界坐标中保持固定朝向并跟随位置。</p>
+<p id="download"></p></div>
+<p>这是固定前进指令的单次可视化比较，用来观察步态、偏航与跌倒。不能据此认定转向已正确或已完成稳定性验收。现有 48 组评估已显示：1999 在 Isaac 中能走，但在 MuJoCo 的多组条件中跌倒，因此暂不采用它作为迁移基线。</p>
+<p><a href="README.md">采集条件与证据说明</a> · <a href="../posttraining/README.md">完整续训比较报告</a></p>
+<script>
+const video=document.querySelector('#video'),actor=document.querySelector('#actor'),play=document.querySelector('#play'),seek=document.querySelector('#seek'),speed=document.querySelector('#speed');
+function describe(){const candidate=actor.value==='candidate1999';document.querySelector('#status').textContent=candidate?'1999：Isaac 完成 8 秒；MuJoCo 于 2.60 秒触发跌倒终止，后续帧冻结并标红。':'1499：两边均完成本次 8 秒回放；请观察右侧的行走方向偏差。';document.querySelector('#download').innerHTML=`<a href="${actor.value}_comparison.mp4" download>下载同步比较 MP4</a> · <a href="${actor.value}_isaac.mp4" download>单独下载 Isaac 回放</a> · <a href="${actor.value}_mujoco.mp4" download>单独下载 MuJoCo 回放</a>`;}
+actor.onchange=()=>{video.pause();video.src=actor.value+'_comparison.mp4';video.load();seek.value=0;describe();};
+play.onclick=()=>video.paused?video.play():video.pause();document.querySelector('#restart').onclick=()=>{video.currentTime=0;video.play();};
+speed.onchange=()=>video.playbackRate=Number(speed.value);video.onloadedmetadata=()=>video.playbackRate=Number(speed.value);
+video.ontimeupdate=()=>{seek.value=video.currentTime;document.querySelector('#time').textContent=video.currentTime.toFixed(2)+' / 8.00 秒';};seek.oninput=()=>video.currentTime=Number(seek.value);
+video.onplay=()=>play.textContent='暂停';video.onpause=()=>play.textContent='播放';video.onerror=()=>document.querySelector('#status').textContent='视频加载失败。请保留 HTML 与同目录 MP4，或使用本地 HTTP 地址打开。';describe();
+</script></html>

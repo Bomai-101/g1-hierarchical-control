@@ -1,0 +1,46 @@
+{
+  "checkpoint_iter": 1999,
+  "weights": [
+    {
+      "key": "actor.0.weight",
+      "exact": true
+    },
+    {
+      "key": "actor.0.bias",
+      "exact": true
+    },
+    {
+      "key": "actor.2.weight",
+      "exact": true
+    },
+    {
+      "key": "actor.2.bias",
+      "exact": true
+    },
+    {
+      "key": "actor.4.weight",
+      "exact": true
+    },
+    {
+      "key": "actor.4.bias",
+      "exact": true
+    },
+    {
+      "key": "actor.6.weight",
+      "exact": true
+    },
+    {
+      "key": "actor.6.bias",
+      "exact": true
+    }
+  ],
+  "all_exact": true,
+  "inference_samples": 64,
+  "inference_max_abs_error": 2.384185791015625e-06,
+  "exported_files_sha256": {
+    "policy_actor.npz": "f77995591590132a3707669868d98ec1544e9d1bacca001786c9e9eb8989788b",
+    "policy_actor.pt": "a47c1be03f32b1b6463be8094010baaad1b4e76ca5c1fabe04acd5b48e2979c7",
+    "policy_actor.json": "b4dfaf67a8470609e176dc66b7dee64a10e121b6c71c64308018c775c691a4a5"
+  },
+  "checkpoint_sha256": "df56e4715e86fa32349a41a9135bbd814eaaf340a2fc203bcfcc206954c59c54"
+}

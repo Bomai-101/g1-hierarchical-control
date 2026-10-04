@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "case_id": 0,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 1,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 2,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 3,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 4,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 5,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 6,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 7,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 8,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 9,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 10,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    },
+    {
+      "case_id": 11,
+      "numeric_metrics_exact": true,
+      "trajectory_bytes_exact": true
+    }
+  ]
+}

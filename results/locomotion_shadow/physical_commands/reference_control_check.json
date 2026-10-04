@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "duration_s": 30.0,
+  "scope": "Two constant-command plane cases against reference run_once with only read-only digest instrumentation.",
+  "checks": [
+    {
+      "policy": "baseline",
+      "reference_metrics_exactly_equal": true,
+      "physics_digest_exactly_equal": true
+    },
+    {
+      "policy": "reproduction_20261001",
+      "reference_metrics_exactly_equal": true,
+      "physics_digest_exactly_equal": true
+    }
+  ]
+}

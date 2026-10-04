@@ -1,0 +1,4142 @@
+{
+  "shared_reference_inputs_sha256": {
+    "mujoco/assets/unitree_g1_37dof_mujoco/g1_37dof_policy_aligned.xml": "42a046f3a0d6350919282d1418148d08bb2f60d9dcf265324e9255958c54db7d",
+    "mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+    "mujoco/policies/baseline/policy_actor.npz": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/pelvis.STL": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/pelvis_contour_link.STL": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hip_pitch_link.STL": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hip_roll_link.STL": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hip_yaw_link.STL": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_knee_link.STL": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_ankle_pitch_link.STL": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_ankle_roll_link.STL": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hip_pitch_link.STL": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hip_roll_link.STL": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hip_yaw_link.STL": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_knee_link.STL": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_ankle_pitch_link.STL": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_ankle_roll_link.STL": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/waist_yaw_link_rev_1_0.STL": "ec6db442b11f25eed898b5add07940c85d804f300de24dcbd264ccd8be7d554c",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/waist_roll_link_rev_1_0.STL": "b67c347a05abc3e8ddae600d98a082bee273bb39f8e651647708b0a7140a8a97",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/torso_link_rev_1_0.STL": "11ddb46f2098efbbd8816b1d65893632d8e78be936376c7cdcd6771899ccc723",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/logo_link.STL": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/head_link.STL": "005fb67fbd3eff94aa8bf4a6e83238174e9f91b6721f7111594322f223724411",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_shoulder_pitch_link.STL": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_shoulder_roll_link.STL": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_shoulder_yaw_link.STL": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_elbow_link.STL": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_wrist_roll_link.STL": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_wrist_pitch_link.STL": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_wrist_yaw_link.STL": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_palm_link.STL": "23a486b75bd78a9bf03cec25d84d87f97f3dae038cf21a743b6d469b337e4004",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_thumb_0_link.STL": "a90c721661c0622685488a3c74d1e122c7da89242d3a1daef75edb83422d05e0",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_thumb_1_link.STL": "445c54a45bc13ce36001556f66bc0f49c83cb40321205ae4d676bb2874325684",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_thumb_2_link.STL": "3d8dbe5085acfc213d21aa8b0782e89cd79084e9678f3a85fc7b04a86b029db5",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_middle_0_link.STL": "6b35f2f77211d5a366f0b9a4e47c4ee35e536731266f1a34e9efa12db579b892",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_middle_1_link.STL": "9e315ebc8a7a0cb98e033985b586b20d81cf8aa761181ae61ce56fcb14077a06",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_index_0_link.STL": "6b35f2f77211d5a366f0b9a4e47c4ee35e536731266f1a34e9efa12db579b892",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_index_1_link.STL": "9e315ebc8a7a0cb98e033985b586b20d81cf8aa761181ae61ce56fcb14077a06",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_shoulder_pitch_link.STL": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_shoulder_roll_link.STL": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_shoulder_yaw_link.STL": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_elbow_link.STL": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_wrist_roll_link.STL": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_wrist_pitch_link.STL": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_wrist_yaw_link.STL": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_palm_link.STL": "86c0b231cc44477d64a6493e5a427ba16617a00738112dd187c652675b086fb9",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_thumb_0_link.STL": "544298d0ea1088f5b276a10cc6a6a9e533efdd91594955fdc956c46211d07f83",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_thumb_1_link.STL": "0a9a820da8dd10f298778b714f1364216e8a5976f4fd3a05689ea26327d44bf6",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_thumb_2_link.STL": "3f1bfb37668e8f61801c8d25f171fa1949e08666be86c67acad7e0079937cc45",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_middle_0_link.STL": "12ab4300c95e437e834f9aef772b3b431c671bf34338930b52ad11aef73bbd0d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_middle_1_link.STL": "c9c34efce4563cacdcfd29fc838a982976d40f5442c71219811dcbbf3923a33d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_index_0_link.STL": "12ab4300c95e437e834f9aef772b3b431c671bf34338930b52ad11aef73bbd0d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_index_1_link.STL": "c9c34efce4563cacdcfd29fc838a982976d40f5442c71219811dcbbf3923a33d",
+    "mujoco/mujoco_eval/run_grid.py": "cb4db26e02868b22819b4044603e855bf5ee4fdb6d32f12f7f0b56d12237f998",
+    "mujoco/mujoco_eval/policy.py": "09c553777ca0226b74633da40b26750661064a8494c65e0dbe76f11ada3941ac",
+    "mujoco/mujoco_eval/terrains.py": "e6500660a01e31c5c22b9e87acd86228fad2ef9257529982c86ff729e9f7fad7",
+    "mujoco/policies/reproduction_20261001/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0"
+  },
+  "per_case_before_run_snapshots": {
+    "baseline_plane_42_vx0.5_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx0.5_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx0.5_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx0.5_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx0.5_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx1.0_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx1.0_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx1.0_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx1.0_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_plane_42_vx1.0_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx0.5_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx0.5_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx0.5_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx0.5_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx0.5_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx1.0_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx1.0_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx1.0_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx1.0_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_plane_42_vx1.0_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "plane",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_plane.xml": "241cc5751afd184630b8f56858ae708f7a3d7b1f7de58cd6aa447239c1bb14b7"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx0.5_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx0.5_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx0.5_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx0.5_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx0.5_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx1.0_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx1.0_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx1.0_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx1.0_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_42_vx1.0_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx0.5_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx0.5_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx0.5_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx0.5_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx0.5_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx1.0_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx1.0_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx1.0_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx1.0_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_42_vx1.0_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 42,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "5acaa2482c6e5c34e51429828615150e1f84e328c1fd87559130dbb639e2ceea",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx0.5_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx0.5_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx0.5_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx0.5_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx0.5_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx1.0_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx1.0_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx1.0_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx1.0_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_43_vx1.0_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx0.5_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx0.5_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx0.5_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx0.5_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx0.5_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx1.0_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx1.0_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx1.0_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx1.0_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_43_vx1.0_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 43,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "cca3806781b50155c3908ec2297b347757749b2c6242a909acf65f8c82c1b07a",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx0.5_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx0.5_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx0.5_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx0.5_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx0.5_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx1.0_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx1.0_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx1.0_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx1.0_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "baseline_rough_44_vx1.0_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx0.5_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx0.5_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx0.5_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx0.5_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx0.5_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 0.5,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx1.0_steps_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steps",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx1.0_slow_sine_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "slow_sine",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx1.0_steady_0.0": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.0,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx1.0_steady_-0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": -0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    },
+    "reproduction_20261001_rough_44_vx1.0_steady_0.1": {
+      "capture_phase": "before first policy action and physics step",
+      "reference_head": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+      "runtime": {
+        "python": "3.12.3",
+        "numpy": "2.5.3",
+        "mujoco": "3.14.0",
+        "OPENBLAS_NUM_THREADS": "1",
+        "OMP_NUM_THREADS": "1"
+      },
+      "recorder_sha256": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+      "command_plan_module_sha256": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+      "monitor_module_sha256": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+      "command_plan": {
+        "mode": "steady",
+        "forward_mps": 1.0,
+        "steady_yaw_rps": 0.1,
+        "amplitude_rps": 0.2,
+        "frequency_hz": 0.05
+      },
+      "terrain": "rough",
+      "friction": 0.8,
+      "seed": 44,
+      "duration_s": 30.0,
+      "physics_timestep_s": 0.001,
+      "policy_timestep_s": 0.02,
+      "control_mode": "pd",
+      "initial_base_height_m": 0.74,
+      "minimum_base_height_m": 0.35,
+      "generated_scene_sha256": {
+        "patched_g1_37dof_policy_aligned.xml": "9bf705cafdfb2394ff87d264fdaddb493811895f2525afd8e8b16b9fc6ea16c3",
+        "scene_rough.xml": "3476077c642c0d5ebf24c0fd599262930ef2e6de3fa65e55b013ab337dac7779"
+      },
+      "initial_state_sha256": "6c8e626379402fc70626bbd0fc0959854dc8a0cc9e253b036b2213086a6eb143",
+      "initial_state_enum": "mjSTATE_INTEGRATION",
+      "initial_simulation_time_s": 0.0,
+      "compiled_model_arrays_sha256": {
+        "qpos0": "87fc60dfb072176fafcbabc96664cdb2d13cf22ddd1a01543e1ed9d72e3f1176",
+        "body_mass": "5525b3fd79e0eaff932ebaca32c2a2b4c299d683ae24be86ed035a0cb9ab6b9a",
+        "body_inertia": "da2bae1d4fc788f5db4029d5e6d3b558cdaf15b0a50add20397d3dca9d8094e1",
+        "dof_armature": "569c1818bbad6108770f9c42cdfad6be78e2af0c7b97173f42ae60878b370c32",
+        "geom_friction": "0e47deb3a49ba170667de998c6b7ff7dd93be4d128e55b987a5ec55207996b69",
+        "hfield_data": "f8def0d5fc7920028f609e7f0041eb77c22ee4319c683edcf65f24e5c8e8d2fc",
+        "actuator_ctrlrange": "2b73f6b3cd6cd9f97ccbbedc2fa1904331b916b2ace865882f72ddd083c79b04"
+      },
+      "model_dimensions": {
+        "nq": 44,
+        "nv": 43,
+        "nu": 37
+      }
+    }
+  }
+}

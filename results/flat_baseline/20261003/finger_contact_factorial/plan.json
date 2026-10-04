@@ -1,0 +1,31 @@
+{
+  "selected": [
+    "baseline",
+    "finger_only",
+    "contact_only",
+    "combined"
+  ],
+  "finger_joints": [
+    "left_four_joint",
+    "right_four_joint",
+    "left_six_joint",
+    "right_six_joint"
+  ],
+  "finger_time_constant": 0.002,
+  "contact_time_constant": 0.005,
+  "speeds": [
+    0.5,
+    1
+  ],
+  "yaw_commands": [
+    -0.2,
+    0,
+    0.2
+  ],
+  "duration": 20,
+  "physics_dt": 0.001,
+  "policy_dt": 0.02,
+  "scoring": "final 10s; body forward velocity RMSE, world angular z mean error/RMSE, Euler heading slope",
+  "decision": "No automatic promotion. Compare all 6 commands; report speed/yaw tradeoffs and interaction. No post-hoc threshold or parameter tuning.",
+  "scope": "One deterministic flat initial condition; not seed/terrain robustness or target-heading acceptance."
+}

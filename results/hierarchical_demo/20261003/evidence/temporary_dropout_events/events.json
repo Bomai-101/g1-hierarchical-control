@@ -1,0 +1,70 @@
+[
+  {
+    "time_s": 0.0,
+    "event": "stage_enter",
+    "stage": "walk_1",
+    "index": 0,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "time_s": 2.4,
+    "event": "stage_complete",
+    "stage": "walk_1",
+    "progress": 1.0014705664678696,
+    "goal": 1.0
+  },
+  {
+    "time_s": 2.4,
+    "event": "stage_enter",
+    "stage": "turn",
+    "index": 1,
+    "command": [
+      0.5,
+      0.0,
+      0.2
+    ]
+  },
+  {
+    "time_s": 3.22,
+    "event": "watchdog_stale",
+    "last_sequence": 29
+  },
+  {
+    "time_s": 4.1,
+    "event": "watchdog_recovered",
+    "stale_duration_s": 0.8799999999999994
+  },
+  {
+    "time_s": 5.42,
+    "event": "stage_complete",
+    "stage": "turn",
+    "progress": 0.4030190147122492,
+    "goal": 0.4
+  },
+  {
+    "time_s": 5.42,
+    "event": "stage_enter",
+    "stage": "walk_2",
+    "index": 2,
+    "command": [
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "time_s": 7.5200000000000005,
+    "event": "stage_complete",
+    "stage": "walk_2",
+    "progress": 1.0058775170433527,
+    "goal": 1.0
+  },
+  {
+    "time_s": 7.5200000000000005,
+    "event": "task_completed"
+  }
+]

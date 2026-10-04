@@ -1,0 +1,180 @@
+{
+  "results": [
+    {
+      "integrator": "implicitfast",
+      "joint": "hip_pitch",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.0117643617604338,
+      "right_final_step_mirrored_rad": 0.011767510540998949,
+      "max_mirrored_joint_position_difference_rad": 3.7005843160908825e-06,
+      "max_mirrored_joint_velocity_difference_rad_s": 0.00011404232049614868,
+      "max_mirrored_torque_difference_nm": 0.000987914098955045,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_hip_pitch.npz": "40dea3ec04e7a3eddccfaace9c67a71a83250f18a53ff73fa14b54167e47f335",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_hip_pitch.npz": "a63312e197bc1cc3b2affe6f324ac344b081092e0f825a134bd0485ed159d6f7"
+      }
+    },
+    {
+      "integrator": "implicitfast",
+      "joint": "hip_roll",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.011931301231428711,
+      "right_final_step_mirrored_rad": 0.011931329824283833,
+      "max_mirrored_joint_position_difference_rad": 1.2500496296696806e-06,
+      "max_mirrored_joint_velocity_difference_rad_s": 5.096476570127053e-05,
+      "max_mirrored_torque_difference_nm": 0.0003835592109595609,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_hip_roll.npz": "7fc7ec3d5fd487f6ce2f96dbb5f87692775101ac562517e69d46d202467bf958",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_hip_roll.npz": "f1122a17efc5585581385ffcf70c96baccdc68e793aefef0e65a02626ca8fa67"
+      }
+    },
+    {
+      "integrator": "implicitfast",
+      "joint": "hip_yaw",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.010360796719497974,
+      "right_final_step_mirrored_rad": 0.010360806487795608,
+      "max_mirrored_joint_position_difference_rad": 4.7415521803317873e-07,
+      "max_mirrored_joint_velocity_difference_rad_s": 2.537612989816397e-05,
+      "max_mirrored_torque_difference_nm": 0.0001769355519201099,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_hip_yaw.npz": "7c6251efd2def72416d305e1fe07c9eeb99f13d0c767c1415256e33f400bff87",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_hip_yaw.npz": "9f93f99e5285905d14156c3fbc562f124df2a26de9851ee0189d38f37ce9989e"
+      }
+    },
+    {
+      "integrator": "implicitfast",
+      "joint": "knee",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.010122177508583574,
+      "right_final_step_mirrored_rad": 0.010122709214844317,
+      "max_mirrored_joint_position_difference_rad": 1.3775837508500643e-06,
+      "max_mirrored_joint_velocity_difference_rad_s": 6.14102063254858e-05,
+      "max_mirrored_torque_difference_nm": 0.0005524043879479024,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_knee.npz": "c6ad9c06ad80f323feb409d4803ba23b3768cef42085faee7c133e63261dda75",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_knee.npz": "ac52ac602040d9c17ee51ad4c22dd0d7a14b63b2eb9f3424456f855b6c358ac7"
+      }
+    },
+    {
+      "integrator": "implicitfast",
+      "joint": "ankle_pitch",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.008745073680319376,
+      "right_final_step_mirrored_rad": 0.008745073630839817,
+      "max_mirrored_joint_position_difference_rad": 3.730667589026997e-08,
+      "max_mirrored_joint_velocity_difference_rad_s": 1.8668628900351126e-06,
+      "max_mirrored_torque_difference_nm": 1.2413180721223757e-05,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_ankle_pitch.npz": "29ed037eccbdb2dbfbec8c522090e7dda4697f232e12b7ec636ecf02a3a2c1a5",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_ankle_pitch.npz": "aecaa0cae2b378585ef6deae29042c0a440e5c0da3221f2da4c8d9c91d641b40"
+      }
+    },
+    {
+      "integrator": "implicitfast",
+      "joint": "ankle_roll",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.008733835394341893,
+      "right_final_step_mirrored_rad": 0.008733835388527934,
+      "max_mirrored_joint_position_difference_rad": 3.1004893097374975e-09,
+      "max_mirrored_joint_velocity_difference_rad_s": 1.377540383459449e-07,
+      "max_mirrored_torque_difference_nm": 1.1004081610366256e-06,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_ankle_roll.npz": "e3212a7fe2386ef61eb7975d8149017f9c4aa2807c1fd1da1af3f3f5d05753ae",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_ankle_roll.npz": "e3d8a3fd278f200f610befcce1e4e102fe80550df4421223e61548faaae03423"
+      }
+    },
+    {
+      "integrator": "implicit",
+      "joint": "hip_pitch",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.011764359057722162,
+      "right_final_step_mirrored_rad": 0.01176750779589869,
+      "max_mirrored_joint_position_difference_rad": 3.7005986979199434e-06,
+      "max_mirrored_joint_velocity_difference_rad_s": 0.00011403061873932127,
+      "max_mirrored_torque_difference_nm": 0.0009878980044266683,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_hip_pitch.npz": "e2e891838cdf3051ce1ea8f4cccd935fe2205b0fea786ef472bc53f267d27b00",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_hip_pitch.npz": "576813fec64dfa1dd9dc93a05ccddb67a65ccfecea771cfa03c1e64e354bcdf5"
+      }
+    },
+    {
+      "integrator": "implicit",
+      "joint": "hip_roll",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.011931279635147318,
+      "right_final_step_mirrored_rad": 0.011931308044654056,
+      "max_mirrored_joint_position_difference_rad": 1.2500851741259478e-06,
+      "max_mirrored_joint_velocity_difference_rad_s": 5.0965649683122225e-05,
+      "max_mirrored_torque_difference_nm": 0.0003835682512018934,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_hip_roll.npz": "4b4ffe04a03bb675f914aaf3126bb975c6bd607419fab4ca300f0e416c3551dc",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_hip_roll.npz": "e413676bdf8d528ef21a470a713cb7df216e9b354dff061e69cde134997fc4e1"
+      }
+    },
+    {
+      "integrator": "implicit",
+      "joint": "hip_yaw",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.01036080107310409,
+      "right_final_step_mirrored_rad": 0.010360810871505961,
+      "max_mirrored_joint_position_difference_rad": 4.741464332824741e-07,
+      "max_mirrored_joint_velocity_difference_rad_s": 2.5376051473561655e-05,
+      "max_mirrored_torque_difference_nm": 0.00017693404106466915,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_hip_yaw.npz": "d08d582ed11971be293e8d5575574d5505857238b10d66ee76c471ce77c3b620",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_hip_yaw.npz": "87b32a7995cdd410b19a0049c8b95a8eebb07cef93e1206775695b13cb69ddcf"
+      }
+    },
+    {
+      "integrator": "implicit",
+      "joint": "knee",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.010122170731507951,
+      "right_final_step_mirrored_rad": 0.01012270241381763,
+      "max_mirrored_joint_position_difference_rad": 1.3775358752021738e-06,
+      "max_mirrored_joint_velocity_difference_rad_s": 6.13974469598948e-05,
+      "max_mirrored_torque_difference_nm": 0.0005523165005953956,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_knee.npz": "d73babce4582abeafc8efc9ddb94a96dc6dab8c0f090d35b646ef4bf3f004909",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_knee.npz": "3ba520f69f4d588db5ebcfb8d9d89154f344e86a335cc8522c23325cb811ea2d"
+      }
+    },
+    {
+      "integrator": "implicit",
+      "joint": "ankle_pitch",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.008745073689750443,
+      "right_final_step_mirrored_rad": 0.008745073640325701,
+      "max_mirrored_joint_position_difference_rad": 3.730788165668447e-08,
+      "max_mirrored_joint_velocity_difference_rad_s": 1.8668790277469663e-06,
+      "max_mirrored_torque_difference_nm": 1.2413373687098156e-05,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_ankle_pitch.npz": "7301c692309b69a895c8c1ba0e1d490c2f83761237960928a233fde39b8a0459",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_ankle_pitch.npz": "e45d6e3820f97fbd4d7ddd6c04dfe6a5f5ec6d9214436787b5b3c7596d9becfe"
+      }
+    },
+    {
+      "integrator": "implicit",
+      "joint": "ankle_roll",
+      "initial_target_delta_rad": 0.01,
+      "left_final_step_rad": 0.008733835393490343,
+      "right_final_step_mirrored_rad": 0.008733835387668903,
+      "max_mirrored_joint_position_difference_rad": 3.1005030209918516e-09,
+      "max_mirrored_joint_velocity_difference_rad_s": 1.377541030134757e-07,
+      "max_mirrored_torque_difference_nm": 1.1003866173808774e-06,
+      "trace_hashes": {
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_ankle_roll.npz": "863f4b6c9bbb4aefed27f507d683dfc39e0842c3c0b8a9c36132eedfd7147d1f",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_ankle_roll.npz": "41d0dc99bddfed67490f6c76490ce0765dd08d8888652d78776152e5698b2335"
+      }
+    }
+  ],
+  "protocol": "6paired joints x2integrators; each left/right .01rad mirroredstep,200ms; same37positionservos; free-floating gravityoff,2m height,no contacts,no policy; actualcentralasymmetry retained",
+  "inputs": {
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_physical_models/g1_usd_physical_position.mjb": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+    "/home/omai/robotics/projects/g1-hierarchical-control/results/flat_baseline/20261002/usd_physics_isolation/bilateral_audit.json": "0fbb5c3466d58127cee75e90dc94485aed75bf6783b44ba33c248336adf63a32",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/probe_usd_mirrored_actuation.py": "42ccaa9563e1828a3418cbc591d47827fe3b49ccea5a398f4e2749f173071f4c"
+  },
+  "limitation": "Short suspended response symmetry is not a matched-state PhysX comparison or proof of walking contact dynamics equivalence."
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "left_only_132",
+    "support": "left_only",
+    "source_sample": 132,
+    "source_time": 2.64,
+    "source_foot_fz": [
+      321.3730163574219,
+      0.0
+    ],
+    "target_kind": "recorded_hold"
+  },
+  {
+    "name": "left_only_214",
+    "support": "left_only",
+    "source_sample": 214,
+    "source_time": 4.28,
+    "source_foot_fz": [
+      151.0927734375,
+      0.0
+    ],
+    "target_kind": "recorded_hold"
+  },
+  {
+    "name": "right_only_137",
+    "support": "right_only",
+    "source_sample": 137,
+    "source_time": 2.74,
+    "source_foot_fz": [
+      0.0,
+      424.7082824707031
+    ],
+    "target_kind": "recorded_hold"
+  },
+  {
+    "name": "right_only_218",
+    "support": "right_only",
+    "source_sample": 218,
+    "source_time": 4.36,
+    "source_foot_fz": [
+      0.0,
+      405.4154052734375
+    ],
+    "target_kind": "recorded_hold"
+  },
+  {
+    "name": "double_128",
+    "support": "double",
+    "source_sample": 128,
+    "source_time": 2.56,
+    "source_foot_fz": [
+      275.16912841796875,
+      49.72246551513672
+    ],
+    "target_kind": "recorded_hold"
+  },
+  {
+    "name": "double_208",
+    "support": "double",
+    "source_sample": 208,
+    "source_time": 4.16,
+    "source_foot_fz": [
+      279.4269104003906,
+      48.66343307495117
+    ],
+    "target_kind": "recorded_hold"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "skill": "march",
+  "obs_dim": 125,
+  "base_obs_dim": 123,
+  "action_dim": 37,
+  "phase_dim": 2,
+  "phase_period_s": 0.9,
+  "phase_semantics": "sin/cos append on marching activation; explicit adapter, not a velocity command",
+  "action_mapping": "original default + metadata.action_scale * action",
+  "checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/model_999.pt",
+  "checkpoint_sha256": "56121417c5b1f5dce7e3b3bfa48a2b6474a61894c6d661e1ee5da8fb24d19432",
+  "npz_sha256": "e1196c8b474f45fd6692643038e62f7fdec988c6739e7a3821aef563bfea46d4",
+  "torch_numpy_max_error": 4.76837158203125e-06,
+  "export_verified": true,
+  "candidate_only": true
+}

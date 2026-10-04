@@ -1,0 +1,222 @@
+{
+  "cases": [
+    {
+      "case": "baseline_vx0.5_yaw-0.2",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 1.9984014443252818e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "c9d93adebe5d1c7665d4aa06816b55e21ee2ffa01d50bafe9bd87de17797fda2"
+    },
+    {
+      "case": "baseline_vx0.5_yaw-0.1",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.220446049250313e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "f4bb2c27f99500b8cfb836f67e3b9f3cc2e07a5edb026c9f46ab4ebcaae10d6a"
+    },
+    {
+      "case": "baseline_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 1.9984014443252818e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "c8f35d4b1eed75650b7188f21653b8a94eb51015d529e5758746164f93539a94"
+    },
+    {
+      "case": "baseline_vx0.5_yaw+0.1",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 7.771561172376096e-16,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "73ee0bd21d6e83ff164642e2821e42e4d142e0ebf2f58991c8a601d27508ae20"
+    },
+    {
+      "case": "baseline_vx0.5_yaw+0.2",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 1.9984014443252818e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "973aedf5fc5fde08343b0ecc1067b4e63e52eefa41e0cc351e6c19c8c63a8be8"
+    },
+    {
+      "case": "baseline_vx1_yaw-0.2",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.220446049250313e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "906a3000711e097646ebfe54ad7461b0e70a363e36b9c8bacb612bb3717cfc9f"
+    },
+    {
+      "case": "baseline_vx1_yaw-0.1",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.220446049250313e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "118ef2326e72612b971f130dc6e21f9e3106ba3bf222a4f1cff5caece20af6e3"
+    },
+    {
+      "case": "baseline_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 1.9984014443252818e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "b88b003a301041c53b9190fcae65c11a26dd117f0a521e47f216321b2f22a65c"
+    },
+    {
+      "case": "baseline_vx1_yaw+0.1",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 5.551115123125783e-16,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "42f07fd5e9c6536d1c30232023619ac36c17e47b33a99e125a9d724ef4218677"
+    },
+    {
+      "case": "baseline_vx1_yaw+0.2",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.220446049250313e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "d7a04cf2adcc3b76e60ed8ade58eee3bf66fa2e1b1742d5cea0ae8bd47e6396e"
+    },
+    {
+      "case": "dt_half_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 1.9984014443252818e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "11b0fcaf762252d4da2811e79765f1cfffba46b4a519e2f0f8d3cf28c3a9199f"
+    },
+    {
+      "case": "dt_half_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.220446049250313e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "be197ddb273682579aa3851c5964ba782021230fb17e8e87bd98643dc6e4803c"
+    },
+    {
+      "case": "friction06_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 1.9984014443252818e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "7d90307db936e3f7ac90e845fd6cdd63e9071e2da9e3c31382d1ccd9e65635e9"
+    },
+    {
+      "case": "friction06_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.220446049250313e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "8b7124e77529a0d9df5e6f8ca56b30b6c235e67388774ac6c0256a8ff8368fea"
+    },
+    {
+      "case": "start90_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 1.7763568394002505e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "85db5f6f8fb7321707d415510a02180dd0c17401b8ee742d3cba70ee954eeaa6"
+    },
+    {
+      "case": "start90_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 1.9984014443252818e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "62d1ca59bde1dd3a6706be6840ff2cf1573b80607e4c4ee55ed386a9bf7a8687"
+    },
+    {
+      "case": "usd_position_vx0.5_hold0",
+      "states": 1501,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.3765711620882257e-16,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "4af4d4989bc3aef0e269dbcc0fe767d4fde20c1bd724f0773eec8f57f3a299d4"
+    },
+    {
+      "case": "usd_position_vx0.5_left90",
+      "states": 1501,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.220446049250313e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "8008cbad6a7f2d37fc5a6f64fd90450c34e61e137c2d32d986951b018432990d"
+    },
+    {
+      "case": "usd_position_vx0.5_right90",
+      "states": 1501,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.2208797301193073e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "9c4f02e5722c9bf3d680ebb3f9fd42d61f462586c551e94cddcb6a1596e44417"
+    },
+    {
+      "case": "usd_position_vx1_hold0",
+      "states": 1501,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.636779683484747e-16,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "06466c1121b674233f59f603cebe8cd4fe180d4659f8d740c963f18d0b55835c"
+    },
+    {
+      "case": "usd_position_vx1_left90",
+      "states": 1501,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.220446049250313e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "f8860925351e8b1735fa8dbd97e5412f91db8f60c64b6323e61fd708bb802936"
+    },
+    {
+      "case": "usd_position_vx1_right90",
+      "states": 1501,
+      "actor_inputs_checked": 16,
+      "signal_max_abs_error": 2.4424906541753444e-15,
+      "actor_max_abs_error": 0.0,
+      "raw_sha256": "7b6eebd523e0a34a5e37263835f330ef8249024712d21899c238dc44abb4df06"
+    }
+  ],
+  "all22complete": true,
+  "reconstructed_states": 25022,
+  "actor_evaluations": 352,
+  "isaac_cases_checked": 12,
+  "isaac_reused_not_rerun": true,
+  "raw_sha256": {
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx0.5_yaw-0.2.npz": "c9d93adebe5d1c7665d4aa06816b55e21ee2ffa01d50bafe9bd87de17797fda2",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx0.5_yaw-0.1.npz": "f4bb2c27f99500b8cfb836f67e3b9f3cc2e07a5edb026c9f46ab4ebcaae10d6a",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx0.5_yaw+0.0.npz": "c8f35d4b1eed75650b7188f21653b8a94eb51015d529e5758746164f93539a94",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx0.5_yaw+0.1.npz": "73ee0bd21d6e83ff164642e2821e42e4d142e0ebf2f58991c8a601d27508ae20",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx0.5_yaw+0.2.npz": "973aedf5fc5fde08343b0ecc1067b4e63e52eefa41e0cc351e6c19c8c63a8be8",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx1_yaw-0.2.npz": "906a3000711e097646ebfe54ad7461b0e70a363e36b9c8bacb612bb3717cfc9f",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx1_yaw-0.1.npz": "118ef2326e72612b971f130dc6e21f9e3106ba3bf222a4f1cff5caece20af6e3",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx1_yaw+0.0.npz": "b88b003a301041c53b9190fcae65c11a26dd117f0a521e47f216321b2f22a65c",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx1_yaw+0.1.npz": "42f07fd5e9c6536d1c30232023619ac36c17e47b33a99e125a9d724ef4218677",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/baseline_vx1_yaw+0.2.npz": "d7a04cf2adcc3b76e60ed8ade58eee3bf66fa2e1b1742d5cea0ae8bd47e6396e",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/dt_half_vx0.5_yaw+0.0.npz": "11b0fcaf762252d4da2811e79765f1cfffba46b4a519e2f0f8d3cf28c3a9199f",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/dt_half_vx1_yaw+0.0.npz": "be197ddb273682579aa3851c5964ba782021230fb17e8e87bd98643dc6e4803c",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/friction06_vx0.5_yaw+0.0.npz": "7d90307db936e3f7ac90e845fd6cdd63e9071e2da9e3c31382d1ccd9e65635e9",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/friction06_vx1_yaw+0.0.npz": "8b7124e77529a0d9df5e6f8ca56b30b6c235e67388774ac6c0256a8ff8368fea",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/start90_vx0.5_yaw+0.0.npz": "85db5f6f8fb7321707d415510a02180dd0c17401b8ee742d3cba70ee954eeaa6",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_diagnosis/start90_vx1_yaw+0.0.npz": "62d1ca59bde1dd3a6706be6840ff2cf1573b80607e4c4ee55ed386a9bf7a8687",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_compensation/usd_position_vx0.5_hold0.npz": "4af4d4989bc3aef0e269dbcc0fe767d4fde20c1bd724f0773eec8f57f3a299d4",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_compensation/usd_position_vx0.5_left90.npz": "8008cbad6a7f2d37fc5a6f64fd90450c34e61e137c2d32d986951b018432990d",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_compensation/usd_position_vx0.5_right90.npz": "9c4f02e5722c9bf3d680ebb3f9fd42d61f462586c551e94cddcb6a1596e44417",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_compensation/usd_position_vx1_hold0.npz": "06466c1121b674233f59f603cebe8cd4fe180d4659f8d740c963f18d0b55835c",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_compensation/usd_position_vx1_left90.npz": "f8860925351e8b1735fa8dbd97e5412f91db8f60c64b6323e61fd708bb802936",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_yaw_compensation/usd_position_vx1_right90.npz": "7b6eebd523e0a34a5e37263835f330ef8249024712d21899c238dc44abb4df06",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_00.npz": "5c53bb88c6b3d388765f669e8fec37426a0d0c80b4795a2f7e29aa395b463cff",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_01.npz": "04755eac4371320b6ef0bf38b61e641d3af8c306b2c9f4b0083fbd5370e70988",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_02.npz": "c2778213323f63a36483d821f6dddf40dab8af8e47ddeedb57a5f5b434dd5366",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_03.npz": "00a1fcd0dd636524abd5c152971d835e7f42a9f8acb646444718e14c4ded5480",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_04.npz": "e8e6edcea81c6b2d4264999fbf6fdf1e9dfcb23e207c840087ad09a889bed39b",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_05.npz": "a453b0710caa110460838440cee98bace06b3a96334a2d81309e3ac271bc1c75",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_06.npz": "428f9e1a2e243fcc145f9d77bc0f2eb34fb91ce65c6130064ff95d37e441bc91",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_07.npz": "89c59a458fa32edbb91ecafb732270a7e72dd876653ecf0ff714d95f0b25ad03",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_08.npz": "deea523e9aab705dce8635be380eeb04e7677b3596e32c4f5d8190abb967dc59",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_09.npz": "7d8e6470df355c5667ff96a89304816c98c4de5c7f2855b6bb28f9873fa57622",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_10.npz": "ea9b3718d65dc84faf8a64982ffcee7e9ec2fe4da16738255ea7a426a271a32e",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/isaac_posttraining/baseline1499_11.npz": "9561768a528ed1496e1d9a6bfdf4dc9b40656e4edafa7d091309e723d65c2ff8"
+  },
+  "limits": "Single deterministic flat setting; offset diagnostic does not identify a single physical cause and is not default deployment."
+}

@@ -1,0 +1,1759 @@
+{
+  "nodes": [
+    {
+      "node": "baseline_from_scratch",
+      "path": "results/locomotion_reproduction",
+      "exists": true,
+      "readme": true,
+      "files": 10,
+      "json": 4,
+      "csv": 3,
+      "media": 2,
+      "bytes": 508039,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "flat_commands",
+      "path": "results/flat_baseline/20261002",
+      "exists": true,
+      "readme": true,
+      "files": 212,
+      "json": 143,
+      "csv": 21,
+      "media": 22,
+      "bytes": 15714417,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "continuation_1999",
+      "path": "results/flat_baseline/20261002/posttraining",
+      "exists": true,
+      "readme": true,
+      "files": 24,
+      "json": 16,
+      "csv": 3,
+      "media": 2,
+      "bytes": 462986,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "shadow_noninterference",
+      "path": "results/locomotion_shadow/turning",
+      "exists": true,
+      "readme": true,
+      "files": 11,
+      "json": 2,
+      "csv": 8,
+      "media": 0,
+      "bytes": 39385,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "shadow_window",
+      "path": "results/locomotion_shadow/yaw_window",
+      "exists": true,
+      "readme": true,
+      "files": 9,
+      "json": 3,
+      "csv": 3,
+      "media": 2,
+      "bytes": 1307066,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "detection_calibration",
+      "path": "results/locomotion_shadow/yaw_calibration",
+      "exists": true,
+      "readme": true,
+      "files": 10,
+      "json": 4,
+      "csv": 3,
+      "media": 2,
+      "bytes": 229541,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "physical_command_grid",
+      "path": "results/locomotion_shadow/physical_commands",
+      "exists": true,
+      "readme": true,
+      "files": 16,
+      "json": 10,
+      "csv": 3,
+      "media": 2,
+      "bytes": 1231503,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "physics_and_actuation",
+      "path": "results/flat_baseline/20261002/matched_actuation",
+      "exists": true,
+      "readme": true,
+      "files": 20,
+      "json": 14,
+      "csv": 2,
+      "media": 2,
+      "bytes": 594618,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "leg_contact",
+      "path": "results/flat_baseline/20261003/leg_contact",
+      "exists": true,
+      "readme": true,
+      "files": 36,
+      "json": 23,
+      "csv": 1,
+      "media": 2,
+      "bytes": 768560,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "contact_parameters",
+      "path": "results/flat_baseline/20261003/contact_parameters",
+      "exists": true,
+      "readme": true,
+      "files": 24,
+      "json": 10,
+      "csv": 3,
+      "media": 2,
+      "bytes": 585716,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "task_watchdog",
+      "path": "results/hierarchical_demo/20261003",
+      "exists": true,
+      "readme": true,
+      "files": 229,
+      "json": 98,
+      "csv": 30,
+      "media": 33,
+      "bytes": 89127348,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "handoff_watchdog",
+      "path": "results/hierarchical_demo/20261003/handoff",
+      "exists": true,
+      "readme": true,
+      "files": 69,
+      "json": 30,
+      "csv": 13,
+      "media": 8,
+      "bytes": 20402805,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "command_stop",
+      "path": "results/hierarchical_demo/20261003/command_response",
+      "exists": true,
+      "readme": true,
+      "files": 45,
+      "json": 20,
+      "csv": 2,
+      "media": 8,
+      "bytes": 33145414,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "posture_hold",
+      "path": "results/hierarchical_demo/20261003/posture_hold",
+      "exists": true,
+      "readme": true,
+      "files": 49,
+      "json": 20,
+      "csv": 2,
+      "media": 8,
+      "bytes": 16703124,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "skill_first_round",
+      "path": "results/skills_sprint/20261003/first_round",
+      "exists": true,
+      "readme": true,
+      "files": 20,
+      "json": 18,
+      "csv": 0,
+      "media": 0,
+      "bytes": 283775,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "skill_handoff_diagnostic",
+      "path": "results/skills_sprint/20261003/handoff_diagnostic",
+      "exists": true,
+      "readme": true,
+      "files": 211,
+      "json": 192,
+      "csv": 5,
+      "media": 1,
+      "bytes": 6048860,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "teacher_handoff_training",
+      "path": "results/skills_sprint/20261003/teacher_handoff_round",
+      "exists": true,
+      "readme": true,
+      "files": 98,
+      "json": 83,
+      "csv": 1,
+      "media": 1,
+      "bytes": 1164014,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "upper_heading_feedback",
+      "path": "results/skills_sprint/20261003/heading_feedback",
+      "exists": true,
+      "readme": true,
+      "files": 100,
+      "json": 84,
+      "csv": 4,
+      "media": 1,
+      "bytes": 1327403,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "state_gated_skill_sequence",
+      "path": "results/skills_sprint/20261003/skill_sequence",
+      "exists": true,
+      "readme": true,
+      "files": 59,
+      "json": 32,
+      "csv": 3,
+      "media": 3,
+      "bytes": 7108220,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "skill_watchdog_stop_resume",
+      "path": "results/skills_sprint/20261003/skill_sequence/watchdog_verification",
+      "exists": true,
+      "readme": false,
+      "files": 5,
+      "json": 3,
+      "csv": 2,
+      "media": 0,
+      "bytes": 23349,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    },
+    {
+      "node": "held_out_sequence_retest",
+      "path": "results/skills_sprint/20261004/sequence_retest",
+      "exists": true,
+      "readme": true,
+      "files": 63,
+      "json": 44,
+      "csv": 3,
+      "media": 1,
+      "bytes": 1990721,
+      "scope": "Recursive counts; nested nodes overlap, not unique experiments. Availability only, not performance acceptance."
+    }
+  ],
+  "skill_raw_assets": [
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_00/trace.npz",
+      "bytes": 12253191,
+      "sha256": "7c378ecc7e5ac054e4bda832e284ff7c28b2c1dae1731bb0e00e9eb4541238e2"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_01/trace.npz",
+      "bytes": 19646633,
+      "sha256": "c8189cc451d3a2b7c8fc5a45f6fb4073c1e1bf4de1161141f67f7e586c2b8c82"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_02/trace.npz",
+      "bytes": 20237276,
+      "sha256": "ca4acfd4cd1b3268d3a0cc1a3fb8ecf9eb54bcb9c79dc054d710394070f27175"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_03/trace.npz",
+      "bytes": 21498885,
+      "sha256": "9be3e1687c274221b41d4aa8173d3789cebca368baa0c00f7bdb2ee4f67aeaeb"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_04/trace.npz",
+      "bytes": 19648154,
+      "sha256": "585e98cfd7db10c4b998de7e32f7741923de1727296bf7df68c65aea33d4ca64"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_05/trace.npz",
+      "bytes": 20205468,
+      "sha256": "c6e6d71cca0813a08f18c4d1bed4457b4c216b48b9abe135022be3a967822a16"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_06/trace.npz",
+      "bytes": 21481312,
+      "sha256": "6d507530480f34ebdc421e8a565f92beb6b5d9b71f52b12bec52ca7736245d6e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_07/trace.npz",
+      "bytes": 19628983,
+      "sha256": "e2d163e60b60eae45b97d52ee9151a031120fa0b58c1b59203698224c608d2f0"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_08/trace.npz",
+      "bytes": 20230662,
+      "sha256": "f1e4be7747833645ad8df26192b520e812818c3a6ebe60c99d713d3144163b19"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_09/trace.npz",
+      "bytes": 21495537,
+      "sha256": "3a44d4b38d18a6aa507f8975c3c8a434826e6710f33531ad2abf49739d40e94d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_10/trace.npz",
+      "bytes": 19702718,
+      "sha256": "9dbd26fe119474b385f5a3821d47e1fcf7bf61e9be6357acc64dd8430feac1bb"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_11/trace.npz",
+      "bytes": 20220228,
+      "sha256": "6ec0cedd47b5dab8aa11eaf55627adbceba7b754a2d995ec86982edab731d4b1"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_12/trace.npz",
+      "bytes": 21492708,
+      "sha256": "6e91ca6f079e10217fe3d1edbc7c83d2c77ba3569d29c8e34c71ddd38ba94a7a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_13/trace.npz",
+      "bytes": 19673735,
+      "sha256": "9954f6df8a1ee32ce84e73314e466579c645cf0a454bba34be35fea9ed0b9b0c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_14/trace.npz",
+      "bytes": 20226404,
+      "sha256": "fa8cd9202ef101309287b432bb5b550e0b0cc3206e4ff123f1b5840945f72b52"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_15/trace.npz",
+      "bytes": 21507483,
+      "sha256": "07a169ecff36f23bbf999aeadc23da8931579b8b3756f8c240f93cdacbba975d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_16/trace.npz",
+      "bytes": 19641843,
+      "sha256": "fec0ed9a9373e835d718521ca1e4bc5379c7e0b5984afe3f153a01edd080e07c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_17/trace.npz",
+      "bytes": 20247586,
+      "sha256": "5b7a8ec3ae7ed257c1753f3201c98f85903789691e0c5cafaa7fbe24b06beae6"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_hold/case_18/trace.npz",
+      "bytes": 21501298,
+      "sha256": "0e468d4b617e3f7d8e9f4f76a4fdbaecd9548d4425cdc9d50901b02a7f9a9b8d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_00/trace.npz",
+      "bytes": 12805590,
+      "sha256": "1a9c4d0d9e06b6b4a573a70f12221309a5d95dabd183680ae6ac1957f8cf1637"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_01/trace.npz",
+      "bytes": 19840953,
+      "sha256": "5feaae293e246563431698485eead4ddf97fc4c0045a15545b2cdd54146f5d9d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_02/trace.npz",
+      "bytes": 20477997,
+      "sha256": "41b4cb02f04430feccc285442e734fecbbb67ad54bd29ed75d6cfbfa0353dd7d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_03/trace.npz",
+      "bytes": 21759240,
+      "sha256": "3debaea8949e9c0c21a8cbc0bf9cd4aec9e2109aed609c7ceeede7f1ee6a71a3"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_04/trace.npz",
+      "bytes": 19837854,
+      "sha256": "4c30bea54da3dc0e2fd509c624e85f609b5ba52005a31a65345a04702b0bdb92"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_05/trace.npz",
+      "bytes": 20471868,
+      "sha256": "945c36274f5139717a4193d029247ca66dab6fb345cd6ad4a7b3ee84829ac4ef"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_06/trace.npz",
+      "bytes": 21752216,
+      "sha256": "8e5a124e5c74d10cf45f58750701a0aa166bc0df9d7455caafe3317242a732e9"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_07/trace.npz",
+      "bytes": 19848215,
+      "sha256": "f7a1ae9975ae8b70e32835db987331487b115a7f9cf0db58fe7d671a5e8716b4"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_08/trace.npz",
+      "bytes": 20479617,
+      "sha256": "c73539ec95452bda557f8c834c38ab507b9c3ceafbfdfa59a037f81368398297"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_09/trace.npz",
+      "bytes": 21761055,
+      "sha256": "f08b8c49d5f4b9f7451884c14353aaf475c5f28aecc645c349d0cb6d9e1d0d69"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_10/trace.npz",
+      "bytes": 19833963,
+      "sha256": "2f0e222cc782f1659fc2eec2c197e05b5b3fa1131382a3bf29a9185b799f02bd"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_11/trace.npz",
+      "bytes": 20473072,
+      "sha256": "e0c6fa9930c660cf07724afe47ada26aa5a8b3c39db2e98ca616c321c2ee02b5"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_12/trace.npz",
+      "bytes": 21761145,
+      "sha256": "035c21f563988b84443104298fb3b8c198f33d5dbca9f6470de239287dcb0117"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_13/trace.npz",
+      "bytes": 19832016,
+      "sha256": "32a3abcf970f1dc18fd8286a4ff5f7c6a1764dd63f1d00b27a0c8c58bd17e5f9"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_14/trace.npz",
+      "bytes": 20467035,
+      "sha256": "4e8ef2123513f50fac39d7e9e0eefeac1239133403164189fabbf6f8d8954e51"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_15/trace.npz",
+      "bytes": 21757654,
+      "sha256": "ed8ce74b2b2658fa914f7344be5b9f9b9c49cd336b6f1b074b857198c11f6617"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_16/trace.npz",
+      "bytes": 19826946,
+      "sha256": "0223879400984e56eefa80fbe61ae9b33c49547b58748411c1c0222cd01ec919"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_17/trace.npz",
+      "bytes": 20461238,
+      "sha256": "ca03ce024ab50d20729d6f80627c1432ebc1730521744996bb4f81350ff56726"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/isaac_march/case_18/trace.npz",
+      "bytes": 21755784,
+      "sha256": "9842923dd8bd0d60c6f5cf61950a24557962bf55897068509d5381391fd82b23"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_00/trace.npz",
+      "bytes": 1118786,
+      "sha256": "f93a338be634a416798a00d3c4cc1325c82ca3b4cce03892dd9d85fcaa21ca0c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_01/trace.npz",
+      "bytes": 1118786,
+      "sha256": "f93a338be634a416798a00d3c4cc1325c82ca3b4cce03892dd9d85fcaa21ca0c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_02/trace.npz",
+      "bytes": 1712391,
+      "sha256": "0f67520991a2bf8e9162a054653a7d9760bdbe731a17ab5ffaa0e7c3442c6253"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_03/trace.npz",
+      "bytes": 1767235,
+      "sha256": "1bb61936b3667bddfc08653a8b6fd65716d522b6b8a8cf1cc584a8cbda72ed95"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_04/trace.npz",
+      "bytes": 870728,
+      "sha256": "2097fa66eb99a544c73827c3030fcdf9aa61acc9d75b4d1b549f87c6d3ab21ad"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_05/trace.npz",
+      "bytes": 714186,
+      "sha256": "042c64ebab1532d72061547bcf4ef0473f12c5c91159cae10ff9a898a232fc26"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_06/trace.npz",
+      "bytes": 788939,
+      "sha256": "fdb3963f3e57a6d63a2da09f8884ed823fb9ec703be23026d7fffebb9b33ca53"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_07/trace.npz",
+      "bytes": 1905638,
+      "sha256": "e1133ab5596a62f1e0800c14edb4727a55dab1e237b45b14f3fed4cad3e2dca5"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_08/trace.npz",
+      "bytes": 1658012,
+      "sha256": "1942bbee17bc0734b75f71a8cd7d89ee10299658bd097b2e86fb2bc6b3a60b0a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_09/trace.npz",
+      "bytes": 1767083,
+      "sha256": "9444e129135afde5051011d5787903b4c40aad879b5ad28fe22bb603bdc60b8b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_10/trace.npz",
+      "bytes": 869807,
+      "sha256": "ceb89be990356a7f9ef7cc8a9ba54d8a88347da3961a0735b2db7b506603213b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_11/trace.npz",
+      "bytes": 715940,
+      "sha256": "b8f2ee9d11179618010887328969f13ecb22b3fbf8f0f312b113b62a827adf7b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_12/trace.npz",
+      "bytes": 786110,
+      "sha256": "0d6f0877039828fcff44f45fdfda72b6c115e93e127077c34fc15e11f4599ef2"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_13/trace.npz",
+      "bytes": 1904434,
+      "sha256": "5960ac883ea15e6a996362e82ebd419f527eafa645012bf250b1295e5cd81cb5"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_14/trace.npz",
+      "bytes": 1672701,
+      "sha256": "c857059fb00452b7c74fbac5a4208b42cc615326697455b043f7026e2039705b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_15/trace.npz",
+      "bytes": 1767395,
+      "sha256": "e831596e82c2d5125304b55df9199b73b796dbfa217665dd6a3b4ee73d0798ac"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_16/trace.npz",
+      "bytes": 875257,
+      "sha256": "f5f730d9ef31da004874ad1d10ee623f8d9d9bccc6116927c734360d2ffd1e7b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_17/trace.npz",
+      "bytes": 766189,
+      "sha256": "54a5bc0130fab27c9e6153d92c0c10dd7861f07b52bedddba48e1e2a7f855c9a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_18/trace.npz",
+      "bytes": 789055,
+      "sha256": "d69a378af3e6489ce9fa1363d2a0a3c0895ee0cfcaad3ab12c61355e57f0d666"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_19/trace.npz",
+      "bytes": 1905026,
+      "sha256": "ab4e473f685938bfac39bc3feff9eb4f8c2fca99de00de75ff6bfe82207ffc13"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_20/trace.npz",
+      "bytes": 715428,
+      "sha256": "2f7ddfff7c74261756481354658092b87d8430f0e91e4845294f3f82be65878b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_21/trace.npz",
+      "bytes": 1769697,
+      "sha256": "fe104ad4b1f96d0cb36b37981c7198d021d52e4ce006ce043c1f0edac4214101"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_22/trace.npz",
+      "bytes": 1882485,
+      "sha256": "b56711aa40dab6aa44654c792138930dfced6a99d0ec151ac728ea0507df49ca"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_23/trace.npz",
+      "bytes": 720167,
+      "sha256": "1eedf4d3d5653a8099d9bae58789e8ba3ea5044500a6986c90ecd1d1086772d3"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_24/trace.npz",
+      "bytes": 1794088,
+      "sha256": "d4f0d6b8f6ae529c94af9921219758b39803fc27370c9b518c1d0b16878e66ee"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_25/trace.npz",
+      "bytes": 894366,
+      "sha256": "1f0a50c4e0077ae9cdfac0aa70daa69ed1b2418715ff87c7951b05207a5fc9b8"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_26/trace.npz",
+      "bytes": 715720,
+      "sha256": "1aa11e0d926d3656323dfb8ed3984f6b757e25d7305fe0ab9d67f24cca329378"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_27/trace.npz",
+      "bytes": 1769068,
+      "sha256": "2a9b57fd4b7fe128e5d2041c51448eab2d7dc919c6eb55c8f1feff8f9761c5ec"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_28/trace.npz",
+      "bytes": 1881523,
+      "sha256": "c9ee095cacc032a3ef06374760ac036cc3a99c6e51fad9b55f82abe89c8fbb99"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_29/trace.npz",
+      "bytes": 724594,
+      "sha256": "bb704a0131e47c6edd1debe631be509ba5da6dcbb699465737ec651202302cfb"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_30/trace.npz",
+      "bytes": 1752443,
+      "sha256": "6a84c596948aaebb355d42f45e88503c328dd5a16876368defab1a6a5e04b754"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_31/trace.npz",
+      "bytes": 896057,
+      "sha256": "5d90690b01ffe023da690efa0a9872463e75ab14b7641f8c5e5e41edfb7c5d85"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_32/trace.npz",
+      "bytes": 724361,
+      "sha256": "64535114f6e7509e9fc05c7e622f94f1103758ea5e68c2b6458df1ef0d3aa81d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_33/trace.npz",
+      "bytes": 1768760,
+      "sha256": "0a8e1e458adf4a8a9c87c4400665a252ad72c077b5dbf048925b7b2e33312da6"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_34/trace.npz",
+      "bytes": 1881808,
+      "sha256": "4918f3055daa999a704f499933acbd0d652d5d957f2db31d9ce0826d4f4e3390"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_35/trace.npz",
+      "bytes": 728917,
+      "sha256": "e9c55a5b42fc13ddc80e4eae1bd9fccbab1e189f75d4ba2b243ce14bf2e546a4"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_36/trace.npz",
+      "bytes": 1036874,
+      "sha256": "6eb29ce22215e02ba1739b2e2b6a2ca9815b561cb158f5849f64a9eca59297de"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_hold/case_37/trace.npz",
+      "bytes": 898671,
+      "sha256": "942df36450dfa1ff56faea74e3dfda2467b48762e8b0ce09f9a22860a165446f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_00/trace.npz",
+      "bytes": 1125467,
+      "sha256": "bdefb3ed92f8e5786f94e58b54c6574d7213622744ea507d67ef41b3714aa185"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_01/trace.npz",
+      "bytes": 1126097,
+      "sha256": "22882e1783dd919226c931f823544ccb7baf2f7332b3f5a312e18fd388ea375a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_02/trace.npz",
+      "bytes": 1718509,
+      "sha256": "d83778ddb0ef6e2d6bca568a92193878ce2c2e3005c1d0fde5e4a4504056eb57"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_03/trace.npz",
+      "bytes": 1774776,
+      "sha256": "a1bedee4a9be4b78aa4f7413f5999d5b6c76818e44542d13ef34c5d72826a389"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_04/trace.npz",
+      "bytes": 1887951,
+      "sha256": "b9910e523d7fa29bf3425dd1ebc9b208268ca6f568bec7bda291db33ddec640c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_05/trace.npz",
+      "bytes": 1743243,
+      "sha256": "78c56224928352d78701c6c5be3120f61df479a69bffe74bc2393480180d7865"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_06/trace.npz",
+      "bytes": 1799296,
+      "sha256": "f679191a4e5a3cb6ecdd1e59261cda06dee4a515841c3cac1d2e2a599c4c9f5f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_07/trace.npz",
+      "bytes": 1912883,
+      "sha256": "3ffc1434e9a904c017f1352a56cf3ce9a81e4bfd43eb88cc925b190b0bd35a13"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_08/trace.npz",
+      "bytes": 1719141,
+      "sha256": "0a135b964c45605deba34ecc88014d6ccf1b9b525dcedd381ea45221d00e2334"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_09/trace.npz",
+      "bytes": 1774834,
+      "sha256": "89c3d5f2911a82dbcb136c19dec026ccca028fe089fdd8552b8ee818361f7aac"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_10/trace.npz",
+      "bytes": 1887409,
+      "sha256": "036f810a792d86507b322f5c89efc3e6e663b7b9739649c69ad0f3d85416aa92"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_11/trace.npz",
+      "bytes": 1742721,
+      "sha256": "5b9274418e5c29f8e1428d8c1d2e5bfa4edc75f3dc8356d9ed8882cee7b08cda"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_12/trace.npz",
+      "bytes": 1798791,
+      "sha256": "62730c88835f2eb728512d7b8d1a5bcdb4099e302e271fdcb56923c8db7dbba9"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_13/trace.npz",
+      "bytes": 1912157,
+      "sha256": "8efdf8023484560b32468163e15d867c5f72cf991a9683d23707e085b29a3a7d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_14/trace.npz",
+      "bytes": 817139,
+      "sha256": "dbd960a073f85080b66d95934d724b2396d44ba6a01c2d40de82035d79c01e83"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_15/trace.npz",
+      "bytes": 1775491,
+      "sha256": "df3d183fb40b7fa335f421a6fc8767fb90e1f0be5639193f58e9fc7bed7dc62a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_16/trace.npz",
+      "bytes": 1888452,
+      "sha256": "d1f548dd3f08e2fd7af6cb2da7693be999aba578f172bd778f5c7158360da005"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_17/trace.npz",
+      "bytes": 1743159,
+      "sha256": "6bf118095d8bf514e30174d2453f6cf5e44a5341c692873cfc6b2e015e82b734"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_18/trace.npz",
+      "bytes": 1799368,
+      "sha256": "15c208672ba1bce702bffc25423c647dad6171c52edb9e01f7dee3f9dedc9cb8"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_19/trace.npz",
+      "bytes": 1913105,
+      "sha256": "eb80de6e0a27f24810d43bb82f1b8061387082a5f4f5ddedbe55d7029d25d039"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_20/trace.npz",
+      "bytes": 707707,
+      "sha256": "dc311af317db5135f8c82b4aeecf18fa649459acad748c4d33504e5a86b46a4c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_21/trace.npz",
+      "bytes": 820705,
+      "sha256": "328772443e074f715abbef460d985a2f5af9cf67f42495814fdd0a1fe88cc281"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_22/trace.npz",
+      "bytes": 1889892,
+      "sha256": "4f979e158dd446b986bf89153a27ea18175c944de84208a6ba091ee18c295511"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_23/trace.npz",
+      "bytes": 714083,
+      "sha256": "d994740956f1c2993767263906d794588b073ba1c3a1836e73b7933090e25e5c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_24/trace.npz",
+      "bytes": 1801245,
+      "sha256": "0771ad20f25481b1c924a1df73b3c9fbdf92c994b7932c7edb927981304e9726"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_25/trace.npz",
+      "bytes": 1915125,
+      "sha256": "43191b7146bef47ea61dbf32cbe69eafaf010ff02d56b210ce79cdae8b9e1174"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_26/trace.npz",
+      "bytes": 705232,
+      "sha256": "b77e78167d60b46007e555efc35f4dbeae88ec7b8a0b4ecb063e9bed04c8084a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_27/trace.npz",
+      "bytes": 1775601,
+      "sha256": "fc20d58f3e8c8e2ac5c4f665af17d858645a76f043512ae67fb7fc1dcbd3fe0e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_28/trace.npz",
+      "bytes": 1888175,
+      "sha256": "fdbd1d12fb8ed4fb63b12166bc952811405e4805409e8c826ebca76cd5b529fe"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_29/trace.npz",
+      "bytes": 718632,
+      "sha256": "46499579e096d151a61f577fb7d19864bc973a4fc86e68b91b436761e1a8e786"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_30/trace.npz",
+      "bytes": 1800200,
+      "sha256": "f3e958b6d127fb1d52570783e7ecedf7a53b2743835182670a204d44cc160d4c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_31/trace.npz",
+      "bytes": 976292,
+      "sha256": "4a88228e9b7cb3c70473ba867c40d790decf00a340b183fcadf7883b2ee58ea5"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_32/trace.npz",
+      "bytes": 714358,
+      "sha256": "13aee1c5d373fa6e0b045b9006446908fd3f80e50c6f4f2f1ee6a995c40a8b6a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_33/trace.npz",
+      "bytes": 1776234,
+      "sha256": "5ed0cbdad050f7377ec483d3f5db1fd8bd542c5d1c9edbb60a9e3656664d52f0"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_34/trace.npz",
+      "bytes": 1888773,
+      "sha256": "7d4ac5a8afb1afa20acce3c61e9554103d2b2e7034fa7e7d6037d18d818e7d62"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_35/trace.npz",
+      "bytes": 727519,
+      "sha256": "4a8e8f5aa19828de38fb886ee77fcb38b56accc3a15e7b9b2fb8b4fd586f8a8f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_36/trace.npz",
+      "bytes": 1800111,
+      "sha256": "b063b856ca692667692c4e466c3f15e2a66e3f76f31b219e20ee6ad71f78a460"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/handoff_diagnostic/mujoco_march/case_37/trace.npz",
+      "bytes": 1064152,
+      "sha256": "b5c985dc3ad377cc36632b3e0aba2bae1d85fcab9e5a0614ba8c26d09f55673d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_00/trace.npz",
+      "bytes": 19700275,
+      "sha256": "f3f9bf2c1f71da40c1a8d7782c57a160dbe677c0a7d307662b301d4613aeeecc"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_01/trace.npz",
+      "bytes": 19734776,
+      "sha256": "dedf3ee55e7f0c45a9a7971b30c9cd85fcf422149d5372a73175bccfce28b000"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_02/trace.npz",
+      "bytes": 19738507,
+      "sha256": "8979dd0ffd10eac315108bcf2de5f554d4f892b14cfe329b2e77d4d919402a6c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_03/trace.npz",
+      "bytes": 19711019,
+      "sha256": "0e3a4c5c175b1340179cf135ba6df424576814c22dd14be595eea9487d339cd2"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_04/trace.npz",
+      "bytes": 19750248,
+      "sha256": "0533f4995ab8889051aca2baae1cc1080e32786e7343a9743cec0446d44fefc8"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_05/trace.npz",
+      "bytes": 19753587,
+      "sha256": "dcbef2e0a8373c1e192baaa5ad71b6c6a1c602c736bfccfb69ae829b50f1c9df"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_06/trace.npz",
+      "bytes": 19678592,
+      "sha256": "fc142c77a4174ec0e6b7a736226a0887c7ee70296df88afaca838de4e99d4958"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_07/trace.npz",
+      "bytes": 19718089,
+      "sha256": "30048dba97f8156ee5159d629973ca411cceeeb9d5f24e199725586088f59bb7"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_hold/case_08/trace.npz",
+      "bytes": 19725812,
+      "sha256": "0b61e7d2fced84e4065914cad7e564137944b7e5fa2cb14c1255530a6d3559f8"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_00/trace.npz",
+      "bytes": 19807131,
+      "sha256": "91c745022050155b701a387133b32740a08705cfbeedd91d70b8a131d13198ea"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_01/trace.npz",
+      "bytes": 19853538,
+      "sha256": "2e4643107870fabe860d5017b72bf96f4156c1905a19c37d6946cebbb059abcf"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_02/trace.npz",
+      "bytes": 19852296,
+      "sha256": "42469f6ceed43058a90f75dbf3f66453072e91e33be7ef03ed5fedceb4d44431"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_03/trace.npz",
+      "bytes": 19802410,
+      "sha256": "b9f299d87dc0ba44e2dc3e68c99bc28ba3621a5775113382849171a999ed01d3"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_04/trace.npz",
+      "bytes": 19849170,
+      "sha256": "0ff1abc27fe990940f698ea0ee75abfd03be084a0caec983b19284db3fadb79a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_05/trace.npz",
+      "bytes": 19847146,
+      "sha256": "ea1b39684c90433b4748ac93dcd81187c1983040594d395ced0e2d09e9154083"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_06/trace.npz",
+      "bytes": 19811602,
+      "sha256": "90d29ccb5219a088a4ef11c76531ace337b80d604ad606c623091c26c9b1aa31"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_07/trace.npz",
+      "bytes": 19858831,
+      "sha256": "bc111356b8e7aa29deaa681594e839448d1cabbdfb5f9cc6abcb9a993d9b8253"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/isaac_march/case_08/trace.npz",
+      "bytes": 19853429,
+      "sha256": "ff67e82f8f4cd10ccb929fd89e138f4ea0d29c247c05778b523ec04baa3d7473"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_00/trace.npz",
+      "bytes": 1715765,
+      "sha256": "b180ef37a94d9a234f141b6ae7786e2c79da911843e6c14303b421e2561ce6cb"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_01/trace.npz",
+      "bytes": 1718757,
+      "sha256": "a58605148994072e35c67f4fdd2e5e192bb023fa3d3de0b19b88a205473c43d8"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_02/trace.npz",
+      "bytes": 1719108,
+      "sha256": "dc60c029f461e21058d2bf955a240c2a928a28a5feec3d8c3b2ecad0f34c412b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_03/trace.npz",
+      "bytes": 1740536,
+      "sha256": "3da3878ebe3f96cea81af5cbed9510a49b8d838db028ca9152c85400416e23ac"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_04/trace.npz",
+      "bytes": 1743351,
+      "sha256": "ee5c99ac738c9383f0ca8043b9fecb8b5b1baad3f4b3edccad894de398d3f577"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_05/trace.npz",
+      "bytes": 1742710,
+      "sha256": "ab504a0e6ab05aa0ef6ef2e4fce461be0110a5e61f5bb6ce8969d1938ca99fc1"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_06/trace.npz",
+      "bytes": 1714540,
+      "sha256": "5f4fa34c9c6236b717acce95cc8068cdcc3e58bc7bdf174a93bc81da6941c60d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_07/trace.npz",
+      "bytes": 1718299,
+      "sha256": "770d4227662873f24286cdeb3d234f014096324d266b36fe32b42924473ad594"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_08/trace.npz",
+      "bytes": 1716751,
+      "sha256": "99d458cacea230aa2f378f3dcb7816824e34f647f435a9b5d55ecfc61e12db15"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_09/trace.npz",
+      "bytes": 1739393,
+      "sha256": "5f1e6bfb0f2aa2fe830e710e2477f92b0650a5cf804583a58977d048f419c934"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_10/trace.npz",
+      "bytes": 1741464,
+      "sha256": "a703a4eab6b41e1f35912e88fbbfd1450cbb787b9a1db2ea43eb244b900f904e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_11/trace.npz",
+      "bytes": 1740194,
+      "sha256": "c9e77df4e5b539c370b9daf6d62eb87bf800aeb976d5eeb933757b5bf7f8cc39"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_12/trace.npz",
+      "bytes": 1715363,
+      "sha256": "92020ed1eb1be3188cd10e402c22268500cc798e2b1e6deef75cdc052dcf84f5"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_13/trace.npz",
+      "bytes": 1718540,
+      "sha256": "a2f0c1914f8dda0828d517a0fecb3397719ae1f0e718af8d95710d5c750e18b7"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_14/trace.npz",
+      "bytes": 1716790,
+      "sha256": "e1377a0bc2bb1e26f6ddd41fab21ffdf31d05bbb87bf4885c073fec62c59247b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_15/trace.npz",
+      "bytes": 1739877,
+      "sha256": "a51ea6cf11f88cb225348c989de3827ca8ca2c1322b1ca39af0e8d1b538d482e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_16/trace.npz",
+      "bytes": 1742356,
+      "sha256": "1b820896a412b397384873ffbc7f1cb6a17462c70cca1bfc96df2ea8df1660d3"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_hold/case_17/trace.npz",
+      "bytes": 1742492,
+      "sha256": "2eda64d2f2c0efa56a307e90d04adbe153e73261f57ffaad37bd3c7c021991ad"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_00/trace.npz",
+      "bytes": 1718415,
+      "sha256": "e2f29643db446d6c145d7431f91c4b17cc41972d2a2048e0566ec650e0420c91"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_01/trace.npz",
+      "bytes": 1718435,
+      "sha256": "9614feb28d7a4942099466fe5b0aaad8fbca5b7aec919029d0885982367bc3ea"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_02/trace.npz",
+      "bytes": 1718435,
+      "sha256": "9614feb28d7a4942099466fe5b0aaad8fbca5b7aec919029d0885982367bc3ea"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_03/trace.npz",
+      "bytes": 1742475,
+      "sha256": "fb28cdca303f1b096bd97ab7d3d8f3120c345c44a730ecb8865efa6313697cbe"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_04/trace.npz",
+      "bytes": 1742944,
+      "sha256": "adc8986c175c8e6e7af5104eced3e284f4d6cf5f3dca9466ded8fcd523f688e3"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_05/trace.npz",
+      "bytes": 1742794,
+      "sha256": "f8aa85190c053bff9c7c5efbbc576faa80d57bab2785bb7045a3a4a70bcf45ab"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_06/trace.npz",
+      "bytes": 1717635,
+      "sha256": "f239590000f0cc91cb6fb69434a0b75775f3bb959e48b9eb9496897b51dabe98"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_07/trace.npz",
+      "bytes": 1718362,
+      "sha256": "47225f6172cec11e329f71efe1773958a6de494184ced96b06606ed046336588"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_08/trace.npz",
+      "bytes": 1718056,
+      "sha256": "d4a6c69630281106eff58b8a3c2688a0bbfe023793230ffd75d5266d87d5e46d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_09/trace.npz",
+      "bytes": 1742517,
+      "sha256": "d9b181421138a0ed7167c83477ab3af5fc46e551a3d48f6ebfe4062c9fcaa222"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_10/trace.npz",
+      "bytes": 1743199,
+      "sha256": "4ac38f027a31f3189140d7f3a761d8fa2fb06639f0e91f0e4a7aae4f5503de55"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_11/trace.npz",
+      "bytes": 1742829,
+      "sha256": "71d8a9326aa72309790036af624a73bbc1598d8f8e0ef03d92a829fc53dfa783"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_12/trace.npz",
+      "bytes": 1718399,
+      "sha256": "7b434df2959db903e3a4d840b97d4ae70889ceca8466486d0a6485b4d178446a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_13/trace.npz",
+      "bytes": 1718560,
+      "sha256": "f6df0c07bcaf6999cc2810591230c6eeb58a9a452d402941169a06ce22ba229c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_14/trace.npz",
+      "bytes": 1718560,
+      "sha256": "f6df0c07bcaf6999cc2810591230c6eeb58a9a452d402941169a06ce22ba229c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_15/trace.npz",
+      "bytes": 1742588,
+      "sha256": "677611c35197e31f1d0d036d3232eadecf8a7d644cea4e3b6528c01cb2f24763"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_16/trace.npz",
+      "bytes": 1743284,
+      "sha256": "364483a02f74ef7075bb7ef09f3c7768cc3d284823c825f31071c67ba03b6198"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/heading_feedback_diagnostic/mujoco_march/case_17/trace.npz",
+      "bytes": 1742946,
+      "sha256": "a12aabd931a77a193c34cda96898898e9b4d4347fd493df3f1bcff9c283e096e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_00/trace.npz",
+      "bytes": 17802833,
+      "sha256": "be82729b9cb39239656b9d6651cbe8617865f82dbe736bb3e78514d7905562b4"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_01/trace.npz",
+      "bytes": 17797392,
+      "sha256": "552db4816abbee2a1b9926a37c0c469112030a3de9d446e1463a12a996f3a84b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_02/trace.npz",
+      "bytes": 17766613,
+      "sha256": "adba6217f6b57c59a61371278613ef30c67bbb1b432a59cf913c76b7a1f381b7"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_03/trace.npz",
+      "bytes": 19744054,
+      "sha256": "73f0003ccd34cb58be6a442f61966147245a5f203956464653296d53f979aa04"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_04/trace.npz",
+      "bytes": 18975968,
+      "sha256": "e617bfa68ca2bc6e532076ae9d9e068ee519dbb467d21c315f8b9cb68defaa9f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_05/trace.npz",
+      "bytes": 18825535,
+      "sha256": "258f6ecdb28c55a59dbadff055b50507705df5aa17ad91bfcedede3a00075c32"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_06/trace.npz",
+      "bytes": 20026823,
+      "sha256": "4fdcd6f466ac605c5c026e6764b2707f11919eda1d3a2bfcde25a3c3a1ec0b53"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_07/trace.npz",
+      "bytes": 20008884,
+      "sha256": "834635a03a26c3e881dccd2f8242bbe1852bc4bd0b64845185b996f9edc99949"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_08/trace.npz",
+      "bytes": 20307174,
+      "sha256": "f10339a76cd61b461192543990d0220c97886797eaa4089b5fb59c2939a86105"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/smoke/case_00/trace.npz",
+      "bytes": 758450,
+      "sha256": "61b6f6689181c7e1c93852343381a2124f833fe1a35dd9d3aadef1c97067059a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/watchdog/case_00/trace.npz",
+      "bytes": 18068160,
+      "sha256": "4d87bff3eaad602504aba6427dbce09eca7cd88142764d3b05977eb177ca2287"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/watchdog/case_01/trace.npz",
+      "bytes": 18051183,
+      "sha256": "aa3b7b6e0cd0b663c83ed4270341ac7592102a9012d01ff041811256e6d29e37"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/watchdog/case_02/trace.npz",
+      "bytes": 18000474,
+      "sha256": "7da57d7e95ed0e29235956daff510d4d2a31c055ffe041cf95d870663748dd72"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/watchdog/case_03/trace.npz",
+      "bytes": 16006041,
+      "sha256": "4042a10cde887f68c208250eb5ffe79a663f80e070c6d9212bad744767fb1a49"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/watchdog/case_04/trace.npz",
+      "bytes": 15949123,
+      "sha256": "79836dc46a3d9b561e9649165a07c9d8de3a0ea397ad4fde525b95f3fc7c1c22"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/watchdog/case_05/trace.npz",
+      "bytes": 15940517,
+      "sha256": "d870facba82bd2a81fa9ef8f1f7e4f35f061f0bfe7c4bf3392aba2da9fa6c1d9"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/smoke_hold/events.out.tfevents.1791003239.LAPTOP-D6EGHNJL.27389.0",
+      "bytes": 4366,
+      "sha256": "d18e8c302a60a8bd4e22bda794bc5e9fbe511febdd7fde441f5a1b444ad4ed94"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/smoke_hold/mujoco_eval/case_00/trace.npz",
+      "bytes": 707596,
+      "sha256": "9e9532b0218f73f8d039dc7ae060cba469b486a216cb8bc14e518f4e35c1c68b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/smoke_march/events.out.tfevents.1791003305.LAPTOP-D6EGHNJL.27671.0",
+      "bytes": 4354,
+      "sha256": "730ddd782aa5083b39cc1106e7e87a9b5da8333d1c1ccfe8eac0a63fcac6df4a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/smoke_march/mujoco_eval/case_00/trace.npz",
+      "bytes": 708699,
+      "sha256": "b58e7aec2c23ca5f244ed18895c2696d1a50f913fc975fde9f99a1d6946a9f6c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/smoke_hold/events.out.tfevents.1791023366.LAPTOP-D6EGHNJL.50182.0",
+      "bytes": 4366,
+      "sha256": "17b768e26402bc5a9a2f0772ae9ef3eec80f640c618681ed4ff50972858f8e90"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/smoke_march/events.out.tfevents.1791023376.LAPTOP-D6EGHNJL.50412.0",
+      "bytes": 4600,
+      "sha256": "854429dd5dc520a320ea232a9df959e3f67d58d24ea3dfbc180ac9a77e1a6eff"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/teacher_bank/bank.npz",
+      "bytes": 9645708,
+      "sha256": "962a7da1e62616eea640ff92e4010e7b9fe9f5d47106dd98281f6bd5b0ee221f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/events.out.tfevents.1791023395.LAPTOP-D6EGHNJL.50648.0",
+      "bytes": 1222682,
+      "sha256": "0b6a43dfb1e539a845fd8ca252e728a7e260ea7c06ccdf683acfa77359e02927"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/isaac_eval/case_00/trace.npz",
+      "bytes": 19701823,
+      "sha256": "206de441c900b79d114c22859eeb15a2bc82e3b16e4348f07d5df571a14a1f53"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/isaac_eval/case_01/trace.npz",
+      "bytes": 19710173,
+      "sha256": "e566d6b03afbd027c468304344faa5bc8ff6bcf35775deabbb6d3dae4e251382"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/isaac_eval/case_02/trace.npz",
+      "bytes": 19678212,
+      "sha256": "51d1d913fabfa952a68423e835668f8fce0767b2a3c3c61f7593d8b2219f024e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/isaac_eval/case_03/trace.npz",
+      "bytes": 19750062,
+      "sha256": "e9ff532b328e2653829f2eb95ff6f2ec0187445913e91c27f87a2b11e46d9ce2"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/isaac_eval/case_04/trace.npz",
+      "bytes": 19735981,
+      "sha256": "0e6efc4f059bebf950306cf8d116b3fe917be6484d95f8ca06f78c29ac3f3864"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/isaac_eval/case_05/trace.npz",
+      "bytes": 19721524,
+      "sha256": "03ccdf7c8964b5b8097f1fce966bd435c0b521cc6b74377672d5082037363fce"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/model_499.pt",
+      "bytes": 2027627,
+      "sha256": "a1309caf141a3583450354b1dd64b8557cc2c1e250f32b2be344737288b3ab63"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_00/trace.npz",
+      "bytes": 1715765,
+      "sha256": "b180ef37a94d9a234f141b6ae7786e2c79da911843e6c14303b421e2561ce6cb"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_01/trace.npz",
+      "bytes": 1740486,
+      "sha256": "6a34aeb6c437cc80c5f78e051ccbae9ab4625b7c12718ce496372bc94581bade"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_02/trace.npz",
+      "bytes": 1714516,
+      "sha256": "e571372d43bd2f562e192bfd43e8d2d1ff5effc24e0dd01be0e87cd172beebcd"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_03/trace.npz",
+      "bytes": 1739367,
+      "sha256": "d84e2e71a9ead584880d6f5ddcaa72371a75026295e92eedb649ce5f2e55bdf4"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_04/trace.npz",
+      "bytes": 1715339,
+      "sha256": "c52884c5ed85df573e736b20b4b3858851e0819f7edca0eb27345d9413cef615"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_05/trace.npz",
+      "bytes": 1739831,
+      "sha256": "864904e0233915cd3d6d5107489649878d10c8b5b91797287e9d6a3490ee3323"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_06/trace.npz",
+      "bytes": 724500,
+      "sha256": "e61f167a4be43c6ef3a49e3ff0ce5c0986d8c7da2414f9e6e8dcd1259b8659ca"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_07/trace.npz",
+      "bytes": 1741517,
+      "sha256": "f678ca6ea3a316fcf039b885ddc5e5fa7dffbaa204fdfb1e855fc3e8b7ef1898"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_08/trace.npz",
+      "bytes": 760110,
+      "sha256": "835b72705cbc86f8dbc88cd69a9ddddc2968e284fa5969ba37c1220cb39eebca"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_09/trace.npz",
+      "bytes": 1741169,
+      "sha256": "ecde90782b8ebda03f7affa75c5fa501a8f624f9ced03e6ef5588ec50ad56b57"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_10/trace.npz",
+      "bytes": 874102,
+      "sha256": "0b6ea1301076760a23fd8f7f63b9749e37ea7cce9e8851268d87f409a5aaf687"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/case_11/trace.npz",
+      "bytes": 1740630,
+      "sha256": "e6db1bcd5fb46be7cb4b5c6a91d4aa3bc5e20f9f1687a9470248da7dfc27a36e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/events.out.tfevents.1791024914.LAPTOP-D6EGHNJL.52293.0",
+      "bytes": 1219690,
+      "sha256": "d7ea8b08afed86d347fc30b741a57014398afa44ebdbb705f2360eb8413137dc"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/isaac_eval/case_00/trace.npz",
+      "bytes": 19805757,
+      "sha256": "2f53cd08a07dfe5ac40da63856fd765aa56de2f157e5343555af624fac7d6fb9"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/isaac_eval/case_01/trace.npz",
+      "bytes": 19801004,
+      "sha256": "83c5ffd44017f9aa71dde7ec464acd74b95d02ec41787df7b26fc09bb6d7d85b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/isaac_eval/case_02/trace.npz",
+      "bytes": 19809782,
+      "sha256": "2d78a3f74ffae7c2022fece0f2084908eec5326f4737630100bfb5e0de744341"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/isaac_eval/case_03/trace.npz",
+      "bytes": 19804778,
+      "sha256": "309bc4c824336860946b7d6a7cd4365364a870adb74a50c3e35ccb4130496121"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/isaac_eval/case_04/trace.npz",
+      "bytes": 19803649,
+      "sha256": "e5a4a0bfcb29e194a3999a8ed59d9f5409505562e75bdca022621b5abb68a45f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/isaac_eval/case_05/trace.npz",
+      "bytes": 19801203,
+      "sha256": "466ead55db3efb19a0b0b2de1f48a311c6e335f8af400626b8387b4b032092c7"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/model_499.pt",
+      "bytes": 2039915,
+      "sha256": "057b6ddd2a573fc862e35b0993d85140a415333adc1f693a8cfa1772ac496aed"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_00/trace.npz",
+      "bytes": 1718415,
+      "sha256": "e2f29643db446d6c145d7431f91c4b17cc41972d2a2048e0566ec650e0420c91"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_01/trace.npz",
+      "bytes": 1742451,
+      "sha256": "ebcd6fa043cc768ea8b71b39e2f012781d6bbb725770f7638be92ac05e137dd8"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_02/trace.npz",
+      "bytes": 1717612,
+      "sha256": "bb5e56cf6b2f5558ab4abc9379dff3527b8aac596a44aab342c558ce171b1024"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_03/trace.npz",
+      "bytes": 1742503,
+      "sha256": "8f7e450253b3bf01cf48d8aaafb22599d7444ed23760673ae12b9cc414d9eb42"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_04/trace.npz",
+      "bytes": 1718400,
+      "sha256": "6772d44fa39bd523fbd3c3003a3be7f61080a2af175a4935ac19740e74f07e79"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_05/trace.npz",
+      "bytes": 1742573,
+      "sha256": "323bc1595fcc981bcf7121f3a47732ad0d94dc6a32b073334ea10d3bac43cc77"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_06/trace.npz",
+      "bytes": 1719856,
+      "sha256": "e839e9b345732bcc15ae2cef16579d3b27bb4a94d20277efbde24cfa45bd1f5e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_07/trace.npz",
+      "bytes": 905853,
+      "sha256": "714eacd7865835970d01c02231c1c6297da1ec98131012a1844d5d5355e66eff"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_08/trace.npz",
+      "bytes": 1719429,
+      "sha256": "4903dc40000413bc3beca047df67a76995e23b2838e9c4cedba9b4f23973e0df"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_09/trace.npz",
+      "bytes": 874421,
+      "sha256": "149477fa46856b93485ae70e10c81351ae17a135992fc225a1ab340ad02e37fb"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_10/trace.npz",
+      "bytes": 1719118,
+      "sha256": "ffffbf94f2cd0ac2e4732860a4d08ec1bb3db4d68663309adbaa467657ab0d6f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/case_11/trace.npz",
+      "bytes": 1743913,
+      "sha256": "c2c8ca1210e170b7bc888777edb58500c31279b99df3e39b4b0f2f606a46d911"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/events.out.tfevents.1791003560.LAPTOP-D6EGHNJL.28034.0",
+      "bytes": 2449932,
+      "sha256": "5a57cfccbdb0921726c422465e3dac6a19ea2f64de15c7c36ba12c8a44134520"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval/case_00/trace.npz",
+      "bytes": 19646632,
+      "sha256": "b6919a1547f83db1ea20c38aabf1a761a1fcb01961ee0c6e2d72a464db20d154"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval/case_01/trace.npz",
+      "bytes": 19648154,
+      "sha256": "585e98cfd7db10c4b998de7e32f7741923de1727296bf7df68c65aea33d4ca64"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval/case_02/trace.npz",
+      "bytes": 19628983,
+      "sha256": "e2d163e60b60eae45b97d52ee9151a031120fa0b58c1b59203698224c608d2f0"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval/case_03/trace.npz",
+      "bytes": 19702718,
+      "sha256": "9dbd26fe119474b385f5a3821d47e1fcf7bf61e9be6357acc64dd8430feac1bb"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval/case_04/trace.npz",
+      "bytes": 19673744,
+      "sha256": "aa4358a6811978c87163280153f532163ee77dea2ef91cbaf17506bfdc37903e"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval/case_05/trace.npz",
+      "bytes": 19641846,
+      "sha256": "f27f8c458f35007a49e0c9301d0834e2b282eb372287c9bea37abba52f4e83f3"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/isaac_eval_smoke/case_00/trace.npz",
+      "bytes": 2004987,
+      "sha256": "0852cef3cfa6ef24ea995e4713a983258acf945e4ea0f7e34757d10e40f0e387"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/model_999.pt",
+      "bytes": 2027627,
+      "sha256": "2607f187351e60c0bef8479abb3a9002fefa84fe11f663f33ee4f88fff66a56a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_00/trace.npz",
+      "bytes": 1712391,
+      "sha256": "0f67520991a2bf8e9162a054653a7d9760bdbe731a17ab5ffaa0e7c3442c6253"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_01/trace.npz",
+      "bytes": 714186,
+      "sha256": "042c64ebab1532d72061547bcf4ef0473f12c5c91159cae10ff9a898a232fc26"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_02/trace.npz",
+      "bytes": 1658012,
+      "sha256": "1942bbee17bc0734b75f71a8cd7d89ee10299658bd097b2e86fb2bc6b3a60b0a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_03/trace.npz",
+      "bytes": 715940,
+      "sha256": "b8f2ee9d11179618010887328969f13ecb22b3fbf8f0f312b113b62a827adf7b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_04/trace.npz",
+      "bytes": 1672701,
+      "sha256": "c857059fb00452b7c74fbac5a4208b42cc615326697455b043f7026e2039705b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_05/trace.npz",
+      "bytes": 766189,
+      "sha256": "54a5bc0130fab27c9e6153d92c0c10dd7861f07b52bedddba48e1e2a7f855c9a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_06/trace.npz",
+      "bytes": 715428,
+      "sha256": "2f7ddfff7c74261756481354658092b87d8430f0e91e4845294f3f82be65878b"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_07/trace.npz",
+      "bytes": 720167,
+      "sha256": "1eedf4d3d5653a8099d9bae58789e8ba3ea5044500a6986c90ecd1d1086772d3"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_08/trace.npz",
+      "bytes": 715720,
+      "sha256": "1aa11e0d926d3656323dfb8ed3984f6b757e25d7305fe0ab9d67f24cca329378"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_09/trace.npz",
+      "bytes": 724594,
+      "sha256": "bb704a0131e47c6edd1debe631be509ba5da6dcbb699465737ec651202302cfb"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_10/trace.npz",
+      "bytes": 724361,
+      "sha256": "64535114f6e7509e9fc05c7e622f94f1103758ea5e68c2b6458df1ef0d3aa81d"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_hold/mujoco_eval/case_11/trace.npz",
+      "bytes": 728917,
+      "sha256": "e9c55a5b42fc13ddc80e4eae1bd9fccbab1e189f75d4ba2b243ce14bf2e546a4"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/events.out.tfevents.1791006103.LAPTOP-D6EGHNJL.30886.0",
+      "bytes": 2443934,
+      "sha256": "3e81fadb794ce203d44f197925d551b54bdae9848842622722f1a56813cf7b8f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval/case_00/trace.npz",
+      "bytes": 19840947,
+      "sha256": "15542827a572bf18574481427e497b2667aaa01d489c552f9ace4906a5e0026c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval/case_01/trace.npz",
+      "bytes": 19837854,
+      "sha256": "4c30bea54da3dc0e2fd509c624e85f609b5ba52005a31a65345a04702b0bdb92"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval/case_02/trace.npz",
+      "bytes": 19848215,
+      "sha256": "f7a1ae9975ae8b70e32835db987331487b115a7f9cf0db58fe7d671a5e8716b4"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval/case_03/trace.npz",
+      "bytes": 19833963,
+      "sha256": "2f0e222cc782f1659fc2eec2c197e05b5b3fa1131382a3bf29a9185b799f02bd"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval/case_04/trace.npz",
+      "bytes": 19832016,
+      "sha256": "32a3abcf970f1dc18fd8286a4ff5f7c6a1764dd63f1d00b27a0c8c58bd17e5f9"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval/case_05/trace.npz",
+      "bytes": 19826946,
+      "sha256": "a7dae91cc018578699c11a334b8461be8c0796cab3ca7bed459c25b1e5aa79cc"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/isaac_eval_smoke/case_00/trace.npz",
+      "bytes": 2009409,
+      "sha256": "37902700c02d95bccb12bddee75909454a8c3126bd49a6aae11805d5f31335e3"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/model_999.pt",
+      "bytes": 2039915,
+      "sha256": "56121417c5b1f5dce7e3b3bfa48a2b6474a61894c6d661e1ee5da8fb24d19432"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_00/trace.npz",
+      "bytes": 1718509,
+      "sha256": "d83778ddb0ef6e2d6bca568a92193878ce2c2e3005c1d0fde5e4a4504056eb57"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_01/trace.npz",
+      "bytes": 1743243,
+      "sha256": "78c56224928352d78701c6c5be3120f61df479a69bffe74bc2393480180d7865"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_02/trace.npz",
+      "bytes": 1719141,
+      "sha256": "0a135b964c45605deba34ecc88014d6ccf1b9b525dcedd381ea45221d00e2334"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_03/trace.npz",
+      "bytes": 1742721,
+      "sha256": "5b9274418e5c29f8e1428d8c1d2e5bfa4edc75f3dc8356d9ed8882cee7b08cda"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_04/trace.npz",
+      "bytes": 817139,
+      "sha256": "dbd960a073f85080b66d95934d724b2396d44ba6a01c2d40de82035d79c01e83"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_05/trace.npz",
+      "bytes": 1743159,
+      "sha256": "6bf118095d8bf514e30174d2453f6cf5e44a5341c692873cfc6b2e015e82b734"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_06/trace.npz",
+      "bytes": 707707,
+      "sha256": "dc311af317db5135f8c82b4aeecf18fa649459acad748c4d33504e5a86b46a4c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_07/trace.npz",
+      "bytes": 714083,
+      "sha256": "d994740956f1c2993767263906d794588b073ba1c3a1836e73b7933090e25e5c"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_08/trace.npz",
+      "bytes": 705232,
+      "sha256": "b77e78167d60b46007e555efc35f4dbeae88ec7b8a0b4ecb063e9bed04c8084a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_09/trace.npz",
+      "bytes": 718632,
+      "sha256": "46499579e096d151a61f577fb7d19864bc973a4fc86e68b91b436761e1a8e786"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_10/trace.npz",
+      "bytes": 714358,
+      "sha256": "13aee1c5d373fa6e0b045b9006446908fd3f80e50c6f4f2f1ee6a995c40a8b6a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/mujoco_eval/case_11/trace.npz",
+      "bytes": 727519,
+      "sha256": "4a8e8f5aa19828de38fb886ee77fcb38b56accc3a15e7b9b2fb8b4fd586f8a8f"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_00/trace.npz",
+      "bytes": 15929084,
+      "sha256": "bed9579639d4dd47ff6ca4d0b0525274d4742c0b380d6d48a4014d47d4dc134a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_01/trace.npz",
+      "bytes": 15910425,
+      "sha256": "25459660987b5919e3156e250c27b486677bc9e56634206a393d7aef53c1e1b2"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_02/trace.npz",
+      "bytes": 15954307,
+      "sha256": "15bffcb4711552d486b6b8a0250cbd838b977aae5fec07235e889818a041ff47"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_03/trace.npz",
+      "bytes": 16060140,
+      "sha256": "6640ed96f115e297959466765c1989709e07c15c109f0f5497b513b826b9ad87"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_04/trace.npz",
+      "bytes": 16047335,
+      "sha256": "1dba53967f6a69d52d893edd88672c6dc95057c73a2e73f611c3b06e6f30b266"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_05/trace.npz",
+      "bytes": 16072474,
+      "sha256": "88620f9f579c657a4df7fb8f557248ed181337bb2c00c019d1391a8cc6a39fae"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_06/trace.npz",
+      "bytes": 14349013,
+      "sha256": "c24d88724b4e3f68a6c606f822296cc546dbc08d6d0e2b4bdd466120bd3d6e67"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_07/trace.npz",
+      "bytes": 14315544,
+      "sha256": "6e29f5b187df00698d60524eda6bb8875c86a6a71183576a0cbab359054eb9a8"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_08/trace.npz",
+      "bytes": 14329675,
+      "sha256": "febec5f79493458c61759ab42d5e45b02b6a32dd5389e2e47bb4d80c09e817e6"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_09/trace.npz",
+      "bytes": 15939236,
+      "sha256": "23e15535d3ad069b9dcbbc2f1a3806af1703301cf57953c5dd886630ae8c9c50"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_10/trace.npz",
+      "bytes": 15904158,
+      "sha256": "06e3c4c1f637987ad4673e9824972c556bea9536e735a7fa8981b7356cd1b442"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_11/trace.npz",
+      "bytes": 15984640,
+      "sha256": "2f102bba52ccea749f81ef406f74042e28d3b4b8945174550640ab205ea64c37"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_12/trace.npz",
+      "bytes": 16037210,
+      "sha256": "f16207aa4c89d1357f6af8d53cae0ac26eba5c1eda4bb1198e46ef04011a218a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_13/trace.npz",
+      "bytes": 16048622,
+      "sha256": "d3be69cb4eabf8ae32ee01196b1d66ab812ef493c88b653f8067eb65455e3f95"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_14/trace.npz",
+      "bytes": 16053829,
+      "sha256": "28cb19a076eb41934b4047052f3a0c392eae7c78fa7f0151a2f8db96b80d58cd"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_15/trace.npz",
+      "bytes": 14344710,
+      "sha256": "d85510239a546f02759229663f860b25fdad30fb677432c6e01b6466c0a648e9"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_16/trace.npz",
+      "bytes": 14326803,
+      "sha256": "4d343cb1aa69122fa455095229314cc48f45dd3dbfb9183011bbf37bcdb45444"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_17/trace.npz",
+      "bytes": 14374560,
+      "sha256": "bc9715d2513ee5d16e42af4c316f75ea730492b6d79044b5e2c5343451b8abb2"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_18/trace.npz",
+      "bytes": 15926580,
+      "sha256": "e2648520d05b038b2db3f48e105eef48804d7e413e7c198e9e678adfa070435a"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_19/trace.npz",
+      "bytes": 15908029,
+      "sha256": "33712510c1f01cbd5297f9829084da3b4374b1e3b237c7d62fbd69415094b401"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_20/trace.npz",
+      "bytes": 15982386,
+      "sha256": "2e0ad4ac5fc5d097b64b1e5751c43c613ef5ad7dfb8bdc39a01247b1151a6d89"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_21/trace.npz",
+      "bytes": 16054998,
+      "sha256": "1da81c758a6911251a1bb7a4dab202c50467872c5099468d42f036e7ebcffc23"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_22/trace.npz",
+      "bytes": 16048458,
+      "sha256": "4975d7c09d80e9c7a2f50628034e664acfbb6ca090f54d6a18cbfacce1597365"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_23/trace.npz",
+      "bytes": 16053145,
+      "sha256": "c23b608c696557bbc707616e22c7c69cebb8fd52774170da636b6356104e2dff"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_24/trace.npz",
+      "bytes": 14354848,
+      "sha256": "41fd14f76cb5caa85d3c48fc8cda7d2b45725744f85b2f5a8ccdacda445f1501"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_25/trace.npz",
+      "bytes": 14320666,
+      "sha256": "7da0dc810d69cd74b5cd49457f2317d1845a9e56ead78ef9e1dfce4c11825469"
+    },
+    {
+      "path": "code/day9/g1_balance/checkpoints/skills_sprint/20261004/sequence_retest/evaluation/case_26/trace.npz",
+      "bytes": 14372158,
+      "sha256": "eb1e2b6459ee0665ed43db714c8caa2c24f1d3005a124c19267ab795f0b0cfcb"
+    }
+  ],
+  "limits": "Inventory hash at audit time; new hash of historical files cannot fill missing original environment/model snapshots. Local ignored raw data is not uploaded to GitHub."
+}

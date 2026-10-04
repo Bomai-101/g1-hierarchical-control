@@ -1,0 +1,32 @@
+{
+  "actor": "fixed locally trained1499",
+  "physics_dt": 0.001,
+  "policy_dt": 0.02,
+  "branch_duration": 0.2,
+  "development_indices": [
+    0,
+    2,
+    4
+  ],
+  "heldout_indices": [
+    1,
+    3,
+    5
+  ],
+  "selection": "Before reading heldout scores: lowest pooled development leg-position RMSE in each family (friction vs contact time); ties lexical. Evaluate these representatives plus baseline closed-loop even if not improved; diagnostic selection is not acceptance.",
+  "walking": {
+    "speeds": [
+      0.5,
+      1.0
+    ],
+    "yaw_commands": [
+      -0.2,
+      0,
+      0.2
+    ],
+    "duration": 20,
+    "score": "last10s body forward RMSE, world/body yaw tracking error, Euler heading slope; full-run termination/tilt"
+  },
+  "acceptance": "No automatic promotion. Show all speed/yaw tradeoffs; a short-branch score cannot establish better walking.",
+  "scope": "Deterministic fixed flat initial state. Split contains only three same-run support snapshots per subset, not independent seeds or broad generalization."
+}

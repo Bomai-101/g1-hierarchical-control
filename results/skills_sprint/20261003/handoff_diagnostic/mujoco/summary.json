@@ -1,0 +1,244 @@
+{
+  "groups": [
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "static",
+      "vx": 0.0,
+      "n": 2,
+      "full": 2,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.0,
+      "tail_heading_range_rad": [
+        2.1851433352396405,
+        2.1851433352396405
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "tail_speed_pass": 2,
+      "settled": 2,
+      "cycles_and_lift": 1,
+      "entry_speed_median": 0.4938879089248821,
+      "tail_heading_range_rad": [
+        -0.0023495827174122574,
+        2.4588576368176867
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 6,
+      "full": 0,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.9759279464787498,
+      "tail_heading_range_rad": null
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.29027827814560836,
+      "tail_heading_range_rad": [
+        1.9273049320675044,
+        2.5604126237915583
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "n": 6,
+      "full": 5,
+      "passed": 1,
+      "tail_speed_pass": 1,
+      "settled": 1,
+      "cycles_and_lift": 3,
+      "entry_speed_median": 0.5930312774621969,
+      "tail_heading_range_rad": [
+        0.006095622844767057,
+        2.567807624415222
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.15129921596369128,
+      "tail_heading_range_rad": [
+        1.9627416622589378,
+        2.5008532653085
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.2775465470770162,
+      "tail_heading_range_rad": [
+        2.209906267776967,
+        2.3604232963790928
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "static",
+      "vx": 0.0,
+      "n": 2,
+      "full": 2,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 2,
+      "entry_speed_median": 0.0,
+      "tail_heading_range_rad": [
+        -3.2960021953347214,
+        -1.1824172508142996
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 6,
+      "full": 5,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 5,
+      "entry_speed_median": 0.4938879089248821,
+      "tail_heading_range_rad": [
+        -4.277287100562269,
+        -0.8988980316419566
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 6,
+      "full": 0,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.9759279464787498,
+      "tail_heading_range_rad": null
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "n": 6,
+      "full": 6,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 6,
+      "entry_speed_median": 0.29027827814560836,
+      "tail_heading_range_rad": [
+        -2.395401582865836,
+        -1.1574815346123142
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "n": 6,
+      "full": 5,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 5,
+      "entry_speed_median": 0.5930312774621969,
+      "tail_heading_range_rad": [
+        -1.3099301751673535,
+        -0.8454319813573647
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "n": 6,
+      "full": 6,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 6,
+      "entry_speed_median": 0.15129921596369128,
+      "tail_heading_range_rad": [
+        -2.4183631822607197,
+        -0.4890276851319255
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "n": 6,
+      "full": 4,
+      "passed": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 4,
+      "entry_speed_median": 0.2775465470770162,
+      "tail_heading_range_rad": [
+        -1.8298053007885513,
+        -1.0084419918199297
+      ]
+    }
+  ],
+  "verification": {
+    "prefix_pairs": 48,
+    "old_direct_trace_pairs": 24,
+    "reconstructed_action_rows": 46788,
+    "metrics_rows": 76,
+    "max_actor_error": 8.58306884765625e-06
+  },
+  "limits": "One seed, same weights. Ramps also change stance/phase/history; not proof velocity alone causes failures. Static is reset start, not warm steady state. No new deployment."
+}

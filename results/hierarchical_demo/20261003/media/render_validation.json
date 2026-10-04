@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "ffprobe": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 480,
+        "r_frame_rate": "25/1",
+        "nb_frames": "200"
+      }
+    ],
+    "format": {
+      "duration": "8.000000",
+      "size": "7574789"
+    }
+  },
+  "source_hashes_verified": true,
+  "recorded_states_only": true
+}

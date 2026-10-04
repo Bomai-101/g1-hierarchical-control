@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "survivors": 78,
+      "initial_2s_net_median_m": 0.5203103125095367,
+      "remaining_8s_net_median_m": 0.03854069299995899,
+      "remaining_8s_heading_median_rad": -0.0013431310653686523
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "survivors": 96,
+      "initial_2s_net_median_m": 0.6687367856502533,
+      "remaining_8s_net_median_m": 0.03290694020688534,
+      "remaining_8s_heading_median_rad": 0.24732932448387146
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "survivors": 9,
+      "initial_2s_net_median_m": 0.8256980685170329,
+      "remaining_8s_net_median_m": 1.7942771070063586,
+      "remaining_8s_heading_median_rad": 0.30437883206777583
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "survivors": 10,
+      "initial_2s_net_median_m": 0.3942775097647705,
+      "remaining_8s_net_median_m": 0.5374934208952544,
+      "remaining_8s_heading_median_rad": -2.2741748737898657
+    }
+  ],
+  "definition": "First2s and remaining8s afteractualhandoff; full survivors only. Fixed boundary is not validated skill-entry time. Window net magnitudes are not additive; path lengths are additive."
+}

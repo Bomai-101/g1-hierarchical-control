@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "unit_tests": 5,
+  "normal": true,
+  "optimized": true,
+  "python_compile": true,
+  "controller_performance": "Six posture holds fail height criterion; no fallback promotion."
+}

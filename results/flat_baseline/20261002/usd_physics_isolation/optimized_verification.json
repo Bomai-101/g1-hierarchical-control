@@ -1,0 +1,158 @@
+{
+  "cases": [
+    {
+      "case": "baseline_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "c8f35d4b1eed75650b7188f21653b8a94eb51015d529e5758746164f93539a94"
+    },
+    {
+      "case": "baseline_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "b88b003a301041c53b9190fcae65c11a26dd117f0a521e47f216321b2f22a65c"
+    },
+    {
+      "case": "refresh_constants_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "c8f35d4b1eed75650b7188f21653b8a94eb51015d529e5758746164f93539a94"
+    },
+    {
+      "case": "refresh_constants_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "b88b003a301041c53b9190fcae65c11a26dd117f0a521e47f216321b2f22a65c"
+    },
+    {
+      "case": "central_com_sym_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "c5ade80a8ea56afbb4f80cfd5accb363719974cfa451de769e54a2627aa61099"
+    },
+    {
+      "case": "central_com_sym_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 2.220446049250313e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "42c85976cbbecb826a306c6fe9689852c1ad63b9c1173fc3fbe5250a4d743ec4"
+    },
+    {
+      "case": "central_inertia_sym_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 2.220446049250313e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "405e124eae6f575cd85e71ed30326fc8c501b0bde088bb16ac910d4142eeeed7"
+    },
+    {
+      "case": "central_inertia_sym_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "27384406b5f5a15cc5b3a8cd79af74df84cd419c22aa830f2c497fc746feef84"
+    },
+    {
+      "case": "contact_solref01_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "9fdf01a414e33cb09e46163dce99a18280fe7558930930d63a0bd787b78852be"
+    },
+    {
+      "case": "contact_solref01_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "a5f2e75ff83a47182ea4d0c3ae33f6f48c167a3f409cb781d1ce771375196cf3"
+    },
+    {
+      "case": "cone_elliptic_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "ade7f267e6ebb8420a92367b91272d26274a2fb46b9b85ee1cfb39af1e566c70"
+    },
+    {
+      "case": "cone_elliptic_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "812a0735327b252b95999e6c9bcf6f108e18203affb7c9127b0812804cef6979"
+    },
+    {
+      "case": "integrator_implicit_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "6bfbeb8e7a6966d11031ed089b6c1414879a6a6366322b7d8eed4cd7c9dd7c6d"
+    },
+    {
+      "case": "integrator_implicit_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "1e9f781bdb4ec7676e45dbea31b4ac3177c3c9cf4caa44d22b953d0b5ad96964"
+    },
+    {
+      "case": "mirror_actor_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "98d37af0eb18f5e7c5a76411ce4094a5db1cdc7e13612cef0cb69379155b8d28"
+    },
+    {
+      "case": "mirror_actor_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 2.220446049250313e-15,
+      "actor_max_error": 0,
+      "raw_sha256": "3aa23f0cb3f0546d4ed2724862375c966b9a25f0de2764ce3e0f5dab2725cd78"
+    }
+  ],
+  "all16valid20s": true,
+  "reconstructed_states": 16016,
+  "actor_inputs": 512,
+  "consistency": [
+    {
+      "speed": 0.5,
+      "comparison": "previous20sbaseline",
+      "all_trace_arrays_equal": true
+    },
+    {
+      "speed": 0.5,
+      "comparison": "setConstonly",
+      "all_trace_arrays_equal": true
+    },
+    {
+      "speed": 1.0,
+      "comparison": "previous20sbaseline",
+      "all_trace_arrays_equal": true
+    },
+    {
+      "speed": 1.0,
+      "comparison": "setConstonly",
+      "all_trace_arrays_equal": true
+    }
+  ],
+  "scope": "Isolated in-memory interventions and diagnostic mirror controller; source model/weights unchanged. No PhysX dynamics equivalence or robustness claim."
+}

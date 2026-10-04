@@ -1,0 +1,27 @@
+{
+  "files_sha256": {
+    "README.md": "dca1f679c63518288bfc780331efe7c5c1509b7290cbaca53720e85c464dea99",
+    "isaac_complete.json": "597213d8b58671dc9d7697f056c7dc3a42f2d5fc579f5fd2f617eaff24316b34",
+    "mujoco_protocol.json": "590979f9d463963a2d56e03e68bf4d742d6de6e57909e9dd9c6d54ba845075f0",
+    "isaac_protocol.json": "cc9afab5d30d7358822c6f6b564c3761d2b27e8464e3895e0ceb07cebcacab4a",
+    "comparison.csv": "df5dabb7ceda04c4cb00f5c0862d8cbb4550e4ff6e6004e9638d520a2bc51aa2",
+    "implementation_hashes.json": "1c703bbc1d479fd1eca793aaf4ac4f17497fefb04c140c824c520796a254104e",
+    "isaac_env.yaml": "7dcc7ed4350d35ddbf964c433642a45d9214066177159aaa6000ce5fc2dc3623",
+    "posttraining_baseline_replay_isaac.json": "6cf6de7930b8c85727fb34f6fadee572885f507fb92790fb3ed3832f7960953b",
+    "mujoco_summary.csv": "485039782096bac1d62e5986bda152d3a669e7d2b43a047d4576d67b17bac3fe",
+    "isaac_runtime.json": "852e45dd2c53e89f24ba59ba7cd83740ade199888c08cc36cdd413ddf02180c7",
+    "isaac_agent.yaml": "b3bc410774f9dac1d6b7b1dc49f256f4e491abe5e72b6ad401ac37bc39a725e7",
+    "analysis_provenance.json": "98a8e8d86fca6849b282f71e276d63efa08bef041cb5642a50f8df8bc353c615",
+    "candidate_export_audit.json": "9cb7cd6aa6ff66c70de2744bd7e60e7c468791e68c080f108f41eab5c37d5cfd",
+    "mujoco_input_hashes.json": "2a019ec655afda01ee9f64695f255725936a183ba33976e28a6f7b3dc8bb61c4",
+    "candidate_failure_repeat_check.json": "a2b55904b09ea2f8f7ae18b4d8136a09b603f4f7277f0ff8f9e6f0399788fcc8",
+    "mujoco_complete.json": "9753eae9f85fff442c9413d6add3fdc1d230669772aa1a5c7c318306174b4961",
+    "posttraining_baseline_replay_mujoco.json": "880082f243f920e0795986a2083c5e50c18990e30aae11707e2d6daf6bc4a08f",
+    "plot_runtime.json": "22eb3562835a56d2c6eb6c23d2374e4a9030bac42e7fafef93b4436ab2cd13e7",
+    "analysis.json": "8011278059f39edf8a54ec9b8aad4a3dabd5eaeef4ed29049b11ab363f33c1fc",
+    "continuation_state_audit.json": "685ec182cff4bba6c93e551c3b5e143f412fdeac099675ad0150fd7b9f6a5720",
+    "isaac_summary.csv": "d758af47cf39186c5b69e9ed002b5c2856a361a59ff10e8ca82ae76c7106b0e8",
+    "figures/continuation_comparison.svg": "2d1379b344dc61ec31e83bb0782a1095033428fa557bb99057f1684de73d3aaa",
+    "figures/continuation_comparison.png": "f15c3d6441e0e51ff01bba6eee43e50756ce6a27ab20a084eac9039aa6f6cd1b"
+  }
+}

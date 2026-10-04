@@ -1,0 +1,36 @@
+{
+  "supplied": {
+    "cases": 12,
+    "fall_count": 0,
+    "completed_envs": 192,
+    "world_yaw_rmse_range": [
+      0.06975683569908142,
+      0.08536482602357864
+    ],
+    "forward_rmse_range": [
+      0.06371629983186722,
+      0.15016427636146545
+    ],
+    "final_heading_error_abs_range": [
+      0.017199791967868805,
+      0.04086671024560928
+    ]
+  },
+  "local": {
+    "cases": 12,
+    "fall_count": 0,
+    "completed_envs": 192,
+    "world_yaw_rmse_range": [
+      0.03859810158610344,
+      0.08566028624773026
+    ],
+    "forward_rmse_range": [
+      0.07109688222408295,
+      0.13337211310863495
+    ],
+    "final_heading_error_abs_range": [
+      0.007972188293933868,
+      0.048220567405223846
+    ]
+  }
+}

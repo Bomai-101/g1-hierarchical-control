@@ -1,0 +1,12 @@
+{
+  "files_sha256": {
+    "README.md": "9c93f1d66bdfd013e3179b3c51a421a0edea18b05c7f92279e22f66ef9a1bf5e",
+    "figures/yaw_windows.png": "228fc34bf1889f3897a603d2ba45bce8049e1efa567f8d1f881fbbef29838f0b",
+    "figures/yaw_windows.svg": "4d0f90115dde1e7ac7c6eb1492214eacd6dfa01f79dfc18460f3a9dd40ead5ee",
+    "metrics.csv": "f5d41347b3a2341ac761a941c313f07ec3da9df0e3f82e7e70e7b20193d161f1",
+    "parameter_sweep.csv": "00ca754e0d569effeaee2245f86f66a433ab9ae6cb9304b9a92b2768b3e96eaa",
+    "provenance.json": "549ac7d4c4c3681d599f9ce84077fc9b91b30462efc10590e41d8bbaaa9184ec",
+    "summary.json": "2f1907dd2450aafb5eecaa9374f15d6b8c185f627a88442523611ded41f518c1",
+    "synthetic_controls.csv": "b42fb23915a5e6dd581dd38ef9773f1001720bda0984085d8cc193f47510fb85"
+  }
+}

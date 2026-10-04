@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "ffprobe": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 1920,
+        "height": 480,
+        "r_frame_rate": "25/1",
+        "nb_frames": "225"
+      }
+    ],
+    "format": {
+      "duration": "9.000000"
+    }
+  },
+  "preview_inspected": true
+}

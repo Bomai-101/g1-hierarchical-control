@@ -1,0 +1,12 @@
+{
+  "command": [
+    1,
+    0,
+    0
+  ],
+  "duration": 8.0,
+  "mujoco": "3.14.0",
+  "policy_step": 0.02,
+  "physics_step": 0.001,
+  "no_monitor": true
+}

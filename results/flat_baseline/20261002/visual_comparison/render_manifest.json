@@ -1,0 +1,42 @@
+[
+  {
+    "engine": "isaac",
+    "actor": "baseline1499",
+    "real_duration_s": 8.0,
+    "video_duration_s": 8,
+    "fps": 25,
+    "frames": 200,
+    "terminal_frame_held": false,
+    "trace_sha256": "96e9b08c93dd63130d9135a25540b3d50f3fec8bfe04100b2c5310df128ac656"
+  },
+  {
+    "engine": "mujoco",
+    "actor": "baseline1499",
+    "real_duration_s": 8.000000000001005,
+    "video_duration_s": 8,
+    "fps": 25,
+    "frames": 200,
+    "terminal_frame_held": false,
+    "trace_sha256": "da02512af1c31694b87b2866b83e80842c4206ea10fc301dedf167ce40deb0a3"
+  },
+  {
+    "engine": "isaac",
+    "actor": "candidate1999",
+    "real_duration_s": 8.0,
+    "video_duration_s": 8,
+    "fps": 25,
+    "frames": 200,
+    "terminal_frame_held": false,
+    "trace_sha256": "7af09f1c5e20b67466d6bfa5b4037fedfa8c46a2617e8f13c11944824d21e88f"
+  },
+  {
+    "engine": "mujoco",
+    "actor": "candidate1999",
+    "real_duration_s": 2.5999999999998247,
+    "video_duration_s": 8,
+    "fps": 25,
+    "frames": 200,
+    "terminal_frame_held": true,
+    "trace_sha256": "f5646cf42ae3d86e51fa311b70ba31314e2882baec349ba73e1dc63737330f9f"
+  }
+]

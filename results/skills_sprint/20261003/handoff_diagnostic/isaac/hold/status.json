@@ -1,0 +1,18 @@
+{
+  "state": "running",
+  "completed": [
+    {
+      "name": "mujoco_hold",
+      "sha256": "1368c27e34e6b734bd9f655af40f48a061b039b7323682e46bc45bb04cb73e4a"
+    },
+    {
+      "name": "mujoco_march",
+      "sha256": "57c528ba5c304d78f7b8a5dcfd752287c8cd699bafa23da4e192febbee501839"
+    },
+    {
+      "name": "isaac_hold",
+      "sha256": "674d5390be11dfc62472b1c12b7f529a108fcd6cb96f4ce9281d3650d3fe9db1"
+    }
+  ],
+  "active": "isaac_march"
+}

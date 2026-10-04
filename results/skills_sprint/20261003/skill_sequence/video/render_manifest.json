@@ -1,0 +1,13 @@
+{
+  "source_trace": "code/day9/g1_balance/checkpoints/skills_sprint/20261003/skill_sequence/evaluation/case_01/trace.npz",
+  "trace_sha256": "552db4816abbee2a1b9926a37c0c469112030a3de9d446e1463a12a996f3a84b",
+  "model_sha256": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd",
+  "renderer_sha256": "9b500b66de70ccb8c99e9b99cd386bef4e2e1853c4cd2a591cdd8eb9afb21d7a",
+  "env": 0,
+  "selection": "Preselected direct / yaw0 / env0; not best-case selection",
+  "frames": 480,
+  "fps": 25,
+  "duration_s": 19.16,
+  "physics_steps": 0,
+  "scope": "Isaac recorded physical trajectory, displayed using MuJoCo geometry; not MuJoCo physical replay."
+}

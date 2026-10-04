@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "test_count": 16,
+  "normal_exit_code": 0,
+  "optimized_exit_code": 0,
+  "command": ".venv/bin/python [-O] -m unittest discover -s tests -p test_task_sequence.py -v",
+  "source_sha256": "f6e5a5bf112d9817140fc5b4a452d4b32f837ead4e90618352e147e047429bdd"
+}

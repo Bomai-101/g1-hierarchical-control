@@ -1,0 +1,60 @@
+{
+  "task_id": "forward_turn_forward",
+  "stages": [
+    {
+      "name": "walk_1",
+      "goal_kind": "forward_distance",
+      "goal": 1.0,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "timeout_s": 8.0
+    },
+    {
+      "name": "turn",
+      "goal_kind": "relative_heading",
+      "goal": 0.4,
+      "command": [
+        0.5,
+        0.0,
+        0.2
+      ],
+      "timeout_s": 8.0
+    },
+    {
+      "name": "walk_2",
+      "goal_kind": "forward_distance",
+      "goal": 1.0,
+      "command": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "timeout_s": 8.0
+    }
+  ],
+  "physics_dt": 0.001,
+  "policy_dt": 0.02,
+  "heartbeat_dt": 0.1,
+  "message_timeout_s": 0.3,
+  "abort_after_stale_s": 2.0,
+  "recovery_messages": 2,
+  "max_duration_s": 20,
+  "scenarios": {
+    "normal": null,
+    "temporary_dropout": [
+      3,
+      4
+    ],
+    "persistent_dropout": [
+      3,
+      null
+    ]
+  },
+  "clock": "All freshness, goal and abort logic uses simulation time. Wall-clock timings are separately measured.",
+  "watchdog_response": "Block new task stages, retain last velocity skill command. Abort ends simulation experiment; no physical stop/fallback.",
+  "goal_measurements": "forward distance projected onto stage-entry heading; relative unwrapped Euler yaw. No vision model or learned high-level planner.",
+  "comparisons": "Record task events enabled/disabled for each scenario; entire control/state digest must match. Watchdog logic active in both."
+}

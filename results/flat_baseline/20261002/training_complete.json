@@ -1,0 +1,21 @@
+{
+  "initial_checkpoint": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/logs/rsl_rl/g1_flat_sim51/2026-10-01_12-07-43_baseline_reproduction_1500/model_1499.pt",
+  "seed": 42,
+  "task": "G1-Walk-Flat-Sim51-v0",
+  "num_envs": 4096,
+  "additional_iterations": 500,
+  "first_iteration": 1500,
+  "expected_last_iteration": 1999,
+  "transitions": 49152000,
+  "reward_changes": false,
+  "command_changes": false,
+  "pd_changes": false,
+  "optimizer_loaded": true,
+  "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+  "torch": "2.7.0+cu128",
+  "original_preserved": true,
+  "candidate_only": true,
+  "final_checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/flat_continuation_500/model_1999.pt",
+  "final_sha256": "df56e4715e86fa32349a41a9135bbd814eaaf340a2fc203bcfcc206954c59c54",
+  "inputs_unchanged": true
+}

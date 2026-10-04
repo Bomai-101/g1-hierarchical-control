@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "scenario": "left_zero",
+      "source_trace_sha256": "eb007ab03a3e2800e09e06241628c2008a370d5aedb1d610d68a219827e77d06",
+      "simulation_end_s": 15.22,
+      "frames": 175,
+      "fps": 25,
+      "physics_steps": 0,
+      "visual_grid": "Rendering-scene line primitives only, no physical model changes",
+      "after_end": "Hold last recorded state with SIMULATION ENDED label, not a physical stop."
+    },
+    {
+      "scenario": "left_capture_pose",
+      "source_trace_sha256": "8be4aa9918e53510b9236d43132fce1e8d2567dd72ef9718e314b7fba0b5cb94",
+      "simulation_end_s": 5.92,
+      "frames": 175,
+      "fps": 25,
+      "physics_steps": 0,
+      "visual_grid": "Rendering-scene line primitives only, no physical model changes",
+      "after_end": "Hold last recorded state with SIMULATION ENDED label, not a physical stop."
+    },
+    {
+      "scenario": "left_nominal_pose",
+      "source_trace_sha256": "cd9b6dc5ecd5661c8dc0998decd41a5176bfa3cfff282ad7b529710bf8b63354",
+      "simulation_end_s": 6.0,
+      "frames": 175,
+      "fps": 25,
+      "physics_steps": 0,
+      "visual_grid": "Rendering-scene line primitives only, no physical model changes",
+      "after_end": "Hold last recorded state with SIMULATION ENDED label, not a physical stop."
+    }
+  ],
+  "model_sha256": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd",
+  "renderer_sha256": "635545184718dae3a208a7c6081daf7b23ea6521a62038d316e88739a9ea9dfe"
+}

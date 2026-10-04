@@ -1,0 +1,86 @@
+{
+  "skill": "march",
+  "cases": [
+    {
+      "vx": 0.5,
+      "yaw": -0.2,
+      "switch_s": 5.22,
+      "phase_offset": 0.0
+    },
+    {
+      "vx": 0.5,
+      "yaw": -0.2,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966
+    },
+    {
+      "vx": 0.5,
+      "yaw": 0.0,
+      "switch_s": 5.22,
+      "phase_offset": 0.0
+    },
+    {
+      "vx": 0.5,
+      "yaw": 0.0,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966
+    },
+    {
+      "vx": 0.5,
+      "yaw": 0.2,
+      "switch_s": 5.22,
+      "phase_offset": 0.0
+    },
+    {
+      "vx": 0.5,
+      "yaw": 0.2,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966
+    },
+    {
+      "vx": 1.0,
+      "yaw": -0.2,
+      "switch_s": 5.22,
+      "phase_offset": 0.0
+    },
+    {
+      "vx": 1.0,
+      "yaw": -0.2,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966
+    },
+    {
+      "vx": 1.0,
+      "yaw": 0.0,
+      "switch_s": 5.22,
+      "phase_offset": 0.0
+    },
+    {
+      "vx": 1.0,
+      "yaw": 0.0,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966
+    },
+    {
+      "vx": 1.0,
+      "yaw": 0.2,
+      "switch_s": 5.22,
+      "phase_offset": 0.0
+    },
+    {
+      "vx": 1.0,
+      "yaw": 0.2,
+      "switch_s": 5.44,
+      "phase_offset": 1.5707963267948966
+    }
+  ],
+  "post_duration_s": 10.0,
+  "blend_s": 0.5,
+  "policy_dt": 0.02,
+  "physics_dt": 0.001,
+  "scope": "Independent fixed-schedule handoff to candidate; not online watchdog registration. MuJoCo contact means ground contact with ordered ankle-roll body.",
+  "pass_criteria": {
+    "hold": "Full10s, settling remains through end, net displacement<=.5m, heading excursion<=.2rad, roll/pitch<=20deg",
+    "march": "Full10s, >=5ground-contact losses and >=5 landings/foot, liftheight above ankle-floor .055m >=.025m, net displacement<=.2m, heading excursion<=.2rad, tilt<=20deg; provisional metrics, not safety"
+  }
+}

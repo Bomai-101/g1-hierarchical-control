@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "states_checked": 24024,
+  "actor_outputs_checked": 24000,
+  "previous_control_arrays_exact": 14,
+  "model_array_isolation": true,
+  "scope": "All sampled states/signals/actor outputs, time/grid/metrics, force-cap samples and peaks, original-input hashes, factorial array changes. Not per-physics-step replay, multi-seed or heading-task acceptance."
+}

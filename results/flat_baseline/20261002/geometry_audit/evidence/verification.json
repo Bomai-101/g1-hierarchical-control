@@ -1,0 +1,9 @@
+{
+  "original_isaac_and_mujoco_capture_hashes_pass": true,
+  "geometry_input_hashes_pass": true,
+  "exporter_source_hash_pass": true,
+  "standard_and_optimized_analysis_pass": true,
+  "body_fk_pose_samples": 5,
+  "bodies_per_sample": 44,
+  "physics_not_stepped": true
+}

@@ -1,0 +1,7 @@
+{
+  "path": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/finger_feedback_paths_unsynchronized_exploratory",
+  "source_snapshot": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/finger_feedback_paths_unsynchronized_exploratory/exploratory_source.py",
+  "snapshot_sha256": "6483b789776acf0ae2666cf7afb285b066d1dba02d832f69e6f692600f4d2ecf",
+  "excluded_from_primary_result": true,
+  "reason": "Unsynchronized paired fullplant evolved openloop and fell; replaced by conditional pairedmodel with per-step nonfingerstate alignment."
+}

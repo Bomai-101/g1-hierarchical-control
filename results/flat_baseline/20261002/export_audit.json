@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "key": "actor.0.weight",
+      "npz_key": "weight_0",
+      "exact": true
+    },
+    {
+      "key": "actor.0.bias",
+      "npz_key": "bias_0",
+      "exact": true
+    },
+    {
+      "key": "actor.2.weight",
+      "npz_key": "weight_1",
+      "exact": true
+    },
+    {
+      "key": "actor.2.bias",
+      "npz_key": "bias_1",
+      "exact": true
+    },
+    {
+      "key": "actor.4.weight",
+      "npz_key": "weight_2",
+      "exact": true
+    },
+    {
+      "key": "actor.4.bias",
+      "npz_key": "bias_2",
+      "exact": true
+    },
+    {
+      "key": "actor.6.weight",
+      "npz_key": "weight_3",
+      "exact": true
+    },
+    {
+      "key": "actor.6.bias",
+      "npz_key": "bias_3",
+      "exact": true
+    }
+  ],
+  "all_exact": true,
+  "checkpoint_iter": 1499
+}

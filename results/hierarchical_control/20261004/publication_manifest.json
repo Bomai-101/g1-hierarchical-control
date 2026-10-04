@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-04",
+  "scope": "Technical documentation and byte-identical derived visual assets; no new robot experiment",
+  "origin": "Existing archived Isaac retest and render outputs",
+  "video_sha256": "ad222b3ba9aa2dbc416c8cc7dce4743d294be53714d92ca508e2887fc8e0d59b",
+  "video_matches_recorded_render_hash": true,
+  "source_retest_archive": "results/skills_sprint/20261004/sequence_retest",
+  "raw_traces_or_weights_bundled": false,
+  "personal_documents_bundled": false,
+  "controller_changes_during_cleanup": false
+}

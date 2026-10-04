@@ -1,0 +1,16 @@
+{
+  "skill": "hold",
+  "obs_dim": 123,
+  "base_obs_dim": 123,
+  "action_dim": 37,
+  "phase_dim": 0,
+  "phase_period_s": 0.9,
+  "phase_semantics": "sin/cos append on marching activation; explicit adapter, not a velocity command",
+  "action_mapping": "original default + metadata.action_scale * action",
+  "checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/smoke_hold/model_1.pt",
+  "checkpoint_sha256": "c9e9e82980b745b00ccdd438bb266b8b08adee24c470f4240a91daa710f2558c",
+  "npz_sha256": "b9ad97b38b41aaedcd8825def02961c5c83ffd2cef44205b3b317bf4d286547e",
+  "torch_numpy_max_error": 3.814697265625e-06,
+  "export_verified": true,
+  "candidate_only": true
+}

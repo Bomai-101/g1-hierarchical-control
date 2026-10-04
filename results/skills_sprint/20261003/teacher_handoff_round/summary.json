@@ -1,0 +1,224 @@
+{
+  "groups": [
+    {
+      "skill": "hold",
+      "engine": "isaac",
+      "round": "first",
+      "vx": 0.5,
+      "total": 48,
+      "passed": 0,
+      "full": 45,
+      "settled": 43,
+      "tail_speed_rms_range": [
+        0.00034341387799941003,
+        0.006085078697651625
+      ]
+    },
+    {
+      "skill": "hold",
+      "engine": "isaac",
+      "round": "first",
+      "vx": 1.0,
+      "total": 48,
+      "passed": 0,
+      "full": 22,
+      "settled": 22,
+      "tail_speed_rms_range": [
+        0.0004413320275489241,
+        0.002550194738432765
+      ]
+    },
+    {
+      "skill": "hold",
+      "engine": "isaac",
+      "round": "teacher",
+      "vx": 0.5,
+      "total": 48,
+      "passed": 31,
+      "full": 43,
+      "settled": 42,
+      "tail_speed_rms_range": [
+        0.00519572664052248,
+        0.009475178085267544
+      ]
+    },
+    {
+      "skill": "hold",
+      "engine": "isaac",
+      "round": "teacher",
+      "vx": 1.0,
+      "total": 48,
+      "passed": 0,
+      "full": 35,
+      "settled": 35,
+      "tail_speed_rms_range": [
+        0.005915953312069178,
+        0.009095941670238972
+      ]
+    },
+    {
+      "skill": "hold",
+      "engine": "mujoco",
+      "round": "first",
+      "vx": 0.5,
+      "total": 6,
+      "passed": 0,
+      "full": 3,
+      "settled": 2,
+      "tail_speed_rms_range": [
+        0.0001539999093732099,
+        0.44120842154164275
+      ]
+    },
+    {
+      "skill": "hold",
+      "engine": "mujoco",
+      "round": "first",
+      "vx": 1.0,
+      "total": 6,
+      "passed": 0,
+      "full": 0,
+      "settled": 0,
+      "tail_speed_rms_range": null
+    },
+    {
+      "skill": "hold",
+      "engine": "mujoco",
+      "round": "teacher",
+      "vx": 0.5,
+      "total": 6,
+      "passed": 0,
+      "full": 6,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.22381561523440435,
+        0.27522632543186815
+      ]
+    },
+    {
+      "skill": "hold",
+      "engine": "mujoco",
+      "round": "teacher",
+      "vx": 1.0,
+      "total": 6,
+      "passed": 0,
+      "full": 3,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.22509533064201875,
+        0.29338872864548904
+      ]
+    },
+    {
+      "skill": "march",
+      "engine": "isaac",
+      "round": "first",
+      "vx": 0.5,
+      "total": 48,
+      "passed": 0,
+      "full": 39,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.042318083345890045,
+        0.05001593008637428
+      ]
+    },
+    {
+      "skill": "march",
+      "engine": "isaac",
+      "round": "first",
+      "vx": 1.0,
+      "total": 48,
+      "passed": 0,
+      "full": 3,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.04455842822790146,
+        0.048119351267814636
+      ]
+    },
+    {
+      "skill": "march",
+      "engine": "isaac",
+      "round": "teacher",
+      "vx": 0.5,
+      "total": 48,
+      "passed": 0,
+      "full": 48,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.018462616950273514,
+        0.022620249539613724
+      ]
+    },
+    {
+      "skill": "march",
+      "engine": "isaac",
+      "round": "teacher",
+      "vx": 1.0,
+      "total": 48,
+      "passed": 0,
+      "full": 48,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.018333951011300087,
+        0.02313367836177349
+      ]
+    },
+    {
+      "skill": "march",
+      "engine": "mujoco",
+      "round": "first",
+      "vx": 0.5,
+      "total": 6,
+      "passed": 0,
+      "full": 5,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.10264406861291427,
+        0.5910158325139613
+      ]
+    },
+    {
+      "skill": "march",
+      "engine": "mujoco",
+      "round": "first",
+      "vx": 1.0,
+      "total": 6,
+      "passed": 0,
+      "full": 0,
+      "settled": 0,
+      "tail_speed_rms_range": null
+    },
+    {
+      "skill": "march",
+      "engine": "mujoco",
+      "round": "teacher",
+      "vx": 0.5,
+      "total": 6,
+      "passed": 0,
+      "full": 6,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.09133456622095201,
+        0.11683276713269314
+      ]
+    },
+    {
+      "skill": "march",
+      "engine": "mujoco",
+      "round": "teacher",
+      "vx": 1.0,
+      "total": 6,
+      "passed": 0,
+      "full": 4,
+      "settled": 0,
+      "tail_speed_rms_range": [
+        0.10592881516388963,
+        0.11911522111287226
+      ]
+    }
+  ],
+  "verification": "Queue10artifactSHA and14inputSHA verified; full trajectory/action reconstruction pending",
+  "status": "completed"
+}

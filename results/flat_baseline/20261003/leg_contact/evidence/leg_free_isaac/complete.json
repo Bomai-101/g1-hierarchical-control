@@ -1,0 +1,7 @@
+{
+  "cases": 30,
+  "samples": 41,
+  "duration": 0.2,
+  "contact_free": true,
+  "max_contact_force": 0.0
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "states_checked": 19494,
+  "actor_outputs_checked": 18000,
+  "branch_baseline_all_arrays_exact": true,
+  "walking_zero_yaw_baselines_all_arrays_exact": true,
+  "selected": [
+    "baseline",
+    "friction06",
+    "contact_time005"
+  ],
+  "scope": "All recorded states/signals/actor outputs; model-array isolation, initial joint state, force-cap samples/recorded peaks, input hashes and metrics. Not full per-physics-step replay or acceptance of detector/recovery."
+}

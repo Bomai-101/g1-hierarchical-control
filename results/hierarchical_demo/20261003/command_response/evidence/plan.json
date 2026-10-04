@@ -1,0 +1,28 @@
+{
+  "switch_s": 5.22,
+  "ramp_s": 0.5,
+  "post_duration_s": 10.0,
+  "physics_dt": 0.001,
+  "policy_dt": 0.02,
+  "prelude_straight_s": 2.4,
+  "directions": {
+    "right": -0.2,
+    "straight": 0.0,
+    "left": 0.2
+  },
+  "responses": [
+    "hold",
+    "zero",
+    "ramp"
+  ],
+  "forward_mps": 0.5,
+  "settling": {
+    "window_s": 0.5,
+    "dwell_s": 1.0,
+    "speed_limit_mps": 0.05,
+    "euler_yaw_rms_limit_rps": 0.05
+  },
+  "scope": "Independent command response; watchdog/task sequencer not connected. Thresholds are exploratory analysis, not safety. No action/history reset at command change.",
+  "termination": "height<.35m ends simulation; numeric/physics warning fails run. Ending simulation is not stopping.",
+  "metric_definitions": "Planar path from root xy sampled20ms; speed from body COM horizontal velocity; Euler heading unwrapped, backward yaw-rate difference20ms; roll/pitch standard wxyz convention. Final2s is last2s before end, potentially shorter than10s on failure."
+}

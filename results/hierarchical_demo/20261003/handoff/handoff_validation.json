@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "normal_handoff_s": 5.42,
+  "first_goal_reached_while_blocked_s": 5.42,
+  "temporary_handoff_s": 6.1000000000000005,
+  "handoff_delay_s": 0.6800000000000006,
+  "goal_rad": 0.4,
+  "heading_at_restored_handoff_rad": 0.4943026338494092,
+  "excess_heading_at_restored_handoff_rad": 0.09430263384940918,
+  "blocked_goal_samples": 34,
+  "persistent_blocked_goal_samples": 90,
+  "persistent_abort_s": 7.22,
+  "pre_handoff_states_and_actions_exact": true,
+  "scope": "Watchdog stage-admission proof; holding the turn command causes additional turning, not safe recovery."
+}

@@ -1,0 +1,16 @@
+{
+  "skill": "march",
+  "obs_dim": 125,
+  "base_obs_dim": 123,
+  "action_dim": 37,
+  "phase_dim": 2,
+  "phase_period_s": 0.9,
+  "phase_semantics": "sin/cos append on marching activation; explicit adapter, not a velocity command",
+  "action_mapping": "original default + metadata.action_scale * action",
+  "checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/smoke_march/model_1.pt",
+  "checkpoint_sha256": "e09f41e9a18b89922c32dd626c68ed28ba75872b85b655d4bc3578988b0b3b0a",
+  "npz_sha256": "3e2354bca3caf07300583216d434dbaf1ca84c1657bc3023ed3b36193c21dc4b",
+  "torch_numpy_max_error": 3.337860107421875e-06,
+  "export_verified": true,
+  "candidate_only": true
+}

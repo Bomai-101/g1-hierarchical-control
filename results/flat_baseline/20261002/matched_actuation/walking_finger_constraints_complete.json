@@ -1,0 +1,96 @@
+{
+  "results": [
+    {
+      "variant": "baseline",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.0925757087498998,
+      "mean_body_wz": -0.09064838083859778,
+      "heading_endpoint_rate": -0.09094358744358211,
+      "heading_slope": -0.09086785907995473,
+      "forward_rmse": 0.02975707388510103,
+      "max_tilt_deg": 6.448408657494372
+    },
+    {
+      "variant": "baseline",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [],
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.09925981703056495,
+      "mean_body_wz": -0.09729811195889639,
+      "heading_endpoint_rate": -0.10087774269706486,
+      "heading_slope": -0.1008653263597922,
+      "forward_rmse": 0.05059783024523997,
+      "max_tilt_deg": 7.193116274490883
+    },
+    {
+      "variant": "finger_limit002",
+      "speed": 0.5,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [
+        "jnt_solref"
+      ],
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.020075828083813356,
+      "mean_body_wz": -0.0189316978559668,
+      "heading_endpoint_rate": -0.01972463265384569,
+      "heading_slope": -0.0199204599145424,
+      "forward_rmse": 0.11154027496403038,
+      "max_tilt_deg": 3.0008584750785796
+    },
+    {
+      "variant": "finger_limit002",
+      "speed": 1.0,
+      "yaw_command": 0.0,
+      "start_heading_rad": 0.0,
+      "physics_dt": 0.001,
+      "changed_model_arrays": [
+        "jnt_solref"
+      ],
+      "elapsed_s": 20.0,
+      "physical_steps": 20000,
+      "actions": 1000,
+      "fell": 0,
+      "numerical_failure": 0,
+      "mean_world_wz": -0.0385909318185118,
+      "mean_body_wz": -0.03809718210518016,
+      "heading_endpoint_rate": -0.038441479884388216,
+      "heading_slope": -0.038093624936735515,
+      "forward_rmse": 0.17041415795251044,
+      "max_tilt_deg": 4.181714833020702
+    }
+  ],
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "mujoco": "3.14.0",
+  "protocol": {
+    "duration": 20,
+    "scoring": "final10s",
+    "policy_dt": 0.02,
+    "actor": "locally trained1499; unchanged",
+    "task": "held angular-rate commands; no heading feedback",
+    "configuration": "Only14fingerjnt_solref firstvalues .02 -> .002; gains,targets,limits,actor,contacts unchanged; no default deployment",
+    "replication": "deterministic fixed initial conditions, no stochastic seed coverage"
+  }
+}

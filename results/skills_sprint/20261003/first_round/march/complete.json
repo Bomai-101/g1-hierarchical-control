@@ -1,0 +1,40 @@
+{
+  "skill": "march",
+  "initial_checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/model_1499.pt",
+  "initial_sha256": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c",
+  "obs_dim": 125,
+  "action_dim": 37,
+  "base_obs_dim": 123,
+  "extra_phase": "sin/cos appended; zero during incoming walk; period0.90s",
+  "actor_warm_started": true,
+  "first_layers_adaptation": [
+    "actor.0.weight append two zero columns",
+    "critic.0.weight append two zero columns"
+  ],
+  "optimizer_loaded": false,
+  "critic_final_layer_reset": true,
+  "initial_noise_std": 0.3,
+  "iterations": 1000,
+  "num_envs": 4096,
+  "seed": 42,
+  "episode_s": 12.0,
+  "incoming_walk_s": [
+    1.0,
+    3.0
+  ],
+  "immediate_stationary_probability": 0.3,
+  "policy_dt": 0.02,
+  "physics_dt": 0.005,
+  "original_position_actuators_preserved": true,
+  "candidate_only": true,
+  "early_observation": {
+    "min_height": 0.7400000095367432,
+    "max_height": 0.7400000095367432
+  },
+  "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+  "torch": "2.7.0+cu128",
+  "final_checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/train_march/model_999.pt",
+  "final_sha256": "56121417c5b1f5dce7e3b3bfa48a2b6474a61894c6d661e1ee5da8fb24d19432",
+  "elapsed_wall_s": 2532.4499625330027,
+  "inputs_unchanged": true
+}

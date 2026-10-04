@@ -1,0 +1,102 @@
+{
+  "baseline1499": {
+    "isaac_root_13d_exact_previous_401_samples": true,
+    "fixed_commands_pass": true,
+    "mujoco_candidate_metrics_exact_previous": false,
+    "mujoco_real_duration": 8.0,
+    "encoded_media": {
+      "isaac": {
+        "programs": [],
+        "streams": [
+          {
+            "width": 640,
+            "height": 480,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      },
+      "mujoco": {
+        "programs": [],
+        "streams": [
+          {
+            "width": 640,
+            "height": 480,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      },
+      "comparison": {
+        "programs": [],
+        "streams": [
+          {
+            "width": 1280,
+            "height": 480,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    }
+  },
+  "candidate1999": {
+    "isaac_root_13d_exact_previous_401_samples": true,
+    "fixed_commands_pass": true,
+    "mujoco_candidate_metrics_exact_previous": true,
+    "mujoco_real_duration": 2.6,
+    "encoded_media": {
+      "isaac": {
+        "programs": [],
+        "streams": [
+          {
+            "width": 640,
+            "height": 480,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      },
+      "mujoco": {
+        "programs": [],
+        "streams": [
+          {
+            "width": 640,
+            "height": 480,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      },
+      "comparison": {
+        "programs": [],
+        "streams": [
+          {
+            "width": 1280,
+            "height": 480,
+            "r_frame_rate": "25/1",
+            "nb_frames": "200"
+          }
+        ],
+        "format": {
+          "duration": "8.000000"
+        }
+      }
+    }
+  }
+}

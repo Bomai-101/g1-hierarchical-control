@@ -1,0 +1,18 @@
+{
+  "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+  "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "capture": "During retest execution; configuration hashes pinned before rollouts",
+  "packages": {
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.0",
+    "isaacsim": "5.1.0.0",
+    "isaacsim-kernel": "5.1.0.0",
+    "gymnasium": "1.2.1"
+  },
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU, 580.88, 8188 MiB\n",
+  "git_heads": {
+    "/home/omai/robotics/reference_projects/IsaacLab": "37ddf626871758333d6ed89cf64ad702aef127d0",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+    "/home/omai/robotics/projects/g1-hierarchical-control": "319aeade91baca4b5300e8461fa6eadb7afd5868"
+  }
+}

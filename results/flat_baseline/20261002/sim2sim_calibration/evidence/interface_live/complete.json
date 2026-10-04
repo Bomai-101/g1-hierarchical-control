@@ -1,0 +1,32 @@
+{
+  "baseline1499": {
+    "observation_max_abs": 2.384185791015625e-07,
+    "action_max_abs": 1.1920928955078125e-06,
+    "target_max_abs": 0.0,
+    "samples": 200,
+    "observation_group_max_abs": {
+      "linear_velocity": 2.384185791015625e-07,
+      "angular_velocity": 1.7881393432617188e-07,
+      "gravity": 2.384185791015625e-07,
+      "command": 0.0,
+      "joint_position": 0.0,
+      "joint_velocity": 0.0,
+      "previous_action": 0.0
+    }
+  },
+  "candidate1999": {
+    "observation_max_abs": 2.384185791015625e-07,
+    "action_max_abs": 1.1920928955078125e-06,
+    "target_max_abs": 0.0,
+    "samples": 200,
+    "observation_group_max_abs": {
+      "linear_velocity": 2.384185791015625e-07,
+      "angular_velocity": 2.384185791015625e-07,
+      "gravity": 2.384185791015625e-07,
+      "command": 0.0,
+      "joint_position": 0.0,
+      "joint_velocity": 0.0,
+      "previous_action": 0.0
+    }
+  }
+}

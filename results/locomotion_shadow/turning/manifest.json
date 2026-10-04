@@ -1,0 +1,42 @@
+{
+  "original_run_date": "2026-10-01",
+  "files": [
+    {
+      "file": "raw/baseline_-0.2.csv",
+      "sha256": "f21cc2166639d744703efe69cf1be48bd55ef8c2f2830b98514f52b8d02949a8",
+      "bytes": 1076
+    },
+    {
+      "file": "raw/baseline_0.0.csv",
+      "sha256": "66ad09269d9802e40adba84cf65a56988b52af56d13dcc06ed8402afb6d9043c",
+      "bytes": 1073
+    },
+    {
+      "file": "raw/baseline_0.2.csv",
+      "sha256": "280b1141146aad026a924b8561227ea6cc706782c24ac4709ee46326625d7550",
+      "bytes": 1075
+    },
+    {
+      "file": "raw/reproduction_20261001_-0.2.csv",
+      "sha256": "36e28d3bd93e3408624874a86eb8c57573caf331173c69b016afeae4958962d0",
+      "bytes": 1091
+    },
+    {
+      "file": "raw/reproduction_20261001_0.0.csv",
+      "sha256": "8bec0ee584b15452d681cf127c7f3f7ab5029b4730d511e6616336f411f09f84",
+      "bytes": 1089
+    },
+    {
+      "file": "raw/reproduction_20261001_0.2.csv",
+      "sha256": "c9b28a3505849cec9d59d50cb8160d6602815134b6a48755d5f74d5415cf5c4e",
+      "bytes": 1091
+    }
+  ],
+  "provenance": "Original CSVs preserved byte for byte. Policy/metadata hashes and configuration come from fresh replay, not from an immutable snapshot of the original runs.",
+  "scripts_sha256": {
+    "record_locomotion_sim2sim.py": "84291dc18735748a0ed709dcf253d072ceb42f4a8a4447c778c8c73cd2f73080",
+    "check_locomotion_shadow_grid.py": "8e111dd0d91d6a8ff42750ee2c18b14ca97c22cb0cf37e1f35435bd05db134f3",
+    "verify_locomotion_shadow.py": "187e6f2d4652ee311094edd13aaf2cf5462e8b300ed3710beea04b6c2bb6bad3",
+    "locomotion_shadow.py": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7"
+  }
+}

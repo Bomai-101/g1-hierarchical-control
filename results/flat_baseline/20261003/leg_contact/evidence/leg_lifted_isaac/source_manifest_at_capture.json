@@ -1,0 +1,8 @@
+{
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/assets/g1_minimal.usd": "4f5e0600f24bed04d4c45b3921b6f3d7b6205463b0b1ac051cf2883dd3aaee67",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/g1_env_cfg.py": "89ee8aeccedd3ff7bcd5111fa353d9a4b5f1d8e113a41aa500c15d36173a70ab",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/g1_asset_cfg.py": "6c25e0795030e8a6eede21c900927303c6fc26f0c14ad46aa9044c183e2161ce",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/capture_leg_contact_isaac_initial_source.py": "3c514b6d070261ebb46c6c7a281c8f4a3ca55319fcf8eb9406bf3cada8762b57"
+}

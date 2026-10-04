@@ -1,0 +1,16 @@
+{
+  "README.md": "c89763b5d4126bbb4b61f4eb2de0c3f17fbca3ea765515b716746600fe8d3c8c",
+  "body_default_pose_and_mass.csv": "3bee93bd88361e85c17e728488576d5322851607ba9c5b274992a9e0c6e5bf31",
+  "evidence/runtime.json": "05cf2d4c6be815a1a060e31bdcc5b4c31c97e190d03f0c570562355d78ab7ad5",
+  "evidence/source.json": "5f2c496847959907fd378fd7c11b0ff452ea045e93055868ce51499e046c5946",
+  "evidence/source_hashes.json": "20f323f53775f967008ca6855947b4db404857aec943958bcfe613e705efdf4c",
+  "evidence/usd_geometry.json": "9c9abf3d6fd335b65a1244db920bef26b329aee5e8ce8573d00bd6033457609c",
+  "evidence/verification.json": "d243d8bc50ec1ee59eccc5fa9442e2f2e3a68df6bdd9d4f2fc1cf0f4bb8a7f7e",
+  "feet.json": "cf5e8f7a7f64fcd3c6a963a241229a7b3960272f358cb91120717286fa1476d5",
+  "geometry_comparison.png": "0b2648f4eb823be3fa0498596a916494bb8c93d1b28d68f88ec2c1a6f2178aca",
+  "geometry_comparison.svg": "41d761899d6f9f4c4bccb86bf8da0c211ee7d145139449910b3a6275ad041a86",
+  "inputs.json": "e22cdc3151361042c56f0c6b52950b98ad3869f81c0bb737fec42cedbc52a4ea",
+  "joint_frames.csv": "3ecf067dd80c594fb272d6446daf0f9c775f786fc33fb3916cf093eb9ad35052",
+  "plot_data.json": "dbda81eed48ebf7705a09bf7bdccff8b32273dcb5c460a84a946c8a901da2231",
+  "summary.json": "cf5cb3ea87a538703cb70614283d140cda161a3ce28eb61ad354a8a8ccc92b4a"
+}

@@ -1,0 +1,237 @@
+{
+  "jobs": [
+    {
+      "name": "smoke_hold",
+      "command": [
+        "bash",
+        "scripts/run_flat_isaac.sh",
+        "scripts/train_teacher_handoff.py",
+        "--skill",
+        "hold",
+        "--reference-root",
+        "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+        "--checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/pretraining_snapshot/hold_model_999.pt",
+        "--bank",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/teacher_bank/bank.npz",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/smoke_hold",
+        "--num-envs",
+        "16",
+        "--iters",
+        "2",
+        "--seed",
+        "44",
+        "--headless"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/smoke_hold/complete.json"
+    },
+    {
+      "name": "smoke_march",
+      "command": [
+        "bash",
+        "scripts/run_flat_isaac.sh",
+        "scripts/train_teacher_handoff.py",
+        "--skill",
+        "march",
+        "--reference-root",
+        "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+        "--checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/pretraining_snapshot/march_model_999.pt",
+        "--bank",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/teacher_bank/bank.npz",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/smoke_march",
+        "--num-envs",
+        "16",
+        "--iters",
+        "2",
+        "--seed",
+        "44",
+        "--headless"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/smoke_march/complete.json"
+    },
+    {
+      "name": "train_hold",
+      "command": [
+        "bash",
+        "scripts/run_flat_isaac.sh",
+        "scripts/train_teacher_handoff.py",
+        "--skill",
+        "hold",
+        "--reference-root",
+        "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+        "--checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/pretraining_snapshot/hold_model_999.pt",
+        "--bank",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/teacher_bank/bank.npz",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold",
+        "--num-envs",
+        "4096",
+        "--iters",
+        "500",
+        "--seed",
+        "44",
+        "--headless"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/complete.json"
+    },
+    {
+      "name": "export_hold",
+      "command": [
+        "/home/omai/miniforge3/envs/g1-walk-isaac/bin/python",
+        "scripts/export_skill_sprint.py",
+        "--skill",
+        "hold",
+        "--checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/model_499.pt",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/export"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/export/skill_metadata.json"
+    },
+    {
+      "name": "isaac_hold",
+      "command": [
+        "bash",
+        "scripts/run_flat_isaac.sh",
+        "scripts/evaluate_skill_sprint_isaac.py",
+        "--skill",
+        "hold",
+        "--reference-root",
+        "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+        "--walk-checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/model_1499.pt",
+        "--skill-checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/model_499.pt",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/isaac_eval",
+        "--num-envs",
+        "16",
+        "--headless"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/isaac_eval/complete.json"
+    },
+    {
+      "name": "mujoco_hold",
+      "command": [
+        "/home/omai/robotics/projects/g1-hierarchical-control/.venv/bin/python",
+        "scripts/evaluate_skill_sprint_mujoco.py",
+        "--skill",
+        "hold",
+        "--reference-root",
+        "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+        "--walk-policy",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/policy_actor.npz",
+        "--skill-policy",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/export/policy_actor.npz",
+        "--model",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_physical_models/g1_usd_physical_position.mjb",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/mujoco_eval/complete.json"
+    },
+    {
+      "name": "train_march",
+      "command": [
+        "bash",
+        "scripts/run_flat_isaac.sh",
+        "scripts/train_teacher_handoff.py",
+        "--skill",
+        "march",
+        "--reference-root",
+        "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+        "--checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/pretraining_snapshot/march_model_999.pt",
+        "--bank",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/teacher_bank/bank.npz",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march",
+        "--num-envs",
+        "4096",
+        "--iters",
+        "500",
+        "--seed",
+        "44",
+        "--headless"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/complete.json"
+    },
+    {
+      "name": "export_march",
+      "command": [
+        "/home/omai/miniforge3/envs/g1-walk-isaac/bin/python",
+        "scripts/export_skill_sprint.py",
+        "--skill",
+        "march",
+        "--checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/model_499.pt",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/export"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/export/skill_metadata.json"
+    },
+    {
+      "name": "isaac_march",
+      "command": [
+        "bash",
+        "scripts/run_flat_isaac.sh",
+        "scripts/evaluate_skill_sprint_isaac.py",
+        "--skill",
+        "march",
+        "--reference-root",
+        "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+        "--walk-checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/model_1499.pt",
+        "--skill-checkpoint",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/model_499.pt",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/isaac_eval",
+        "--num-envs",
+        "16",
+        "--headless"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/isaac_eval/complete.json"
+    },
+    {
+      "name": "mujoco_march",
+      "command": [
+        "/home/omai/robotics/projects/g1-hierarchical-control/.venv/bin/python",
+        "scripts/evaluate_skill_sprint_mujoco.py",
+        "--skill",
+        "march",
+        "--reference-root",
+        "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+        "--walk-policy",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/policy_actor.npz",
+        "--skill-policy",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/export/policy_actor.npz",
+        "--model",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_physical_models/g1_usd_physical_position.mjb",
+        "--output",
+        "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval"
+      ],
+      "artifact": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/mujoco_eval/complete.json"
+    }
+  ],
+  "source_hashes": {
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/train_teacher_handoff.py": "defd3edd336f0598c66c9463d649639f575accba7f35be99493feb3413628a16",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/teacher_handoff_task.py": "3d5b93d4bf8fa2f5adc3974dc8074c30cfc6c480e1060d739ebeb7bc25a2fa98",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/skills_sprint_task.py": "451158e71b3046e2ddd974fd46901ffe7294595b64266b92251e3ac30fc385d7",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/export_skill_sprint.py": "e6ba4dac0d772ff5ac244a4c71dffdb1f759d016a8cfd3660c865245a8596867",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/evaluate_skill_sprint_isaac.py": "7548601eaf5340f21e86a1f180b7af02c6e9096d9b3ac957a29008060f5520e7",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/evaluate_skill_sprint_mujoco.py": "137a06f88baf414d30ed145fcc475c863d6a98e6fc5fbe7e4415b902b7af0a26",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/queue_teacher_handoff_round.py": "ac6c68ccc7f560b950f8f068b8448eb6c07a31a1dc8c1524179d41e33fe5446c",
+    "/home/omai/robotics/projects/g1-hierarchical-control/src/g1_control/hierarchy/skill_adapter.py": "9f63ebe1a5ed718a14f749ac1d0bf2d7b3bff12893e58a1be0356b64b1c62d40",
+    "/home/omai/robotics/projects/g1-hierarchical-control/src/g1_control/hierarchy/skill_metrics.py": "ed007605e745518a5cc37aca13a1dec165bd35b5dbbd0f496e158b756def589e",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/teacher_bank/bank.npz": "962a7da1e62616eea640ff92e4010e7b9fe9f5d47106dd98281f6bd5b0ee221f",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/model_1499.pt": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/pretraining_snapshot/hold_model_999.pt": "2607f187351e60c0bef8479abb3a9002fefa84fe11f663f33ee4f88fff66a56a",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/pretraining_snapshot/march_model_999.pt": "56121417c5b1f5dce7e3b3bfa48a2b6474a61894c6d661e1ee5da8fb24d19432"
+  },
+  "scope": "Exactly2smokes+2x500updates+export/native/Mu; unchanged first-round protocol; no additional training/deployment/git automatically."
+}

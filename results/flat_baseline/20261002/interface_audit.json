@@ -1,0 +1,421 @@
+{
+  "effort_limits": [
+    {
+      "isaac_joint": "left_hip_pitch_joint",
+      "mujoco_joint": "left_hip_pitch_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -88.0,
+        88.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_hip_pitch_joint",
+      "mujoco_joint": "right_hip_pitch_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -88.0,
+        88.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "torso_joint",
+      "mujoco_joint": "waist_yaw_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -88.0,
+        88.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_hip_roll_joint",
+      "mujoco_joint": "left_hip_roll_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -139.0,
+        139.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_hip_roll_joint",
+      "mujoco_joint": "right_hip_roll_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -139.0,
+        139.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_shoulder_pitch_joint",
+      "mujoco_joint": "left_shoulder_pitch_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_shoulder_pitch_joint",
+      "mujoco_joint": "right_shoulder_pitch_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_hip_yaw_joint",
+      "mujoco_joint": "left_hip_yaw_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -88.0,
+        88.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_hip_yaw_joint",
+      "mujoco_joint": "right_hip_yaw_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -88.0,
+        88.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_shoulder_roll_joint",
+      "mujoco_joint": "left_shoulder_roll_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_shoulder_roll_joint",
+      "mujoco_joint": "right_shoulder_roll_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_knee_joint",
+      "mujoco_joint": "left_knee_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -139.0,
+        139.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_knee_joint",
+      "mujoco_joint": "right_knee_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -139.0,
+        139.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_shoulder_yaw_joint",
+      "mujoco_joint": "left_shoulder_yaw_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_shoulder_yaw_joint",
+      "mujoco_joint": "right_shoulder_yaw_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_ankle_pitch_joint",
+      "mujoco_joint": "left_ankle_pitch_joint",
+      "isaac_effort_limit": 20,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -50.0,
+        50.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_ankle_pitch_joint",
+      "mujoco_joint": "right_ankle_pitch_joint",
+      "isaac_effort_limit": 20,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -50.0,
+        50.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_elbow_pitch_joint",
+      "mujoco_joint": "left_elbow_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_elbow_pitch_joint",
+      "mujoco_joint": "right_elbow_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_ankle_roll_joint",
+      "mujoco_joint": "left_ankle_roll_joint",
+      "isaac_effort_limit": 20,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -50.0,
+        50.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_ankle_roll_joint",
+      "mujoco_joint": "right_ankle_roll_joint",
+      "isaac_effort_limit": 20,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -50.0,
+        50.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_elbow_roll_joint",
+      "mujoco_joint": "left_wrist_roll_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_elbow_roll_joint",
+      "mujoco_joint": "right_wrist_roll_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -25.0,
+        25.0
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_five_joint",
+      "mujoco_joint": "left_hand_middle_0_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_three_joint",
+      "mujoco_joint": "left_hand_index_0_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_zero_joint",
+      "mujoco_joint": "left_hand_thumb_0_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -2.45,
+        2.45
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_five_joint",
+      "mujoco_joint": "right_hand_middle_0_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_three_joint",
+      "mujoco_joint": "right_hand_index_0_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_zero_joint",
+      "mujoco_joint": "right_hand_thumb_0_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -2.45,
+        2.45
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_six_joint",
+      "mujoco_joint": "left_hand_middle_1_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_four_joint",
+      "mujoco_joint": "left_hand_index_1_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_one_joint",
+      "mujoco_joint": "left_hand_thumb_1_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_six_joint",
+      "mujoco_joint": "right_hand_middle_1_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_four_joint",
+      "mujoco_joint": "right_hand_index_1_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_one_joint",
+      "mujoco_joint": "right_hand_thumb_1_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "left_two_joint",
+      "mujoco_joint": "left_hand_thumb_2_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    },
+    {
+      "isaac_joint": "right_two_joint",
+      "mujoco_joint": "right_hand_thumb_2_joint",
+      "isaac_effort_limit": 300,
+      "mujoco_joint_force_limited": true,
+      "mujoco_joint_force_range": [
+        -1.4,
+        1.4
+      ],
+      "limits_match": false
+    }
+  ],
+  "matched": 0,
+  "total": 37,
+  "interpretation": "Static model discrepancy, not established cause. Do not enlarge physical model limits merely to improve transfer.",
+  "other_known_differences": [
+    "Isaac implicit actuator versus MuJoCo explicit per-step PD",
+    "Isaac physics 5ms versus MuJoCo 1ms",
+    "different USD and MJCF model assets and collision geometry",
+    "Isaac self collision disabled; MuJoCo contact filtering separately defined",
+    "Isaac static/dynamic friction0.8/0.6; MuJoCo friction0.8"
+  ]
+}

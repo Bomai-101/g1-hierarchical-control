@@ -1,0 +1,39 @@
+{
+  "cases": [
+    {
+      "scenario": "normal",
+      "source_trace_sha256": "82a7b8fa55d679f4b112c238a07d2714989b12c680c2d5471e223b509cc77471",
+      "source_decisions_sha256": "7bc57ea4313e50702ee66bc7602b758a9318aca7e3496fca2c0b0ecdbd317591",
+      "simulation_end_s": 7.5200000000000005,
+      "frames": 225,
+      "fps": 25,
+      "physics_steps": 0,
+      "visual_grid": "Rendering-scene line primitives only, no physical model changes",
+      "after_end": "Hold last recorded state with SIMULATION ENDED label, not a physical stop."
+    },
+    {
+      "scenario": "temporary_dropout",
+      "source_trace_sha256": "4e308f905f2a86176709c609369b7173d7ebfc9840d028c5ba801148512e5907",
+      "source_decisions_sha256": "c5ecc6b00c01028a1429220041855aa6af9cc82b619c1ccadf415caf2f03b2e7",
+      "simulation_end_s": 8.2,
+      "frames": 225,
+      "fps": 25,
+      "physics_steps": 0,
+      "visual_grid": "Rendering-scene line primitives only, no physical model changes",
+      "after_end": "Hold last recorded state with SIMULATION ENDED label, not a physical stop."
+    },
+    {
+      "scenario": "persistent_dropout",
+      "source_trace_sha256": "d7eddd64bee71238bea26c09018e3201ffb474aedd56130ac085a4c1bbe6b4c3",
+      "source_decisions_sha256": "e57523f7aa617cb21fe95964276750f2ddb6fd7d88d269a74b869f79c719818a",
+      "simulation_end_s": 7.22,
+      "frames": 225,
+      "fps": 25,
+      "physics_steps": 0,
+      "visual_grid": "Rendering-scene line primitives only, no physical model changes",
+      "after_end": "Hold last recorded state with SIMULATION ENDED label, not a physical stop."
+    }
+  ],
+  "model_sha256": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd",
+  "renderer_sha256": "5760d0af791cf438efdf3df42cb2812f4aa74c6b59f6e0db1497f6762512a3b8"
+}

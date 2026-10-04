@@ -1,0 +1,58 @@
+{
+  "duration_s": 30.0,
+  "forward_commands_mps": [
+    0.5,
+    1.0
+  ],
+  "policies": [
+    "baseline",
+    "reproduction_20261001"
+  ],
+  "plans": [
+    [
+      "steps",
+      0.0
+    ],
+    [
+      "slow_sine",
+      0.0
+    ],
+    [
+      "steady",
+      0.0
+    ],
+    [
+      "steady",
+      -0.1
+    ],
+    [
+      "steady",
+      0.1
+    ]
+  ],
+  "terrain_seeds": [
+    [
+      "plane",
+      42
+    ],
+    [
+      "rough",
+      42
+    ],
+    [
+      "rough",
+      43
+    ],
+    [
+      "rough",
+      44
+    ]
+  ],
+  "friction": 0.8,
+  "paired_modes": [
+    "off",
+    "on"
+  ],
+  "switch_authorized": false,
+  "labels": "unlabeled physical rollouts"
+}

@@ -1,0 +1,331 @@
+{
+  "results": [
+    {
+      "yaw_command": 0.0,
+      "metrics": {
+        "backend": "mujoco",
+        "model": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/assets/unitree_g1_37dof_mujoco/g1_37dof_policy_aligned.xml",
+        "policy": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz",
+        "metadata": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json",
+        "terrain": "plane",
+        "friction": 0.8,
+        "command_x": 1.0,
+        "command_y": 0.0,
+        "command_yaw": 0.0,
+        "duration_s": 30.0,
+        "elapsed_s": 30.0,
+        "survival_ratio": 1.0,
+        "distance_x_m": -1.3978199800262465,
+        "lateral_drift_m": 1.1679176909152533,
+        "speed_x_mps": -0.04659399933420822,
+        "mean_body_speed_x_mps": 0.9548677081491702,
+        "speed_tracking_rmse_mps": 0.11963844778664597,
+        "mean_abs_lateral_speed_mps": 0.059366123381685836,
+        "yaw_rate_tracking_rmse_rps": 0.4241196344636462,
+        "mean_base_height_m": 0.7195624770733877,
+        "base_height_std_m": 0.007370046373818315,
+        "mean_tilt_deg": 10.812665028074123,
+        "max_tilt_deg": 12.863918327598734,
+        "fell": 0,
+        "mean_abs_action": 0.602209809270191,
+        "mean_action_rms": 0.9451447056869081,
+        "mean_action_rate_rms": 0.2118685525496813,
+        "mean_joint_vel_rms_rps": 1.586205137789462,
+        "mean_abs_torque_nm": 7.9433166524991075,
+        "rms_torque_nm": 12.811618155200032
+      },
+      "changes": [
+        {
+          "joint": "left_five_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_three_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_zero_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_five_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_three_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_zero_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_six_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_four_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_one_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_six_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_four_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_one_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_two_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_two_joint",
+          "before": 0.01,
+          "after": 0.001
+        }
+      ],
+      "only_model_array_changed": "dof_armature"
+    },
+    {
+      "yaw_command": -0.2,
+      "metrics": {
+        "backend": "mujoco",
+        "model": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/assets/unitree_g1_37dof_mujoco/g1_37dof_policy_aligned.xml",
+        "policy": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz",
+        "metadata": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json",
+        "terrain": "plane",
+        "friction": 0.8,
+        "command_x": 1.0,
+        "command_y": 0.0,
+        "command_yaw": -0.2,
+        "duration_s": 30.0,
+        "elapsed_s": 30.0,
+        "survival_ratio": 1.0,
+        "distance_x_m": -1.1598543688240175,
+        "lateral_drift_m": 1.381746939071258,
+        "speed_x_mps": -0.038661812294133915,
+        "mean_body_speed_x_mps": 1.0113333414110606,
+        "speed_tracking_rmse_mps": 0.12469593219654417,
+        "mean_abs_lateral_speed_mps": 0.028427145066196383,
+        "yaw_rate_tracking_rmse_rps": 0.4195338449280535,
+        "mean_base_height_m": 0.7173854492193026,
+        "base_height_std_m": 0.008179305829082162,
+        "mean_tilt_deg": 12.528150850416731,
+        "max_tilt_deg": 14.493456780668028,
+        "fell": 0,
+        "mean_abs_action": 0.6070357158549594,
+        "mean_action_rms": 0.9603320297683008,
+        "mean_action_rate_rms": 0.21048028217515746,
+        "mean_joint_vel_rms_rps": 1.598049774967643,
+        "mean_abs_torque_nm": 8.083520886179182,
+        "rms_torque_nm": 13.016161656810498
+      },
+      "changes": [
+        {
+          "joint": "left_five_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_three_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_zero_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_five_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_three_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_zero_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_six_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_four_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_one_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_six_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_four_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_one_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_two_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_two_joint",
+          "before": 0.01,
+          "after": 0.001
+        }
+      ],
+      "only_model_array_changed": "dof_armature"
+    },
+    {
+      "yaw_command": 0.2,
+      "metrics": {
+        "backend": "mujoco",
+        "model": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/assets/unitree_g1_37dof_mujoco/g1_37dof_policy_aligned.xml",
+        "policy": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz",
+        "metadata": "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json",
+        "terrain": "plane",
+        "friction": 0.8,
+        "command_x": 1.0,
+        "command_y": 0.0,
+        "command_yaw": 0.2,
+        "duration_s": 30.0,
+        "elapsed_s": 30.0,
+        "survival_ratio": 1.0,
+        "distance_x_m": -2.6624648435292904,
+        "lateral_drift_m": 3.6201830331038405,
+        "speed_x_mps": -0.08874882811764301,
+        "mean_body_speed_x_mps": 0.9050166726364426,
+        "speed_tracking_rmse_mps": 0.13982293555316375,
+        "mean_abs_lateral_speed_mps": 0.09362991115484007,
+        "yaw_rate_tracking_rmse_rps": 0.412836184158494,
+        "mean_base_height_m": 0.7217986110602165,
+        "base_height_std_m": 0.006706948566513958,
+        "mean_tilt_deg": 8.749449101093967,
+        "max_tilt_deg": 11.311733675766778,
+        "fell": 0,
+        "mean_abs_action": 0.5969460243618931,
+        "mean_action_rms": 0.92991762921617,
+        "mean_action_rate_rms": 0.21264942912106605,
+        "mean_joint_vel_rms_rps": 1.577786504587212,
+        "mean_abs_torque_nm": 7.828704515047863,
+        "rms_torque_nm": 12.641847912665922
+      },
+      "changes": [
+        {
+          "joint": "left_five_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_three_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_zero_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_five_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_three_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_zero_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_six_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_four_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_one_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_six_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_four_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_one_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "left_two_joint",
+          "before": 0.01,
+          "after": 0.001
+        },
+        {
+          "joint": "right_two_joint",
+          "before": 0.01,
+          "after": 0.001
+        }
+      ],
+      "only_model_array_changed": "dof_armature"
+    }
+  ],
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "mujoco": "3.14.0"
+}

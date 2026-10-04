@@ -1,0 +1,22 @@
+test_boundary_age_and_abort (test_task_sequence.SequenceTests.test_boundary_age_and_abort) ... ok
+test_expired_packet_cannot_refresh (test_task_sequence.SequenceTests.test_expired_packet_cannot_refresh) ... ok
+test_future_packet_cannot_refresh (test_task_sequence.SequenceTests.test_future_packet_cannot_refresh) ... ok
+test_logging_toggle_has_same_decisions (test_task_sequence.SequenceTests.test_logging_toggle_has_same_decisions) ... ok
+test_measured_goals_not_elapsed_schedule (test_task_sequence.SequenceTests.test_measured_goals_not_elapsed_schedule) ... ok
+test_missing_start_message_aborts (test_task_sequence.SequenceTests.test_missing_start_message_aborts) ... ok
+test_negative_heading_goal (test_task_sequence.SequenceTests.test_negative_heading_goal) ... ok
+test_new_sequence_with_older_timestamp_is_rejected (test_task_sequence.SequenceTests.test_new_sequence_with_older_timestamp_is_rejected) ... ok
+test_projection_and_relative_heading (test_task_sequence.SequenceTests.test_projection_and_relative_heading) ... ok
+test_recovery_needs_two_new_messages (test_task_sequence.SequenceTests.test_recovery_needs_two_new_messages) ... ok
+test_skill_command_contract (test_task_sequence.SequenceTests.test_skill_command_contract) ... ok
+test_stage_invalid_goal_or_timeout (test_task_sequence.SequenceTests.test_stage_invalid_goal_or_timeout) ... ok
+test_stage_timeout (test_task_sequence.SequenceTests.test_stage_timeout) ... ok
+test_stale_blocks_new_stage_but_holds_command (test_task_sequence.SequenceTests.test_stale_blocks_new_stage_but_holds_command) ... ok
+test_time_reversal_and_terminal_reuse_rejected (test_task_sequence.SequenceTests.test_time_reversal_and_terminal_reuse_rejected) ... ok
+test_turn_goal_waits_for_confirmed_handoff_with_extra_rotation (test_task_sequence.SequenceTests.test_turn_goal_waits_for_confirmed_handoff_with_extra_rotation) ... ok
+test_wrong_task_cannot_start (test_task_sequence.SequenceTests.test_wrong_task_cannot_start) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.001s
+
+OK

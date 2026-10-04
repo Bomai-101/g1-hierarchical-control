@@ -1,0 +1,8 @@
+{
+  "scripts/record_locomotion_command_plan.py": "834c79064c7ae9d27fc94c1637041df6d8188dfdd533cc287d1410a34e331ce5",
+  "scripts/run_locomotion_command_matrix.py": "376bd1b2d41a51f4c1dc442e9e897b3041e73aed8a71134fbe506bbd6eac37be",
+  "scripts/plot_physical_command_matrix.py": "9c091669be04e1b836a4101ee31e7641a132b9129768881bc223974fafc3e055",
+  "src/g1_control/monitoring/command_plan.py": "228d4cfad3630e51f8fca33d16d8d62fa664c670fa7c4d5331520bad25bf44db",
+  "tests/test_command_plan.py": "73f98768707af57782c1e330cc158806b1e1ab58662a24fd5fb1c624e3d84680",
+  "tests/test_command_analysis.py": "c68add8f84ac82338e12037e8e1310139e3bfd70b05b84e51edc06a9ca151292"
+}

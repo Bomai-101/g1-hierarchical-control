@@ -1,0 +1,27 @@
+{
+  "mode": "shadow_only",
+  "thresholds": {
+    "tilt_deg": 15.0,
+    "angular_speed_rps": 1.0,
+    "forward_error_mps": 0.3,
+    "yaw_error_rps": 0.3,
+    "dwell_s": 0.2
+  },
+  "interpretation": "Exploratory screens only; neither activation nor clearing proves safety.",
+  "yaw_signal": "Body-frame angular z, matching the reference evaluator; not Euler heading derivative.",
+  "events": [
+    {
+      "event": "candidate_enter",
+      "reason": "forward_error",
+      "onset_time_s": 0.0,
+      "time_s": 0.20000000000000015,
+      "value": 0.855497105610022,
+      "threshold": 0.3
+    },
+    {
+      "event": "candidate_clear",
+      "reason": "forward_error",
+      "time_s": 0.9400000000000007
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "protocol": "direct",
+      "total": 48,
+      "resumed": 48,
+      "completed": 48,
+      "passed": 48,
+      "physical_failures": 0,
+      "hold_latency_median_s": 3.8600000000000003,
+      "resume_vx_rmse_median_mps": 0.07536407560110092
+    },
+    {
+      "protocol": "blend",
+      "total": 48,
+      "resumed": 47,
+      "completed": 43,
+      "passed": 43,
+      "physical_failures": 5,
+      "hold_latency_median_s": 4.440000000000001,
+      "resume_vx_rmse_median_mps": 0.0746634230017662
+    },
+    {
+      "protocol": "brake_blend",
+      "total": 48,
+      "resumed": 37,
+      "completed": 37,
+      "passed": 37,
+      "physical_failures": 11,
+      "hold_latency_median_s": 4.600000000000001,
+      "resume_vx_rmse_median_mps": 0.07478244602680206
+    }
+  ],
+  "verification": {
+    "cases": 144,
+    "action_rows": 137057,
+    "max_actor_error": 2.86102294921875e-06,
+    "paired_prefixes": 96
+  },
+  "limits": "Low-speed flat Isaac seed42. Prospective sequence acceptance differs from original standalone hold acceptance. No watchdog/fallback validation."
+}

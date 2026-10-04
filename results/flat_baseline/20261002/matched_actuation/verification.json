@@ -1,0 +1,228 @@
+{
+  "matched_cases": [
+    {
+      "variant": "matched_actuation_mujoco",
+      "mode": "matched_dt005",
+      "states": 1722,
+      "signal_max_error": 0.0,
+      "torque_max_error": 0.0,
+      "root_com_velocity_max_error": 0.0,
+      "root_link_max_error": 0.0,
+      "raw_sha256": "4ab0c0cec42e703ddd788e750bf5e62a37f4469102c7e11cca08426e2a871897"
+    },
+    {
+      "variant": "matched_actuation_mujoco",
+      "mode": "substep_dt001",
+      "states": 1722,
+      "signal_max_error": 0.0,
+      "torque_max_error": 0.0,
+      "root_com_velocity_max_error": 0.0,
+      "root_link_max_error": 0.0,
+      "raw_sha256": "d458befd3dc6532454d06a0445b94d61b2ef58bf6d8b35df0d0596cf5991bc51"
+    },
+    {
+      "variant": "matched_actuation_limits",
+      "mode": "matched_dt005",
+      "states": 1722,
+      "signal_max_error": 0.0,
+      "torque_max_error": 0.0,
+      "root_com_velocity_max_error": 0.0,
+      "root_link_max_error": 0.0,
+      "raw_sha256": "abe6c4e032d0201f91b0952b5de9dd7f7765ad5c4b329cd328540c216d52dde3"
+    },
+    {
+      "variant": "matched_actuation_limits",
+      "mode": "substep_dt001",
+      "states": 1722,
+      "signal_max_error": 0.0,
+      "torque_max_error": 0.0,
+      "root_com_velocity_max_error": 0.0,
+      "root_link_max_error": 0.0,
+      "raw_sha256": "2dd24d3bfc54623a320cfd6a822e091a70782d9feb09385c456885fc1897a72b"
+    }
+  ],
+  "walking_cases": [
+    {
+      "case": "walking_finger_constraints/baseline_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "c8f35d4b1eed75650b7188f21653b8a94eb51015d529e5758746164f93539a94"
+    },
+    {
+      "case": "walking_finger_constraints/baseline_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "b88b003a301041c53b9190fcae65c11a26dd117f0a521e47f216321b2f22a65c"
+    },
+    {
+      "case": "walking_finger_constraints/finger_limit002_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 7.216449660063518e-16,
+      "actor_max_error": 0.0,
+      "raw_sha256": "15c5f308c04e23179fa9f1fef9f738323e636847dca3d89e54c1a88927f9624c"
+    },
+    {
+      "case": "walking_finger_constraints/finger_limit002_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.2212453270876722e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "3b47da406c27478b12b410e1af4e361a91309220926aecd18a9295fccbbecc41"
+    },
+    {
+      "case": "finger_limit_localization/baseline_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "c8f35d4b1eed75650b7188f21653b8a94eb51015d529e5758746164f93539a94"
+    },
+    {
+      "case": "finger_limit_localization/baseline_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "b88b003a301041c53b9190fcae65c11a26dd117f0a521e47f216321b2f22a65c"
+    },
+    {
+      "case": "finger_limit_localization/finger_limit002_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 7.216449660063518e-16,
+      "actor_max_error": 0.0,
+      "raw_sha256": "15c5f308c04e23179fa9f1fef9f738323e636847dca3d89e54c1a88927f9624c"
+    },
+    {
+      "case": "finger_limit_localization/finger_limit002_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.2212453270876722e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "3b47da406c27478b12b410e1af4e361a91309220926aecd18a9295fccbbecc41"
+    },
+    {
+      "case": "finger_limit_localization/left_four_joint_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "d1cefa96e8dd0f60eb9f76569d3fbad6cb8842089e999010e48cec76f103b419"
+    },
+    {
+      "case": "finger_limit_localization/left_four_joint_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 2.220446049250313e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "d59fec23459f2214b734d52adcd47a6327fea084e1ce5323cce4a8297148f8f8"
+    },
+    {
+      "case": "finger_limit_localization/right_four_joint_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 2.220446049250313e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "640ca3b267bba1ed88917bae015a81a135e40af597fd1e5a5a5b4532a87a59df"
+    },
+    {
+      "case": "finger_limit_localization/right_four_joint_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "f7ce1876d71358cda517f6bbbc90c4014b64d8fc1cc9f9c29a489af95dc4093c"
+    },
+    {
+      "case": "finger_limit_localization/left_six_joint_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "e8e0028966736babc64c53efbf4aecab5a2d1dcf41e966c107a179383fbee25b"
+    },
+    {
+      "case": "finger_limit_localization/left_six_joint_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "ac1708bec7a33de37a380ccea4baa59e1a70e579e30b6f17763ffaaf11333b99"
+    },
+    {
+      "case": "finger_limit_localization/right_six_joint_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.7763568394002505e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "2526d2b4a7aad8bd13ed943ac63771ff59dcf913a43e222ab86f0c9761883184"
+    },
+    {
+      "case": "finger_limit_localization/right_six_joint_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.9984014443252818e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "515db6f0ebd57424fb26d03f98992cd897e6f20f2266f105222d171496a1b1e9"
+    },
+    {
+      "case": "finger_limit_localization/active4_vx0.5_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 7.216449660063518e-16,
+      "actor_max_error": 0.0,
+      "raw_sha256": "15c5f308c04e23179fa9f1fef9f738323e636847dca3d89e54c1a88927f9624c"
+    },
+    {
+      "case": "finger_limit_localization/active4_vx1_yaw+0.0",
+      "states": 1001,
+      "actor_inputs": 32,
+      "signal_max_error": 1.2212453270876722e-15,
+      "actor_max_error": 0.0,
+      "raw_sha256": "3b47da406c27478b12b410e1af4e361a91309220926aecd18a9295fccbbecc41"
+    }
+  ],
+  "matched_reconstructed_states": 6888,
+  "walking_reconstructed_states": 18018,
+  "actor_evaluations": 576,
+  "consistency": [
+    {
+      "speed": 0.5,
+      "comparison": "baseline",
+      "all_arrays_equal": true
+    },
+    {
+      "speed": 0.5,
+      "comparison": "all14",
+      "all_arrays_equal": true
+    },
+    {
+      "speed": 0.5,
+      "comparison": "all14_vs_active4",
+      "all_arrays_equal": true
+    },
+    {
+      "speed": 1.0,
+      "comparison": "baseline",
+      "all_arrays_equal": true
+    },
+    {
+      "speed": 1.0,
+      "comparison": "all14",
+      "all_arrays_equal": true
+    },
+    {
+      "speed": 1.0,
+      "comparison": "all14_vs_active4",
+      "all_arrays_equal": true
+    }
+  ],
+  "source_hashes_verified": true,
+  "isaac_contact_force_max": 0.0,
+  "limitations": "Matched suspendedresponses and20s zero-rate walking only. Joint-limit mismatch contribution shown, not sole yawcause; no symmetricweightcopy ordefaultpromotion."
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-04",
+  "scope": "Published README navigation changed from author-local absolute path to repository-relative video link",
+  "original_publication_manifest_sha256": "9e801021a373e037068cac40e1d2388904f30f5832cc1a9f3c599e9fb651aa7d",
+  "README_previous_sha256": "9747b677f46578669d43bd299266596880d2accc1c138b2fe6b681f0f9e69395",
+  "README_current_sha256": "ed8fa1e0d1744d75398dd2054b1a4d450cb6b930b7b5fe2e59ce0d1a216a639c",
+  "runtime_source_snapshots_unchanged": true,
+  "metrics_traces_weights_unchanged": true
+}

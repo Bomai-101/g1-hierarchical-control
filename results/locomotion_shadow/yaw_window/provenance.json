@@ -1,0 +1,141 @@
+{
+  "analysis_runtime": {
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "platform": "Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  },
+  "reference_head_current": "19ce3c3561e3024055bf250ddd851b325175a7eb",
+  "model_snapshot_timing": "Current model/XML/mesh hashes; original rollouts did not record model hashes.",
+  "current_model_files": {
+    "mujoco/assets/unitree_g1_37dof_mujoco/g1_37dof_policy_aligned.xml": "42a046f3a0d6350919282d1418148d08bb2f60d9dcf265324e9255958c54db7d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/pelvis.STL": "5ba6bbc888e630550140d3c26763f10206da8c8bd30ed886b8ede41c61f57a31",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/pelvis_contour_link.STL": "5cc5c2c7a312329e3feeb2b03d3fc09fc29705bd01864f6767e51be959662420",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hip_pitch_link.STL": "4725168105ee768ee31638ef22b53f6be2d7641bfd7cfefe803488d884776fa4",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hip_roll_link.STL": "91f25922ee8a7c3152790051bebad17b4d9cd243569c38fe340285ff93a97acf",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hip_yaw_link.STL": "a16d88aa6ddac8083aa7ad55ed317bea44b1fa003d314fba88965b7ed0f3b55b",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_knee_link.STL": "8d92b9e3d3a636761150bb8025e32514c4602b91c7028d523ee42b3e632de477",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_ankle_pitch_link.STL": "d49e3abc6f5b12e532062cd575b87b5ef40cd2a3fc18f54a1ca5bba4f773d51d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_ankle_roll_link.STL": "c4092af943141d4d9f74232f3cfa345afc6565f46a077793b8ae0e68b39dc33f",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hip_pitch_link.STL": "e4f3c99d7f4a7d34eadbef9461fc66e3486cb5442db1ec50c86317d459f1a9c6",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hip_roll_link.STL": "4c254ef66a356f492947f360dd931965477b631e3fcc841f91ccc46d945d54f6",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hip_yaw_link.STL": "e479c2936ca2057e9eb2f7dff6c189b7419d7b8484dea0b298cbb36a2a6aa668",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_knee_link.STL": "63c4008449c9bbe701a6e2b557b7a252e90cf3a5abcf54cee46862b9a69f8ec8",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_ankle_pitch_link.STL": "15be426539ec1be70246d4d82a168806db64a41301af8b35c197a33348c787a9",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_ankle_roll_link.STL": "4b66222ea56653e627711b56d0a8949b4920da5df091da0ceb343f54e884e3a5",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/waist_yaw_link_rev_1_0.STL": "ec6db442b11f25eed898b5add07940c85d804f300de24dcbd264ccd8be7d554c",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/waist_roll_link_rev_1_0.STL": "b67c347a05abc3e8ddae600d98a082bee273bb39f8e651647708b0a7140a8a97",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/torso_link_rev_1_0.STL": "11ddb46f2098efbbd8816b1d65893632d8e78be936376c7cdcd6771899ccc723",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/logo_link.STL": "8571a0a19bc4916fa55f91449f51d5fdefd751000054865a842449429d5f155b",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/head_link.STL": "005fb67fbd3eff94aa8bf4a6e83238174e9f91b6721f7111594322f223724411",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_shoulder_pitch_link.STL": "f0d1cfd02fcf0d42f95e678eeca33da3afbcc366ffba5c052847773ec4f31d52",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_shoulder_roll_link.STL": "fb9df21687773522598dc384f1a2945c7519f11cbc8bd372a49170316d6eee88",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_shoulder_yaw_link.STL": "1aa97e9748e924336567992181f78c7cd0652fd52a4afcca3df6b2ef6f9e712e",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_elbow_link.STL": "fa752198accd104d5c4c3a01382e45165b944fbbc5acce085059223324e5bed3",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_wrist_roll_link.STL": "edc387c9a0ba8c2237e9b296d32531426fabeb6f53e58df45c76106bca74148c",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_wrist_pitch_link.STL": "b251d8e05047f695d0f536cd78c11973cfa4e78d08cfe82759336cc3471de3a9",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_wrist_yaw_link.STL": "83f8fb3a726bf9613d65dd14f0f447cb918c3c95b3938042a0c9c09749267d3b",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_palm_link.STL": "23a486b75bd78a9bf03cec25d84d87f97f3dae038cf21a743b6d469b337e4004",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_thumb_0_link.STL": "a90c721661c0622685488a3c74d1e122c7da89242d3a1daef75edb83422d05e0",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_thumb_1_link.STL": "445c54a45bc13ce36001556f66bc0f49c83cb40321205ae4d676bb2874325684",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_thumb_2_link.STL": "3d8dbe5085acfc213d21aa8b0782e89cd79084e9678f3a85fc7b04a86b029db5",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_middle_0_link.STL": "6b35f2f77211d5a366f0b9a4e47c4ee35e536731266f1a34e9efa12db579b892",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_middle_1_link.STL": "9e315ebc8a7a0cb98e033985b586b20d81cf8aa761181ae61ce56fcb14077a06",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_index_0_link.STL": "6b35f2f77211d5a366f0b9a4e47c4ee35e536731266f1a34e9efa12db579b892",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/left_hand_index_1_link.STL": "9e315ebc8a7a0cb98e033985b586b20d81cf8aa761181ae61ce56fcb14077a06",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_shoulder_pitch_link.STL": "24cdb387e0128dfe602770a81c56cdce3a0181d34d039a11d1aaf8819b7b8c02",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_shoulder_roll_link.STL": "962b97c48f9ce9e8399f45dd9522e0865d19aa9fd299406b2d475a8fc4a53e81",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_shoulder_yaw_link.STL": "a0b76489271da0c72461a344c9ffb0f0c6e64f019ea5014c1624886c442a2fe5",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_elbow_link.STL": "1be925d7aa268bb8fddf5362b9173066890c7d32092c05638608126e59d1e2ab",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_wrist_roll_link.STL": "a7ee9212ff5b94d6cb7f52bb1bbf3f352194d5b598acff74f4c77d340c5b344f",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_wrist_pitch_link.STL": "d22f8f3b3127f15a63e5be1ee273cd5075786c3142f1c3d9f76cbf43d2a26477",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_wrist_yaw_link.STL": "bc9dece2d12509707e0057ba2e48df8f3d56db0c79410212963a25e8a50f61a6",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_palm_link.STL": "86c0b231cc44477d64a6493e5a427ba16617a00738112dd187c652675b086fb9",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_thumb_0_link.STL": "544298d0ea1088f5b276a10cc6a6a9e533efdd91594955fdc956c46211d07f83",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_thumb_1_link.STL": "0a9a820da8dd10f298778b714f1364216e8a5976f4fd3a05689ea26327d44bf6",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_thumb_2_link.STL": "3f1bfb37668e8f61801c8d25f171fa1949e08666be86c67acad7e0079937cc45",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_middle_0_link.STL": "12ab4300c95e437e834f9aef772b3b431c671bf34338930b52ad11aef73bbd0d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_middle_1_link.STL": "c9c34efce4563cacdcfd29fc838a982976d40f5442c71219811dcbbf3923a33d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_index_0_link.STL": "12ab4300c95e437e834f9aef772b3b431c671bf34338930b52ad11aef73bbd0d",
+    "mujoco/assets/unitree_g1_37dof_mujoco/meshes/right_hand_index_1_link.STL": "c9c34efce4563cacdcfd29fc838a982976d40f5442c71219811dcbbf3923a33d"
+  },
+  "metadata_sha256_current": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+  "inputs": {
+    "baseline_-0.2": {
+      "baseline_-0.2/off/metrics.json": "b968525d9c245665311577e83d45dd0e55ee7022cdd5b11ab34366db64a88f8f",
+      "baseline_-0.2/off/control_trace.npz": "3adeca42797501a482dd9a561ab7f0281410fa033f4a327d910153eb6cba86e1",
+      "baseline_-0.2/off/trajectory.csv": "8455876b06f5f127035d05d43ca49cf253cb5a71cc58baff2944563f1d5af403",
+      "baseline_-0.2/on/metrics.json": "c6deb9b612b84677875a71d39a26abe243b7dec32205f40c2a12251cdb906260",
+      "baseline_-0.2/on/control_trace.npz": "3adeca42797501a482dd9a561ab7f0281410fa033f4a327d910153eb6cba86e1",
+      "baseline_-0.2/on/trajectory.csv": "8455876b06f5f127035d05d43ca49cf253cb5a71cc58baff2944563f1d5af403",
+      "baseline_-0.2/on/shadow_signals.csv": "51d3bb9b29d79f051619d1676fc0e149fe6309d858da3c3fca0a3c779f190e7e",
+      "baseline_-0.2/on/shadow_events.json": "d1d5cc0d836b0939c7c8a3012a523ac962316ba9d5813df801028e805ce388f8"
+    },
+    "baseline_0.0": {
+      "baseline_0.0/off/metrics.json": "1dfe8763b2bd037ba6586ed8c53515ab2ad86bf2198868d45161f90311615ee0",
+      "baseline_0.0/off/control_trace.npz": "f3e0109d92de3601a4b846712da6a2537850c2adfb5c4e05468eec9b6c9907ad",
+      "baseline_0.0/off/trajectory.csv": "377ebd76b2b651cc1d09506ef169fabdff63a95b13e51a2bfb001df9a7066222",
+      "baseline_0.0/on/metrics.json": "752ecfcb0dfabc25d3bc6397e226f579874f98c9d16dbb3b1db4db9b572c3727",
+      "baseline_0.0/on/control_trace.npz": "f3e0109d92de3601a4b846712da6a2537850c2adfb5c4e05468eec9b6c9907ad",
+      "baseline_0.0/on/trajectory.csv": "377ebd76b2b651cc1d09506ef169fabdff63a95b13e51a2bfb001df9a7066222",
+      "baseline_0.0/on/shadow_signals.csv": "4a2e722dfa5954ef85ac713d4fb9b0aec60c024e5ede4fef0a70754a015647a4",
+      "baseline_0.0/on/shadow_events.json": "8f560b2e98e26033fdf1b9d9ad66785c4ff9587b7cd159fc875216536c119857"
+    },
+    "baseline_0.2": {
+      "baseline_0.2/off/metrics.json": "d0a45081fda0af1e5ac5736b5106cb99fedbfc39298bfe8eb734e643d65c21a9",
+      "baseline_0.2/off/control_trace.npz": "4f6b5762e6ffaaa8b3da4f13eeb41a53ba88f20195a54414af82828cf96e7fcd",
+      "baseline_0.2/off/trajectory.csv": "78b33ed0e89d58d1d60e60bc6323c3f6cb7cf784409cc5df7b4a510a16d36ed4",
+      "baseline_0.2/on/metrics.json": "abd129e599e49198269f7a2cd6b74194a3de375fe05413aa3c263a83a7471fbb",
+      "baseline_0.2/on/control_trace.npz": "4f6b5762e6ffaaa8b3da4f13eeb41a53ba88f20195a54414af82828cf96e7fcd",
+      "baseline_0.2/on/trajectory.csv": "78b33ed0e89d58d1d60e60bc6323c3f6cb7cf784409cc5df7b4a510a16d36ed4",
+      "baseline_0.2/on/shadow_signals.csv": "4f954e61abaede6376c28f126ab3c1559a3f6654683916ddd429ca6b59e21505",
+      "baseline_0.2/on/shadow_events.json": "45ead3c511f9aaa36efebb0d7db7fd94ea7b3d14342980ac41dddbf67c40209e"
+    },
+    "reproduction_20261001_-0.2": {
+      "reproduction_20261001_-0.2/off/metrics.json": "386a8b699e0090351195ea26e60dcf64f82291bbc1bb62e72d8fa0fc4710249d",
+      "reproduction_20261001_-0.2/off/control_trace.npz": "3e85e288aba80f91fd40e85f677ad3395fdd146468c35a8ec40ae4c075bb83f7",
+      "reproduction_20261001_-0.2/off/trajectory.csv": "471a0720ac150324dffcb6c437c4cf3ede05b1d5b2abe2ba32d5ab0aa21338f0",
+      "reproduction_20261001_-0.2/on/metrics.json": "42a4178f2ef67877fcd7796a571d3a8dbaa758e1a7ba3342456cd96c07d87413",
+      "reproduction_20261001_-0.2/on/control_trace.npz": "3e85e288aba80f91fd40e85f677ad3395fdd146468c35a8ec40ae4c075bb83f7",
+      "reproduction_20261001_-0.2/on/trajectory.csv": "471a0720ac150324dffcb6c437c4cf3ede05b1d5b2abe2ba32d5ab0aa21338f0",
+      "reproduction_20261001_-0.2/on/shadow_signals.csv": "f7017c4a46bac0b1ac99213fd3ac9306dd81c6f45a93603b803719f7af309003",
+      "reproduction_20261001_-0.2/on/shadow_events.json": "19cccd670b3fb12885b3759d649d198bda923e9bbf4e8dd8ab5ba8bfa0b7b171"
+    },
+    "reproduction_20261001_0.0": {
+      "reproduction_20261001_0.0/off/metrics.json": "fe514cb252b19ac21de0862dc5c4edfa56087951a0ad5f68d065dfd7c4022366",
+      "reproduction_20261001_0.0/off/control_trace.npz": "41d99f4b2af56433daf2ce6065585dd071fb90b5754a5bc6c08224a1f30c631f",
+      "reproduction_20261001_0.0/off/trajectory.csv": "9130ac539e65cc276435ffe57fac9c6024a64beb2fac5a5250d5b31b855eb833",
+      "reproduction_20261001_0.0/on/metrics.json": "12894ee62708faf3642f82653d03ac63b96aac792f58e278b0094efd80032a9c",
+      "reproduction_20261001_0.0/on/control_trace.npz": "41d99f4b2af56433daf2ce6065585dd071fb90b5754a5bc6c08224a1f30c631f",
+      "reproduction_20261001_0.0/on/trajectory.csv": "9130ac539e65cc276435ffe57fac9c6024a64beb2fac5a5250d5b31b855eb833",
+      "reproduction_20261001_0.0/on/shadow_signals.csv": "fa8a3bc8be998ba5fb6d71dab7ea0b45f556d26e518291c3f7cfc1c30cf5a50e",
+      "reproduction_20261001_0.0/on/shadow_events.json": "2ccd295d0ea97d1ea71bffbc6c770b263f9dbf91170dcb24334ff38bc9045fb3"
+    },
+    "reproduction_20261001_0.2": {
+      "reproduction_20261001_0.2/off/metrics.json": "1d6cd73d1fc80f82b65761bafdaa48ec448891ceaa0dadf3ea5c5919826dd86d",
+      "reproduction_20261001_0.2/off/control_trace.npz": "6db01dcbbf188a2e6408049e272ba48244a8a878a4819e88276d077e5fe158ee",
+      "reproduction_20261001_0.2/off/trajectory.csv": "5d673ed91e7ddd448d098da22ff877e925bea76d0b229cdef41d6d80d6545b58",
+      "reproduction_20261001_0.2/on/metrics.json": "afccd5527e8d424b8f311de10a58c8211eb6de60b1ed1d849120c81a1c62e001",
+      "reproduction_20261001_0.2/on/control_trace.npz": "6db01dcbbf188a2e6408049e272ba48244a8a878a4819e88276d077e5fe158ee",
+      "reproduction_20261001_0.2/on/trajectory.csv": "5d673ed91e7ddd448d098da22ff877e925bea76d0b229cdef41d6d80d6545b58",
+      "reproduction_20261001_0.2/on/shadow_signals.csv": "9c6e98875c72af3a2b5694187aec377cd0d4705af6439218231c03bb94f5b4bf",
+      "reproduction_20261001_0.2/on/shadow_events.json": "ce05af136965bc9a305a74eca1572c6d9249b67a1bcf787836a34688f1ecee78"
+    }
+  },
+  "policies": {
+    "baseline": "e3cc85f2789a02b5b9e86a7b124eb169e2b5fbd428775f264bb3fc063167b657",
+    "reproduction_20261001": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0"
+  },
+  "analysis_files_sha256": {
+    "scripts/analyze_locomotion_yaw_windows.py": "8e2f830d31bed21a5cdb75881d14a523f5e14373917987e599af0c07c3e5305f",
+    "src/g1_control/monitoring/yaw_window.py": "c6807e930de615508e0603726dc78f41b59b343ed255eda792bdd52233efa927",
+    "src/g1_control/monitoring/locomotion_shadow.py": "3c81ebd307dd129ac2e54ea6c358c38d57809e68c0226157faaa414206e27fe7",
+    "scripts/verify_locomotion_shadow.py": "187e6f2d4652ee311094edd13aaf2cf5462e8b300ed3710beea04b6c2bb6bad3",
+    "scripts/plot_locomotion_yaw_windows.py": "fd197c71e209d695193b083f3b8e29351bf82db6a45158e0ae33d22eee50ccb3"
+  },
+  "plot_runtime": {
+    "python": "3.12.3",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "backend": "Agg"
+  }
+}

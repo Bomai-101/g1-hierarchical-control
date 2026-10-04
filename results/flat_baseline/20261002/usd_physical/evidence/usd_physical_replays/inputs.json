@@ -1,0 +1,9 @@
+{
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/evaluate_usd_physical_mujoco.py": "7d315c8e4db8c8b68fc46ad697a42eb09099dac456424f1ec07e3793b0e56719",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/mujoco_eval/policy.py": "09c553777ca0226b74633da40b26750661064a8494c65e0dbe76f11ada3941ac",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/mujoco_eval/run_grid.py": "cb4db26e02868b22819b4044603e855bf5ee4fdb6d32f12f7f0b56d12237f998",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/visual_mujoco/baseline1499.mjb": "f62d39b2509e2b06a138a2d86094a0a55f1e130ac89e01b89739a83106c23b01",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_physical_models/g1_usd_physical_position.mjb": "cbb38fab0d81b127175195106bdd1254f22ee0f105b04655db29075c2955e3fd"
+}

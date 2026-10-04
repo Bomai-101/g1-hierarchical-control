@@ -1,0 +1,57 @@
+{
+  "authored_zero_position_error_m": 1.2112598391617136e-07,
+  "authored_zero_rotation_matrix_error": 9.754514003479375e-07,
+  "live_isaac_fk_checks": [
+    {
+      "sample": 0,
+      "max_body_position_error_m": 6.633995428874232e-07,
+      "max_rotation_matrix_abs_error": 1.1744822480397321e-06
+    },
+    {
+      "sample": 50,
+      "max_body_position_error_m": 1.0985778167384869e-06,
+      "max_rotation_matrix_abs_error": 1.1412486768391794e-06
+    },
+    {
+      "sample": 100,
+      "max_body_position_error_m": 9.899873168394533e-07,
+      "max_rotation_matrix_abs_error": 1.4555709072217038e-06
+    },
+    {
+      "sample": 200,
+      "max_body_position_error_m": 8.390586505561823e-07,
+      "max_rotation_matrix_abs_error": 1.2164406250902982e-06
+    },
+    {
+      "sample": 400,
+      "max_body_position_error_m": 1.5160981123276318e-06,
+      "max_rotation_matrix_abs_error": 1.5074679570181715e-06
+    }
+  ],
+  "joints": 37,
+  "body_comparisons": 38,
+  "zero_axis_angle_max_deg": 9.979220432413369,
+  "zero_anchor_distance_max_m": 0.05864054514091702,
+  "child_local_axis_angle_max_deg": 0.0,
+  "usd_authored_positive_mass_sum_kg": 32.2389267881947,
+  "mujoco_mass_sum_kg": 34.394235200000004,
+  "usd_collision_prims": 3,
+  "mujoco_contact_geoms": 53,
+  "mujoco_robot_contact_geoms": 52,
+  "left_right_foot_bounds_equal": true,
+  "pelvis": {
+    "usd_mass": 2.859999895095825,
+    "mujoco_mass": 3.814,
+    "usd_com": [
+      0.0,
+      0.0,
+      -0.07604999840259552
+    ],
+    "mujoco_com": [
+      0.0,
+      0.0,
+      -0.0760301
+    ]
+  },
+  "caveat": "Authored masses may use automatic USD defaults on fixed tiny bodies; direct per-body mass comparison does not aggregate differently fused fixed links. No causal locomotion repair is demonstrated."
+}

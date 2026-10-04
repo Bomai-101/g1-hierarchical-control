@@ -1,0 +1,13 @@
+{
+  "command": [
+    1,
+    0,
+    0
+  ],
+  "duration": 8.0,
+  "seed": 42,
+  "displayed_environment": 0,
+  "num_envs": 16,
+  "pose_source": "Isaac GPU physics",
+  "rendering": "native USD geometry + recorded body poses; not native Isaac screen capture"
+}

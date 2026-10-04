@@ -1,0 +1,7 @@
+{
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/geometry_usd_v2/usd_geometry.json": "9c9abf3d6fd335b65a1244db920bef26b329aee5e8ce8573d00bd6033457609c",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/visual_isaac/baseline1499.npz": "96e9b08c93dd63130d9135a25540b3d50f3fec8bfe04100b2c5310df128ac656",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/visual_mujoco/baseline1499.mjb": "f62d39b2509e2b06a138a2d86094a0a55f1e130ac89e01b89739a83106c23b01",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/analyze_model_geometry.py": "d582f1ab9f1aea638d1179a156344287dc25d2454c7cb5983aa5d7fe73e57c33"
+}

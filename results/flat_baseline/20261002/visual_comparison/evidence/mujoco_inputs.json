@@ -1,0 +1,7 @@
+{
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/assets/unitree_g1_37dof_mujoco/g1_37dof_policy_aligned.xml": "42a046f3a0d6350919282d1418148d08bb2f60d9dcf265324e9255958c54db7d",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/candidate_export/policy_actor.npz": "f77995591590132a3707669868d98ec1544e9d1bacca001786c9e9eb8989788b",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/capture_mujoco_visual_states.py": "7dd9a22638f753663dbbf17352b94871d0e9c02ab317bab52ef86510f15dd34b"
+}

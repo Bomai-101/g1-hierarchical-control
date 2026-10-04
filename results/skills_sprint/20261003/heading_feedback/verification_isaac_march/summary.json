@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "gain": 0.0,
+      "total": 48,
+      "full": 48,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 0.03431619517505169,
+      "remaining_signed_heading_median_rad": 0.2475905418395996,
+      "tail_signed_heading_median_rad": 0.06963199377059937,
+      "heading_excursion_median_rad": 0.39336979389190674,
+      "tail_speed_rms_median_mps": 0.020342358388006687
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "gain": 0.5,
+      "total": 48,
+      "full": 48,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 0.032693516463041306,
+      "remaining_signed_heading_median_rad": 0.06432324647903442,
+      "tail_signed_heading_median_rad": 0.009302377700805664,
+      "heading_excursion_median_rad": 0.23594170808792114,
+      "tail_speed_rms_median_mps": 0.02010302245616913
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "gain": 1.0,
+      "total": 48,
+      "full": 48,
+      "passed": 0,
+      "settled": 0,
+      "remaining_net_median_m": 0.03263300843536854,
+      "remaining_signed_heading_median_rad": -0.022173285484313965,
+      "tail_signed_heading_median_rad": -0.0038329362869262695,
+      "heading_excursion_median_rad": 0.23071658611297607,
+      "tail_speed_rms_median_mps": 0.02046908438205719
+    }
+  ],
+  "verification": {
+    "prefix_pairs": 96,
+    "old_direct_trace_pairs": 3,
+    "reconstructed_action_rows": 111744,
+    "metrics_rows": 144,
+    "max_actor_error": 7.62939453125e-06
+  },
+  "limits": "Fixedlatestweights,lowvx.5,seed42. Gain0first-episodearrays matchteacher-roundbaseline;resetdataexcluded;othergains identical untilhandoff+2s. Feedbackyaw is new inputdistribution for these skillactors. No deployment."
+}

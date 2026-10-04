@@ -1,0 +1,175 @@
+{
+  "cases": [
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_hip_pitch.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "40dea3ec04e7a3eddccfaace9c67a71a83250f18a53ff73fa14b54167e47f335"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_hip_pitch.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "a63312e197bc1cc3b2affe6f324ac344b081092e0f825a134bd0485ed159d6f7"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_hip_roll.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "7fc7ec3d5fd487f6ce2f96dbb5f87692775101ac562517e69d46d202467bf958"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_hip_roll.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "f1122a17efc5585581385ffcf70c96baccdc68e793aefef0e65a02626ca8fa67"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_hip_yaw.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "7c6251efd2def72416d305e1fe07c9eeb99f13d0c767c1415256e33f400bff87"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_hip_yaw.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "9f93f99e5285905d14156c3fbc562f124df2a26de9851ee0189d38f37ce9989e"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_knee.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "c6ad9c06ad80f323feb409d4803ba23b3768cef42085faee7c133e63261dda75"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_knee.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "ac52ac602040d9c17ee51ad4c22dd0d7a14b63b2eb9f3424456f855b6c358ac7"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_ankle_pitch.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "29ed037eccbdb2dbfbec8c522090e7dda4697f232e12b7ec636ecf02a3a2c1a5"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_ankle_pitch.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "aecaa0cae2b378585ef6deae29042c0a440e5c0da3221f2da4c8d9c91d641b40"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_left_ankle_roll.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "e3212a7fe2386ef61eb7975d8149017f9c4aa2807c1fd1da1af3f3f5d05753ae"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicitfast_right_ankle_roll.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "e3d8a3fd278f200f610befcce1e4e102fe80550df4421223e61548faaae03423"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_hip_pitch.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "e2e891838cdf3051ce1ea8f4cccd935fe2205b0fea786ef472bc53f267d27b00"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_hip_pitch.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "576813fec64dfa1dd9dc93a05ccddb67a65ccfecea771cfa03c1e64e354bcdf5"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_hip_roll.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "4b4ffe04a03bb675f914aaf3126bb975c6bd607419fab4ca300f0e416c3551dc"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_hip_roll.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "e413676bdf8d528ef21a470a713cb7df216e9b354dff061e69cde134997fc4e1"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_hip_yaw.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "d08d582ed11971be293e8d5575574d5505857238b10d66ee76c471ce77c3b620"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_hip_yaw.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "87b32a7995cdd410b19a0049c8b95a8eebb07cef93e1206775695b13cb69ddcf"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_knee.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "d73babce4582abeafc8efc9ddb94a96dc6dab8c0f090d35b646ef4bf3f004909"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_knee.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "3ba520f69f4d588db5ebcfb8d9d89154f344e86a335cc8522c23325cb811ea2d"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_ankle_pitch.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "7301c692309b69a895c8c1ba0e1d490c2f83761237960928a233fde39b8a0459"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_ankle_pitch.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "e45d6e3820f97fbd4d7ddd6c04dfe6a5f5ec6d9214436787b5b3c7596d9becfe"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_left_ankle_roll.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "863f4b6c9bbb4aefed27f507d683dfc39e0842c3c0b8a9c36132eedfd7147d1f"
+    },
+    {
+      "trace": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/usd_actuation_symmetry/implicit_right_ankle_roll.npz",
+      "states": 201,
+      "signal_max_error": 0.0,
+      "force_max_error": 0.0,
+      "sha256": "41d0dc99bddfed67490f6c76490ce0765dd08d8888652d78776152e5698b2335"
+    }
+  ],
+  "reconstructed_states": 4824,
+  "all24valid": true,
+  "scope": "Reconstruction only; no fresh physics stepping; no PhysX equivalence claim"
+}

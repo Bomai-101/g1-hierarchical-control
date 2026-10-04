@@ -1,0 +1,156 @@
+{
+  "groups": [
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 48,
+      "full": 43,
+      "passed": 31,
+      "whole_decision_pass": 31,
+      "tail_speed_pass": 43,
+      "settled": 42,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.41987843811511993,
+      "tail_heading_range_rad": [
+        -0.001657247543334961,
+        0.00023484230041503906
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 48,
+      "full": 35,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 35,
+      "settled": 35,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.8643858432769775,
+      "tail_heading_range_rad": [
+        -0.0002535879611968994,
+        1.2159347534179688e-05
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 48,
+      "full": 48,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 48,
+      "settled": 0,
+      "cycles_and_lift": 48,
+      "entry_speed_median": 0.41987843811511993,
+      "tail_heading_range_rad": [
+        0.038082122802734375,
+        0.10434770584106445
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 48,
+      "full": 48,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 48,
+      "settled": 0,
+      "cycles_and_lift": 48,
+      "entry_speed_median": 0.8643858432769775,
+      "tail_heading_range_rad": [
+        0.03921687602996826,
+        0.10041195154190063
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 6,
+      "full": 6,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.4938879089248821,
+      "tail_heading_range_rad": [
+        -0.02891210285664414,
+        0.22043297674872386
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 6,
+      "full": 3,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 3,
+      "entry_speed_median": 0.9759279464787498,
+      "tail_heading_range_rad": [
+        0.022137665369299953,
+        0.1336070775017637
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 6,
+      "full": 6,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 6,
+      "entry_speed_median": 0.4938879089248821,
+      "tail_heading_range_rad": [
+        -0.5965905798833306,
+        -0.22506478599550572
+      ]
+    },
+    {
+      "engine": "mujoco",
+      "skill": "march",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 6,
+      "full": 4,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 0,
+      "settled": 0,
+      "cycles_and_lift": 4,
+      "entry_speed_median": 0.9759279464787498,
+      "tail_heading_range_rad": [
+        -0.4998000764743247,
+        -0.24426542433405185
+      ]
+    }
+  ],
+  "verification": {
+    "prefix_pairs": 0,
+    "old_direct_trace_pairs": 36,
+    "reconstructed_action_rows": 162113,
+    "metrics_rows": 216,
+    "max_actor_error": 8.58306884765625e-06
+  },
+  "limits": "Seed42 evaluation, seed43 teacherbank/44 training. Candidate weights differ from first round;1499 prefix matched. Fixed2s window is diagnostic, not a validated skill-entry boundary. No deployment."
+}

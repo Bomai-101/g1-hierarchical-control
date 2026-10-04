@@ -1,0 +1,29 @@
+{
+  "samples": 10007,
+  "max_abs_error": 0.0,
+  "boundary_angles_rad": [
+    -9.42477796076938,
+    -3.141592653589793,
+    0.0,
+    3.141592653589793,
+    9.42477796076938,
+    -6.2482787221397,
+    6.2482787221397
+  ],
+  "wrapped_angles_rad": [
+    -3.141592653589793,
+    -3.141592653589793,
+    0.0,
+    3.141592653589793,
+    3.141592653589793,
+    0.034906585039886195,
+    -0.034906585039886195
+  ],
+  "torch": "2.7.0+cu128",
+  "numpy": "1.26.0",
+  "source_hashes": {
+    "/home/omai/robotics/reference_projects/IsaacLab/source/isaaclab/isaaclab/utils/math.py": "881ab27758816475e26d6721bab22c934fd70d0c064392266a90b06f5bbe4149",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/evaluate_usd_heading.py": "ff914f0c1722bf9f9cac68be4a6b53b43e033a503ccf768d09b1ad35c2cbbb1b",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/verify_heading_wrap.py": "3763413a5ec9c1661e72e32bc2fc8cea00441f5e44212de36740c23416c761c6"
+  }
+}

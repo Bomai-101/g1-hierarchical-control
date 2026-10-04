@@ -1,0 +1,19 @@
+{
+  "scope": "Explanatory graphics and padded re-encode of existing saved-state video; no new experiment",
+  "builder_sha256": "e520b7c87395e1fea5c868419887b411ffda9fff1605850e11021b805cf667c7",
+  "source_video": "/home/omai/robotics/projects/g1-hierarchical-control/results/vri_preparation/20261004/assets/three_scenarios/three_scenarios.mp4",
+  "source_video_sha256": "18811e608c545e544e8ede496ee551902433f17dad818b7d2918630b222a2393",
+  "source_results": "/home/omai/robotics/projects/g1-hierarchical-control/results/vri_preparation/20261004/assets/retest_summary.json",
+  "source_results_sha256": "9d5eab4bb12697000a4356f02a2b18f2273a5b65071e77646ec350c10a9749e7",
+  "video_duration_s": 17.44,
+  "video_frames": 436,
+  "physics_steps": 0,
+  "files": {
+    "01_research_turn.png": "75d646e64b59864df4f85709c1bf680f11ee2e904c2acc5cead60db7943554b7",
+    "02_skill_architecture.png": "a78ff5686cb51941aa7da305f247d9b75cab09d58f85974585867db15d6db42d",
+    "03_results.png": "ba6b76aecfbbe14ce18c978d1a17d32a7988a033c0440d51e1cb5324287c4c08",
+    "04_scope_and_limits.png": "8ec55d886f308859779c9db651ec12fb9dcc47cb881371d690e804717fe696e6",
+    "demo_preview.png": "d0d3b2a11010ef01fe4bd60d75f3420fb0544da637eabcadffa792a493736410",
+    "three_scenarios_1080p.mp4": "ad222b3ba9aa2dbc416c8cc7dce4743d294be53714d92ca508e2887fc8e0d59b"
+  }
+}

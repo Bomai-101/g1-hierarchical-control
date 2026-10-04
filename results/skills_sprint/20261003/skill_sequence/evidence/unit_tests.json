@@ -1,0 +1,6 @@
+{
+  "sequence_tests": 4,
+  "watchdog_tests": 2,
+  "status": "PASS",
+  "method": "Direct normal-Python invocation of test functions; pytest is absent. Optimized-mode evidence verification separately uses explicit checks and NumPy assertions."
+}

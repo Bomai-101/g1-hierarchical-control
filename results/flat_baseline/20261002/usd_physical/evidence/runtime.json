@@ -1,0 +1,12 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "mujoco": "3.14.0",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "normal_and_optimized_component_checks_pass": true,
+  "normal_and_optimized_replay_analysis_pass": true,
+  "original_model_unchanged": true,
+  "media_duration_s": 8,
+  "media_fps": 25,
+  "media_frames": 200
+}

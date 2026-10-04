@@ -1,0 +1,635 @@
+{
+  "version": "g1_hierarchical_isaac_low_speed_demo_v1_20261004",
+  "status": "frozen_experimental_demonstration",
+  "date": "2026-10-04",
+  "timezone": "Australia/Sydney",
+  "weights": {
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/model_1499.pt": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/model_499.pt": "a1309caf141a3583450354b1dd64b8557cc2c1e250f32b2be344737288b3ab63",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/export/policy_actor.npz": "6fe44d3ce35990a47e8a28844fd22c1ca4f0cc7deab6c354ede7f174262e124d"
+  },
+  "simulation_input_hashes": {
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/evaluate_skill_sequence_retest_isaac.py": "0e9068a97afcd06614ba50b9b2ae956097480aa153137ba1839b9eab2a75f99a",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/skill_sequence_protocol.py": "b7bb0bb7e9fb0ef139855f1c47204a8f08aab5c99a3f9e6a6d9b7a90e406474f",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/skill_watchdog_protocol.py": "27e6b2acf7177e50130ab1652fbd7bf7d5893fd79a1af24faf635f83e61ee72c",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/skills_sprint_task.py": "451158e71b3046e2ddd974fd46901ffe7294595b64266b92251e3ac30fc385d7",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/model_1499.pt": "6f309f18ffbc568fbffc4ac312c4a0872baa4fb61598c3e4e514ca88b3e9be3c",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/model_499.pt": "a1309caf141a3583450354b1dd64b8557cc2c1e250f32b2be344737288b3ab63",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/assets/g1_minimal.usd": "4f5e0600f24bed04d4c45b3921b6f3d7b6205463b0b1ac051cf2883dd3aaee67",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/__init__.py": "4cf2e205c676f808b8db4a1c087cdad5437ece88d48e23393bf3478fd62a6cf3",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/g1_env_cfg.py": "89ee8aeccedd3ff7bcd5111fa353d9a4b5f1d8e113a41aa500c15d36173a70ab",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/g1_asset_cfg.py": "6c25e0795030e8a6eede21c900927303c6fc26f0c14ad46aa9044c183e2161ce",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/mdp.py": "b32642468d1c87bea99bfd4081344943e4ae75464f59d04ada2b9c603a474a29",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/isaac_sim/g1_walk_sim51/ppo_cfg.py": "7d964f4c99ebbf19dd98cb9ba948e254d6d6b2bfab6985d93cefef20fc345522",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/export/policy_actor.npz": "6fe44d3ce35990a47e8a28844fd22c1ca4f0cc7deab6c354ede7f174262e124d"
+  },
+  "configuration": {
+    "watchdog": {
+      "heartbeat_hz": 10,
+      "ttl_s": 0.3,
+      "recovery_messages": 2,
+      "perception_fault": false,
+      "scope": "Task request freshness, not perception pipeline"
+    },
+    "protocols": [
+      "normal",
+      "temporary",
+      "persistent"
+    ],
+    "yaw_commands": [
+      -0.2,
+      0.0,
+      0.2
+    ],
+    "vx": 0.5,
+    "num_envs": 12,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "decision_s": [
+      3.22,
+      3.24,
+      3.2600000000000002,
+      3.2800000000000002,
+      6.22,
+      6.239999999999999,
+      6.26,
+      6.279999999999999,
+      9.22,
+      9.24,
+      9.26,
+      9.280000000000001
+    ],
+    "reset_variation": "Inherited flat-task random world root x/y and yaw; fixed initial joint poses/zero velocities, no observation noise/force or rough terrain",
+    "policy_dt": 0.02,
+    "physics_dt": 0.005,
+    "gate": {
+      "speed_mean_max": 0.05,
+      "euler_yaw_rms_max": 0.05,
+      "window_s": 0.5,
+      "tilt_max_deg": 20,
+      "both_feet": true,
+      "confirmation_s": 1,
+      "retention_s": 2,
+      "min_hold_s": 2,
+      "max_hold_s": 12
+    },
+    "resume_s": 10,
+    "resume_command": [
+      0.5,
+      0,
+      0
+    ],
+    "exploratory_sequence_acceptance": {
+      "resume_tail_vx_rmse_max": 0.2,
+      "resume_tail_euler_yaw_rms_max": 0.15,
+      "resume_tilt_max_deg": 20
+    },
+    "first_episode_only": true,
+    "noise": false,
+    "smoke": false,
+    "scope": "Watchdog experiment using previously tested direct low-speed sequence. Persistent loss does not authorize return-to-walk. Sequencing diagnostic, not original standalone skill acceptance or safety certification. Abort terminates scoring, not a physical recovery. Within a seed, parallel copies share reset seed; evaluate variation without assuming independent Bernoulli trials."
+  },
+  "verified_results": {
+    "groups": [
+      {
+        "protocol": "normal",
+        "total": 108,
+        "passed": 108,
+        "physical_failures": 0,
+        "confirmed_stops": 108,
+        "completed": 108,
+        "metrics_all_available": {
+          "drop_to_detection_s": {
+            "n": 0,
+            "median": null,
+            "p90": null,
+            "max": null,
+            "min": null
+          },
+          "delivery_resumed_to_fresh_s": {
+            "n": 0,
+            "median": null,
+            "p90": null,
+            "max": null,
+            "min": null
+          },
+          "stopping_latency_s": {
+            "n": 108,
+            "median": 1.8400000000000003,
+            "p90": 1.8800000000000001,
+            "max": 1.959999999999999,
+            "min": 1.7800000000000002
+          },
+          "request_to_stop_net_m": {
+            "n": 108,
+            "median": 0.08828087896108627,
+            "p90": 0.10657506212592124,
+            "max": 0.11489378660917282,
+            "min": 0.05225946381688118
+          },
+          "request_to_stop_path_m": {
+            "n": 108,
+            "median": 0.14837340265512466,
+            "p90": 0.1551127925515175,
+            "max": 0.1664343774318695,
+            "min": 0.13876530528068542
+          },
+          "hold_net_drift_m": {
+            "n": 108,
+            "median": 0.009030783083289862,
+            "p90": 0.01607729736715555,
+            "max": 0.017942169681191444,
+            "min": 0.007068579085171223
+          },
+          "hold_path_m": {
+            "n": 108,
+            "median": 0.009035049937665462,
+            "p90": 0.016079842671751974,
+            "max": 0.017947368323802948,
+            "min": 0.007070119027048349
+          },
+          "hold_duration_s": {
+            "n": 108,
+            "median": 2.0,
+            "p90": 2.0,
+            "max": 2.0000000000000018,
+            "min": 2.0
+          },
+          "total_stop_net_m": {
+            "n": 108,
+            "median": 0.07955821603536606,
+            "p90": 0.09902901276946068,
+            "max": 0.10784901678562164,
+            "min": 0.038703326135873795
+          },
+          "total_stop_path_m": {
+            "n": 108,
+            "median": 0.15996545553207397,
+            "p90": 0.1656766340136528,
+            "max": 0.18361909687519073,
+            "min": 0.14634817838668823
+          },
+          "hold_latency_s": {
+            "n": 108,
+            "median": 3.8400000000000003,
+            "p90": 3.8800000000000003,
+            "max": 3.959999999999999,
+            "min": 3.7800000000000002
+          },
+          "resume_speed_confirm_latency_s": {
+            "n": 108,
+            "median": 1.7200000000000006,
+            "p90": 1.7400000000000002,
+            "max": 1.7599999999999998,
+            "min": 1.6999999999999993
+          },
+          "resume_tail_vx_rmse_mps": {
+            "n": 108,
+            "median": 0.07521218806505203,
+            "p90": 0.07569103762507438,
+            "max": 0.07617504149675369,
+            "min": 0.07446306943893433
+          }
+        },
+        "availability": "Distance/timing summaries use every available first-episode measurement, not success-only filtering. Missing confirmation is excluded with explicit n."
+      },
+      {
+        "protocol": "temporary",
+        "total": 108,
+        "passed": 108,
+        "physical_failures": 0,
+        "confirmed_stops": 108,
+        "completed": 108,
+        "metrics_all_available": {
+          "drop_to_detection_s": {
+            "n": 108,
+            "median": 0.27,
+            "p90": 0.2999999999999998,
+            "max": 0.3000000000000007,
+            "min": 0.23999999999999844
+          },
+          "delivery_resumed_to_fresh_s": {
+            "n": 108,
+            "median": 0.15000000000000036,
+            "p90": 0.18000000000000016,
+            "max": 0.1800000000000006,
+            "min": 0.11999999999999922
+          },
+          "stopping_latency_s": {
+            "n": 108,
+            "median": 1.8399999999999999,
+            "p90": 1.8600000000000005,
+            "max": 1.8800000000000003,
+            "min": 1.7800000000000002
+          },
+          "request_to_stop_net_m": {
+            "n": 108,
+            "median": 0.20640238374471664,
+            "p90": 0.22501071244478227,
+            "max": 0.23584400117397308,
+            "min": 0.1658606380224228
+          },
+          "request_to_stop_path_m": {
+            "n": 108,
+            "median": 0.2674485594034195,
+            "p90": 0.28357124924659727,
+            "max": 0.28663355112075806,
+            "min": 0.24367088079452515
+          },
+          "hold_net_drift_m": {
+            "n": 108,
+            "median": 0.00888502225279808,
+            "p90": 0.011202860809862608,
+            "max": 0.015927843749523163,
+            "min": 0.006369581911712885
+          },
+          "hold_path_m": {
+            "n": 108,
+            "median": 0.008887028321623802,
+            "p90": 0.011207067407667632,
+            "max": 0.01593102142214775,
+            "min": 0.006375543307512999
+          },
+          "hold_duration_s": {
+            "n": 108,
+            "median": 2.0,
+            "p90": 2.0,
+            "max": 2.0,
+            "min": 2.0
+          },
+          "total_stop_net_m": {
+            "n": 108,
+            "median": 0.19742348790168762,
+            "p90": 0.2162969395518303,
+            "max": 0.23000559210777283,
+            "min": 0.1522737741470337
+          },
+          "total_stop_path_m": {
+            "n": 108,
+            "median": 0.276730552315712,
+            "p90": 0.29295102059841155,
+            "max": 0.29796913266181946,
+            "min": 0.25410225987434387
+          },
+          "hold_latency_s": {
+            "n": 108,
+            "median": 3.84,
+            "p90": 3.8600000000000008,
+            "max": 3.8800000000000003,
+            "min": 3.7800000000000002
+          },
+          "resume_speed_confirm_latency_s": {
+            "n": 108,
+            "median": 1.7199999999999989,
+            "p90": 1.7200000000000006,
+            "max": 1.7400000000000002,
+            "min": 1.6999999999999993
+          },
+          "resume_tail_vx_rmse_mps": {
+            "n": 108,
+            "median": 0.07517868280410767,
+            "p90": 0.07567769959568978,
+            "max": 0.07614782452583313,
+            "min": 0.07420924305915833
+          }
+        },
+        "availability": "Distance/timing summaries use every available first-episode measurement, not success-only filtering. Missing confirmation is excluded with explicit n."
+      },
+      {
+        "protocol": "persistent",
+        "total": 108,
+        "passed": 108,
+        "physical_failures": 0,
+        "confirmed_stops": 108,
+        "completed": 0,
+        "metrics_all_available": {
+          "drop_to_detection_s": {
+            "n": 108,
+            "median": 0.27,
+            "p90": 0.2999999999999998,
+            "max": 0.3000000000000007,
+            "min": 0.23999999999999844
+          },
+          "delivery_resumed_to_fresh_s": {
+            "n": 0,
+            "median": null,
+            "p90": null,
+            "max": null,
+            "min": null
+          },
+          "stopping_latency_s": {
+            "n": 108,
+            "median": 1.8399999999999999,
+            "p90": 1.8600000000000005,
+            "max": 1.8800000000000003,
+            "min": 1.7800000000000002
+          },
+          "request_to_stop_net_m": {
+            "n": 108,
+            "median": 0.20640238374471664,
+            "p90": 0.22501071244478227,
+            "max": 0.23584400117397308,
+            "min": 0.1658606380224228
+          },
+          "request_to_stop_path_m": {
+            "n": 108,
+            "median": 0.2674485594034195,
+            "p90": 0.28357124924659727,
+            "max": 0.28663355112075806,
+            "min": 0.24367088079452515
+          },
+          "hold_net_drift_m": {
+            "n": 108,
+            "median": 0.009107059799134731,
+            "p90": 0.01153139322996139,
+            "max": 0.016744965687394142,
+            "min": 0.006618504878133535
+          },
+          "hold_path_m": {
+            "n": 108,
+            "median": 0.009222141467034817,
+            "p90": 0.01161726880818605,
+            "max": 0.016802530735731125,
+            "min": 0.006782186217606068
+          },
+          "hold_duration_s": {
+            "n": 108,
+            "median": 10.16,
+            "p90": 10.18,
+            "max": 10.219999999999999,
+            "min": 10.12
+          },
+          "total_stop_net_m": {
+            "n": 108,
+            "median": 0.19720833748579025,
+            "p90": 0.21608026176691056,
+            "max": 0.2297874093055725,
+            "min": 0.15192241966724396
+          },
+          "total_stop_path_m": {
+            "n": 108,
+            "median": 0.2771243453025818,
+            "p90": 0.29324371814727784,
+            "max": 0.29877716302871704,
+            "min": 0.25446680188179016
+          },
+          "hold_latency_s": {
+            "n": 0,
+            "median": null,
+            "p90": null,
+            "max": null,
+            "min": null
+          },
+          "resume_speed_confirm_latency_s": {
+            "n": 0,
+            "median": null,
+            "p90": null,
+            "max": null,
+            "min": null
+          },
+          "resume_tail_vx_rmse_mps": {
+            "n": 0,
+            "median": null,
+            "p90": null,
+            "max": null,
+            "min": null
+          }
+        },
+        "availability": "Distance/timing summaries use every available first-episode measurement, not success-only filtering. Missing confirmation is excluded with explicit n."
+      }
+    ],
+    "strata": [
+      {
+        "seed": 101,
+        "protocol": "normal",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 101,
+        "protocol": "normal",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 101,
+        "protocol": "normal",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 101,
+        "protocol": "temporary",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 101,
+        "protocol": "temporary",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 101,
+        "protocol": "temporary",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 101,
+        "protocol": "persistent",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 101,
+        "protocol": "persistent",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 101,
+        "protocol": "persistent",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "normal",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "normal",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "normal",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "temporary",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "temporary",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "temporary",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "persistent",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "persistent",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 202,
+        "protocol": "persistent",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "normal",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "normal",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "normal",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "temporary",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "temporary",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "temporary",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "persistent",
+        "trigger_base_s": 3.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "persistent",
+        "trigger_base_s": 6.22,
+        "total": 12,
+        "passed": 12
+      },
+      {
+        "seed": 303,
+        "protocol": "persistent",
+        "trigger_base_s": 9.22,
+        "total": 12,
+        "passed": 12
+      }
+    ],
+    "verification": {
+      "cases": 324,
+      "action_rows": 318455,
+      "max_actor_error": 3.337860107421875e-06,
+      "paired_prefixes": 216
+    },
+    "scope": "Prospective held-out reset seeds and entry times. World root pose variability only, no new disturbances. No original skill criteria relaxed. Statistics descriptive; copies within a seed are not independent trials."
+  },
+  "limits": [
+    "Flat Isaac at0.5m/s; new seeds change root world pose only",
+    "Simulated task heartbeat loss, not actual perception pipeline",
+    "Persistent hold actor observed12s including braking; stable segment about10s",
+    "Original standalone10s skill position/heading acceptance unchanged",
+    "No MuJoCo/high-speed/rough/disturbance/hardware validation",
+    "20ms simulation control period is not real-time compute deadline compliance"
+  ],
+  "default_controller_promoted": false,
+  "command": [
+    "bash",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/run_flat_isaac.sh",
+    "/home/omai/robotics/projects/g1-hierarchical-control/scripts/evaluate_skill_sequence_retest_isaac.py",
+    "--headless",
+    "--num-envs",
+    "12",
+    "--seeds",
+    "101",
+    "202",
+    "303",
+    "--reference-root",
+    "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco",
+    "--walk-checkpoint",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/pretraining_snapshot/assets/model_1499.pt",
+    "--skill-checkpoint",
+    "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_hold/model_499.pt",
+    "--output",
+    "<new_empty_output_directory>"
+  ]
+}

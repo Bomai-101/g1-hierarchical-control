@@ -1,0 +1,8 @@
+{
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/reproduction_20261001/policy_actor.npz": "ae0ca6b9677a19ffbc09325733ce3673d6ef7732547d96662a85016d84de31f0",
+  "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/flat_baseline/20261002/interface_live/runtime.json": "e448069671aa1073a5cd8d59a051eae746c6e6f9f5178ccec4b8d35770289fd8",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/policies/isaac_metadata.json": "46d94c233753ed3fbffc4692bccf24fe433975bef73428b7fe689eba96da0da9",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/assets/unitree_g1_37dof_mujoco/g1_37dof_policy_aligned.xml": "42a046f3a0d6350919282d1418148d08bb2f60d9dcf265324e9255958c54db7d",
+  "/home/omai/robotics/projects/g1-hierarchical-control/scripts/probe_mujoco_finger_armature.py": "2bf1dd88c91ab3af21dca793150b6cd9e46f71365d0afa6c27dd207e0b54db08",
+  "/home/omai/robotics/reference_projects/g1_walk_isaaclab_mujoco/mujoco/mujoco_eval/run_grid.py": "cb4db26e02868b22819b4044603e855bf5ee4fdb6d32f12f7f0b56d12237f998"
+}

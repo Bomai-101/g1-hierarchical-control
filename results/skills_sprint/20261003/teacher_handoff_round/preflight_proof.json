@@ -1,0 +1,18 @@
+{
+  "snapshot_files": 1152,
+  "snapshot_hashes_pass": true,
+  "bank_hash_pass": true,
+  "samples": 15872,
+  "root_height_min": 0.6215448975563049,
+  "root_height_max": 0.6605076789855957,
+  "command_vx_min": 0.30231404304504395,
+  "command_vx_max": 0.9999257922172546,
+  "speed_world_xy_percentiles": [
+    0.2085001915693283,
+    0.41818319261074066,
+    0.527781754732132,
+    0.7054465562105179,
+    0.9140222072601318
+  ],
+  "root_and_joint_restore_assertions": "Checked inside each training reset, threshold1e-5; previous-action observation checked beforelearn"
+}

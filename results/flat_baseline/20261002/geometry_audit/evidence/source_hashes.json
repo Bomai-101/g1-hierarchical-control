@@ -1,0 +1,5 @@
+{
+  "scripts/export_usd_geometry_audit.py": "50b3507db429b3705ef812a441bf9d5ed55791d6072683aee339ebd451168960",
+  "scripts/analyze_model_geometry.py": "d582f1ab9f1aea638d1179a156344287dc25d2454c7cb5983aa5d7fe73e57c33",
+  "scripts/plot_model_geometry.py": "d9a5caf65a8be89def94ff1b22003abf99dd772119d560466eb94dacabbe2552"
+}

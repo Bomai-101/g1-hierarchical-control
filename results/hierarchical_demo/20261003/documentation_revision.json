@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-04",
+  "scope": "Editorial revision only. Original source_hashes.json retains run-time provenance; revised README hashes below describe current published documentation. No raw trace,policy,model or executable source changed.",
+  "files": [
+    {
+      "path": "results/hierarchical_demo/20261003/README.md",
+      "original_sha256": "231b0244d8daaaf2b67530f6cb869309879853b959c7a38950b367393f7fb9dd",
+      "published_sha256": "e0a44fd221f3942cc198802b23a070f7413c40ad87e91f4c615be33c993657e6",
+      "change": "Remove application-target wording; experimental results and executable sources unchanged"
+    },
+    {
+      "path": "results/hierarchical_demo/20261003/posture_hold/README.md",
+      "original_sha256": "85f9216bae95f5195b639ab3964113e016a53feac9489914cbb6e4335b210793",
+      "published_sha256": "f27a78415bedd487702303d7df8a093e27d4da844bba3af5fb5dffab7d04b9f7",
+      "change": "Remove application-target wording; experimental results and executable sources unchanged"
+    },
+    {
+      "path": "results/hierarchical_demo/20261003/source/src/g1_control/hierarchy/README.md",
+      "original_sha256": "7cde68d5edcf854b474f0153a0429c974209f6e7dc61b172b02148222b355616",
+      "published_sha256": "922212585a469490627c6f040d0657750c01cf838a39902508c1d620fca7dcb5",
+      "change": "Remove application-target wording; experimental results and executable sources unchanged"
+    },
+    {
+      "path": "results/hierarchical_demo/20261003/posture_hold/source/src/g1_control/hierarchy/README.md",
+      "original_sha256": "c6260cedc4763d931d5a4a057a0abf2c784d8dbb79a19993629530a1841844f5",
+      "published_sha256": "170288f51c00dc41de27415002cc6603c440d300621f7c0e58e2f861ccb88258",
+      "change": "Remove application-target wording; experimental results and executable sources unchanged"
+    },
+    {
+      "path": "results/hierarchical_demo/20261003/handoff/source/src/g1_control/hierarchy/README.md",
+      "original_sha256": "7cde68d5edcf854b474f0153a0429c974209f6e7dc61b172b02148222b355616",
+      "published_sha256": "922212585a469490627c6f040d0657750c01cf838a39902508c1d620fca7dcb5",
+      "change": "Remove application-target wording; experimental results and executable sources unchanged"
+    }
+  ],
+  "original_publication_manifest_sha256": "56675b6e26ddbb8f2be6a6fcc6b181627766e5cf3f6d7b059e433eef53299f49"
+}

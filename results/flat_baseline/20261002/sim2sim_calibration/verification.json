@@ -1,0 +1,53 @@
+{
+  "baseline1499": {
+    "interface_errors": {
+      "obs": 2.384185791015625e-07,
+      "action": 1.1920928955078125e-06,
+      "target": 0.0
+    },
+    "isaac_root_200_samples_exact_previous": true
+  },
+  "candidate1999": {
+    "interface_errors": {
+      "obs": 2.384185791015625e-07,
+      "action": 1.1920928955078125e-06,
+      "target": 0.0
+    },
+    "isaac_root_200_samples_exact_previous": true
+  },
+  "yaw+0.0": {
+    "control_metrics_exact_previous": true,
+    "only_model_array_changed": [
+      "jnt_actfrcrange"
+    ],
+    "changed_joint_count": 4
+  },
+  "yaw-0.2": {
+    "control_metrics_exact_previous": true,
+    "only_model_array_changed": [
+      "jnt_actfrcrange"
+    ],
+    "changed_joint_count": 4
+  },
+  "yaw+0.2": {
+    "control_metrics_exact_previous": true,
+    "only_model_array_changed": [
+      "jnt_actfrcrange"
+    ],
+    "changed_joint_count": 4
+  },
+  "runtime_contract": {
+    "joints": 37,
+    "kp_match": 37,
+    "kd_match": 37,
+    "armature_match": 23,
+    "effort_limit_match": 0,
+    "limitations": "Numerical interface check on Isaac states does not prove axis/geometry equivalence or identical actuator/contact dynamics."
+  },
+  "finger_probe": {
+    "cases": 3,
+    "only_model_array_changed": "dof_armature",
+    "changed_dofs_each": 14,
+    "source_hashes_pass": true
+  }
+}

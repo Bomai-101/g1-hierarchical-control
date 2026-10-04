@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "case": "soft_self_vx0.5",
+      "main_states": 1001,
+      "paired_states": 1001,
+      "actor_used_evaluations": 1000,
+      "actor_actual_evaluations": 1000,
+      "max_signal_error": 1.9984014443252818e-15,
+      "max_observation_error": 0.0,
+      "max_action_error": 0.0,
+      "nonfinger_states_exactly_synced": true,
+      "only8slots_changed": true,
+      "force_caps_pass": true,
+      "raw_sha256": "339a71be01213b3fcb9adb48993cb4e3415ea9fe4dfd196d0d9e57ca34ef4b30"
+    },
+    {
+      "case": "soft_self_vx1",
+      "main_states": 1001,
+      "paired_states": 1001,
+      "actor_used_evaluations": 1000,
+      "actor_actual_evaluations": 1000,
+      "max_signal_error": 1.9984014443252818e-15,
+      "max_observation_error": 0.0,
+      "max_action_error": 0.0,
+      "nonfinger_states_exactly_synced": true,
+      "only8slots_changed": true,
+      "force_caps_pass": true,
+      "raw_sha256": "0e65cc8cb7eb814cae058556d3b5fde38b2decf772a7588e5fdfc8d5b28d7dec"
+    },
+    {
+      "case": "tight_self_vx0.5",
+      "main_states": 1001,
+      "paired_states": 1001,
+      "actor_used_evaluations": 1000,
+      "actor_actual_evaluations": 1000,
+      "max_signal_error": 7.216449660063518e-16,
+      "max_observation_error": 0.0,
+      "max_action_error": 0.0,
+      "nonfinger_states_exactly_synced": true,
+      "only8slots_changed": true,
+      "force_caps_pass": true,
+      "raw_sha256": "7611ef7e07fff03865c157fd6d4f611040eb3e8e63fe5900a58ee9fc7c047b46"
+    },
+    {
+      "case": "tight_self_vx1",
+      "main_states": 1001,
+      "paired_states": 1001,
+      "actor_used_evaluations": 1000,
+      "actor_actual_evaluations": 1000,
+      "max_signal_error": 1.2212453270876722e-15,
+      "max_observation_error": 0.0,
+      "max_action_error": 0.0,
+      "nonfinger_states_exactly_synced": true,
+      "only8slots_changed": true,
+      "force_caps_pass": true,
+      "raw_sha256": "7184b089becc3693918cf29a318965aff4d74e897ac44804c0128ca18eed130d"
+    },
+    {
+      "case": "soft_paired_tight_vx0.5",
+      "main_states": 1001,
+      "paired_states": 1001,
+      "actor_used_evaluations": 1000,
+      "actor_actual_evaluations": 1000,
+      "max_signal_error": 6.661338147750939e-16,
+      "max_observation_error": 0.0,
+      "max_action_error": 0.0,
+      "nonfinger_states_exactly_synced": true,
+      "only8slots_changed": true,
+      "force_caps_pass": true,
+      "raw_sha256": "cd683d1ff270519029b17cf82293510ebd1d0ed87089d7bceaeff341f91eb686"
+    },
+    {
+      "case": "soft_paired_tight_vx1",
+      "main_states": 1001,
+      "paired_states": 1001,
+      "actor_used_evaluations": 1000,
+      "actor_actual_evaluations": 1000,
+      "max_signal_error": 1.1102230246251565e-15,
+      "max_observation_error": 0.0,
+      "max_action_error": 0.0,
+      "nonfinger_states_exactly_synced": true,
+      "only8slots_changed": true,
+      "force_caps_pass": true,
+      "raw_sha256": "44be501ef6c2585ed8b4ad0423888bc94b9742f3b14cc7fa84b1b52f96666afc"
+    },
+    {
+      "case": "tight_paired_soft_vx0.5",
+      "main_states": 1001,
+      "paired_states": 1001,
+      "actor_used_evaluations": 1000,
+      "actor_actual_evaluations": 1000,
+      "max_signal_error": 2.220446049250313e-15,
+      "max_observation_error": 0.0,
+      "max_action_error": 0.0,
+      "nonfinger_states_exactly_synced": true,
+      "only8slots_changed": true,
+      "force_caps_pass": true,
+      "raw_sha256": "337b02277b68d43e123a9e4f06df6b67875cce3d4b8c2fe90143cb535a4e15be"
+    },
+    {
+      "case": "tight_paired_soft_vx1",
+      "main_states": 1001,
+      "paired_states": 1001,
+      "actor_used_evaluations": 1000,
+      "actor_actual_evaluations": 1000,
+      "max_signal_error": 1.9984014443252818e-15,
+      "max_observation_error": 0.0,
+      "max_action_error": 0.0,
+      "nonfinger_states_exactly_synced": true,
+      "only8slots_changed": true,
+      "force_caps_pass": true,
+      "raw_sha256": "9e3a3f5e0397d459cfe473cc32137c96bdbae208cac0c5f1619f910afb88eac8"
+    }
+  ],
+  "consistency": [
+    {
+      "case": "soft_self_vx0.5",
+      "previous": "baseline",
+      "all_control_arrays_equal": true
+    },
+    {
+      "case": "soft_self_vx1",
+      "previous": "baseline",
+      "all_control_arrays_equal": true
+    },
+    {
+      "case": "tight_self_vx0.5",
+      "previous": "active4",
+      "all_control_arrays_equal": true
+    },
+    {
+      "case": "tight_self_vx1",
+      "previous": "active4",
+      "all_control_arrays_equal": true
+    }
+  ],
+  "reconstructed_states": 16016,
+  "actor_evaluations": 16000,
+  "all8main_and_conditional_cases_complete20s": true,
+  "scope": "Conditional pairedmodel with per-step non-fingerstate transplantation; artificial activepolicyinput diagnostic,notpassivemonitor ordefaultdeployment. Noevidenceofsolecause oradditivepathpercentage."
+}

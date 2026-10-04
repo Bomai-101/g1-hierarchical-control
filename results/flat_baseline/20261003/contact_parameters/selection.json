@@ -1,0 +1,18 @@
+{
+  "selected": [
+    "baseline",
+    "friction06",
+    "contact_time005"
+  ],
+  "development_leg_rmse_rad": {
+    "baseline": 0.00885530755553092,
+    "friction06": 0.008778598017730701,
+    "friction10": 0.008888408528231062,
+    "contact_time005": 0.0073064368977560894,
+    "contact_time010": 0.007555572143553651,
+    "contact_time040": 0.014021052027265482
+  },
+  "rule": "Before reading heldout scores: lowest pooled development leg-position RMSE in each family (friction vs contact time); ties lexical. Evaluate these representatives plus baseline closed-loop even if not improved; diagnostic selection is not acceptance.",
+  "plan_sha256": "9184fbae20ab6b0f2b56674d32effaab4341b8dbb13fb6d88ed7b16bfd7743ae",
+  "branch_complete_sha256": "725ee976b675e0888d2ff03fb6f8fd4c2bdc0f0c06444ddf1f832e17472a8aaa"
+}

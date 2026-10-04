@@ -1,0 +1,43 @@
+{
+  "skill": "march",
+  "initial_checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/pretraining_snapshot/march_model_999.pt",
+  "initial_sha256": "56121417c5b1f5dce7e3b3bfa48a2b6474a61894c6d661e1ee5da8fb24d19432",
+  "obs_dim": 125,
+  "action_dim": 37,
+  "base_obs_dim": 123,
+  "extra_phase": "sin/cos appended; zero during incoming walk; period0.90s",
+  "actor_warm_started": true,
+  "first_layers_adaptation": [],
+  "optimizer_loaded": false,
+  "critic_final_layer_reset": false,
+  "initial_noise_std": 0.15,
+  "iterations": 500,
+  "num_envs": 4096,
+  "seed": 44,
+  "episode_s": 12.0,
+  "teacher_bank_probability": 0.7,
+  "static_reset_probability": 0.3,
+  "blend_s": 0.5,
+  "bank": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/teacher_bank/bank.npz",
+  "reset_state_limits": "PhysX/contact history not restored",
+  "incoming_walk_s": null,
+  "policy_dt": 0.02,
+  "physics_dt": 0.005,
+  "original_position_actuators_preserved": true,
+  "candidate_only": true,
+  "early_observation": {
+    "min_height": 0.6216925382614136,
+    "max_height": 0.7400000095367432
+  },
+  "python": "3.11.16 (main, Sep  2 2026, 23:39:52) [GCC 15.3.0]",
+  "torch": "2.7.0+cu128",
+  "reset_counts": [
+    67932,
+    29252
+  ],
+  "restore_max_error": 0.0,
+  "final_checkpoint": "/home/omai/robotics/projects/g1-hierarchical-control/code/day9/g1_balance/checkpoints/skills_sprint/20261003/teacher_handoff_round/train_march/model_499.pt",
+  "final_sha256": "057b6ddd2a573fc862e35b0993d85140a415333adc1f693a8cfa1772ac496aed",
+  "elapsed_wall_s": 1341.324637097001,
+  "inputs_unchanged": true
+}

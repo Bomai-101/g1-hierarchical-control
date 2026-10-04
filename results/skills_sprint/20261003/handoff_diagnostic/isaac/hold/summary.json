@@ -1,0 +1,138 @@
+{
+  "groups": [
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "static",
+      "vx": 0.0,
+      "n": 16,
+      "full": 16,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 16,
+      "settled": 16,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.0,
+      "tail_heading_range_rad": [
+        -1.2993812561035156e-05,
+        1.6450881958007812e-05
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 0.5,
+      "n": 48,
+      "full": 45,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 45,
+      "settled": 43,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.41987843811511993,
+      "tail_heading_range_rad": [
+        -0.00027489662170410156,
+        0.003201723098754883
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "direct",
+      "vx": 1.0,
+      "n": 48,
+      "full": 22,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 22,
+      "settled": 22,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.8643858432769775,
+      "tail_heading_range_rad": [
+        -2.1219253540039062e-05,
+        3.24249267578125e-05
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "ramp_0.5",
+      "vx": 0.5,
+      "n": 48,
+      "full": 40,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 40,
+      "settled": 40,
+      "cycles_and_lift": 1,
+      "entry_speed_median": 0.22541771084070206,
+      "tail_heading_range_rad": [
+        -0.00018274784088134766,
+        1.341104507446289e-05
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "ramp_0.5",
+      "vx": 1.0,
+      "n": 48,
+      "full": 42,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 42,
+      "settled": 42,
+      "cycles_and_lift": 1,
+      "entry_speed_median": 0.5030051469802856,
+      "tail_heading_range_rad": [
+        -3.4809112548828125e-05,
+        0.00021557509899139404
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "ramp_1.5",
+      "vx": 0.5,
+      "n": 48,
+      "full": 30,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 30,
+      "settled": 30,
+      "cycles_and_lift": 0,
+      "entry_speed_median": 0.08518011122941971,
+      "tail_heading_range_rad": [
+        -8.821487426757812e-06,
+        0.01388329267501831
+      ]
+    },
+    {
+      "engine": "isaac",
+      "skill": "hold",
+      "protocol": "ramp_1.5",
+      "vx": 1.0,
+      "n": 48,
+      "full": 35,
+      "passed": 0,
+      "whole_decision_pass": 0,
+      "tail_speed_pass": 35,
+      "settled": 35,
+      "cycles_and_lift": 1,
+      "entry_speed_median": 0.1775464117527008,
+      "tail_heading_range_rad": [
+        -1.7523765563964844e-05,
+        2.384185791015625e-05
+      ]
+    }
+  ],
+  "verification": {
+    "prefix_pairs": 192,
+    "old_direct_trace_pairs": 6,
+    "reconstructed_action_rows": 210040,
+    "metrics_rows": 304,
+    "max_actor_error": 6.67572021484375e-06
+  },
+  "limits": "One seed, same weights. Ramps also change stance/phase/history; not proof velocity alone causes failures. Static is reset start, not warm steady state. No new deployment."
+}

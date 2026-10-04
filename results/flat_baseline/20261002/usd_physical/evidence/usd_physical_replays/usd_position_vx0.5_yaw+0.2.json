@@ -1,0 +1,20 @@
+{
+  "profile": "usd_position",
+  "speed": 0.5,
+  "yaw_command": 0.2,
+  "elapsed_s": 30.0,
+  "fell": 0,
+  "numerical_failure": 0,
+  "scored_samples": 1400,
+  "scored_from_s": 2.0,
+  "body_forward_rmse": 0.03522254522090392,
+  "body_yaw_rmse": 0.09971002396055946,
+  "world_yaw_rmse": 0.09788807966933656,
+  "mean_body_vx": 0.4808543338320406,
+  "mean_world_wz": 0.13407802605479804,
+  "max_tilt_deg": 3.9542238479661935,
+  "distance_x_m": -2.812075128991037,
+  "lateral_drift_m": 5.739488072361738,
+  "physical_steps": 30000,
+  "actions": 1500
+}
